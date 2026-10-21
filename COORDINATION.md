@@ -2,7 +2,7 @@
 
 | Task | Status | Owner session | File scope |
 |---|---|---|---|
-| Final integration: source-audited Korea itinerary, dashboard site, GitHub Pages workflow, build/link checks | done | `arena/e8bcfa8a-koreatrip3` (current Arena session; no session ID was supplied) | `COORDINATION.md`, `index.html`, `styles.css`, `app.js`, `data/itinerary.json`, `flagged-for-review.html`, `.github/workflows/pages.yml`, `README.md` |
+| Final integration: source-audited Korea itinerary, dashboard site, GitHub Pages workflow, build/link checks | in progress | `arena/e8bcfa8a-koreatrip3` (current Arena session; no session ID was supplied) | `COORDINATION.md`, `index.html`, `styles.css`, `app.js`, `data/itinerary.json`, `flagged-for-review.html`, `.github/workflows/pages.yml`, `README.md` |
 
 ## Log
 
@@ -17,7 +17,7 @@
 - Business-level claims with no reliable official record (including most supplied cafés, pop-ups, eateries, and bars) remain unverified; their row links are clearly labeled as context only and do not pretend to confirm the named business. Store branches, current hours, individual itineraries, and reservations still require confirmation.
 - Checks run: `python3 -m json.tool data/itinerary.json`; 68 rows validated with HTTPS links/status/source labels; local navigation links checked; `node --check app.js`; local HTTP preview served index and JSON successfully. Exact external link validation is limited to the official pages opened above and search results; live operator/venue status can change.
 - Initial `git pull --rebase origin arena/e8bcfa8a-koreatrip3` could not run because the remote session branch did not yet exist (remote only had `main`). The initial coordination claim was then pushed to create the assigned branch. Subsequent pushes rebase against the now-existing assigned remote branch.
-- 2026-10-21 — Follow-up PR #4 encountered a COORDINATION.md rebase conflict with PR #1’s appended task-board section. Rebased onto `origin/main`, retained the entire PR #1 section, and updated only this session’s top section. No `docs/` files or PR #1 scope were modified. PR #3 is another session’s open `docs/`/Pages workflow proposal; it remains unmerged and was not edited by this session.
+- 2026-10-21 — Follow-up PR #4 encountered a COORDINATION.md rebase conflict with PR #1’s appended task-board section. Rebased onto `origin/main`, retained the entire PR #1 section, and updated only this session’s top section. A subsequent pull-rebase against the old session-branch head began replaying already-merged PR #1 commits and produced an add/add conflict; aborted that rebase without dropping work from `main` or the session. The rewritten branch will be updated with a lease-checked force push because it now includes the newer `main` history. No `docs/` files or PR #1 scope were modified. PR #3 is another session’s open `docs/`/Pages workflow proposal; it remains unmerged and was not edited by this session.
 
 ## Status
 
@@ -27,7 +27,6 @@
 - GitHub Pages: https://buffedlizard55-lab.github.io/Koreatrip3/ (Pages API reports `main` root source).
 - Deployment: Actions run https://github.com/buffedlizard55-lab/Koreatrip3/actions/runs/39564421157 completed successfully on 2026-10-21. An earlier run was canceled because the concurrent PR #1 merge created a newer Pages request; the newer run completed successfully.
 
----
 ---
 
 # Session arena/14a4cdd9-koreatrip3 — verified data and `docs/` site
