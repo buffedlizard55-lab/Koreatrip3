@@ -6,8 +6,8 @@ Session ID for this session: `arena/ae3cc5b4-koreatrip3` (branch fixed by Arena;
 |---|------|--------|-------|----------------|-----------------|
 | 1 | Create board + claim all tasks (only session present) | done | arena/ae3cc5b4 | COORDINATION.md | this file |
 | 2 | Research & verify itinerary line-by-line vs official sources | done | arena/ae3cc5b4 | docs/ (data in HTML), COORDINATION.md | see verification log below |
-| 3 | Build GitHub Pages site (landing + day/category subpages + Flagged page) | in progress | arena/ae3cc5b4 | docs/** |  |
-| 4 | Link/build check, PR to main, merge, confirm Pages deploy | unclaimed | — | .github/workflows/pages.yml, COORDINATION.md |  |
+| 3 | Build GitHub Pages site (landing + day/category subpages + Flagged page) | done | arena/ae3cc5b4 | docs/** |  |
+| 4 | Link/build check, PR to main, merge, confirm Pages deploy | in progress | arena/ae3cc5b4 | .github/workflows/pages.yml, COORDINATION.md |  |
 
 ## Rules (from task brief)
 - Every table row needs an official-source link; unconfirmed values left blank + flagged "Unverified". Never infer.
@@ -16,7 +16,7 @@ Session ID for this session: `arena/ae3cc5b4-koreatrip3` (branch fixed by Arena;
 - Note: Arena fixes this session to branch `arena/ae3cc5b4-koreatrip3`; the brief's `session-<id>/<task>` naming cannot be used here.
 
 ## Handoff / conflict log
-- (none yet)
+- (none — single session; internal link/anchor/tag check passed 2026-10-21; local preview served all 5 pages HTTP 200)
 
 ## Verification log (checked 2026-10-21)
 - Dates: weekday alignment Nov 2=Mon … Nov 9=Mon fits **2026 only**; "2006" in brief is a typo (Nov 2 2006 was Thu). Flag F1.
