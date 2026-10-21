@@ -85,3 +85,12 @@ executed sequentially by the same session on this branch, so no concurrent edits
 - Session branch fixed to `arena/14a4cdd9-koreatrip3`; the `session-<id>/<task>` branch scheme was not used because the session branch is bound to this session. No conflicting edits from other sessions were observed on this branch.
 
 - **T6 PR:** https://github.com/buffedlizard55-lab/Koreatrip3/pull/1 (`arena/14a4cdd9-koreatrip3` → `main`), opened 2026-10-21. Pre-merge checks: `python3 scripts/build_site.py --check` → 0 errors; internal links resolved.
+
+### T6 result (2026-10-21, session arena/14a4cdd9)
+- **PR:** https://github.com/buffedlizard55-lab/Koreatrip3/pull/1 — first merge attempt failed with conflicts (`main` had moved to PR #2 from `arena/e8bcfa8a`, which touched COORDINATION.md and README.md). Resolved by merging `main` into the session branch (commit 2c86e56): other session's content kept verbatim, nothing deleted, this session's section appended.
+- **Merged:** PR #1 merged with a merge commit (`8978077`) on `main` at 2026-10-21 07:47 UTC.
+- **Pages:** the latest Pages build for `8978077` reports `built`. Verified live (fetch): `https://buffedlizard55-lab.github.io/Koreatrip3/?` (other session's root site, unchanged) and `https://buffedlizard55-lab.github.io/Koreatrip3/docs/?check=1` (this session's site, with IRR-01…IRR-20). Bare `/docs/` and `/docs/index.html` returned 404 in the fetch tool on repeated tries; not yet resolved.
+- **Pages source:** left at `main /` (legacy). Changing it to `/docs` would have taken the other session's root site offline; this session's site is published at `/docs/`.
+- **Open items:** unverified values remain blank and flagged (KTX fare and timetable, N Seoul bus fare, L7 check-in time, Lotte/Shinsegae/Olive Young branch hours, etc.). These do not block the merge.
+- **Not done:** `main` cannot be pushed directly from this session. This log entry lives on the session branch and reaches `main` with the next merge.
+
