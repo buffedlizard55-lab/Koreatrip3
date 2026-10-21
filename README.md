@@ -54,3 +54,9 @@ python3 scripts/build_site.py --check  # validate + link check only
 ```
 
 Build rules: a row marked Verified, Conflict, Partly verified or Reference must link an official source and carry an official value; Unverified rows keep official fields blank; every source URL must be on an allow-listed official domain. Coordination with the other session is in `COORDINATION.md`.
+
+---
+
+## Trip guide — `docs/trip-guide/` (session arena/ae3cc5b4-koreatrip3)
+
+A third parallel, independently verified build of the same trip (phone-first day-by-day guide with a recommended Days 3↔4 swap around Gyeongbokgung's Tuesday closure, and a 2026 date-alignment analysis explicitly flagged for traveler confirmation): https://buffedlizard55-lab.github.io/Koreatrip3/docs/trip-guide/ — sources and Flags F1–F20 are inside its pages; coordination/conflict log in `COORDINATION.md`.
