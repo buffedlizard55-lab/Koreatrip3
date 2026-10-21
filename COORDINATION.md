@@ -21,12 +21,12 @@ session has claimed. `needs review` items are published on the site's
 | # | Task | Status | Owner session | Files (scope) |
 |---|------|--------|---------------|---------------|
 | T1 | Create & maintain coordination board | done | arena-641974df | COORDINATION.md |
-| T2 | Verify transportation (AREX, limousine bus, Seoul Metro routes, Namsan bus, KTX, Busan Metro) | in progress | arena-641974df | data/transport.json |
-| T3 | Verify hotels (Stanford Hotel Myeongdong, L7 Haeundae by LOTTE) | in progress | arena-641974df | data/hotels.json |
-| T4 | Verify Days 1–3 venues (N Seoul Tower, Namsan Cable Car, Myeongdong stores, Gwangjang/Mangwon markets, Gyeongbokgung, Bukchon, restaurants) | in progress | arena-641974df | data/venues-days1-3.json |
-| T5 | Verify Days 4–8 venues (Seongsu, DDP, COEX, Ikseon-dong/Insa-dong, Itaewon, cafes/shops/restaurants) | in progress | arena-641974df | data/venues-days4-8.json |
-| T6 | Verify Day 9 / Busan venues (KTX arrival, L7, Haeundae Beach, Haeundae Market) | in progress | arena-641974df | data/venues-day9.json |
-| T7 | Build static itinerary site (landing page + category subpages + Flagged for Review page) | in progress | arena-641974df | assets/, build_site.py, *.html (generated) |
+| T2 | Verify transportation (AREX, limousine bus, Seoul Metro routes, Namsan bus, KTX, Busan Metro) | done | arena-641974df | data/transport.json |
+| T3 | Verify hotels (Stanford Hotel Myeongdong, L7 Haeundae by LOTTE) | done | arena-641974df | data/hotels.json |
+| T4 | Verify Days 1–3 venues (N Seoul Tower, Namsan Cable Car, Myeongdong stores, Gwangjang/Mangwon markets, Gyeongbokgung, Bukchon, restaurants) | done | arena-641974df | data/venues-days1-3.json |
+| T5 | Verify Days 4–8 venues (Seongsu, DDP, COEX, Ikseon-dong/Insa-dong, Itaewon, cafes/shops/restaurants) | done | arena-641974df | data/venues-days4-8.json |
+| T6 | Verify Day 9 / Busan venues (KTX arrival, L7, Haeundae Beach, Haeundae Market) | done | arena-641974df | data/venues-day9.json |
+| T7 | Build static itinerary site (landing page + category subpages + Flagged for Review page) | done | arena-641974df | build_site.py, data/, *.html (generated) |
 | T8 | Final integration: merge to main, re-verify data, link check, publish GitHub Pages | in progress | arena-641974df | repo root site files, COORDINATION.md |
 
 (All tasks were unclaimed when this session started — the repo contained only
@@ -47,10 +47,24 @@ claimed all tasks at once because no other session is active; see log.)
   Monday (Day 2) … Nov 9 = Monday (Day 9). Original itinerary wrote
   "Nov 2, 2006" — treated as typo for 2026 (flagged).
 
+
+- **2026-10-21 (UTC):** Research complete — every itinerary line verified against official
+  sources (VisitKorea, VisitSeoul, Seoul Metropolitan Government, Busan city, royalpalacekr.org,
+  nseoultower.co.kr, starfield/musinsa/brand sites, Michelin Guide, Korea Times/SBS news,
+  plus clearly-labeled trusted directories for corroboration). Results written to
+  `data/*.json` (trip, transport, hotels, venues-days1-3, venues-days4-8, venues-day9, flags).
+  Key outcomes: 60 itinerary lines checked — 40 verified, 15 partial, 5 unverified;
+  30 flags (1 critical: Day 3 = Tuesday → Gyeongbokgung CLOSED; 15 warnings; 14 info).
+  Built the static site (build_site.py → index/itinerary/transport/hotels/food/shopping/
+  attractions/flagged pages, mobile-first, inline CSS, per-row source links, internal
+  link check passing 173/173). Next: PR to main → merge → verify Pages deploy → record here.
+
 ### Sources & verification record
 (Filled in as tasks complete — every site table row links its official
 source; anything not confirmable from an official source is left blank and
 flagged as unverified. See the site's "Flagged for Review" page.)
 
 ### Irregularities & handoffs
-(None yet.)
+- 1 critical: Day 3 (Tue Nov 3, 2026) Gyeongbokgung closed (Tuesday closure) — see flag F2 on
+  the site's Flagged page. All irregularities published on the site (non-blocking), per protocol.
+

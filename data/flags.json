@@ -1,0 +1,338 @@
+{
+  "flags": [
+    {
+      "id": "F1",
+      "severity": "info",
+      "title": "Date typo: \"Nov 2, 2006\" → 2026",
+      "detail": "The original itinerary wrote \"Nov 2, 2006\". Trip context (SFO departure Oct 31, 9 days, venue dates) makes clear the trip is Nov 1-9, 2026. Nov 1, 2026 is a Sunday; all day-of-week checks on this site use 2026.",
+      "action": "No trip change needed — dates were normalized to 2026 throughout this site.",
+      "affects": ["Whole itinerary"]
+    },
+    {
+      "id": "F2",
+      "severity": "critical",
+      "title": "Day 3 (Tue, Nov 3) — Gyeongbokgung Palace is CLOSED",
+      "detail": "Gyeongbokgung closes every Tuesday (official: royalpalacekr.org). Day 3 is Tuesday, Nov 3, 2026, so the palace visit AND the Royal Guard Changing Ceremony (which does not run on Tuesdays) cannot happen as planned.",
+      "action": "Move Gyeongbukgung to any other day (Days 4-8 all work), or substitute Changdeokgung Palace on Day 3 — it is closed Mondays instead and open on Tuesday Nov 3 (Nov hours 09:00-17:30, ₩3,000). Bukchon Hanok Village is unaffected and sits between the two palaces.",
+      "affects": ["Day 3 — Gyeongbokgung Palace", "Day 3 — Royal Guard Changing Ceremony"],
+      "sources": [
+        {"label": "Gyeongbokgung (official) — closed Tuesdays", "url": "https://www.royalpalacekr.org/html/eng_gbg/guide/guide01_tab01.html"},
+        {"label": "VisitKorea — Changdeokgung (closed Mondays; Nov hours)", "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94399"}
+      ]
+    },
+    {
+      "id": "F3",
+      "severity": "warning",
+      "title": "N Seoul Tower & cable car hours misstated (\"10:00-10:30\")",
+      "detail": "The itinerary lists the observatory and cable car as 10:00-10:30. Official hours: observatory Mon-Fri 10:00-22:30 / weekends 10:00-23:00 (last entry 30 min prior, open 365 days); cable car 10:00-23:00 (weather permitting). The 'weather permitting' caveat is correct.",
+      "action": "No schedule change needed — the tower works as an evening activity after the Myeongdong day. Budget ≈₩44,000/person for observatory (₩29,000) + cable car round trip (₩15,000) — the itinerary's $31 estimate was right.",
+      "affects": ["Day 2 — N Seoul Tower", "Day 2 — Namsan Cable Car"],
+      "sources": [
+        {"label": "N Seoul Tower (official) — hours", "url": "https://www.nseoultower.co.kr/eng/visit/use.asp"},
+        {"label": "N Seoul Tower (official) — cable car", "url": "https://www.nseoultower.co.kr/eng/visit/traffic2.asp"}
+      ]
+    },
+    {
+      "id": "F4",
+      "severity": "warning",
+      "title": "Airport transfer costs/times approximate",
+      "detail": "Itinerary said \"AREX 45 min, $7\" and \"bus 6015 $13\". Verified: AREX Express 43-51 min at ₩13,000; AREX All-Stop 59-66 min at ₩4,150-4,750 (card); Limousine bus 6015 ₩17,000 (≈$12-13); taxi ₩47,000-52,000 + toll. The $7 fare matches no official product.",
+      "action": "Pick based on budget: All-Stop train is the ~$3.50 option; the Express is the fast one at ~$9.50; bus 6015 is direct to Myeongdong with luggage space.",
+      "affects": ["Day 1 — airport transfer"],
+      "sources": [
+        {"label": "Seoul Metropolitan Government — airport transfer facts", "url": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/"},
+        {"label": "Airport Limousine (official) — 6015 fare", "url": "https://www.airportlimousine.co.kr/en/sub/sub01.php?cat_no=47"}
+      ]
+    },
+    {
+      "id": "F5",
+      "severity": "warning",
+      "title": "Olive Young hours misstated (\"8:00 AM-12:00 AM\")",
+      "detail": "The Myeongdong Town flagship's official hours are 10:00-22:30 daily (not 8:00-24:00). Myeongdong's many other Olive Young branches also open ~10:00-10:30.",
+      "action": "Plan shopping from 10:00; the flagship is mid-shopping-street (Line 4 Exit 8).",
+      "affects": ["Day 2 — Olive Young Myeongdong Town"],
+      "sources": [
+        {"label": "Olive Young Myeongdong Town (official)", "url": "https://myeongdongtown.oliveyoung.com/"}
+      ]
+    },
+    {
+      "id": "F6",
+      "severity": "warning",
+      "title": "Department store hours: split is Mon-Thu vs Fri-Sun, not weekday/weekend",
+      "detail": "The itinerary said \"weekdays 10:30-8:00, weekends 10:30-8:30\". Official: Lotte Main & Shinsegae Main run Mon-Thu 10:30-20:00 and Fri-Sun 10:30-20:30. On Monday Nov 2 (Day 2) both close at 20:00.",
+      "action": "If late-evening shopping matters, do it on a Friday-Sunday instead. Restaurants/floors can run later (~21:00).",
+      "affects": ["Day 2 — Lotte Department Store Main", "Day 2 — Shinsegae Main"],
+      "sources": [
+        {"label": "Lotte Shopping (official) — Main store", "url": "https://global.lotteshopping.com/eng/store/main?cstrCd=0001"},
+        {"label": "VisitKorea — Shinsegae Main", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=106990"}
+      ]
+    },
+    {
+      "id": "F7",
+      "severity": "info",
+      "title": "Gwangjang Market hours: correct for the food alley only",
+      "detail": "Claimed \"9:00 AM-11:00 PM\" matches the food street (09:00-23:00, year-round). The general market runs 09:00-18:00 and closes Sundays; vintage stalls 10:00-19:00. Day 2 is a Monday, so everything is open.",
+      "action": "If you reschedule Gwangjang to a Sunday, only the food street will be running.",
+      "affects": ["Day 2 — Gwangjang Market"],
+      "sources": [
+        {"label": "VisitKorea — Gwangjang Market", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=106345"}
+      ]
+    },
+    {
+      "id": "F8",
+      "severity": "warning",
+      "title": "Mangwon Market: hours unverifiable + far from Myeongdong",
+      "detail": "No official schedule exists — VisitKorea lists hours as \"varies by store\", so the claimed 9:00-23:00 cannot be confirmed. It is also in Mapo (near Hongdae), 35-45 min from Myeongdong by transit, making it an awkward Day 2 add-on.",
+      "action": "Either drop it, treat it as a quick snack stop if you add a Hongdae evening, or check stall-level hours on Naver Map on the day.",
+      "affects": ["Day 2 — Mangwon Market"],
+      "sources": [
+        {"label": "VisitKorea — Mangwon Market (\"varies by store\")", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=62735"}
+      ]
+    },
+    {
+      "id": "F9",
+      "severity": "warning",
+      "title": "Rain Report Croissant (Seongsu) — likely closed",
+      "detail": "Multiple independent reports say the Seongsu branch of Rain Report Croissant closed for renovations in Feb 2025 and the space became the GLOW SEONGSU food hall. The brand's official Instagram currently lists only two locations: Gyeongnidan (Itaewon area) and Ikseon. VisitKorea still shows the old Seongsu listing.",
+      "action": "Drop the Seongsu rain-cafe from Day 4 — the itinerary's Day 6 'Rain Report Rainbow' in Ikseon-dong (verified open, daily 10:30-20:30) and the Gyeongnidan flagship (Day 7 suggestion) cover the experience.",
+      "affects": ["Day 4 — Rain Report Croissant (Seongsu)"],
+      "sources": [
+        {"label": "Rain Report (official Instagram — current locations)", "url": "https://www.instagram.com/rainreport_official/"},
+        {"label": "VisitKorea — stale Seongsu listing", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=175514"},
+        {"label": "Independent closure report (Aug 2025)", "url": "https://hellosihui.com/2024/05/07/korea-2024-rain-report-croissant-seongsu/"}
+      ]
+    },
+    {
+      "id": "F10",
+      "severity": "warning",
+      "title": "ADER Error Seongsu: opening hours conflict between sources",
+      "detail": "Third-party listings disagree (11:00-21:00 vs 13:00-21:00; the space was renewed in early 2025). No official hours page exists.",
+      "action": "Hours left blank on this site (unverified). Check the official Instagram/@adererror before visiting, or visit mid-afternoon when both reported schedules overlap.",
+      "affects": ["Day 4 — ADER Error Seongsu Space"],
+      "sources": [
+        {"label": "ADER Error (official site)", "url": "https://www.adererror.com/"}
+      ]
+    },
+    {
+      "id": "F11",
+      "severity": "warning",
+      "title": "Brandy Melville Seongsu: hours not officially published",
+      "detail": "The store (first in Korea, opened Jan 3, 2025) is confirmed at 101-1 Yeonmujang-gil, but no official hours page exists; third-party listings consistently show 11:00-19:00 daily.",
+      "action": "Hours left blank (unverified). Arrive near opening to beat the queue — that part of the itinerary advice matches press reports.",
+      "affects": ["Day 4 — Brandy Melville Korea (Seongsu)"],
+      "sources": [
+        {"label": "The Korea Times — Brandy Melville Seongsu opening", "url": "https://www.koreatimes.co.kr/lifestyle/trends/20250116/brandy-melville-arrives-in-seoul-triggering-frenzy-controversy"}
+      ]
+    },
+    {
+      "id": "F12",
+      "severity": "warning",
+      "title": "Eternalog Seongsu: hours not on official site",
+      "detail": "Address verified on the official site (1F, 14 Yeonmujang 5ga-gil — 2nd store after Hongdae), but opening hours are not published there. Third-party reports say daily ~12:00-20:00.",
+      "action": "Hours left blank (unverified). Plan it around midday; ₩6,000/strip, real analog film — poses shoot instantly.",
+      "affects": ["Day 4 — Eternalog Seongsu"],
+      "sources": [
+        {"label": "Eternalog (official site)", "url": "http://eternalog-fotobooth.com/"}
+      ]
+    },
+    {
+      "id": "F13",
+      "severity": "warning",
+      "title": "Chuncheongol Dakgalbi (Seongsu dinner): venue identity unconfirmed",
+      "detail": "No official listing was found for a 'Chuncheongol Dakgalbi' in Seongsu. Candidates: (a) 춘천닭갈비 'Chuncheon Dakgalbi', 8 Wangsimni-ro 8-gil, Seongsu/Seoul Forest — Mon-Fri 11:00-23:00 (break 14:30-16:00), Sat 12:00-22:00, closed Sundays; (b) 춘천골 charcoal dakgalbi in Suyu (self-serve wrap bar) and 춘천골닭갈비 chain branches elsewhere in northern Seoul / Uijeongbu. The 'unlimited lettuce & perilla wraps' claim matches none of them officially.",
+      "action": "Confirm the exact restaurant you meant (paste the Korean name into Naver Map). Day 4 is a Wednesday — candidate (a) would be open for dinner. Hours/prices left blank until identified.",
+      "affects": ["Day 4 — Chuncheongol Dakgalbi dinner"],
+      "sources": [
+        {"label": "DiningCode — 춘천닭갈비 (Seongsu)", "url": "https://www.diningcode.com/profile.php?rid=YgFP1o6U5iMR"}
+      ]
+    },
+    {
+      "id": "F14",
+      "severity": "warning",
+      "title": "Day 6 duplicate: 'Chwihyang' and 'Favorite of Ikseon' are the same restaurant",
+      "detail": "익선취향 (Ikseon Chwihyang) is branded in English as 'Favorite of Ikseon' — the itinerary lists it twice with the same pork-belly rose pasta. One hanok restaurant at 1F, 17-32 Supyo-ro 28-gil. Also, the following line ('Uri Wang Galbitang located in Gangdong. Favorite of Ikseon-dong') got garbled — see F15.",
+      "action": "Count it once. Reported: daily 12:00-21:00, ₩18,900 rose pasta (≈$14 — the itinerary's $14.50 is close), queue from opening, CatchTable reservations recommended, 1-main-per-person minimum.",
+      "affects": ["Day 6 — Ikseon Chwihyang / Favorite of Ikseon"],
+      "sources": [
+        {"label": "Favorite of Ikseon (official Instagram)", "url": "https://www.instagram.com/favorite_ikseon"},
+        {"label": "KoreaWise — menu prices", "url": "https://www.koreawise.net/ikseon-dong-restaurants-chwihyang/"}
+      ]
+    },
+    {
+      "id": "F15",
+      "severity": "warning",
+      "title": "Uri Wang Galbitang: real but far away, hours unpublished",
+      "detail": "A genuine Gangdong gukbap/galbitang specialist (103 Ho, 119-9 Seongan-ro, near Gangdong Station area, eastern Seoul; galbitang ≈₩15,000) — but ~45-60 min from Ikseon-dong, making it a poor fit for Day 6. Hours are not published on any official page.",
+      "action": "Skip unless you specifically want it; Myeongdong's 'New Seoul Galbitang' or Ikseon-dong's own restaurants are closer substitutes. The 'Favorite of Ikseon-dong' phrase in that itinerary line belongs to the Chwihyang entry (F14).",
+      "affects": ["Day 6 — Uri Wang Galbitang"],
+      "sources": [
+        {"label": "SikSin directory — 우리왕갈비탕", "url": "https://www.siksinhot.com/search?keywords=%EC%84%9C%EC%9A%B8+%EB%91%94%EC%B4%8C%EB%8F%99+%EA%B0%88%EB%B9%84%ED%83%95"}
+      ]
+    },
+    {
+      "id": "F16",
+      "severity": "warning",
+      "title": "Crystal Jade: \"Shinsegae basement location\" unconfirmed",
+      "detail": "The Crystal Jade official site currently lists exactly one Seoul restaurant: B1 Hancom Building, 16 Namdaemun-ro 7-gil (Sogong-dong, the Myeongdong-area block by the Westin Chosun). A Shinsegae Department Store basement branch could not be confirmed; a separate 'Crystal Jade Shanghai Delight' formerly existed and a related branch is reported at Hyundai COEX. Branch inventories change often.",
+      "action": "Go to the verified B1 Hancom Building address (5 min from Euljiro 1-ga Station Exit 7; Michelin-listed, daily 11:30-15:00 & 17:00-21:00). Call +82-2-3789-8088 if you want a specific branch.",
+      "affects": ["Day 2 — Crystal Jade dinner"],
+      "sources": [
+        {"label": "Crystal Jade (official site)", "url": "https://www.crystaljade.com/"},
+        {"label": "Michelin Guide — Crystal Jade Seoul", "url": "https://guide.michelin.com/gb/en/seoul-capital-area/kr-seoul/restaurant/crystal-jade"}
+      ]
+    },
+    {
+      "id": "F17",
+      "severity": "warning",
+      "title": "Hongojib Myeongdong: hours & \"$10 solo BBQ\" unverified officially",
+      "detail": "The brand and the Myeongdong branch (1F, 40 Myeongdong 3-gil) are verified — solo-grill charcoal BBQ with tablet ordering, 150 g minimum first order. But hours (reported ~11:00/11:30-01:00) and prices (solo sets ≈₩12,000-13,000 ≈ $9-10) come from reviews/listings, not an official page.",
+      "action": "Treat $10 as approximately right for a basic lunch set; expect ₩15,000-20,000 with more meat. Check Naver Map hours on the day.",
+      "affects": ["Day 2 — Hongojib Myeongdong"],
+      "sources": [
+        {"label": "Hongojib (official brand site)", "url": "https://hongojib.com/"}
+      ]
+    },
+    {
+      "id": "F18",
+      "severity": "warning",
+      "title": "Myeongdong Sookhee: hours from listings, not an official site",
+      "detail": "The speakeasy bar itself is verified (4F, 7-9 Myeongdong 10-gil, above the Starbucks by Myeongdong Cathedral; hidden door). Reported hours: daily 18:00-01:00, last order 00:30, phone reservations only for the 18:00-19:00 slot, walk-ins after. Typical spend ≈₩20,000-45,000.",
+      "action": "Arrive at opening (18:00) or reserve the first slot; budget ~$20-30 as in the itinerary.",
+      "affects": ["Day 2 — Myeongdong Sookhee"],
+      "sources": [
+        {"label": "Bar SookHee (official Facebook)", "url": "https://www.facebook.com/sookhee2nd/"}
+      ]
+    },
+    {
+      "id": "F19",
+      "severity": "warning",
+      "title": "Pig Restaurant 2 (Itaewon): hours from listings only + location mismatch",
+      "detail": "Verified restaurant (1F, 14-1 Bogwang-ro 59-gil, Itaewon) but (a) hours (reported daily 16:30-24:00) have no official source, and (b) it is in Itaewon — 25-30 min from Myeongdong — despite being listed as a Day 2 dinner option.",
+      "action": "Keep it for the Day 7 Itaewon day (dinner, opens 16:30, arrive by 17:30 or after 21:00 to skip the queue).",
+      "affects": ["Day 2 / Day 7 — Pig Restaurant 2"],
+      "sources": [
+        {"label": "Pig Restaurant2 (official Facebook)", "url": "https://www.facebook.com/pigrestaurant2se/"}
+      ]
+    },
+    {
+      "id": "F20",
+      "severity": "warning",
+      "title": "Solsot Seongsu: weekday afternoon break + prices unverified",
+      "detail": "Official Instagram: 11:30-21:00, open year-round, 230 m from Seongsu Station Exit 4. Third-party guides add a weekday break 15:00-17:00 (no break weekends) — Day 4 is a Wednesday, so plan lunch before 15:00 or dinner after 17:00. The $7-14 price range is not officially published.",
+      "action": "Go at 11:15 to beat the queue (matches the itinerary's advice). No reservations.",
+      "affects": ["Day 4 — Solsot Seongsu"],
+      "sources": [
+        {"label": "Solsot Seongsu (official Instagram)", "url": "https://www.instagram.com/solsot_seongsu/"}
+      ]
+    },
+    {
+      "id": "F21",
+      "severity": "warning",
+      "title": "L7 HAEUNDAE: official hotel site unreachable during verification",
+      "detail": "lottehotels.com could not be reached from this verification environment. The hotel's facts (55 Haeun-daero 570beon-gil; check-in 15:00 / check-out 11:00; +82-51-771-1000; opened 2024; ~383 rooms) are consistent across Booking.com, Trip.com and other major platforms, but are technically not from an official source.",
+      "action": "Values are shown on this site with booking-platform sourcing. Re-confirm on lottehotels.com or by phone before arrival.",
+      "affects": ["Day 9 — L7 HAEUNDAE by LOTTE"],
+      "sources": [
+        {"label": "Booking.com — L7 Haeundae", "url": "https://www.booking.com/hotel/kr/l7-haeundae-busan.html"},
+        {"label": "Trip.com — L7 Haeundae", "url": "https://us.trip.com/hotels/busan-hotel-detail-118354608/l7-haeundae-by-lotte-hotels/"}
+      ]
+    },
+    {
+      "id": "F22",
+      "severity": "info",
+      "title": "\"Myeongdong Night Food Market\": no official entity or hours",
+      "detail": "Myeongdong's evening street-food stalls are informal (no operator, no official schedule). The claimed 9:00-23:00 hours cannot be verified; stalls typically appear from late afternoon.",
+      "action": "Treat it as a walk-by evening activity. For a scheduled food stop, Gwangjang Market's food street (to 23:00) has official hours.",
+      "affects": ["Day 1/2 — Myeongdong street food"]
+    },
+    {
+      "id": "F23",
+      "severity": "info",
+      "title": "Seongsu caricature artists: informal, unverifiable",
+      "detail": "Street portrait artists around Seongsu Cafe Street have no official listings, schedule, or price sheet. The ₩17,000-for-2 claim cannot be verified.",
+      "action": "Agree the price on the spot (typical range ₩10,000-20,000/person).",
+      "affects": ["Day 4 — Seongsu caricature"]
+    },
+    {
+      "id": "F24",
+      "severity": "info",
+      "title": "Days 7 and 8 have no planned venues",
+      "detail": "The original itinerary leaves the Itaewon day (Sat Nov 7) and Sunday Nov 8 open. Verified suggestions added on this site: Leeum Museum of Art (open Sat, free, reservation required), Rain Report Gyeongnidan flagship (11:00-21:00), Pig Restaurant 2 for dinner (Itaewon), and Changdeokgung Palace (open Sunday, ₩3,000).",
+      "action": "Pick freely — all suggestions are marked 'SUGGESTION' on the itinerary page and are not part of the original plan.",
+      "affects": ["Day 7 — Itaewon", "Day 8 — free day"],
+      "sources": [
+        {"label": "VisitKorea — Leeum Museum of Art", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=104050"},
+        {"label": "VisitSeoul — Rain Report (Gyeongnidan)", "url": "https://visit.seoul.kr/en/places/rain-report"},
+        {"label": "VisitKorea — Changdeokgung Palace", "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94399"}
+      ]
+    },
+    {
+      "id": "F25",
+      "severity": "info",
+      "title": "Namsan bus \"31 min\" travel time unverified",
+      "detail": "The official N Seoul Tower site documents the Namsan Sunhwan shuttle buses 01A/01B (₩1,500, every 9/14 min, 06:30-23:00, boarding near Chungmuro Station) but publishes no end-to-end journey time; the 31-min figure could not be verified (loop route, traffic-dependent).",
+      "action": "Allow ~20-35 min from Myeongdong including the one-stop ride to Chungmuro. The cable car (from Myeongdong Stn Exit 3) is the scenic alternative.",
+      "affects": ["Day 2 — bus to Namsan"],
+      "sources": [
+        {"label": "N Seoul Tower (official) — By Bus", "url": "https://www.nseoultower.co.kr/eng/visit/traffic.asp"}
+      ]
+    },
+    {
+      "id": "F26",
+      "severity": "info",
+      "title": "KTX: fare changed on Sep 1, 2026; book via Korail",
+      "detail": "The itinerary's ~2h45 is fine for typical stopping trains (fastest ≈2h15). Since Sep 1, 2026, KTX & SRT operate as one integrated Korail system — Seoul-Busan standard fare dropped from ₩59,800 to ₩54,400. Booking is unified on letskorail.com / the Korail app; the sales window was not verifiable from official pages, so book as soon as your dates are firm.",
+      "action": "Reserve seats in advance for Monday morning Nov 9 and re-check the fare at booking time.",
+      "affects": ["Day 9 — KTX Seoul→Busan"],
+      "sources": [
+        {"label": "SBS News — fare cut & integration", "url": "https://news.sbs.co.kr/amp/news.amp?news_id=N1008730939"},
+        {"label": "Korail (official) — booking", "url": "https://www.letskorail.com/"}
+      ]
+    },
+    {
+      "id": "F27",
+      "severity": "info",
+      "title": "Stanford Hotel Myeongdong: fully verified ✓",
+      "detail": "Check-in 15:00 / check-out 12:00 confirmed on the hotel's official booking-site FAQ — the itinerary's \"check out by 12:00pm\" is correct. Early/late room use costs ₩20,000/hour; front desk is 24 hours; address 84 Namdaemun-ro, across from Lotte Department Store Main.",
+      "action": "If landing early on Nov 1, expect to store bags until 15:00 (or pay the hourly fee).",
+      "affects": ["Days 1-8 — Stanford Hotel Myeongdong"],
+      "sources": [
+        {"label": "Stanford Hotel Myeongdong (official booking site FAQ)", "url": "https://stanford.webhelper.co.kr/myeongdong/en/contents/list/faq"}
+      ]
+    },
+    {
+      "id": "F28",
+      "severity": "warning",
+      "title": "Bukchon Hanok Village: legal visiting hours (Red Zone)",
+      "detail": "Bukchon-ro 11-gil (the core alley) permits tourist visits only 10:00-17:00 — outside those hours a ₩100,000 fine applies (enforced since Mar 1, 2025). It is a residential area; keep noise down. This is official Seoul Metropolitan Government policy, not a suggestion.",
+      "action": "Plan Bukchon between 10:00 and 17:00 (Day 3's plan works; any day is fine).",
+      "affects": ["Day 3 — Bukchon Hanok Village"],
+      "sources": [
+        {"label": "Seoul Metropolitan Government — restriction notice", "url": "https://english.seoul.go.kr/notice-on-restrictions-for-tourist-visits-to-bukchon-special-management-area-effective-from-november-2024/"}
+      ]
+    },
+    {
+      "id": "F29",
+      "severity": "info",
+      "title": "Department stores have a monthly closing day",
+      "detail": "Korean department stores close one day per month (date chosen by each store). A translated Lotte page suggested a Monday closure in November for the Main store — unconfirmed, and monthly rest days rotate.",
+      "action": "Check each store's notice (or call) a few days before Day 2 — Monday Nov 2 in particular.",
+      "affects": ["Day 2 — Lotte Main / Shinsegae Main"],
+      "sources": [
+        {"label": "Lotte Shopping (official) — Main store", "url": "https://global.lotteshopping.com/eng/store/main?cstrCd=0001"}
+      ]
+    },
+    {
+      "id": "F31",
+      "severity": "warning",
+      "title": "SOUL MARKET Bakery (COEX): hours from third-party guides only",
+      "detail": "The bakery-cafe inside COEX Mall B1 (near the Starfield Library) is real, but its hours (reported Sun-Thu 10:00-21:00 / Fri-Sat 10:00-22:00) come from the Konest guide, not an official page; only its Instagram is official.",
+      "action": "Hours shown as reported/unverified. Mall hours (10:30-22:00) are the reliable envelope.",
+      "affects": ["Day 5 — SOUL MARKET Bakery"],
+      "sources": [
+        {"label": "SOUL MARKET Bakery (official Instagram)", "url": "https://www.instagram.com/soul_market_bakery/"},
+        {"label": "Konest — details", "url": "https://www.konest.com/contents/gourmet_mise_detail.html?id=34958"}
+      ]
+    }
+  ]
+}

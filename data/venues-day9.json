@@ -1,0 +1,98 @@
+{
+  "rows": [
+    {
+      "day": 9,
+      "category": "transport",
+      "name": "KTX Seoul Station → Busan Station",
+      "ko": "KTX 서울→부산",
+      "district": "Seoul → Busan",
+      "claim": "Itinerary: \"KTX ~2h45; board 45 minutes early\"",
+      "status": "verified",
+      "address": "Seoul Station (Line 1/4, AREX) → Busan Station (Busan Metro Line 1)",
+      "hours": "Frequent daily departures from early morning",
+      "price": "₩54,400 standard one-way (post Sep 1, 2026 integrated KTX fare; was ₩59,800)",
+      "notes": "Fastest trains ≈2h15-2h17; typical stopping trains 2h40-3h00 — the itinerary's 2h45 fits. Since Sep 1, 2026, KTX & SRT are merged under Korail (SRT renamed 'KTX-Sancheon'), fares cut ~10% and bookings unified. Reserve via letskorail.com / Korail Talk app. Arriving 30-45 min early is sensible for a first-time KTX ride. Full transport details on the Transport page.",
+      "transit": "From the hotel: Line 4 from Myeongdong → Seoul Station (1 stop).",
+      "sources": [
+        {"label": "SBS News — KTX integration & fare cut (Seoul-Busan ₩54,400)", "url": "https://news.sbs.co.kr/amp/news.amp?news_id=N1008730939"},
+        {"label": "Korail (official) — booking", "url": "https://www.letskorail.com/"}
+      ],
+      "flag_ids": ["F26"]
+    },
+    {
+      "day": 9,
+      "category": "transport",
+      "name": "Busan Station → Haeundae",
+      "ko": "부산역 → 해운대",
+      "district": "Busan",
+      "claim": "Itinerary: \"metro to Haeundae\"",
+      "status": "verified",
+      "address": "Busan Metro Line 1 (Busan Station) → transfer at Seomyeon → Line 2 → Haeundae Station",
+      "hours": "Metro runs ~05:30-24:00 (typical operating window)",
+      "price": "≈₩1,800 with transportation card (Seoul T-money accepted in Busan)",
+      "notes": "≈40-55 min door to door. Taxi alternative ≈30-40 min, ₩15,000-25,000. Busan Metro is run by Busan Transportation Corporation — humetro.busan.kr for maps and station info.",
+      "transit": "Follow '도시철도/Busan Metro' signs from the KTX concourse to the connected Line 1 platform.",
+      "sources": [
+        {"label": "Busan Transportation Corporation (official Busan Metro operator)", "url": "https://www.humetro.busan.kr/"}
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 9,
+      "category": "hotel",
+      "name": "L7 HAEUNDAE by LOTTE — check-in",
+      "ko": "엘세븐 해운대",
+      "district": "Haeundae",
+      "claim": "Itinerary: \"L7 Haeundae by LOTTE\"",
+      "status": "partial",
+      "address": "55 Haeun-daero 570beon-gil, Haeundae-gu, Busan — one block from Haeundae Beach, near Haeundae Station (Line 2) Exit 5 area",
+      "hours": "Check-in from 15:00 · check-out by 11:00",
+      "price": "—",
+      "notes": "Opened 2024; 383-385 rooms; rooftop infinity pool (19F, seasonal package rules); phone +82-51-771-1000. Official hotel site was unreachable during verification — details verified via major booking platforms (consistent) and flagged. Drop bags before 15:00 if arriving early.",
+      "transit": "Haeundae Station (Line 2), then a short walk to the beach block.",
+      "sources": [
+        {"label": "Booking.com — L7 Haeundae property details", "url": "https://www.booking.com/hotel/kr/l7-haeundae-busan.html"},
+        {"label": "Trip.com — L7 Haeundae property details", "url": "https://us.trip.com/hotels/busan-hotel-detail-118354608/l7-haeundae-by-lotte-hotels/"}
+      ],
+      "flag_ids": ["F21"]
+    },
+    {
+      "day": 9,
+      "category": "attraction",
+      "name": "Haeundae Beach",
+      "ko": "해운대 해수욕장",
+      "district": "Haeundae",
+      "claim": "Itinerary: \"walk the beach\"",
+      "status": "verified",
+      "address": "264 Haeundaehaebyeon-ro, Haeundae-gu, Busan (waterfront)",
+      "hours": "Public beach — accessible year-round; the officially-operated summer season (June 26 - Aug 2026) ran 09:00-18:00 with lifeguards; November is off-season with free open access",
+      "price": "Free",
+      "notes": "Busan's most famous beach, a short walk from the hotel and Haeundae Market. Off-season strolling is the norm in November; Dongbaek Island coastal trail (wolbae) is nearby. Adjacent tourist info center at 264 Haeundaehaebyeon-ro.",
+      "transit": "Haeundae Station (Line 2) Exit 3/5, ~5 min walk.",
+      "sources": [
+        {"label": "Busan Metropolitan City (official) — Haeundae beach season notice", "url": "https://www.busan.go.kr/eng/bsnews01/1735847"},
+        {"label": "VisitKorea — Haeundae Tourist Information Center (address)", "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=220545"}
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 9,
+      "category": "market",
+      "name": "Haeundae Market (traditional market)",
+      "ko": "해운대시장",
+      "district": "Haeundae (Gunam-ro)",
+      "claim": "Itinerary: \"Haeundae Market 9:00 AM-10:00 PM\"",
+      "status": "verified",
+      "address": "22-1 Gunam-ro 41beon-gil, Haeundae-gu, Busan",
+      "hours": "09:00-22:00 (varies by stall; most food stalls in full swing from late afternoon)",
+      "price": "Street-food prices per stall",
+      "notes": "Hours match the itinerary. Street food (tteokbokki, hotteok, grilled seafood, kalguksu) near Haeundae Beach — roughly 5 min from the sand and ~10 min from the L7. Open year-round (individual stall closures vary).",
+      "transit": "Haeundae Station (Line 2) Exit 3/5, ~5 min walk.",
+      "sources": [
+        {"label": "VisitKorea — Busan Haeundae Market (hours, address)", "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=84963"},
+        {"label": "VisitBusan (official) — Haeundae Market food guide", "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301003001000&uc_seq=294&lang_cd=en"}
+      ],
+      "flag_ids": []
+    }
+  ]
+}
