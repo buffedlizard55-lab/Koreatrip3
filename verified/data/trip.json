@@ -1,0 +1,24 @@
+{
+  "trip": {
+    "travelers": "2 adults",
+    "origin": "San Francisco (SFO)",
+    "inbound_flight": "SFO → Incheon (ICN), departs Oct 31 2026, arrives Sun Nov 1 2026 (Day 1). Airline/flight number not specified in the original itinerary — not verifiable.",
+    "outbound": "Not specified in the original itinerary (trip ends in Busan on Day 9, Mon Nov 9 2026).",
+    "cities": [
+      {"city": "Seoul", "nights": "1-8", "hotel": "Stanford Hotel Myeongdong"},
+      {"city": "Busan", "nights": "9", "hotel": "L7 HAEUNDAE by LOTTE"}
+    ],
+    "date_assumption": "Original itinerary contained a 'Nov 2, 2006' typo. All evidence (day-of-week patterns, venue context) indicates the trip is Nov 1-9, 2026. Nov 1 2026 = Sunday."
+  },
+  "days": [
+    {"n": 1, "date": "2026-11-01", "dow": "Sunday", "title": "Arrival — Incheon → Myeongdong", "theme": "Airport transfer, hotel check-in, Myeongdong evening", "hotel": "Stanford Hotel Myeongdong (check-in from 15:00)"},
+    {"n": 2, "date": "2026-11-02", "dow": "Monday", "title": "Myeongdong shopping day + Namsan evening", "theme": "Department stores, Olive Young, Gwangjang & Mangwon markets, N Seoul Tower", "hotel": "Stanford Hotel Myeongdong"},
+    {"n": 3, "date": "2026-11-03", "dow": "Tuesday", "title": "Gyeongbokgung + Bukchon — ⚠ CONFLICT", "theme": "Palace & hanok village (Gyeongbokgung is CLOSED on Tuesdays — see Flagged for Review)", "hotel": "Stanford Hotel Myeongdong"},
+    {"n": 4, "date": "2026-11-04", "dow": "Wednesday", "title": "Seongsu-dong day + DDP evening", "theme": "Cafes, bakeries, K-fashion & eyewear shops, BBQ dinner, bar", "hotel": "Stanford Hotel Myeongdong"},
+    {"n": 5, "date": "2026-11-05", "dow": "Thursday", "title": "COEX / Gangnam day", "theme": "Starfield COEX Mall, Starfield Library, Soul Market bakery, Gangnam Style statue", "hotel": "Stanford Hotel Myeongdong"},
+    {"n": 6, "date": "2026-11-06", "dow": "Friday", "title": "Ikseon-dong / Jongno day", "theme": "Hanok village cafes & restaurants", "hotel": "Stanford Hotel Myeongdong"},
+    {"n": 7, "date": "2026-11-07", "dow": "Saturday", "title": "Itaewon — open day", "theme": "No venues planned in the original itinerary; verified suggestions listed", "hotel": "Stanford Hotel Myeongdong"},
+    {"n": 8, "date": "2026-11-08", "dow": "Sunday", "title": "Free day — no venues planned", "theme": "Original itinerary left this day open; verified suggestions listed", "hotel": "Stanford Hotel Myeongdong"},
+    {"n": 9, "date": "2026-11-09", "dow": "Monday", "title": "KTX Seoul → Busan, Haeundae", "theme": "Morning KTX, metro to Haeundae, beach & market evening", "hotel": "L7 HAEUNDAE by LOTTE (check-in from 15:00, check-out 11:00)"}
+  ]
+}

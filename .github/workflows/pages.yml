@@ -47,7 +47,7 @@ jobs:
           node scripts/verify-session-2a9f9e6e.mjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Assemble static site (all 6 integrated itinerary sites)
+      - name: Assemble static site (all 7 integrated itinerary sites)
         run: |
           mkdir -p _site
           cp *.html styles.css app.js .nojekyll _site/
@@ -58,6 +58,7 @@ jobs:
           cp -r docs _site/docs
           cp -r trip _site/trip
           if [ -d pages ]; then cp -r pages _site/pages; fi
+          if [ -d verified ]; then cp -r verified _site/verified; fi
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:

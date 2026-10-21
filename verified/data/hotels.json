@@ -1,0 +1,39 @@
+{
+  "rows": [
+    {
+      "id": "H1",
+      "name": "Stanford Hotel Myeongdong (스탠포드호텔 명동)",
+      "nights": "Nights 1-8 (Nov 1-8, 2026)",
+      "claim": "Itinerary: \"Stanford Hotel in Myeongdong... check out by 12:00pm\"",
+      "status": "verified",
+      "address": "84 Namdaemun-ro, Jung-gu, Seoul — directly across from Lotte Department Store Main (Euljiro 1-ga / Myeongdong area), same block as the Apple Store",
+      "checkin": "15:00",
+      "checkout": "12:00 (noon) — matches the itinerary",
+      "other": "Early check-in / late check-out ₩20,000 per hour (official FAQ); 24-hour front desk; 243 rooms; 9F restaurant & bakery (Cafe Stanford / Soho Coffee); Stanford Hotel Group property",
+      "transit": "AREX to Seoul Station → Line 4 one stop to Myeongdong Station; or Limousine Bus 6015 direct to Myeongdong. Hotel sits between Myeongdong Station (Line 4) and Euljiro 1-ga Station (Line 2).",
+      "sources": [
+        {"label": "Stanford Hotel Myeongdong (official site)", "url": "https://www.stanford-hotel.com/myeongdong"},
+        {"label": "Stanford Hotel Myeongdong (official booking site) — FAQ: check-in 15:00 / check-out 12:00, fees, location", "url": "https://stanford.webhelper.co.kr/myeongdong/en/contents/list/faq"}
+      ],
+      "flag_ids": []
+    },
+    {
+      "id": "H2",
+      "name": "L7 HAEUNDAE by LOTTE (엘세븐 해운대)",
+      "nights": "Night 9 (Mon Nov 9, 2026) — the trip reaches Busan on Day 9; the return flight is unspecified in the original itinerary",
+      "claim": "Itinerary: \"L7 in Haeundae by LOTTE\"",
+      "status": "partial",
+      "address": "55 Haeun-daero 570beon-gil, Haeundae-gu, Busan (48094) — one block from Haeundae Beach, near Haeundae Station (Line 2)",
+      "checkin": "15:00 (until 23:59)",
+      "checkout": "11:00",
+      "other": "Phone +82-51-771-1000; opened 2024; 383-385 rooms; 19F rooftop pool (seasonal policies apply); min check-in age 19. NOTE: the trip reaches Busan on Day 9 (Mon Nov 9) and the original itinerary gives no further nights — the return flight is unspecified, so confirm how many nights are actually needed here.",
+      "transit": "Busan Station → Metro Line 1 → transfer at Seomyeon → Line 2 → Haeundae Station, then a short walk.",
+      "sources": [
+        {"label": "Lotte Hotels (official site) — could not be reached during verification; re-check before booking", "url": "https://www.lottehotels.com/m/l7-haeundae/hotel-overview"},
+        {"label": "Booking.com — property details (address, check-in 15:00, check-out 11:00, phone)", "url": "https://www.booking.com/hotel/kr/l7-haeundae-busan.html"},
+        {"label": "Trip.com — property details (opened 2024, 383 rooms, phone)", "url": "https://us.trip.com/hotels/busan-hotel-detail-118354608/l7-haeundae-by-lotte-hotels/"}
+      ],
+      "flag_ids": ["F21"]
+    }
+  ]
+}

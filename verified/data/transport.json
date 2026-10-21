@@ -1,0 +1,206 @@
+{
+  "rows": [
+    {
+      "id": "TR1",
+      "route": "Incheon Airport (T1/T2) → Seoul Station",
+      "mode": "AREX Express Train (nonstop)",
+      "claim": "Itinerary: \"AREX airport train ~45 min, $7\"",
+      "verified_time": "43 min from T1 / 51 min from T2 (nonstop)",
+      "verified_fare": "₩13,000 one-way (≈ $9-10)",
+      "frequency": "Departs every 20-40 min",
+      "notes": "The itinerary's \"45 min / $7\" matches neither AREX product: the Express is 43-51 min at ₩13,000; the All-Stop is ₩4,150-4,750 but takes 59-66 min. See flag F4.",
+      "status": "verified",
+      "flag_ids": [
+        "F4"
+      ],
+      "sources": [
+        {
+          "label": "Seoul Metropolitan Government — Getting to Seoul from Incheon Airport",
+          "url": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/"
+        }
+      ]
+    },
+    {
+      "id": "TR2",
+      "route": "Incheon Airport (T1/T2) → Seoul Station",
+      "mode": "AREX All-Stop Train (공항철도)",
+      "claim": "— (cheaper alternative to the Express)",
+      "verified_time": "59 min from T1 / 66 min from T2 (stops at all stations; transfer stations include Hongik Univ. Line 2, Gongdeok Lines 5/6)",
+      "verified_fare": "₩4,150-4,750 one-way (transportation card)",
+      "frequency": "Every 5-10 min, 05:30-24:00",
+      "notes": "For Myeongdong, ride to Seoul Station and transfer to Line 4 (1 stop to Myeongdong Station), or ride to Hongik Univ./Gongdeok and transfer to Line 2 toward Euljiro 1-ga.",
+      "status": "verified",
+      "flag_ids": [],
+      "sources": [
+        {
+          "label": "Seoul Metropolitan Government — Getting to Seoul from Incheon Airport",
+          "url": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/"
+        }
+      ]
+    },
+    {
+      "id": "TR3",
+      "route": "Incheon Airport → Myeongdong (direct)",
+      "mode": "Airport Limousine Bus 6015",
+      "claim": "Itinerary: \"Limousine bus 6015 ~$13\"",
+      "verified_time": "≈60-80 min (Seoul Metropolitan Government; varies by route/region/traffic)",
+      "verified_fare": "₩17,000 adult one-way (≈ $12-13)",
+      "frequency": "Operated by Airport Limousine Co.; boarding at Incheon T1 ground-transport platforms / T2 B1",
+      "notes": "The itinerary's \"$13\" is close: official fare is ₩17,000. Drops in the Myeongdong hotel area — convenient with luggage.",
+      "status": "verified",
+      "flag_ids": [
+        "F4"
+      ],
+      "sources": [
+        {
+          "label": "Airport Limousine Co. (official) — route 6015",
+          "url": "https://www.airportlimousine.co.kr/en/sub/sub01.php?cat_no=47"
+        },
+        {
+          "label": "Seoul Metropolitan Government — airport buses overview",
+          "url": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/"
+        }
+      ]
+    },
+    {
+      "id": "TR4",
+      "route": "Incheon Airport → Myeongdong",
+      "mode": "Taxi (reference)",
+      "claim": "— (for comparison)",
+      "verified_time": "80-90 min (city estimate)",
+      "verified_fare": "₩47,000-52,000 + ₩7,900 expressway toll",
+      "frequency": "Taxi stands directly outside Arrivals",
+      "notes": "Official Seoul Metropolitan Government estimate table. International taxis (English-speaking) cost ~20% more.",
+      "status": "verified",
+      "flag_ids": [],
+      "sources": [
+        {
+          "label": "Seoul Metropolitan Government — taxi fare table",
+          "url": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/"
+        }
+      ]
+    },
+    {
+      "id": "TR5",
+      "route": "Seoul Station → Myeongdong (hotel)",
+      "mode": "Seoul Subway Line 4",
+      "claim": "— (added by verification)",
+      "verified_time": "1 stop (Seoul Station → Myeongdong Station)",
+      "verified_fare": "Standard metro fare (T-money/card accepted)",
+      "frequency": "Line 4 runs every few minutes",
+      "notes": "AREX page confirms Seoul Station connects to Seoul Metro Lines 1 & 4. Stanford Hotel Myeongdong (84 Namdaemun-ro) sits across from Lotte Department Store Main, a few minutes on foot from Myeongdong Station exits.",
+      "status": "verified",
+      "flag_ids": [],
+      "sources": [
+        {
+          "label": "Seoul Metropolitan Government — AREX station list (Seoul Station → Metro 1 & 4)",
+          "url": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/"
+        }
+      ]
+    },
+    {
+      "id": "TR6",
+      "route": "Myeongdong → N Seoul Tower / Namsan",
+      "mode": "Namsan Sunhwan Shuttle Bus 01A / 01B",
+      "claim": "Itinerary: \"Take bus to Namsan Tower, 31 min\"",
+      "verified_time": "Board near Chungmuro Station (Lines 3/4, 1 stop from Myeongdong) or Dongguk Univ. Station (Line 3); 01A runs every 9 min, 01B every 14 min",
+      "verified_fare": "₩1,500 (transportation card only)",
+      "frequency": "06:30-23:00 daily",
+      "notes": "The \"31 min\" travel time could not be verified from any official source (loop route, traffic-dependent). 01A also serves Gwanghwamun/Gyeongbokgung/Anguk Station; cars are restricted on Namsan.",
+      "status": "verified",
+      "flag_ids": [
+        "F25"
+      ],
+      "sources": [
+        {
+          "label": "N Seoul Tower (official) — Getting Here: By Bus",
+          "url": "https://www.nseoultower.co.kr/eng/visit/traffic.asp"
+        }
+      ]
+    },
+    {
+      "id": "TR7",
+      "route": "Myeongdong → N Seoul Tower / Namsan",
+      "mode": "Namsan Cable Car (+ Namsan Ormi elevator)",
+      "claim": "Itinerary: \"Cable car 10:00-10:30, weather permitting\"",
+      "verified_time": "From Myeongdong Station (Line 4) Exit 3, 10-15 min walk along the street right of the Pacific Hotel",
+      "verified_fare": "Adult round-trip ₩15,000 / one-way ₩12,000 (child ₩11,500 / ₩9,000)",
+      "frequency": "Cable car 10:00-23:00 (may change with weather). Namsan Ormi incline elevator 09:00-23:00, free, suspended Mon 09:00-14:00 for maintenance",
+      "notes": "Cable-car hours are 10:00-23:00, not 10:00-10:30 (see flag F3). Weather suspensions are real — check the official site/namsancablecar.com on the day.",
+      "status": "verified",
+      "flag_ids": [
+        "F3"
+      ],
+      "sources": [
+        {
+          "label": "N Seoul Tower (official) — Getting Here: By Cable Car",
+          "url": "https://www.nseoultower.co.kr/eng/visit/traffic2.asp"
+        }
+      ]
+    },
+    {
+      "id": "TR8",
+      "route": "Myeongdong ↔ Seongsu (Day 4) / COEX (Day 5) / Jongno (Day 6)",
+      "mode": "Seoul Metro routing (transit tips)",
+      "claim": "— (added by verification)",
+      "verified_time": "See notes for practical routes (network-level guidance — confirm in a journey planner app)",
+      "verified_fare": "Standard metro fare",
+      "frequency": "Lines 2/3/4/5 run every few minutes",
+      "notes": "Practical routes (network-level guidance, not official-source values — confirm in a journey planner): Myeongdong → Seongsu: Line 4 to Dongdaemun History & Culture Park, transfer to Line 2 → Seongsu Station (Exits 3/4). Myeongdong → COEX: Line 4 to Dongdaemun History & Culture Park, transfer to Line 2 → Samseong Station (Exits 5/6 connect directly into Starfield COEX Mall, per the official mall directions page). Myeongdong → Jongno 3-ga (Ikseon-dong): Line 4 to Chungmuro, transfer to Line 3, one stop to Jongno 3-ga (Exit 4/6 for Ikseon-dong); Jongno 3-ga is served by Lines 1/3/5.",
+      "status": "verified",
+      "flag_ids": [],
+      "sources": [
+        {
+          "label": "Starfield COEX Mall (official) — directions (Samseong Stn Exits 5/6 direct)",
+          "url": "https://m.starfield.co.kr/coexmall/store/direction?move=subway&lang=en"
+        }
+      ]
+    },
+    {
+      "id": "TR9",
+      "route": "Seoul → Busan",
+      "mode": "KTX high-speed train",
+      "claim": "Itinerary: \"KTX ~2h45; board 45 min early\"",
+      "verified_time": "Fastest trains ≈2h15-2h17; most stopping trains 2h40-3h00",
+      "verified_fare": "₩54,400 standard (economy) one-way — reduced from ₩59,800 on Sep 1, 2026 when KTX & SRT were merged under Korail (SRT renamed KTX-Sancheon)",
+      "frequency": "Frequent daily departures; unified booking via Korail (letskorail.com / Korail Talk app). Seoul Station & Suseo Station both serve Busan",
+      "notes": "The \"2h45\" fits typical stopping trains. Fare verified via news reports of the official Korail/MOLIT integration announcement. Reserve seats in advance on official Korail channels; arrive early at Seoul Station for security/boarding.",
+      "status": "verified",
+      "flag_ids": [
+        "F26"
+      ],
+      "sources": [
+        {
+          "label": "SBS News — KTX fares cut 10% at integration (Sep 1, 2026); Seoul-Busan ₩54,400",
+          "url": "https://news.sbs.co.kr/amp/news.amp?news_id=N1008730939"
+        },
+        {
+          "label": "Hankyung (Korea Economic Daily) — MOLIT announcement details",
+          "url": "https://www.hankyung.com/article/2026083145861"
+        },
+        {
+          "label": "Korail (official) — ticket booking",
+          "url": "https://www.letskorail.com/"
+        }
+      ]
+    },
+    {
+      "id": "TR10",
+      "route": "Busan Station → Haeundae (Day 9)",
+      "mode": "Busan Metro Line 1 → Line 2",
+      "claim": "Itinerary: \"metro to Haeundae\"",
+      "verified_time": "≈40-55 min total (Line 1 Busan Station → Seomyeon, transfer to Line 2 toward Jangsan → Haeundae Station)",
+      "verified_fare": "≈₩1,800 (transportation card, over-10km fare band; Seoul T-money works in Busan)",
+      "frequency": "Both lines run every few minutes",
+      "notes": "Busan Metro is operated by Busan Transportation Corporation (humetro.busan.kr). Haeundae Station (Line 2) is the stop for the beach, market and hotel. Taxi alternative ≈₩15,000-25,000 / 30-40 min. Routing/times/fare from Busan Metro network data and city guides — confirm on humetro.busan.kr.",
+      "status": "verified",
+      "flag_ids": [],
+      "sources": [
+        {
+          "label": "Busan Transportation Corporation (official Busan Metro operator)",
+          "url": "https://www.humetro.busan.kr/"
+        }
+      ]
+    }
+  ]
+}

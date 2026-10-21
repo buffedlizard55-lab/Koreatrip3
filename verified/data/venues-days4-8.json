@@ -1,0 +1,663 @@
+{
+  "rows": [
+    {
+      "day": 4,
+      "category": "food",
+      "name": "Solsot Seongsu (abalone & octopus stone-pot rice)",
+      "ko": "솔솥 성수점",
+      "district": "Seongsu",
+      "claim": "Itinerary: \"$7-14, come before opening time (wait)\"",
+      "status": "partial",
+      "address": "1F, 24 Yeonmujang 5-gil, Seongdong-gu, Seoul — 230 m from Seongsu Station (Line 2) Exit 4",
+      "hours": "11:30-21:00, open year-round (official Instagram). Third-party guides report a weekday afternoon break 15:00-17:00 with no break on weekends — Day 4 is a Wednesday, so the break may apply.",
+      "price": "",
+      "notes": "Popular stone-pot rice (돌솥밥) restaurant; no reservations — queues form before opening, so the itinerary's \"come before opening\" advice matches. Menu prices not published on an official page, so the $7-14 range is left unverified.",
+      "transit": "Seongsu Station (Line 2) Exit 4, ~3 min walk.",
+      "sources": [
+        {
+          "label": "Solsot Seongsu (official Instagram — address & hours)",
+          "url": "https://www.instagram.com/solsot_seongsu/"
+        }
+      ],
+      "flag_ids": [
+        "F20"
+      ]
+    },
+    {
+      "day": 4,
+      "category": "cafe",
+      "name": "Jayeondo Salt Bread (Seongsu flagship)",
+      "ko": "자연도 소금빵",
+      "district": "Seongsu",
+      "claim": "Itinerary: \"$8.77 for 4 salt breads\"",
+      "status": "verified",
+      "address": "56-1 Yeonmujang-gil, Seongdong-gu, Seoul (Seongsu)",
+      "hours": "Daily 09:00-22:00 — until sold out; bakes come out around 09:00 / 12:30 / 14:00 / 15:30 / 17:00 / 18:30",
+      "price": "4-piece set ₩12,000 (≈$8.80 — matches the itinerary)",
+      "notes": "An Ikseon-dong branch (Jayeondo Salt Bread & House, 166-51 Ikseon-dong) also exists — useful on Day 6. Go early; popular flavors sell out.",
+      "transit": "Seongsu Station (Line 2) Exit 3/4 area.",
+      "sources": [
+        {
+          "label": "DiningCode — 자연도 소금빵 (Seongsu) profile: hours, bake times, prices",
+          "url": "https://www.diningcode.com/profile.php?rid=jftm0RNQyfD"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 4,
+      "category": "shopping",
+      "name": "Marge Sherwood — Seoul Flagship",
+      "ko": "마쥬셰우드 성수 플래그십",
+      "district": "Seongsu",
+      "claim": "Itinerary: \"stylish bag & apparel store\"",
+      "status": "verified",
+      "address": "1-2F, 13 Yeonmujang 11-gil, Seongdong-gu, Seoul",
+      "hours": "Mon-Sun 11:00-20:00",
+      "price": "—",
+      "notes": "Korean fashion house (bags & apparel). The official stockist page lists the Seoul Flagship at this address (opened Nov 2025); an older Seongsu store existed at 8 Wangsimni-ro 14-gil 2F — use the flagship address.",
+      "transit": "Seongsu Station (Line 2) area.",
+      "sources": [
+        {
+          "label": "Marge Sherwood (official) — stockists/stores page",
+          "url": "https://global.margesherwood.com/pages/stockist-official"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 4,
+      "category": "shopping",
+      "name": "ADER Error — Seongsu Space",
+      "ko": "아더에러 성수 스페이스",
+      "district": "Seongsu",
+      "claim": "Itinerary: \"K-streetwear brand\"",
+      "status": "partial",
+      "address": "82 Seongsui-ro, Seongdong-gu, Seoul (Seongsu; brand HQ at 14 Yeonmujang 9-gil)",
+      "hours": "",
+      "price": "",
+      "notes": "Brand and Seongsu store confirmed, but opening hours conflict across sources (third-party listings show both 11:00-21:00 and 13:00-21:00; the store was renewed in early 2025). No official hours page found — left blank and flagged. Confirm via the official site/Instagram before visiting.",
+      "transit": "Seongsu Station (Line 2) Exit 3 area.",
+      "sources": [
+        {
+          "label": "ADER Error (official site)",
+          "url": "https://www.adererror.com/"
+        }
+      ],
+      "flag_ids": [
+        "F10"
+      ]
+    },
+    {
+      "day": 4,
+      "category": "shopping",
+      "name": "Blue Elephant — Seongsu Flagship (eyewear)",
+      "ko": "블루엘리펀트 성수 플래그십",
+      "district": "Seongsu",
+      "claim": "Itinerary: \"cool eyewear store\"",
+      "status": "verified",
+      "address": "2-3F, 13 Yeonmujang-gil, Seongdong-gu, Seoul",
+      "hours": "Mon-Sun 12:00-22:00",
+      "price": "—",
+      "notes": "Gentle Monster–style Korean eyewear brand; the official store page lists the Seongsu flagship hours and address.",
+      "transit": "Seongsu Station (Line 2) area.",
+      "sources": [
+        {
+          "label": "Blue Elephant (official) — Seongsu Flagship Store",
+          "url": "https://en.blueelephant.co/product/seongsu-flagship-store/3725/"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 4,
+      "category": "shopping",
+      "name": "Musinsa Standard Seongsu",
+      "ko": "무신사 스탠다드 성수",
+      "district": "Seongsu",
+      "claim": "Itinerary: \"budget K-fashion\"",
+      "status": "verified",
+      "address": "1-2F, 83 Yeonmujang-gil, Seongdong-gu, Seoul",
+      "hours": "Daily 11:00-21:00 (open all year round)",
+      "price": "—",
+      "notes": "Musinsa's own basics-brand offline store. Official Musinsa store-locator page and VisitKorea agree on 11:00-21:00. A much larger 'Musinsa Megastore Seongsu' (62 Seongsui-ro, 11:00-22:00) opened nearby in 2026 if you want the full multi-brand experience.",
+      "transit": "Seongsu Station (Line 2) Exit 3, ~5-7 min walk.",
+      "sources": [
+        {
+          "label": "Musinsa (official store locator) — Musinsa Standard Seongsu",
+          "url": "https://locations.musinsa.com/ko/stndss"
+        },
+        {
+          "label": "VisitKorea — Musinsa Standard Seongsu",
+          "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=216520"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 4,
+      "category": "shopping",
+      "name": "Brandy Melville Korea (Seongsu)",
+      "ko": "브랜디멜빌 성수",
+      "district": "Seongsu",
+      "claim": "Itinerary: \"trendy Italian brand, huge line\"",
+      "status": "partial",
+      "address": "101-1 Yeonmujang-gil, Seongdong-gu, Seoul",
+      "hours": "",
+      "price": "",
+      "notes": "First Korean store, opened Jan 3, 2025 in Seongsu — queues are real (widely reported by Korea Times/Herald). Hours are not published on an official Korea page; third-party listings consistently show 11:00-19:00 daily — flagged as unverified. Note the one-size (XS/S) sizing model.",
+      "transit": "Seongsu Station (Line 2) area.",
+      "sources": [
+        {
+          "label": "The Korea Times — Brandy Melville opens first Korean store in Seongsu (Jan 3, 2025)",
+          "url": "https://www.koreatimes.co.kr/lifestyle/trends/20250116/brandy-melville-arrives-in-seoul-triggering-frenzy-controversy"
+        }
+      ],
+      "flag_ids": [
+        "F11"
+      ]
+    },
+    {
+      "day": 4,
+      "category": "cafe",
+      "name": "Cafe Far Ben",
+      "ko": "카페 파벤",
+      "district": "Seongsu",
+      "claim": "Itinerary: \"pistachio latte with cream top\"",
+      "status": "verified",
+      "address": "1F, 65 Seongsui-ro (Hyupseong Building), Seongdong-gu, Seoul",
+      "hours": "Daily 10:00-21:00 (last order ~20:30)",
+      "price": "Farbenchio (pistachio cream latte) ₩7,000; Americano ₩5,000 (menu listings)",
+      "notes": "Blue-fronted cafe run by BTS RM's younger sister; signature 'Farbenchio' pistachio cream latte matches the itinerary. Hours/address from the cafe's own Instagram bio; prices from Korean menu listings (third-party).",
+      "transit": "Seongsu Station (Line 2) Exit 3, ~5 min walk.",
+      "sources": [
+        {
+          "label": "Cafe Far Ben (official Instagram — hours & address in bio)",
+          "url": "https://www.instagram.com/cafe.farben/"
+        },
+        {
+          "label": "DiningCode — 파벤 menu prices & hours",
+          "url": "https://www.diningcode.com/profile.php?rid=r7ng4Cc5fL2d"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 4,
+      "category": "cafe",
+      "name": "Hanjungsun (fruit mochi / chapssaltteok)",
+      "ko": "한정선",
+      "district": "Seongsu",
+      "claim": "Itinerary: \"fresh fruit mochi\"",
+      "status": "verified",
+      "address": "1F, 43-1 Yeonmujang-gil, Seongdong-gu, Seoul — 243 m from Seongsu Station Exit 4",
+      "hours": "Daily 10:30-22:00",
+      "price": "Per piece ≈₩3,500-6,500 (diningcode menu)",
+      "notes": "Whole-fruit chapssal-tteok (strawberry, gold kiwi, persimmon, Dubai-chocolate…) wrapped like lucky pouches. VisitSeoul (official Seoul Tourism platform) listing confirms hours/address. Popular flavors sell out by evening.",
+      "transit": "Seongsu Station (Line 2) Exit 4, ~3 min walk.",
+      "sources": [
+        {
+          "label": "VisitSeoul (official) — Hanjungsun listing",
+          "url": "https://english.visitseoul.net/area/hanjungsun/ENPp1q4s4"
+        },
+        {
+          "label": "DiningCode — 한정선 menu & prices",
+          "url": "https://www.diningcode.com/profile.php?rid=sF3RPtaiGrlQ"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 4,
+      "category": "photo",
+      "name": "Eternalog — Seongsu (vintage analog photo booth)",
+      "ko": "이터널로그 성수",
+      "district": "Seongsu",
+      "claim": "Itinerary: \"vintage photo booth\"",
+      "status": "partial",
+      "address": "1F, 14 Yeonmujang 5ga-gil, Seongdong-gu, Seoul (2nd store; 1st store is in Hongdae)",
+      "hours": "",
+      "price": "₩6,000 per 4-pose black-and-white strip (third-party reports)",
+      "notes": "Restored 1960s European analog photo booths — real film, no preview/retouching. Address verified on the official site; opening hours are not listed there (third-party reports say daily ~12:00-20:00) — flagged. Takes ~3 min per strip; photos dry wet.",
+      "transit": "Seongsu Station (Line 2) Exit 4 area.",
+      "sources": [
+        {
+          "label": "Eternalog (official site — store addresses)",
+          "url": "http://eternalog-fotobooth.com/"
+        },
+        {
+          "label": "Eternalog (official Instagram — '1st store Hong-dae / 2nd store Seong-su')",
+          "url": "https://www.instagram.com/eternalog_official/"
+        }
+      ],
+      "flag_ids": [
+        "F12"
+      ]
+    },
+    {
+      "day": 4,
+      "category": "photo",
+      "name": "Seongsu caricature artists",
+      "ko": "성수 캐리커쳐",
+      "district": "Seongsu",
+      "claim": "Itinerary: \"caricature for ₩17,000 for 2 people\"",
+      "status": "unverified",
+      "address": "",
+      "hours": "",
+      "price": "",
+      "notes": "Street/portrait artists operate around Seongsu Cafe Street, but they are informal vendors — there is no official listing, fixed schedule, or published price sheet to verify the ₩17,000-for-2 claim. Confirm prices on the spot; expect roughly ₩10,000-20,000 per person.",
+      "transit": "Seongsu Cafe Street area.",
+      "sources": [],
+      "flag_ids": [
+        "F23"
+      ]
+    },
+    {
+      "day": 4,
+      "category": "cafe",
+      "name": "Rain Report Croissant (Seongsu)",
+      "ko": "레인리포트 크루아상",
+      "district": "Seongsu",
+      "claim": "Itinerary: \"rain-themed cafe\"",
+      "status": "unverified",
+      "address": "1-2F, 32 Seongsui-ro 16-gil, Seongdong-gu, Seoul (per VisitKorea listing)",
+      "hours": "",
+      "price": "",
+      "notes": "⚠ LIKELY CLOSED: multiple independent reports say the Seongsu branch closed for renovations in Feb 2025 and the space was taken over by a food hall (GLOW SEONGSU); the brand's official Instagram currently lists only the Gyeongnidan and Ikseon locations. VisitKorea still shows the Seongsu listing (stale). Recommendation: swap in the Ikseon-dong 'Rain Report Rainbow' on Day 6 (already in the itinerary) or the Gyeongnidan flagship on Day 7.",
+      "transit": "Seongsu Station (Line 2) Exit 3, ~8-12 min walk.",
+      "sources": [
+        {
+          "label": "VisitKorea — Rain Report Croissant (Seongsu) listing (still live; may be stale)",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=175514"
+        },
+        {
+          "label": "Rain Report (official Instagram — locations: Gyeongnidan | Ikseon)",
+          "url": "https://www.instagram.com/rainreport_official/"
+        },
+        {
+          "label": "Independent report of Seongsu closure (Aug 2025 update)",
+          "url": "https://hellosihui.com/2024/05/07/korea-2024-rain-report-croissant-seongsu/"
+        }
+      ],
+      "flag_ids": [
+        "F9"
+      ]
+    },
+    {
+      "day": 4,
+      "category": "food",
+      "name": "Chuncheongol Dakgalbi (Day 4 dinner)",
+      "ko": "춘천골(춘천) 닭갈비",
+      "district": "Seongsu (claimed)",
+      "claim": "Itinerary: \"unlimited lettuce & perilla wraps\"",
+      "status": "unverified",
+      "address": "",
+      "hours": "",
+      "price": "",
+      "notes": "Could not confirm a venue with this exact name in Seongsu from official or reliable listings. Closest match found: '춘천닭갈비' (Chuncheon Dakgalbi) at 8 Wangsimni-ro 8-gil, Seongsu/Seoul Forest — Mon-Fri 11:00-23:00 (break 14:30-16:00), Sat 12:00-22:00, closed Sundays (DiningCode/Tabling — third-party). Separately, a '춘천골' charcoal dakgalbi restaurant (1997, self-serve wrap bar) sits in Suyu, Gangbuk — and the 춘천골닭갈비 chain has branches in Sanggye/Uijeongbu. None officially lists 'unlimited wraps.' Day 4 is a Wednesday (the Seongsu candidate would be open). Verify the exact intended venue and re-check hours before going.",
+      "transit": "Seongsu candidate: near Ttukseom Station (Line 2) Exit 7, ~170 m (Seoul Forest area).",
+      "sources": [
+        {
+          "label": "DiningCode — 춘천닭갈비 (Seongsu, Wangsimni-ro 8-gil) hours",
+          "url": "https://www.diningcode.com/profile.php?rid=YgFP1o6U5iMR"
+        },
+        {
+          "label": "Tabling — 춘천닭갈비 (Seongsu) booking page",
+          "url": "https://www.tabling.co.kr/place/67c6c40d4306a889d2c243b2"
+        }
+      ],
+      "flag_ids": [
+        "F13"
+      ]
+    },
+    {
+      "day": 4,
+      "category": "bar",
+      "name": "BREAK SILENCE (loft bar / atelier)",
+      "ko": "브레이크 사일런스",
+      "district": "Seongsu",
+      "claim": "Itinerary: \"R&B live music bar with creative cocktails\"",
+      "status": "partial",
+      "address": "2F, 26 Achasan-ro 11-gil, Seongdong-gu, Seoul",
+      "hours": "",
+      "price": "",
+      "notes": "Verified: a loft hideout bar + hand-silk-screen clothing atelier in Seongsu — R&B/hi-fi playlists, album-inspired cocktails, song requests; complimentary chocolate; Sunday custom-tee events. Hours are reported as Mon-Thu & Sun 17:00-24:00, Fri-Sat 17:00-01:00 by third-party listings only (official site does not publish bar hours) — flagged. Cocktails ≈₩20,000-30,000.",
+      "transit": "Seongsu area; ~10-12 min walk from Seongsu Station (Line 2).",
+      "sources": [
+        {
+          "label": "BREAK SILENCE (official site — 'A loft in Seongsu')",
+          "url": "https://break-silence.com/"
+        },
+        {
+          "label": "Mio Travel — BREAK SILENCE details & hours (third-party)",
+          "url": "https://mio.travel/p/break-silence"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 4,
+      "category": "attraction",
+      "name": "Dongdaemun Design Plaza (DDP)",
+      "ko": "동대문디자인플라자",
+      "district": "Dongdaemun (2 stops from Seongsu on Line 2)",
+      "claim": "Itinerary: \"futuristic architecture, night views\"",
+      "status": "verified",
+      "address": "281 Eulji-ro, Jung-gu, Seoul",
+      "hours": "Facility 10:00-20:00 (some halls/exhibitions vary) · design store 10:00-21:00 · closed Jan 1, Seollal day, Chuseok day",
+      "price": "Building & outdoor areas free; exhibitions priced separately",
+      "notes": "Zaha Hadid's landmark — best photographed at dusk/night; LED rose garden outside. NOTE the geography: DDP is in Dongdaemun (Dongdaemun History & Culture Park Station, Lines 2/4/5), not in Seongsu — it's 2 subway stops from Seongsu Station on Line 2, so it works as a Day 4 evening stop on the way back toward Myeongdong.",
+      "transit": "Dongdaemun History & Culture Park Station (Lines 2/4/5), direct exit into DDP.",
+      "sources": [
+        {
+          "label": "VisitKorea — Dongdaemun Design Plaza (hours, closures, address)",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=67162"
+        },
+        {
+          "label": "DDP (official site)",
+          "url": "https://www.ddp.or.kr/"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 5,
+      "category": "shopping",
+      "name": "Starfield COEX Mall",
+      "ko": "스타필드 코엑스몰",
+      "district": "Samseong-dong, Gangnam",
+      "claim": "Itinerary: \"huge underground mall\"",
+      "status": "verified",
+      "address": "513 Yeongdong-daero, Gangnam-gu, Seoul (B1)",
+      "hours": "Daily 10:30-22:00 (individual stores may vary; open all year)",
+      "price": "Free entry",
+      "notes": "Asia's large underground mall, directly connected to Samseong Station (Line 2) Exits 5/6 and Bongeunsa Station (Line 9) Exit 7 (per official directions page).",
+      "transit": "Samseong Station (Line 2) Exits 5/6 → direct connection via Millennium Square.",
+      "sources": [
+        {
+          "label": "Starfield COEX Mall (official) — hours & subway directions",
+          "url": "https://m.starfield.co.kr/coexmall/store/direction?move=subway&lang=en"
+        },
+        {
+          "label": "VisitKorea — Starfield COEX Mall",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=73375"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 5,
+      "category": "attraction",
+      "name": "Starfield Library (별마당 도서관)",
+      "ko": "별마당 도서관",
+      "district": "COEX Mall B1",
+      "claim": "Itinerary: \"iconic open library in the mall\"",
+      "status": "verified",
+      "address": "B1 Starfield COEX Mall, 513 Yeongdong-daero, Gangnam-gu, Seoul",
+      "hours": "10:30-22:00 (with the mall)",
+      "price": "Free",
+      "notes": "The two-story open atrium library inside Starfield COEX Mall; photo landmark. Same hours as the mall per VisitKorea.",
+      "transit": "Inside COEX Mall (Samseong Station Line 2 direct).",
+      "sources": [
+        {
+          "label": "VisitKorea — Starfield Library",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=60729"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 5,
+      "category": "cafe",
+      "name": "SOUL MARKET Bakery (COEX)",
+      "ko": "소울마켓 베이커리",
+      "district": "COEX Mall B1",
+      "claim": "Itinerary: \"pastries & coffee\"",
+      "status": "partial",
+      "address": "B1 Starfield COEX Mall, 513 Yeongdong-daero, Gangnam-gu, Seoul (near the Starfield Library)",
+      "hours": "",
+      "price": "",
+      "notes": "Spacious bakery-cafe inside COEX Mall with a central bakery island (croissants, meal breads, cakes). Hours reported Sun-Thu 10:00-21:00 / Fri-Sat 10:00-22:00 by third-party guides (Konest) — no official website beyond the bakery's Instagram — flagged as unverified.",
+      "transit": "Inside COEX Mall B1.",
+      "sources": [
+        {
+          "label": "SOUL MARKET Bakery (official Instagram)",
+          "url": "https://www.instagram.com/soul_market_bakery/"
+        },
+        {
+          "label": "Konest — SOUL MARKET Bakery details & hours (third-party)",
+          "url": "https://www.konest.com/contents/gourmet_mise_detail.html?id=34958"
+        }
+      ],
+      "flag_ids": [
+        "F31"
+      ]
+    },
+    {
+      "day": 5,
+      "category": "attraction",
+      "name": "Gangnam Style statue (PSY)",
+      "ko": "강남스타일 조형물",
+      "district": "COEX East Gate",
+      "claim": "Itinerary: \"iconic Gangnam Style hands statue\"",
+      "status": "verified",
+      "address": "COEX East Gate plaza, Yeongdong-daero 513 / 524 Bongeunsa-ro, Gangnam-gu, Seoul",
+      "hours": "Outdoor public sculpture — accessible 24/7",
+      "price": "Free",
+      "notes": "Bronze sculpture of two overlapped fists doing PSY's horse-riding move, unveiled April 2016 by Gangnam District Office on the COEX east plaza — sensors trigger the song and LED lights. Just outside COEX's east entrance; combine with the Starfield Library visit.",
+      "transit": "Exit COEX Mall at the east gate (near Samseong Station Line 2 / Bongeunsa Station Line 9 Exit 7).",
+      "sources": [
+        {
+          "label": "The Korea Times — 'Gangnam Style' bronze sculpture at COEX (unveiling, size, location)",
+          "url": "https://www.koreatimes.co.kr/entertainment/shows-dramas/20160416/gangnam-style-returns-as-a-landmark-bronze-sculpture"
+        },
+        {
+          "label": "Korea Bizwire — Giant 'Gangnam Style' statue revealed at COEX",
+          "url": "http://koreabizwire.com/giant-gangnam-style-statue-revealed-at-coex/53041"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 6,
+      "category": "cafe",
+      "name": "Rain Report Rainbow (Ikseon-dong)",
+      "ko": "레인리포트 레인보우",
+      "district": "Ikseon-dong, Jongno",
+      "claim": "Itinerary: \"Rain Report Cafe in Insadong area\"",
+      "status": "verified",
+      "address": "33-7 Supyo-ro 28-gil, Jongno-gu, Seoul (hanok, Ikseon-dong)",
+      "hours": "Daily 10:30-20:30",
+      "price": "≈₩10,000 (drinks ~₩6,000-8,500, desserts ~₩8,000-12,000)",
+      "notes": "Opened Aug 2025 in a renovated Ikseon-dong hanok — rain falls from the eaves 365 days a year (snow in winter), moss/pond courtyard, colorful desserts (cloud pavlova is the signature). This is the rain-themed cafe the itinerary means — the 'Insadong' description matches this Jongno/Ikseon location. Arrive early; desserts sell out.",
+      "transit": "Jongno 3-ga Station (Lines 1/3/5) Exit 4, ~3-5 min walk.",
+      "sources": [
+        {
+          "label": "VisitSeoul (official) — Rain Report Rainbow listing (hours, address, directions)",
+          "url": "https://english.visitseoul.net/restaurants/rainreport/ENP933ykf"
+        },
+        {
+          "label": "Rain Report (official Instagram — locations: Gyeongnidan | Ikseon)",
+          "url": "https://www.instagram.com/rainreport_official/"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 6,
+      "category": "food",
+      "name": "Ikseon Chwihyang / \"Favorite of Ikseon\"",
+      "ko": "익선취향",
+      "district": "Ikseon-dong, Jongno",
+      "claim": "Itinerary lists it TWICE: \"Chwihyang — pork belly rose pasta $14.50\" and \"Favorite of Ikseon — try the pork belly rose pasta $14.50\"",
+      "status": "partial",
+      "address": "1F, 17-32 Supyo-ro 28-gil, Jongno-gu, Seoul (hanok; = 166-70 Ikseon-dong)",
+      "hours": "",
+      "price": "",
+      "notes": "IMPORTANT: 'Chwihyang' and 'Favorite of Ikseon' are the SAME restaurant — 익선취향's English name is 'Favorite of Ikseon' (Instagram @favorite_ikseon). The Day 6 list duplicates it. TikTok-famous for the whole pork-belly rosé pasta (통삼겹 로제파스타, currently ₩18,900 ≈ $14 on Korean menu listings — matches the itinerary's $14.50). Reported hours: daily 12:00-21:00, queues from ~12:10, min 1 main per person, CatchTable reservations advised. No official website — hours/price from consistent third-party listings, flagged. Also on the menu: omurice, steak, curry risotto.",
+      "transit": "Jongno 3-ga Station (Lines 1/3/5) Exit 4, ~5 min walk into the alleys.",
+      "sources": [
+        {
+          "label": "Favorite of Ikseon (official Instagram)",
+          "url": "https://www.instagram.com/favorite_ikseon"
+        },
+        {
+          "label": "KoreaWise — Ikseon Chwihyang menu breakdown (prices)",
+          "url": "https://www.koreawise.net/ikseon-dong-restaurants-chwihyang/"
+        },
+        {
+          "label": "IVisitKorea — Ikseon-dong guide (address, hours 12:00-21:00)",
+          "url": "https://www.ivisitkorea.com/things-to-do-in-ikseondong-seoul/"
+        }
+      ],
+      "flag_ids": [
+        "F14"
+      ]
+    },
+    {
+      "day": 6,
+      "category": "food",
+      "name": "Uri Wang Galbitang",
+      "ko": "우리왕갈비탕",
+      "district": "Seongnae-dong, Gangdong (far east Seoul)",
+      "claim": "Itinerary: \"Uri Wang Galbitang located in Gangdong. Favorite of Ikseon-dong\"",
+      "status": "partial",
+      "address": "103 Ho, 119-9 Seongan-ro, Gangdong-gu, Seoul (near Gangdong Station Exit 3, opposite Jo-eun-madi Hospital)",
+      "hours": "",
+      "price": "왕갈비탕 (king galbitang) ≈₩15,000 per 2024-26 reviews",
+      "notes": "Real neighborhood galbitang specialist in Gangdong (huge face-sized short-ribs in broth; also hanwoo yukhoe bibimbap). BUT: it is ~45+ min from Ikseon-dong by transit — a strange pairing for the Day 6 Ikseon plan, and the 'Favorite of Ikseon-dong' phrase in the itinerary belongs to the Chwihyang entry above (see F14). Hours are not published on any official page — flagged. Treat as an optional far-flung lunch unless you specifically want it.",
+      "transit": "Eastern Seoul (Seongnae-dong, Gangdong-gu) — roughly 45-60 min from Ikseon-dong by transit; check a map app for the exact route.",
+      "sources": [
+        {
+          "label": "SikSin (Korean restaurant directory) — 우리왕갈비탕 address listing",
+          "url": "https://www.siksinhot.com/search?keywords=%EC%84%9C%EC%9A%B8+%EB%91%94%EC%B4%8C%EB%8F%99+%EA%B0%88%EB%B9%84%ED%83%95"
+        },
+        {
+          "label": "Daangn local reviews — 우리왕갈비탕 (location, price)",
+          "url": "https://www.daangn.com/kr/local-profile/%EC%9A%B0%EB%A6%AC%EC%99%95%EA%B0%88%EB%B9%84%ED%83%95-j18yfack4891/"
+        }
+      ],
+      "flag_ids": [
+        "F15"
+      ]
+    },
+    {
+      "day": 6,
+      "category": "cafe",
+      "name": "Jayeondo Salt Bread & House (Ikseon-dong branch)",
+      "ko": "자연도 소금빵 & 자연도가",
+      "district": "Ikseon-dong, Jongno",
+      "claim": "Itinerary: (Seongsu original listed on Day 4; branch noted here for Day 6 planning)",
+      "status": "verified",
+      "address": "166-51 Ikseon-dong, Jongno-gu, Seoul",
+      "hours": "Daily 09:00-22:00 (until sold out)",
+      "price": "4-piece set ₩12,000 (same bakery)",
+      "notes": "Same salt-bread bakery as the Seongsu flagship — handy if you skip the Seongsu stop. Bake batches through the day; go between bakes for the shortest wait.",
+      "transit": "Jongno 3-ga Station (Lines 1/3/5) Exit 4 area.",
+      "sources": [
+        {
+          "label": "DiningCode — 자연도소금빵 profiles (Seongsu flagship details apply to bakery hours)",
+          "url": "https://www.diningcode.com/profile.php?rid=jftm0RNQyfD"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 7,
+      "category": "attraction",
+      "name": "SUGGESTION — Leeum Museum of Art",
+      "ko": "리움 미술관",
+      "district": "Itaewon / Hannam-dong",
+      "claim": "— (Day 7 has no planned venues; verified suggestion)",
+      "status": "verified",
+      "address": "60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul",
+      "hours": "10:30-18:00 (last admission 17:30) · closed Mondays, Jan 1, Seollal & Chuseok holidays",
+      "price": "Free (advance online reservation required per museum policy)",
+      "notes": "Samsung art museum (Mario Botta / Jean Nouvel / Rem Koolhaas buildings). Day 7 is a Saturday → OPEN. Reservations via leeum.org.",
+      "transit": "Hangangjin Station (Line 6) Exit 1, ~100 m toward Itaewon.",
+      "sources": [
+        {
+          "label": "VisitKorea — Leeum Museum of Art (hours, closures)",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=104050"
+        }
+      ],
+      "flag_ids": [
+        "F24"
+      ]
+    },
+    {
+      "day": 7,
+      "category": "cafe",
+      "name": "SUGGESTION — Rain Report (Gyeongnidan flagship)",
+      "ko": "레인리포트 경리단",
+      "district": "Itaewon / Gyeongnidan-gil",
+      "claim": "— (Day 7 suggestion; the original rain-cafe concept flagship)",
+      "status": "verified",
+      "address": "85 Sowol-ro 40-gil, Yongsan-gu, Seoul (near Gyeongnidan-gil)",
+      "hours": "Daily 11:00-21:00 (rain shows every ~30 min for ~15 min)",
+      "price": "≈₩5,000-15,800 per item",
+      "notes": "The original '365 days of rain' cafe (VisitSeoul official listing). If the Seongsu branch is indeed closed (flag F9), this flagship covers the rain-cafe experience on the Itaewon day.",
+      "transit": "Noksapyeong Station (Line 6) + short bus/walk, or Itaewon Station (Line 6).",
+      "sources": [
+        {
+          "label": "VisitSeoul (official) — Rain Report (Gyeongnidan) listing",
+          "url": "https://visit.seoul.kr/en/places/rain-report"
+        }
+      ],
+      "flag_ids": [
+        "F24"
+      ]
+    },
+    {
+      "day": 7,
+      "category": "food",
+      "name": "SUGGESTION — Pig Restaurant 2 (dinner)",
+      "ko": "돼지래스토랑 둘째",
+      "district": "Itaewon",
+      "claim": "— (move the Day 2 dinner option to the Itaewon day)",
+      "status": "partial",
+      "address": "1F, 14-1 Bogwang-ro 59-gil, Yongsan-gu, Seoul",
+      "hours": "",
+      "price": "",
+      "notes": "See the full entry under Day 2 — dry-aged pork BBQ, Itaewon. Suggested here because Day 7 is the Itaewon day and Day 2 already has plenty of dining options.",
+      "transit": "Itaewon Station (Line 6) Exit 4, ~3-5 min walk.",
+      "sources": [
+        {
+          "label": "Pig Restaurant2 (official Facebook page)",
+          "url": "https://www.facebook.com/pigrestaurant2se/"
+        }
+      ],
+      "flag_ids": [
+        "F19",
+        "F24"
+      ]
+    },
+    {
+      "day": 8,
+      "category": "attraction",
+      "name": "SUGGESTION — Changdeokgung Palace",
+      "ko": "창덕궁",
+      "district": "Jongno (next to Bukchon)",
+      "claim": "— (Day 8 is open; verified suggestion)",
+      "status": "verified",
+      "address": "99 Yulgok-ro, Jongno-gu, Seoul",
+      "hours": "Nov: 09:00-17:30 (last admission 16:30) · closed Mondays (open Sun Nov 8)",
+      "price": "Adult ₩3,000 / youth ₩1,500 · free for age 6 & under, hanbok wearers, last Wednesdays",
+      "notes": "UNESCO World Heritage palace with the Secret Garden (Huwon — separate timed ticket, book ahead). Day 8 is a Sunday → OPEN. Pairs perfectly with Bukchon (Anguk Station Exit 3) and Ikseon-dong. If you also reschedule Gyeongbokgung, avoid doing both palaces' crowded same-day unless desired.",
+      "transit": "Anguk Station (Line 3) Exit 3.",
+      "sources": [
+        {
+          "label": "VisitKorea — Changdeokgung Palace Complex (hours, closures)",
+          "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94399"
+        },
+        {
+          "label": "Seoul Metropolitan Government — Changdeokgung Palace info",
+          "url": "https://english.seoul.go.kr/changdeokgung-palace-3/"
+        }
+      ],
+      "flag_ids": [
+        "F24"
+      ]
+    }
+  ]
+}

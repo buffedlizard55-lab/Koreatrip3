@@ -1,0 +1,426 @@
+{
+  "rows": [
+    {
+      "day": 1,
+      "category": "food",
+      "name": "Myeongdong street food stalls (\"Myeongdong Night Food Market\")",
+      "ko": "명동 먹자골목",
+      "district": "Myeongdong",
+      "claim": "Itinerary: \"Myeongdong Night Food Market, 9:00 AM–11:00 PM\"",
+      "status": "unverified",
+      "address": "Along Myeongdong 8-gil and the main shopping street, Jung-gu, Seoul",
+      "hours": "",
+      "price": "",
+      "notes": "There is no officially-operated \"Myeongdong Night Food Market\" — the evening street-food stalls along Myeongdong's alleys are informal and hours vary by stall and season (typically evenings, busiest 18:00-22:00). No official operator or schedule exists to verify the claimed 9:00-23:00 hours. Treat as a walk-by evening activity rather than a scheduled venue.",
+      "transit": "Steps from the hotel — Myeongdong shopping street.",
+      "sources": [],
+      "flag_ids": [
+        "F22"
+      ]
+    },
+    {
+      "day": 2,
+      "category": "shopping",
+      "name": "Lotte Department Store — Main (Myeongdong)",
+      "ko": "롯데백화점 에비뉴엘 본점",
+      "district": "Euljiro / Myeongdong",
+      "claim": "Itinerary: \"weekdays 10:30-8:00, weekends 10:30-8:30\"",
+      "status": "verified",
+      "address": "81 Namdaemun-ro, Jung-gu, Seoul (directly across from Stanford Hotel)",
+      "hours": "Mon-Thu 10:30-20:00 · Fri-Sun 10:30-20:30 · restaurants ~10:30-21:00. Monthly closing day: one rest day per month (date varies — check before visiting).",
+      "price": "—",
+      "notes": "The real split is Mon-Thu vs Fri-Sun, not weekday/weekend. Day 2 is a Monday → 10:30-20:00. A translated official page indicated a monthly closure on a Monday in November for the Main store — monthly rest days vary; verify near the travel date.",
+      "transit": "Directly across Namdaemun-ro from the hotel.",
+      "sources": [
+        {
+          "label": "Lotte Shopping (official) — Main store hours & info",
+          "url": "https://global.lotteshopping.com/eng/store/main?cstrCd=0001"
+        }
+      ],
+      "flag_ids": [
+        "F6",
+        "F29"
+      ]
+    },
+    {
+      "day": 2,
+      "category": "shopping",
+      "name": "Shinsegae — Main Store",
+      "ko": "신세계백화점 본점",
+      "district": "Hoehyeon / Myeongdong",
+      "claim": "Itinerary: \"weekdays 10:30-8:00, weekends 10:30-8:30\"",
+      "status": "verified",
+      "address": "63 Sogong-ro, Jung-gu, Seoul (connected to Shinsegae Sogong underground arcade)",
+      "hours": "Mon-Thu 10:30-20:00 · Fri-Sun 10:30-20:30 · food court (B1) ~11:00-21:30. Monthly rest day varies by month — check before visiting.",
+      "price": "—",
+      "notes": "Same Mon-Thu / Fri-Sun split as Lotte (not weekday/weekend). Day 2 is a Monday → 10:30-20:00.",
+      "transit": "≈5-8 min walk from the hotel along Namdaemun-ro / or one stop on Line 4 (Hoehyeon Station is across from the store).",
+      "sources": [
+        {
+          "label": "VisitKorea (Korea Tourism Organization) — Shinsegae Main",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=106990"
+        }
+      ],
+      "flag_ids": [
+        "F6"
+      ]
+    },
+    {
+      "day": 2,
+      "category": "shopping",
+      "name": "Olive Young — Myeongdong Town flagship (Global Store)",
+      "ko": "올리브영 명동타운",
+      "district": "Myeongdong",
+      "claim": "Itinerary: \"Olive Young, 8:00 AM–12:00 AM\"",
+      "status": "verified",
+      "address": "1-2F, 53 Myeongdong-gil, Jung-gu, Seoul",
+      "hours": "Daily 10:00-22:30 (business days, Saturdays, Sundays and holidays alike)",
+      "price": "—",
+      "notes": "Claimed hours (8:00-24:00) are wrong — the flagship opens at 10:00 and closes at 22:30. Located mid Myeongdong shopping street; the entire 2F serves international shoppers (tax refund, lounge). Note: Myeongdong now has multiple Olive Young branches (a second flagship, 'Central Myeongdong Town', opened Mar 2026 at Myeongdong 8-gil 27), so opening times can differ by branch.",
+      "transit": "Myeongdong Station (Line 4) Exit 8, or Euljiro 1-ga Station (Line 2) Exit 5.",
+      "sources": [
+        {
+          "label": "Olive Young Myeongdong Town (official store page) — hours, address, directions",
+          "url": "https://myeongdongtown.oliveyoung.com/"
+        }
+      ],
+      "flag_ids": [
+        "F5"
+      ]
+    },
+    {
+      "day": 2,
+      "category": "food",
+      "name": "Myeongdong Kyoja",
+      "ko": "명동교자",
+      "district": "Myeongdong",
+      "claim": "Itinerary: \"kalguksu (knife noodles) and mandu\"",
+      "status": "verified",
+      "address": "Main branch: 129 Toegye-ro, Jung-gu, Seoul (relocated — older listings still show Myeongdong 10-gil 29)",
+      "hours": "Daily 10:30-21:00 (closes only Seollal & Chuseok)",
+      "price": "Kalguksu ≈ ₩12,000 (Michelin Guide listing)",
+      "notes": "Michelin Guide-listed institution famous for kalguksu and mandu. Verify the current main-branch address on arrival — the restaurant moved in recent years and some maps still show the old location.",
+      "transit": "Short walk from Myeongdong Station (Line 4).",
+      "sources": [
+        {
+          "label": "Michelin Guide — Myeongdong Kyoja (hours, price, location)",
+          "url": "https://guide.michelin.com/us/en/seoul-capital-area/kr-seoul/restaurant/myeongdong-kyoja"
+        },
+        {
+          "label": "VisitKorea — Myeongdong Kyoja",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99925"
+        }
+      ],
+      "flag_ids": []
+    },
+    {
+      "day": 2,
+      "category": "market",
+      "name": "Gwangjang Market",
+      "ko": "광장시장",
+      "district": "Jongno",
+      "claim": "Itinerary: \"9:00 AM–11:00 PM\"",
+      "status": "verified",
+      "address": "88 Changgyeonggung-ro, Jongno-gu, Seoul",
+      "hours": "General market 09:00-18:00 (closed Sundays) · vintage/clothing stalls 10:00-19:00 · food street 09:00-23:00 open year-round",
+      "price": "Street-food prices ≈ ₩5,000-10,000 per item (typical)",
+      "notes": "Day 2 is a Monday → general market open; the food street (bindaetteok, mayak gimbap, yukhoe) runs until 23:00, so the itinerary's \"to 11 PM\" holds for the food alley specifically. If rescheduled to a Sunday, most of the market except the food street closes.",
+      "transit": "Jongno 5-ga Station (Line 1) or Euljiro 4-ga (Lines 2/5); ≈10-15 min by metro+walk from Myeongdong.",
+      "sources": [
+        {
+          "label": "VisitKorea — Gwangjang Market (official hours, address)",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=106345"
+        },
+        {
+          "label": "Gwangjang Market (official site)",
+          "url": "http://www.kwangjangmarket.co.kr/"
+        }
+      ],
+      "flag_ids": [
+        "F7"
+      ]
+    },
+    {
+      "day": 2,
+      "category": "market",
+      "name": "Mangwon Market",
+      "ko": "망원시장",
+      "district": "Mapo (Mangwon-dong)",
+      "claim": "Itinerary: \"9:00 AM–11:00 PM\"",
+      "status": "unverified",
+      "address": "6-2 Mokgamjungang-ro 8-gil, Mapo-gu, Seoul (VisitKorea listing)",
+      "hours": "",
+      "price": "",
+      "notes": "No official schedule exists — VisitKorea lists Mangwon Market's hours and holidays as \"vary by store.\" The claimed 9:00-23:00 could not be verified. Location note: Mangwon is in western Seoul (near Hongdae), roughly 35-45 min from Myeongdong by transit — an awkward same-day pairing with Myeongdong shopping + Namsan. Consider folding it into a Hongdae-area day instead.",
+      "transit": "Mangwon Station (Line 6), then a short walk.",
+      "sources": [
+        {
+          "label": "VisitKorea — Mangwon Market (\"hours vary by store\")",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=62735"
+        }
+      ],
+      "flag_ids": [
+        "F8"
+      ]
+    },
+    {
+      "day": 2,
+      "category": "attraction",
+      "name": "N Seoul Tower (Namsan Tower) — Observatory",
+      "ko": "N서울타워",
+      "district": "Namsan",
+      "claim": "Itinerary: \"Observatory 10:00-10:30... $31 each (observatory + cable car)\"",
+      "status": "verified",
+      "address": "105 Namsangongwon-gil, Yongsan-gu, Seoul (on Namsan)",
+      "hours": "Mon-Fri 10:00-22:30 · weekends/holidays 10:00-23:00 · last admission 30 min before closing · open 365 days",
+      "price": "Observatory: ₩29,000 adult (13+) per VisitKorea. Observatory + cable-car round trip ≈ ₩44,000 ≈ $31-32 — the itinerary's $31 is accurate.",
+      "notes": "The itinerary's stated hours (\"10:00-10:30\") are wrong — evenings are fine. Hours may change due to weather. See flag F3.",
+      "transit": "Bus 01A/01B (₩1,500) from Chungmuro Station, or Namsan Cable Car from Myeongdong Station Exit 3 (10-15 min walk).",
+      "sources": [
+        {
+          "label": "N Seoul Tower (official) — Hours & Admission",
+          "url": "https://www.nseoultower.co.kr/eng/visit/use.asp"
+        },
+        {
+          "label": "VisitKorea — N Seoul Tower observatory fee",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=88026"
+        }
+      ],
+      "flag_ids": [
+        "F3"
+      ]
+    },
+    {
+      "day": 2,
+      "category": "attraction",
+      "name": "Namsan Cable Car",
+      "ko": "남산케이블카",
+      "district": "Namsan",
+      "claim": "Itinerary: \"10:00-10:30 (weather permitting)\"",
+      "status": "verified",
+      "address": "Boarding near the Pacific Hotel, from Myeongdong Station (Line 4) Exit 3, 10-15 min walk",
+      "hours": "10:00-23:00 (may change with weather conditions)",
+      "price": "Adult ₩15,000 round trip / ₩12,000 one-way",
+      "notes": "Runs to 23:00, not 10:30. Weather suspensions are possible — confirm on the day. The free Namsan Ormi incline elevator (09:00-23:00, suspended Mon 09:00-14:00) links Namsan Tunnel 3 to the cable-car station.",
+      "transit": "Myeongdong Station Exit 3 → walk right of Pacific Hotel.",
+      "sources": [
+        {
+          "label": "N Seoul Tower (official) — By Cable Car (hours, fares, walking route)",
+          "url": "https://www.nseoultower.co.kr/eng/visit/traffic2.asp"
+        }
+      ],
+      "flag_ids": [
+        "F3"
+      ]
+    },
+    {
+      "day": 2,
+      "category": "food",
+      "name": "Hongojib Myeongdong (solo BBQ)",
+      "ko": "혼고집 명동직영점",
+      "district": "Myeongdong / Euljiro 1-ga",
+      "claim": "Itinerary (dinner option): \"Hongojib — full BBQ for 1 for only $10\"",
+      "status": "partial",
+      "address": "1F, 40 Myeongdong 3-gil, Jung-gu, Seoul (≈90 m from Euljiro 1-ga Station Exit 6)",
+      "hours": "",
+      "price": "",
+      "notes": "Brand verified — Hongojib is a solo-diner Korean BBQ chain (individual charcoal grills, tablet ordering, first order ≥150 g of meat). Myeongdong branch is reported to open ~11:00-11:30 and run to ~01:00, and solo sets commonly run ₩12,000-13,000 (≈$9-10, matching the itinerary), but hours and prices are not published on an official page (the official hongojib.com is the franchise site) — values left blank and flagged.",
+      "transit": "Euljiro 1-ga Station (Line 2) Exit 6, ~1-2 min walk.",
+      "sources": [
+        {
+          "label": "Hongojib (official brand/franchise site)",
+          "url": "https://hongojib.com/"
+        },
+        {
+          "label": "EatingSeoul — Hongojib Myeongdong branch details",
+          "url": "https://eatingseoul.com/restaurants/myeongdong/hongojib-myeongdong"
+        },
+        {
+          "label": "SeoulPlate — solo dining guide (Hongojib Myeongdong)",
+          "url": "https://seoulplate.com/solo-dining-in-seoul-best-restaurants/"
+        }
+      ],
+      "flag_ids": [
+        "F17"
+      ]
+    },
+    {
+      "day": 2,
+      "category": "food",
+      "name": "Pig Restaurant 2 (돼지래스토랑 둘째)",
+      "ko": "돼지래스토랑 둘째",
+      "district": "Itaewon",
+      "claim": "Itinerary (dinner option listed on Day 2): \"premium quality\"",
+      "status": "partial",
+      "address": "1F, 14-1 Bogwang-ro 59-gil, Yongsan-gu, Seoul (Itaewon, a street behind Exit 4)",
+      "hours": "",
+      "price": "",
+      "notes": "Real, highly-rated dry-aged pork BBQ in Itaewon (owner grills at your table; ~₩25,000-40,000 per person per reviews). Hours reported daily 16:30-24:00 by third-party listings only (no official website) — flagged. NOTE: it is in Itaewon, ~25-30 min from Myeongdong by transit — a natural fit for Day 7 (Itaewon) instead of Day 2.",
+      "transit": "Itaewon Station (Line 6) Exit 4, ~3-5 min walk.",
+      "sources": [
+        {
+          "label": "Pig Restaurant2 (official Facebook page)",
+          "url": "https://www.facebook.com/pigrestaurant2se/"
+        },
+        {
+          "label": "TourTeller — Itaewon restaurant guide (address, hours, phone)",
+          "url": "https://tourteller.com/blog/best-restaurants-in-itaewon-seoul/"
+        },
+        {
+          "label": "Tripadvisor — Pig Restaurant 2",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g294197-d33278942-Reviews-Pig_Restaurant_2-Seoul.html"
+        }
+      ],
+      "flag_ids": [
+        "F19"
+      ]
+    },
+    {
+      "day": 2,
+      "category": "bar",
+      "name": "Myeongdong Sookhee (Bar SookHee)",
+      "ko": "명동 숙희",
+      "district": "Myeongdong",
+      "claim": "Itinerary: \"hidden speakeasy... whisky & cocktails $20-30\"",
+      "status": "partial",
+      "address": "4F, 7-9 Myeongdong 10-gil, Jung-gu, Seoul (above the Starbucks near Myeongdong Cathedral; hidden door)",
+      "hours": "",
+      "price": "",
+      "notes": "Verified existence & concept: opulent Korean-style speakeasy (decor inspired by Gyeongbokgung's Geunjeongjeon), whisky/cocktail/wine bar with seasonal-fruit cocktails. Reported hours: daily 18:00-01:00 (last order 00:30); reservations accepted only for 18:00-19:00, walk-ins after. Typical spend ₩20,000-45,000 per person (≈$15-33, consistent with the itinerary). Hours are from consistent third-party/Korean blog listings, not an official site — flagged.",
+      "transit": "3-5 min walk from Myeongdong Station (Line 4).",
+      "sources": [
+        {
+          "label": "Bar SookHee Myeongdong (official Facebook page)",
+          "url": "https://www.facebook.com/sookhee2nd/"
+        },
+        {
+          "label": "EatingSeoul — Myeongdong Sookhee details",
+          "url": "https://eatingseoul.com/zh-TW/restaurants/myeongdong/myeongdong-sookhee"
+        },
+        {
+          "label": "Korean review blog (hours, last order, prices)",
+          "url": "https://shinwoongpark.com/shinwoongparkroad-no-20-myeongdongsookhee/"
+        }
+      ],
+      "flag_ids": [
+        "F18"
+      ]
+    },
+    {
+      "day": 3,
+      "category": "attraction",
+      "name": "Gyeongbokgung Palace",
+      "ko": "경복궁",
+      "district": "Jongno / Gwanghwamun",
+      "claim": "Itinerary: \"₩3,000 entry, 3-4 hours, royal guard ceremony 10:00 & 14:00\"",
+      "status": "verified",
+      "address": "161 Sajik-ro, Jongno-gu, Seoul",
+      "hours": "Nov-Feb 09:00-17:00 (last admission 16:00) — CLOSED TUESDAYS (if a Tuesday is a holiday, closed the next business day instead)",
+      "price": "₩3,000 age 19-64 · ₩1,500 age 7-18 · free age 6 & under and 65+. Combination ticket (4 palaces + Jongmyo) ₩10,000, valid 3 months.",
+      "notes": "CRITICAL: Day 3 = Tuesday, Nov 3, 2026 → the palace is CLOSED and the guard ceremony does not run on Tuesdays. Move Gyeongbokgung to another day (Day 4-8 all work) or substitute Changdeokgung (closed Mondays instead — open on Tue Nov 3). See flag F2. The ₩3,000 fee, 3-4 h visit length and ceremony times all check out.",
+      "transit": "Gyeongbokgung Station (Line 3) Exit 5, or Gwanghwamun Station (Line 5) Exit 2.",
+      "sources": [
+        {
+          "label": "Gyeongbokgung Palace (official) — Hours & Admissions",
+          "url": "https://www.royalpalacekr.org/html/eng_gbg/guide/guide01_tab01.html"
+        },
+        {
+          "label": "VisitKorea — Gyeongbokgung",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=87740"
+        }
+      ],
+      "flag_ids": [
+        "F2"
+      ]
+    },
+    {
+      "day": 3,
+      "category": "attraction",
+      "name": "Royal Guard Changing Ceremony (Gyeongbokgung)",
+      "ko": "수문장 교대의식",
+      "district": "Gwanghwamun / Heungnyemun",
+      "claim": "Itinerary: \"10:00 & 14:00\"",
+      "status": "verified",
+      "address": "Gwanghwamun Gate & Heungnyemun Gate areas, Gyeongbokgung",
+      "hours": "Royal Guard Changing Ceremony 10:00 & 14:00 (20 min) · Guard Duty Performance 11:00 & 13:00 · Guard Training 09:35 & 13:35 · NOT held on Tuesdays (palace closed); may be cancelled in rain",
+      "price": "Free to watch (outside the ticket gate)",
+      "notes": "Times confirmed — 10:00 and 14:00, ~20 minutes. But again: no ceremony on Tuesday Nov 3. Run by the Korea Heritage Service / Korea Cultural Heritage Foundation.",
+      "transit": "Gyeongbokgung Station (Line 3) Exit 5 (217 m) or Gwanghwamun Station (Line 5) Exit 2.",
+      "sources": [
+        {
+          "label": "Korea Cultural Heritage Foundation (official) — ceremony program & times",
+          "url": "https://www.kh.or.kr/cms/content/view/824"
+        },
+        {
+          "label": "VisitSeoul (official) — Changing of the Royal Guard",
+          "url": "https://english.visitseoul.net/events/Changing-of-the-Royal-Guard-at-Gyeongbokgung-Palace-en/ENP008256"
+        },
+        {
+          "label": "VisitKorea — Palace Royal Guard Changing Ceremony",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=104589"
+        }
+      ],
+      "flag_ids": [
+        "F2"
+      ]
+    },
+    {
+      "day": 3,
+      "category": "attraction",
+      "name": "Bukchon Hanok Village",
+      "ko": "북촌한옥마을",
+      "district": "Jongno (between Gyeongbokgung & Changdeokgung)",
+      "claim": "Itinerary: \"hanok village between the palaces\"",
+      "status": "verified",
+      "address": "Bukchon-ro 11-gil area, Jongno-gu, Seoul (residential hanok district behind Jeongdok Library)",
+      "hours": "Red Zone (Bukchon-ro 11-gil): tourist visits allowed 10:00-17:00 only — visiting restricted 17:00-10:00 with ₩100,000 fine (enforced since Mar 1, 2025)",
+      "price": "Free (public residential area)",
+      "notes": "This is a residential area under a Special Management Area rule — plan the visit inside 10:00-17:00 and keep noise down. Day 3 is a Tuesday (fine — the restriction is daily, not day-specific). Anguk Station (Line 3) Exits 2/3 serve the village; it pairs naturally before/after Changdeokgung (not Gyeongbokgung on a Tuesday).",
+      "transit": "Anguk Station (Line 3) Exit 2 or 3.",
+      "sources": [
+        {
+          "label": "Seoul Metropolitan Government (official) — Bukchon tourist restrictions notice",
+          "url": "https://english.seoul.go.kr/notice-on-restrictions-for-tourist-visits-to-bukchon-special-management-area-effective-from-november-2024/"
+        },
+        {
+          "label": "VisitKorea — Bukchon Hanok Village",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=97932"
+        },
+        {
+          "label": "VisitKorea — notice: entry restricted 17:00-10:00",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=215658"
+        }
+      ],
+      "flag_ids": [
+        "F28"
+      ]
+    },
+    {
+      "day": 2,
+      "category": "food",
+      "name": "Crystal Jade (Myeongdong area)",
+      "ko": "크리스탈제이드",
+      "district": "Sogong-dong / Myeongdong",
+      "claim": "Itinerary: \"2 locations in Myeongdong. Go to the Shinsegae Dept Store location - basement floor\"",
+      "status": "partial",
+      "address": "B1, Hancom Building, 16 Namdaemun-ro 7-gil, Jung-gu, Seoul (5 min from Euljiro 1-ga Station Exit 7)",
+      "hours": "Daily 11:30-15:00 & 17:00-21:00 (Michelin Guide listing)",
+      "price": "≈₩30,000 per dish (Michelin ₩₩ band)",
+      "notes": "The Crystal Jade official site currently lists exactly ONE Seoul restaurant — B1 Hancom Building in Sogong-dong (the Myeongdong-area branch, behind the Westin Chosun / Lotte Avenuel side). A 'Shinsegae Department Store basement' location could NOT be confirmed on official sources; a 'Crystal Jade Shanghai Delight' formerly operated separately (now reported at Hyundai COEX). Use the verified Hancom Building address; call +82-2-3789-8088 to confirm before going if you want a specific branch.",
+      "transit": "Euljiro 1-ga Station (Line 2) Exit 7, ~5 min walk; near the hotel (≈7-10 min walk).",
+      "sources": [
+        {
+          "label": "Crystal Jade (official site) — Seoul restaurant listing",
+          "url": "https://www.crystaljade.com/"
+        },
+        {
+          "label": "Michelin Guide — Crystal Jade (address, hours)",
+          "url": "https://guide.michelin.com/gb/en/seoul-capital-area/kr-seoul/restaurant/crystal-jade"
+        }
+      ],
+      "flag_ids": [
+        "F16"
+      ]
+    }
+  ]
+}
