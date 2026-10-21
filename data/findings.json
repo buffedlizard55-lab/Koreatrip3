@@ -1,0 +1,43 @@
+{
+  "repo_review": {
+    "checked_on": "2026-10-21",
+    "branch": "arena/14a4cdd9-koreatrip3 (base: main @ fa82001)",
+    "files_found": [
+      "README.md — contains only the title '# Koreatrip3'.",
+      "No itinerary, data, or site files existed before this session.",
+      "No COORDINATION.md existed; it was created with tasks T1–T6 claimed by this session."
+    ],
+    "actions": [
+      "Itinerary transcribed line by line into data/records.json (72 rows; every submitted line is represented or marked as a planning note).",
+      "Every fact-type row checked against official pages; values not confirmed are left blank and flagged.",
+      "Static site generated into docs/ (GitHub Pages source path changed from / to /docs on main)."
+    ],
+    "limitations": [
+      "Only official pages that could be retrieved were read. Some values were taken from text the fetch tool returned for the official page; the links are provided so each can be re-checked manually.",
+      "Restaurant, cafe, shop and street-food entries are mostly unverified because most have no official listing available to this review.",
+      "Flight schedule, flight price, taxi times and the KTX timetable were not verified."
+    ]
+  },
+  "irregularities": [
+    {"id":"IRR-01","severity":"High","title":"Palace visit planned on a closed day (Tue Nov 3, 2026)","detail":"Gyeongbokgung Palace is closed on Tuesdays, and the changing-of-the-guard ceremony does not run that day. Day 3 is Tuesday, Nov 3, 2026.","rows":["D3-01","D3-02"],"sources":["S01","S02"],"action":"Move the palace and ceremony to an open day (Mon Nov 2, Wed Nov 4, or later)."},
+    {"id":"IRR-02","severity":"High","title":"Olive Young hours conflict","detail":"Submitted '8:00–12:00am'. The official Olive Young Myeongdong Global Store page shows 10:00–22:30 daily.","rows":["D2-08"],"sources":["S15"],"action":"Use the official hours or re-check the store you plan to visit."},
+    {"id":"IRR-03","severity":"High","title":"N Seoul Tower hours conflict","detail":"Submitted observatory '10:00–10:30' and cable car '10:00–10:30'. Official: observatory 10:00–22:30 weekdays, 10:00–23:00 weekends and holidays; cable car 10:00–23:00.","rows":["D2-03","D2-04"],"sources":["S03","S05"],"action":"Correct the hours in the plan."},
+    {"id":"IRR-04","severity":"High","title":"Palace admission for young visitors is misstated","detail":"Submitted 'Free for under 19'. Official: ages 7–18 pay ₩1,500; ages 6 and under and 65+ are free.","rows":["D3-03"],"sources":["S01"],"action":"Correct the fee note."},
+    {"id":"IRR-05","severity":"Medium","title":"AREX time and fare conflict","detail":"Submitted '45 min, $7'. Official express: 43 min (T1) / 51 min (T2), ₩13,000. All-stop: 59 min (T1) / 66 min (T2), ₩4,150–4,750.","rows":["D1-02"],"sources":["S06"],"action":"Choose express or all-stop and use the official time and fare."},
+    {"id":"IRR-06","severity":"Medium","title":"Airport limousine fare conflict","detail":"Submitted '$13'. Official route 6001 (Dongdaemun–Myeongdong) lists ₩17,000 for adults. The Seoul government page gives a general ₩5,000–15,000 range for airport buses.","rows":["D1-03"],"sources":["S07","S06"],"action":"Confirm the fare at the terminal booth and the route for your terminal."},
+    {"id":"IRR-07","severity":"Medium","title":"KTX travel time and fare not verified","detail":"Submitted 2h45m to Busan. No official timetable or current fare was retrieved. Third-party sources show about 2h15m–2h45m. Korail's Aug 2025 notice cites a USD 43 standard fare (pre-merger), which is outdated.","rows":["D9-04"],"sources":["S10"],"context":["C02"],"action":"Check the timetable and fare on korail.com or the KORAIL app before booking."},
+    {"id":"IRR-08","severity":"Medium","title":"Myeongdong Kyoja address conflict","detail":"VisitKorea lists both '29 Myeongdong 10-gil' and '퇴계로 129' (Toegye-ro 129) for the restaurant. Michelin Guide lists 29 Myeongdong 10-gil. A third-party source says the restaurant moved in 2026.","rows":["D2-15"],"sources":["S16","S17"],"context":["C03"],"action":"Confirm the current address before visiting."},
+    {"id":"IRR-09","severity":"Medium","title":"Lotte Myeongdong Main closure on Mon Nov 9","detail":"The official Lotte store page for Myeongdong Main shows 'Closed — Monday, 09 Nov.' Nov 9 is the Day 9 travel day.","rows":["D2-07"],"sources":["S14"],"action":"Avoid Lotte Myeongdong on Nov 9; check the store page again before any visit."},
+    {"id":"IRR-10","severity":"Medium","title":"Pig Restaurant 2 is in Itaewon, listed under Day 2 (Myeongdong)","detail":"Itaewon is listed for Day 7 with no activities. The venue, hours and address are not confirmed by an official source.","rows":["D2-14","D7-01"],"sources":[],"context":["C01"],"action":"Move the entry to the correct day and confirm the venue on its own page or a map."},
+    {"id":"IRR-11","severity":"Medium","title":"Hotel pages are on booking-network domains","detail":"Both hotel pages used are property pages on hotel-network domains (hotelofseoul.com, busan-hotel.com), not the brands' own sites. The content matches the hotel names and addresses, but a direct check on the brand's own site is recommended.","rows":["D1-04","D9-06","D9-01"],"sources":["S08","S09"],"action":"Confirm the bookings and the check-in and check-out times with the hotel."},
+    {"id":"IRR-12","severity":"Medium","title":"Day 1 dates are ambiguous","detail":"The Day 1 header reads 'Oct.31/Nov 1' and is labelled Sunday. Oct 31, 2026 is a Saturday and Nov 1, 2026 is a Sunday. The flight is not verified.","rows":["D1-01"],"sources":[],"action":"Confirm the departure and arrival dates on the ticket."},
+    {"id":"IRR-13","severity":"Low","title":"Day 2 year typo","detail":"The Day 2 header reads 'Nov 2,2006'. Nov 2, 2026 is a Monday, which matches the plan; 2006 is not consistent with the trip.","rows":["D2-01"],"sources":[],"action":"Correct the year to 2026."},
+    {"id":"IRR-14","severity":"Low","title":"Possible duplicate Day 6 pasta entries","detail":"'Chwihyang – pork belly rose pasta' and 'Favorite of Ikseon – pork belly rose pasta $14.50' may be the same restaurant.","rows":["D6-01","D6-02"],"sources":[],"action":"Confirm the restaurant name."},
+    {"id":"IRR-15","severity":"Low","title":"Possible duplicate cafe names","detail":"'Cafe Onion Anguk' (Day 3) and 'Cafe Onion' (Day 4, Seongsu) may be different businesses or one business with two entries.","rows":["D3-07","D4-08"],"sources":[],"action":"Confirm which branch is intended."},
+    {"id":"IRR-16","severity":"Low","title":"Gwangjang Market claims not supported","detail":"The official food alley closes at 23:00. The '2:00 a.m.' stall hours and the hand-cut noodle claim are not confirmed by an official source.","rows":["D2-12"],"sources":["S18"],"action":"Verify individual stalls on site."},
+    {"id":"IRR-17","severity":"Low","title":"DDP address typo on the official site","detail":"The DDP Design Store page lists '2871 Eulji-ro'. VisitKorea lists the address as 281 Eulji-ro.","rows":["D4-02"],"sources":["S25","S24"],"action":"Use 281 Eulji-ro."},
+    {"id":"IRR-18","severity":"Low","title":"Empty days","detail":"Day 7 (Itaewon) and Day 8 (Sunday) have no activities.","rows":["D7-01","D8-01"],"sources":[],"action":"Add activities or confirm the days are free."},
+    {"id":"IRR-19","severity":"Low","title":"Uri Wang Galbitang location claim","detail":"Submitted as located in Gangdong and a favorite of Ikseon-dong. Ikseon-dong is in Jongno-gu. The venue location is not verified.","rows":["D4-17"],"sources":["S28"],"action":"Confirm the address."},
+    {"id":"IRR-20","severity":"Low","title":"Spelling and typos in the submission","detail":"'Musina Standard' (Musinsa Standard), 'Hongojib', 'Solsot', 'Chwihyang', 'Myeongdog', 'disctrict', 'miuntes', 'Limosine', 'Starfiel', and 'Seong-Su' appear in the notes.","rows":["D4-11","D2-17","D4-01","D6-01","D2-11","D2-05","D1-02","D5-02","D5-01"],"sources":[],"action":"Confirm spellings before booking."}
+  ]
+}
