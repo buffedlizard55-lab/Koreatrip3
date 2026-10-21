@@ -52,3 +52,5 @@ executed sequentially by the same session on this branch, so no concurrent edits
 
 ### Handoff / branch note
 - Session branch fixed to `arena/14a4cdd9-koreatrip3`; the `session-<id>/<task>` branch scheme was not used because the session branch is bound to this session. No conflicting edits from other sessions were observed on this branch.
+
+- **T6 PR:** https://github.com/buffedlizard55-lab/Koreatrip3/pull/1 (`arena/14a4cdd9-koreatrip3` → `main`), opened 2026-10-21. Pre-merge checks: `python3 scripts/build_site.py --check` → 0 errors; internal links resolved.
