@@ -1,5 +1,20 @@
 [
   {
+    "legId": "TR-00",
+    "day": "Days 1–9 Pass Setup",
+    "origin": "Seoul Tourism Plaza / Myeongdong Info Center / Station Kiosks",
+    "destination": "All Seoul Subway + City/Shuttle Buses (Days 2–8) + T-money (Busan Day 9)",
+    "recommendedMode": "7-Day Climate Card Short-Term Pass (Seoul) + 1 T-money Card per adult",
+    "stepByStep": "Buy physical Climate Card (3,000 KRW) near Myeongdong -> load 7-Day Pass (20,000 KRW cash at Line 1–8 kiosk) for unlimited Seoul subways + Seoul buses (incl. Namsan 01A/01B!). Also carry T-money (3,000–5,000 KRW card at GS25/CU) for Busan Metro/buses on Day 9.",
+    "duration": "Unlimited rides (7 days in Seoul)",
+    "farePerAdult": "23,000 KRW (3,000 card + 20,000 7-day load) + T-money pay-as-you-go",
+    "fareTwoAdults": "46,000 KRW for full week of unlimited Seoul transit",
+    "status": "verified",
+    "notes": "IMPORTANT Oct 1, 2026 rule change: Climate Card works within Seoul boundaries only (excludes Sinbundang, GTX, AREX Express & Busan transit) — T-money covers everything outside Seoul.",
+    "officialSourceLabel": "VisitKorea — Official Transportation Cards Guide",
+    "officialSourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140663"
+  },
+  {
     "legId": "TR-01",
     "day": "Day 1 (Sun Nov 1)",
     "origin": "Incheon Int'l Airport (ICN T1 / T2)",

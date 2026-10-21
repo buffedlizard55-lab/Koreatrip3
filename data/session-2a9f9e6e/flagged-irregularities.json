@@ -77,6 +77,17 @@
     "officialSourceUrl": "https://www.crystaljade.co.kr/menu/menuInfo.do?shSq=49&shGb=H"
   },
   {
+    "flagId": "FLG-12",
+    "severity": "high",
+    "day": "Day 2 (Mon Nov 2)",
+    "item": "Myeongdong Kyoja Main Restaurant Relocated in 2026 (Stale Address Warning)",
+    "submittedClaim": "Myeongdong Kyoja-Michelin dumplings (older directories list 29 Myeongdong 10-gil)",
+    "officialFinding": "Official Myeongdong Kyoja site confirms the Main Restaurant relocated and integrated in 2026 to 129, Toegye-ro, Jung-gu, Seoul (420 seats, 10:30–21:00 daily; closed New Year's Day & Chuseok only).",
+    "recommendedAction": "Navigate directly to 129 Toegye-ro (by Myeong-dong Station Exit 8/9), NOT the old 29 Myeongdong 10-gil address still shown on third-party sites.",
+    "officialSourceLabel": "Myeongdong Kyoja Official — Main HQ",
+    "officialSourceUrl": "http://mdkj.co.kr/en/restaurant/head.php"
+  },
+  {
     "flagId": "FLG-22",
     "severity": "medium",
     "day": "Day 4 (Wed Nov 4)",
