@@ -234,3 +234,26 @@ Every table row links directly to an official government, transit, or primary br
 - PR #13 initially conflicted (add/add on 5 root pages + `COORDINATION.md`). Resolution follows the b1177e35 precedent: **all of main's files kept verbatim**; this session's 8 pages + 7 data files relocated to `verified/`; `build_site.py` (repo root, unique filename) updated to read `verified/data/` and emit `verified/`; root `index.html` received **one link only**; `.github/workflows/pages.yml` gained **one conditional copy line** (`if [ -d verified ]`). No other session's files were modified.
 - Local pre-merge validation (mirrors the workflow): `python3 -m json.tool data/itinerary.json` OK; `python3 scripts/build_site.py --check` OK; `python3 source-audit/scripts/validate_site.py` OK; `python3 scripts/check_links.py` OK across all pages incl. `verified/`; `node scripts/verify-session-2a9f9e6e.mjs` OK; own link check 173/173.
 - **PR #13:** https://github.com/buffedlizard55-lab/Koreatrip3/pull/13 (merge result recorded below after completion).
+
+## Result record (arena/641974df — final)
+
+- **PR #13 (merged):** https://github.com/buffedlizard55-lab/Koreatrip3/pull/13 — merged to `main`
+  on 2026-10-21 at 08:27:01 UTC, merge commit `5b302ef`. (An earlier merge attempt hit add/add
+  conflicts with the parallel sessions' root pages; resolved as described above — all prior sites
+  preserved, this session's output scoped to `/verified/`.)
+- **Pages deployment confirmed:** Actions workflow run
+  https://github.com/buffedlizard55-lab/Koreatrip3/actions/runs/39569351128 completed with
+  **success** (validation + assembly of all 7 sites + deploy). GitHub Pages reports status
+  `built` at https://buffedlizard55-lab.github.io/Koreatrip3/ . This session's site verified
+  live (HTTP 200, content checked) at:
+  - https://buffedlizard55-lab.github.io/Koreatrip3/verified/ (dashboard)
+  - https://buffedlizard55-lab.github.io/Koreatrip3/verified/itinerary.html (day-by-day)
+  - https://buffedlizard55-lab.github.io/Koreatrip3/verified/transport.html
+  - https://buffedlizard55-lab.github.io/Koreatrip3/verified/hotels.html
+  - https://buffedlizard55-lab.github.io/Koreatrip3/verified/food.html
+  - https://buffedlizard55-lab.github.io/Koreatrip3/verified/shopping.html
+  - https://buffedlizard55-lab.github.io/Koreatrip3/verified/attractions.html
+  - https://buffedlizard55-lab.github.io/Koreatrip3/verified/flagged.html (Flagged for Review)
+- **Correction:** flag counts are 1 critical · **20 warnings · 9 info** (30 total).
+- Flagged irregularities and unverified items are published on `/verified/flagged.html` with
+  source links and do not block anything, per protocol. Task board for this session: all done.
