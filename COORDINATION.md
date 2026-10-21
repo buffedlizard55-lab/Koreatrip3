@@ -2,7 +2,7 @@
 
 | Task | Status | Owner session | File scope |
 |---|---|---|---|
-| Final integration: source-audited Korea itinerary, dashboard site, GitHub Pages workflow, build/link checks | in progress | `arena/e8bcfa8a-koreatrip3` (current Arena session; no session ID was supplied) | `COORDINATION.md`, `index.html`, `styles.css`, `app.js`, `data/itinerary.json`, `flagged-for-review.html`, `.github/workflows/pages.yml`, `README.md` |
+| Final integration: source-audited Korea itinerary, dashboard site, GitHub Pages workflow, build/link checks | done | `arena/e8bcfa8a-koreatrip3` (current Arena session; no session ID was supplied) | `COORDINATION.md`, `index.html`, `styles.css`, `app.js`, `data/itinerary.json`, `flagged-for-review.html`, `.github/workflows/pages.yml`, `README.md` |
 
 ## Log
 
@@ -17,15 +17,17 @@
 - Business-level claims with no reliable official record (including most supplied cafés, pop-ups, eateries, and bars) remain unverified; their row links are clearly labeled as context only and do not pretend to confirm the named business. Store branches, current hours, individual itineraries, and reservations still require confirmation.
 - Checks run: `python3 -m json.tool data/itinerary.json`; 68 rows validated with HTTPS links/status/source labels; local navigation links checked; `node --check app.js`; local HTTP preview served index and JSON successfully. Exact external link validation is limited to the official pages opened above and search results; live operator/venue status can change.
 - Initial `git pull --rebase origin arena/e8bcfa8a-koreatrip3` could not run because the remote session branch did not yet exist (remote only had `main`). The initial coordination claim was then pushed to create the assigned branch. Subsequent pushes rebase against the now-existing assigned remote branch.
-- 2026-10-21 — Follow-up PR #4 encountered a COORDINATION.md rebase conflict with PR #1’s appended task-board section. Rebased onto `origin/main`, retained the entire PR #1 section, and updated only this session’s top section. A subsequent pull-rebase against the old session-branch head began replaying already-merged PR #1 commits and produced an add/add conflict; aborted that rebase without dropping work from `main` or the session. The rewritten branch will be updated with a lease-checked force push because it now includes the newer `main` history. No `docs/` files or PR #1 scope were modified. PR #3 is another session’s open `docs/`/Pages workflow proposal; it remains unmerged and was not edited by this session.
+- 2026-10-21 — Follow-up PR #4 encountered a COORDINATION.md rebase conflict with PR #1’s appended task-board section. Rebased onto `origin/main`, retained the entire PR #1 section, and updated only this session’s top section. A subsequent pull-rebase against the old session-branch head began replaying already-merged PR #1 commits and produced an add/add conflict; aborted that rebase without dropping work from `main` or the session, then updated the assigned branch with a lease-checked force push. No `docs/` files or PR #1 scope were modified.
+- PR #3 from session `arena/ae3cc5b4` subsequently merged its separate site/workflow contribution. Its deployment run succeeded and packages both the root site and `/docs/`; the root dashboard is unchanged. PR #5 from another session remains an open alternative root-site proposal with overlapping root files and an assumed 2026 year; this session did not modify or merge that separate scope. The live root itinerary retains the unresolved year/date flags rather than adopting that assumption. A later required pull-rebase against the stale session ref again tried replaying already-merged parallel-session commits and produced an add/add conflict; it was aborted with no loss, and the remote session head remains an ancestor of the updated branch.
 
 ## Status
 
-**in progress** — Root itinerary site was merged and deployed; follow-up transit/source completeness is in PR #4 and will be marked done after its merge/deploy. A concurrent, separately scoped PR #1 also landed its research and `docs/` materials after PR #2; no files in that session's scope were edited by this session. The root Actions workflow packages root site files (not `docs/`).
+**done** — Source-audited root itinerary, transit, category pages, flagged review page, and Pages deployment are merged. A separately scoped PR #1 added its research/`docs/` site; PR #3 later added its own separate `/docs/` pages, while the root site remains the Arena integration deliverable. No files from those other sessions' scopes were edited by this session.
 
-- PR #2: https://github.com/buffedlizard55-lab/Koreatrip3/pull/2 — merged 2026-10-21; merge commit `d46407e5c9a88035cfda750709bc88cd52cedd22`.
-- GitHub Pages: https://buffedlizard55-lab.github.io/Koreatrip3/ (Pages API reports `main` root source).
-- Deployment: Actions run https://github.com/buffedlizard55-lab/Koreatrip3/actions/runs/39564421157 completed successfully on 2026-10-21. An earlier run was canceled because the concurrent PR #1 merge created a newer Pages request; the newer run completed successfully.
+- PR #2: https://github.com/buffedlizard55-lab/Koreatrip3/pull/2 — merged 2026-10-21; root site initially published.
+- PR #4: https://github.com/buffedlizard55-lab/Koreatrip3/pull/4 — merged 2026-10-21; completed route-source additions and final coordination record.
+- Pages: https://buffedlizard55-lab.github.io/Koreatrip3/ (root dashboard); separate pages are also present at `/docs/` from other sessions.
+- Final observed deployment: Actions run https://github.com/buffedlizard55-lab/Koreatrip3/actions/runs/39565323367 completed successfully on 2026-10-21 after PR #3 merge. That workflow packages root site and `/docs/`. The PR #4-triggered run was canceled by the newer PR #3 Pages request, whose run succeeded and deployed the combined tree.
 
 ---
 
