@@ -176,3 +176,10 @@ Every table row links directly to an official government, transit, or primary br
 - **Additional Corporate & Municipal Sources Confirmed:** Crystal Jade Shinsegae Main B1 (`https://www.crystaljade.co.kr/menu/menuInfo.do?shSq=49&shGb=H`, `10:30–20:00` M–F), Cafe Onion Anguk & Seongsu (`https://m.onionkr.com/artfinger/offline.html?cate_no=26`), Hanjungsun (`https://english.visitseoul.net/other/hanjungsun/ENPp1q4s4`), Jayeondo Seongsu (`https://english.visitseoul.net/restaurants/saltbread-in-seaside/ENPxtexu0`), Musinsa Mega Store Seongsu (`https://english.visitseoul.net/area/MUSINSA-MEGA-STORE-SEONGSU/ENPxwxy2m`), Rain Report Rainbow Ikseon-dong (`https://english.visitseoul.net/restaurants/rainreport/ENP933ykf`), Gangnam Style Statue (`http://tour.gangnam.go.kr/en/prcenter/new-landmark-gangnamstyle/`), and 7-Day Seoul Climate Card (`23,000 KRW`/adult incl. physical card; Oct 1, 2026 Seoul boundary notice — `https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140663`).
 - **Conflict Resolution Log:** Merged latest `origin/main` (`87722a2`, preserving all 4 prior merged sessions: `e8bcfa8a` at `/`, `14a4cdd9` at `/docs/`, `ae3cc5b4` at `/docs/trip-guide/`, and `54fb68ab` at `/trip/`). Updated `.github/workflows/pages.yml` so GitHub Actions validates and deploys all 5 portals simultaneously without dropping any session's directory.
 - **PR #8:** https://github.com/buffedlizard55-lab/Koreatrip3/pull/8 (`arena/2a9f9e6e-koreatrip3` → `main`).
+
+**Completion (2026-10-21, session arena-54fb68ab):** PR #5 merged (87722a2, deploy run 39566096092 ✅);
+post-merge accuracy fix PR #10 merged (palace fee table; deploy run 39566569688 ✅).
+Live and verified by direct fetch: `/`, `/docs/`, `/docs/trip-guide/`, `/trip/`,
+`/trip/pages/day-3.html`, `/trip/pages/flagged.html`. All CI validations green
+(68-row JSON check, docs builder --check, check_links.py 48 pages, node verifier 0 errors).
+Owner decisions on F1–F20 remain `needs review` on `/trip/pages/flagged.html` — non-blocking.
