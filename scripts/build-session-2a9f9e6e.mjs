@@ -129,13 +129,16 @@ function filterControls(includeDayFilter = true) {
 
 function pageShell({ slug, title, subtitle, bodyHtml, assetPrefix }) {
   const hasDocs = fs.existsSync(path.join(ROOT, "docs/index.html"));
+  const hasTripGuide = fs.existsSync(path.join(ROOT, "docs/trip-guide/index.html"));
   const hasPages = fs.existsSync(path.join(ROOT, "pages/day-1.html"));
   const rootPrefix = assetPrefix === "./" ? "./" : "../";
 
   const peerLinks = [
-    `<a href="${rootPrefix}portal/index.html">Portal Mirror (/portal/)</a>`,
-    hasDocs ? `<a href="${rootPrefix}docs/index.html">Peer Audit Archive (/docs/)</a>` : "",
-    hasPages ? `<a href="${rootPrefix}pages/day-1.html">Peer Day Views (/pages/)</a>` : ""
+    `<a href="${rootPrefix}index.html">Root Dashboard</a>`,
+    `<a href="${rootPrefix}portal/index.html">Full Portal (/portal/)</a>`,
+    hasDocs ? `<a href="${rootPrefix}docs/index.html">Data Tables (/docs/)</a>` : "",
+    hasTripGuide ? `<a href="${rootPrefix}docs/trip-guide/index.html">Day-Swap Guide (/docs/trip-guide/)</a>` : "",
+    hasPages ? `<a href="${rootPrefix}pages/day-1.html">Day Views (/pages/)</a>` : ""
   ]
     .filter(Boolean)
     .join(" · ");
@@ -784,19 +787,29 @@ const PAGES = [
   }
 ];
 
+const PEER_OWNED_ROOT_SLUGS = new Set([
+  "index.html",
+  "stays.html",
+  "transit.html",
+  "food-shopping.html",
+  "flagged-for-review.html"
+]);
+
 for (const page of PAGES) {
   const bodyHtml = page.body();
-  fs.writeFileSync(
-    path.join(ROOT, page.slug),
-    pageShell({
-      slug: page.slug,
-      title: page.title,
-      subtitle: page.subtitle,
-      bodyHtml,
-      assetPrefix: "./"
-    }),
-    "utf8"
-  );
+  if (!PEER_OWNED_ROOT_SLUGS.has(page.slug) || !fs.existsSync(path.join(ROOT, page.slug))) {
+    fs.writeFileSync(
+      path.join(ROOT, page.slug),
+      pageShell({
+        slug: page.slug,
+        title: page.title,
+        subtitle: page.subtitle,
+        bodyHtml,
+        assetPrefix: "./"
+      }),
+      "utf8"
+    );
+  }
   fs.writeFileSync(
     path.join(PORTAL_DIR, page.slug),
     pageShell({

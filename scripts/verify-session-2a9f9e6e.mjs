@@ -106,8 +106,17 @@ for (const file of htmlFiles) {
     }
   }
 
-  // Strictly audit every <tbody><tr> on root & /portal/ pages built by our generator
-  if (!relFile.includes("/") || relFile.startsWith("portal/")) {
+  const OUR_ROOT_SLUGS = new Set([
+    "itinerary.html",
+    "attractions.html",
+    "dining.html",
+    "shopping.html",
+    "analysis.html",
+    "flagged.html"
+  ]);
+
+  // Strictly audit every <tbody><tr> on /portal/ pages and our non-overlapping root pages
+  if (OUR_ROOT_SLUGS.has(relFile) || relFile.startsWith("portal/")) {
     for (const tbodyMatch of content.matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)) {
       const tbody = tbodyMatch[1];
       for (const trMatch of tbody.matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/g)) {
