@@ -2,7 +2,7 @@
 
 | Task | Status | Owner session | File scope |
 |---|---|---|---|
-| Final integration: source-audited Korea itinerary, dashboard site, GitHub Pages workflow, build/link checks | in progress | `arena/e8bcfa8a-koreatrip3` (current Arena session; no session ID was supplied) | `COORDINATION.md`, `index.html`, `styles.css`, `app.js`, `data/itinerary.json`, `flagged-for-review.html`, `.github/workflows/pages.yml`, `README.md` |
+| Final integration: source-audited Korea itinerary, dashboard site, GitHub Pages workflow, build/link checks | done | `arena/e8bcfa8a-koreatrip3` (current Arena session; no session ID was supplied) | `COORDINATION.md`, `index.html`, `styles.css`, `app.js`, `data/itinerary.json`, `flagged-for-review.html`, `.github/workflows/pages.yml`, `README.md` |
 
 ## Log
 
@@ -10,18 +10,24 @@
 
 ## Verification and sources
 
-- 2026-10-21 — Built the static itinerary dashboard and data set from all named itinerary entries. Each of the 65 JSON rows has an HTTPS source link and a verification status; unsupported facts remain blank, and caveats are published on the review page.
-- Directly opened and checked official pages for Seoul–Incheon airport rail/bus details (Seoul Metropolitan Government), Gyeongbokgung Palace and Namsan attractions/Gwangjang Market (Korea Tourism Organization), Bukchon/Onion Anguk/Cha Masineun Tteul/DDP/Starfield Library/Stanford Hotel/COEX statue (Visit Seoul, official city guide), royal guard ceremony (Korea.net), KTX ticket search (KORAIL), and L7 HAEUNDAE (Lotte Hotels). Additional official KTO pages support Mangwon Market and Myeongdong Kyoja; MICHELIN Guide supports Myeongdong Kyoja's current listing.
+- 2026-10-21 — Built the static itinerary dashboard and data set from all named itinerary entries. Each of the 68 JSON rows has an HTTPS source link and a verification status; unsupported facts remain blank, and caveats are published on the review page.
+- Directly opened and checked official pages for Seoul–Incheon airport rail/bus details (Seoul Metropolitan Government), Gyeongbokgung Palace and Namsan attractions/Gwangjang Market (Korea Tourism Organization), Bukchon/Onion Anguk/Cha Masineun Tteul/DDP/Starfield Library/Stanford Hotel/COEX statue/Insadong (Visit Seoul, official city guide), royal guard ceremony (Korea.net), KTX ticket search (KORAIL), L7 HAEUNDAE (Lotte Hotels), airport route 6001 (Airport Limousine), and Busan Metro Cyber Station (Busan Transportation Corporation). Official KTO pages support Mangwon Market, Ikseon-dong, and Myeongdong Kyoja; MICHELIN Guide supports Myeongdong Kyoja's current listing.
 - Official findings recorded in the site: Gyeongbokgung is closed Tuesdays; the guard ceremony excludes Tuesdays; the selected Cha Masineun Tteul listing is closed Tuesdays; Bukchon visitor restrictions are 10:00–17:00; AREX express T1/T2 times are 43/51 minutes and the official Seoul page lists ₩13,000; airport limousine bus details vary by route/traffic; DDP and Starfield Library hours are listed with source-specific caveats; KTX schedules must be looked up by date.
 - Date issue remains unresolved: input includes Oct 31/Nov 1, dates marked 2006, and weekday labels that do not establish a single year. No year was inferred. Day 3 stays flagged rather than being silently moved.
 - Business-level claims with no reliable official record (including most supplied cafés, pop-ups, eateries, and bars) remain unverified; their row links are clearly labeled as context only and do not pretend to confirm the named business. Store branches, current hours, individual itineraries, and reservations still require confirmation.
-- Checks run: `python3 -m json.tool data/itinerary.json`; 65 rows validated with HTTPS links/status/source labels; local navigation links checked; `node --check app.js`; local HTTP preview served index and JSON successfully. Exact external link validation is limited to the official pages opened above and search results; live operator/venue status can change.
-- Initial `git pull --rebase origin arena/e8bcfa8a-koreatrip3` could not run because the remote session branch did not yet exist (remote only had `main`). The initial coordination claim was then pushed to create the assigned branch. Subsequent pushes will rebase against the now-existing assigned remote branch.
+- Checks run: `python3 -m json.tool data/itinerary.json`; 68 rows validated with HTTPS links/status/source labels; local navigation links checked; `node --check app.js`; local HTTP preview served index and JSON successfully. Exact external link validation is limited to the official pages opened above and search results; live operator/venue status can change.
+- Initial `git pull --rebase origin arena/e8bcfa8a-koreatrip3` could not run because the remote session branch did not yet exist (remote only had `main`). The initial coordination claim was then pushed to create the assigned branch. Subsequent pushes rebase against the now-existing assigned remote branch.
+- 2026-10-21 — Follow-up PR #4 encountered a COORDINATION.md rebase conflict with PR #1’s appended task-board section. Rebased onto `origin/main`, retained the entire PR #1 section, and updated only this session’s top section. No `docs/` files or PR #1 scope were modified. PR #3 is another session’s open `docs/`/Pages workflow proposal; it remains unmerged and was not edited by this session.
 
 ## Status
 
-Integration and implementation in progress until pull request merge and GitHub Pages deployment are confirmed. PR/deploy results will be added here after completion.
+**in progress** — Root itinerary site was merged and deployed; follow-up transit/source completeness is in PR #4 and will be marked done after its merge/deploy. A concurrent, separately scoped PR #1 also landed its research and `docs/` materials after PR #2; no files in that session's scope were edited by this session. The root Actions workflow packages root site files (not `docs/`).
 
+- PR #2: https://github.com/buffedlizard55-lab/Koreatrip3/pull/2 — merged 2026-10-21; merge commit `d46407e5c9a88035cfda750709bc88cd52cedd22`.
+- GitHub Pages: https://buffedlizard55-lab.github.io/Koreatrip3/ (Pages API reports `main` root source).
+- Deployment: Actions run https://github.com/buffedlizard55-lab/Koreatrip3/actions/runs/39564421157 completed successfully on 2026-10-21. An earlier run was canceled because the concurrent PR #1 merge created a newer Pages request; the newer run completed successfully.
+
+---
 ---
 
 # Session arena/14a4cdd9-koreatrip3 — verified data and `docs/` site

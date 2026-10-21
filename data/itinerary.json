@@ -29,11 +29,23 @@
     "category": "Transit",
     "item": "ICN → Seoul by airport limousine bus",
     "plan": "Bus alternative listed; route and stop were not specified.",
-    "facts": "Seoul Metropolitan Government page: airport limousine buses to Seoul take about 60–80 min (varies by route, area, and traffic) and cost ₩5,000–₩15,000 (varies by bus). Current route-specific fare and stop must be checked with the operator.",
+    "facts": "Seoul Metropolitan Government page: airport limousine buses take about 60–80 min (varies by route, region, and traffic) and cost ₩5,000–₩15,000 (varies by bus).",
     "sourceLabel": "Seoul Metropolitan Government: airport transfers",
     "source": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/",
     "verification": "verified",
-    "flag": "The supplied $13 amount and route/stop are not confirmed; time and fare vary by bus, area, and traffic. Confirm the current route after checking the hotel address."
+    "flag": "The supplied $13 amount and route/stop are not confirmed. The published city figures are a broad range; verify a specific bus, fare, terminal, and stop with its operator."
+  },
+  {
+    "day": 1,
+    "date": "Sunday; Oct 31 / Nov 1 (year unresolved)",
+    "category": "Transit",
+    "item": "Possible airport limousine route 6001 to Myeongdong",
+    "plan": "Specific airport-bus route candidate to the Myeongdong hotel area; exact hotel drop-off was not specified.",
+    "facts": "Airport Limousine operator lists route 6001 (Dongdaemun–Myeongdong), stops including Myeongdong Station and Incheon Airport Terminals 1/2; adult ₩17,000, child ₩12,000; first-come seats and no online reservation.",
+    "sourceLabel": "Airport Limousine official route 6001",
+    "source": "https://www.airportlimousine.co.kr/sub/sub01.php",
+    "verification": "verified",
+    "flag": "The official route lists Myeongdong Station, but this does not establish that it is the best stop for Stanford Hotel or confirm walking distance. Check route and timetable for the arrival date."
   },
   {
     "day": 1,
@@ -590,6 +602,30 @@
   {
     "day": 6,
     "date": "Friday; Nov 6 (year not stated)",
+    "category": "Activities",
+    "item": "Ikseon-dong neighborhood stroll",
+    "plan": "Explore Ikseon-dong as named in the supplied Day 6 heading.",
+    "facts": "Korea Tourism Organization lists Ikseon-dong Hanok Street as a Seoul destination.",
+    "sourceLabel": "Korea Tourism Organization: Ikseon-dong Hanok Street",
+    "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=14709&menuSn=351",
+    "verification": "verified",
+    "flag": "No exact walking route, visit duration, or business-level hours were supplied or verified."
+  },
+  {
+    "day": 6,
+    "date": "Friday; Nov 6 (year not stated)",
+    "category": "Activities",
+    "item": "Insadong neighborhood stroll",
+    "plan": "Explore Insadong as named in the supplied Day 6 heading.",
+    "facts": "Visit Seoul describes Insa-dong as a shopping/culture area with traditional art, craft shops, restaurants, and tea houses.",
+    "sourceLabel": "Visit Seoul: Insa-dong",
+    "source": "https://english.visitseoul.net/shopping/Insa-dong/ENP000080",
+    "verification": "verified",
+    "flag": "Individual shop/restaurant opening days and hours vary and were not confirmed."
+  },
+  {
+    "day": 6,
+    "date": "Friday; Nov 6 (year not stated)",
     "category": "Food",
     "item": "Chwihyang — pork-belly rosé pasta",
     "plan": "Restaurant and dish suggestion in supplied notes.",
@@ -725,11 +761,11 @@
     "category": "Transit",
     "item": "Busan Station → L7 HAEUNDAE by LOTTE HOTELS",
     "plan": "Taxi/ride-hail suggested in supplied notes.",
-    "facts": "Lotte Hotels official page gives L7 HAEUNDAE address: 55 Haeun-daero 570beon-gil, Haeundae-gu, Busan.",
-    "sourceLabel": "L7 HAEUNDAE by LOTTE HOTELS (official)",
-    "source": "https://www.lottehotel.com/prerendered/haeundae-l7/en/about/art-experience/l7/index.html",
+    "facts": "Busan Transportation Corporation’s official Cyber Station map shows Busan Station on Line 1 and Haeundae on Line 2, connected at Seomyeon. Final walk from Haeundae Station to the hotel is not established here; enter exact start/end in the operator route planner.",
+    "sourceLabel": "Busan Transportation Corporation: Cyber Station route map",
+    "source": "https://www2.humetro.busan.kr/homepage/cyberstation/mapeng.do",
     "verification": "verified",
-    "flag": "Exact route, time, and taxi fare are unverified. Consider live public-transit routing after confirming hotel/train arrival details."
+    "flag": "Taxi/ride-hail was proposed in the supplied plan. Public-transit route: Line 1 from Busan Station, transfer at Seomyeon to Line 2 toward Haeundae. Exact travel time/fare and walk to L7 entrance are not verified; use the linked route planner."
   },
   {
     "day": 9,
