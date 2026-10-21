@@ -153,3 +153,26 @@ No content file owned by sessions e8bcfa8a, 14a4cdd9, or ae3cc5b4 was edited.
 
 **Request to root-site owner (not edited here):** consider linking `/trip/` (and `/docs/`,
 `/docs/trip-guide/`) from the root landing navigation so travelers can find all four views.
+
+---
+
+# Session `arena/2a9f9e6e-koreatrip3` (`session-2a9f9e6e`) — Verified Trip Portal (`/portal/`), Hotel Public-Transit Matrix & Cross-Session Integration
+
+| ID | Task | Status | Owner | Non-Overlapping Scope |
+|---|---|---|---|---|
+| `S3-1` | Repo audit, remote branch inspection & task claims | `done` | `session-2a9f9e6e` | `COORDINATION.md` |
+| `S3-2` | Line-by-line official verification (`L01`–`L52`, zero inference) | `done` | `session-2a9f9e6e` | `data/session-2a9f9e6e/verified-items.json` |
+| `S3-3` | Hotel-to-destination public-transit & pass matrix (`TR-00`–`TR-12`) | `done` | `session-2a9f9e6e` | `data/session-2a9f9e6e/transit-matrix.json` |
+| `S3-4` | Schedule blockers, hours/fare conflicts & unverified blank audit | `done` | `session-2a9f9e6e` | `data/session-2a9f9e6e/flagged-irregularities.json` |
+| `S3-5` | Mobile-friendly 11-page portal (`/portal/*` + non-overlapping category subpages + cross-repo link/source verifier) | `done` | `session-2a9f9e6e` | `portal/*.html`, `itinerary.html`, `attractions.html`, `dining.html`, `shopping.html`, `analysis.html`, `flagged.html`, `assets/portal-2a9f9e6e.*`, `scripts/*-session-2a9f9e6e.mjs`, `package.json` |
+| `S3-6` | Non-destructive 5-session integration, CI/Pages artifact packaging, PR #8 merge & live deployment verification | `in progress` | `session-2a9f9e6e` | `COORDINATION.md`, `README.md`, `index.html` (directory link banner only), `.github/workflows/pages.yml` |
+
+## Cross-Session Verification Highlights & Official Primary Sources (`session-2a9f9e6e`)
+
+Every table row links directly to an official government, transit, or primary brand page; unconfirmed values remain strictly `""` (empty cell) and flagged on `portal/flagged-for-review.html`:
+
+- **Hotels:** Stanford Hotel Myeongdong (`84 Namdaemun-ro`, 9F check-in `15:00` / out `12:00`, Line 2 Euljiro 1-ga Exit 5/6, Airport Bus `6015` `17,000 KRW` — `https://stanford.webhelper.co.kr/myeongdong/en/room/view/12`, `https://airportlimousine.co.kr/en/sub/sub01.php?cat_no=47`); L7 HAEUNDAE by LOTTE (`55 Haeun-daero 570beon-gil`, 3F check-in `15:00` / out `11:00`, Busan Line 2 Haeundae Exit 5 — `https://www.lottehotel.com/haeundae-l7/en`).
+- **2026 Myeongdong Kyoja Relocation (`FLG-12`):** Official `http://mdkj.co.kr/en/restaurant/head.php` confirms Main HQ relocated & integrated in 2026 to `129 Toegye-ro, Jung-gu` (`10:30–21:00`).
+- **Additional Corporate & Municipal Sources Confirmed:** Crystal Jade Shinsegae Main B1 (`https://www.crystaljade.co.kr/menu/menuInfo.do?shSq=49&shGb=H`, `10:30–20:00` M–F), Cafe Onion Anguk & Seongsu (`https://m.onionkr.com/artfinger/offline.html?cate_no=26`), Hanjungsun (`https://english.visitseoul.net/other/hanjungsun/ENPp1q4s4`), Jayeondo Seongsu (`https://english.visitseoul.net/restaurants/saltbread-in-seaside/ENPxtexu0`), Musinsa Mega Store Seongsu (`https://english.visitseoul.net/area/MUSINSA-MEGA-STORE-SEONGSU/ENPxwxy2m`), Rain Report Rainbow Ikseon-dong (`https://english.visitseoul.net/restaurants/rainreport/ENP933ykf`), Gangnam Style Statue (`http://tour.gangnam.go.kr/en/prcenter/new-landmark-gangnamstyle/`), and 7-Day Seoul Climate Card (`23,000 KRW`/adult incl. physical card; Oct 1, 2026 Seoul boundary notice — `https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140663`).
+- **Conflict Resolution Log:** Merged latest `origin/main` (`87722a2`, preserving all 4 prior merged sessions: `e8bcfa8a` at `/`, `14a4cdd9` at `/docs/`, `ae3cc5b4` at `/docs/trip-guide/`, and `54fb68ab` at `/trip/`). Updated `.github/workflows/pages.yml` so GitHub Actions validates and deploys all 5 portals simultaneously without dropping any session's directory.
+- **PR #8:** https://github.com/buffedlizard55-lab/Koreatrip3/pull/8 (`arena/2a9f9e6e-koreatrip3` → `main`).

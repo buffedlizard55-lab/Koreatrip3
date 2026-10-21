@@ -73,3 +73,17 @@ preserved in `data/itinerary-raw.md`. Findings agree with the other builds on al
 points; dates are presented as Nov 2026 with that assumption flagged (F3) for the traveler
 to confirm. Rebuild: `python3 scripts/build_trip_site.py`, then
 `python3 scripts/check_links.py` (checks all 31 pages across every site in the repo).
+
+---
+
+## Unified Verified Portal & Hotel Public-Transit Matrix — `portal/` & category subpages (`session arena/2a9f9e6e-koreatrip3`)
+
+A fifth parallel, zero-inference primary-source verification & public-transit build covering all 52 itinerary items (`data/session-2a9f9e6e/verified-items.json`), 13 door-to-door hotel public-transit legs (`data/session-2a9f9e6e/transit-matrix.json`), and 13 structural/schedule irregularities (`data/session-2a9f9e6e/flagged-irregularities.json`). Preserves 100% of `/`, `/docs/`, `/docs/trip-guide/`, and `/trip/`:
+
+- **Portal Dashboard:** https://buffedlizard55-lab.github.io/Koreatrip3/portal/
+- **Hotel Public-Transit Matrix:** https://buffedlizard55-lab.github.io/Koreatrip3/portal/transit.html
+- **Flagged for Review Audit:** https://buffedlizard55-lab.github.io/Koreatrip3/portal/flagged-for-review.html
+
+```bash
+npm run check   # build portal + category pages & verify 0 broken links across all 5 parallel sites
+```
