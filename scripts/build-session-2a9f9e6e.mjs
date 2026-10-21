@@ -130,7 +130,7 @@ function filterControls(includeDayFilter = true) {
 function pageShell({ slug, title, subtitle, bodyHtml, assetPrefix }) {
   const hasDocs = fs.existsSync(path.join(ROOT, "docs/index.html"));
   const hasTripGuide = fs.existsSync(path.join(ROOT, "docs/trip-guide/index.html"));
-  const hasPages = fs.existsSync(path.join(ROOT, "pages/day-1.html"));
+  const hasTrip = fs.existsSync(path.join(ROOT, "trip/index.html"));
   const rootPrefix = assetPrefix === "./" ? "./" : "../";
 
   const peerLinks = [
@@ -138,7 +138,7 @@ function pageShell({ slug, title, subtitle, bodyHtml, assetPrefix }) {
     `<a href="${rootPrefix}portal/index.html">Full Portal (/portal/)</a>`,
     hasDocs ? `<a href="${rootPrefix}docs/index.html">Data Tables (/docs/)</a>` : "",
     hasTripGuide ? `<a href="${rootPrefix}docs/trip-guide/index.html">Day-Swap Guide (/docs/trip-guide/)</a>` : "",
-    hasPages ? `<a href="${rootPrefix}pages/day-1.html">Day Views (/pages/)</a>` : ""
+    hasTrip ? `<a href="${rootPrefix}trip/index.html">Day-by-Day Site (/trip/)</a>` : ""
   ]
     .filter(Boolean)
     .join(" · ");

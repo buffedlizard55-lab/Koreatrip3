@@ -1,0 +1,97 @@
+/* Korea Trip 2026 — mobile-first dashboard */
+:root{
+  --ink:#14213d; --mut:#5b6b82; --line:#e3e8f0; --bg:#f6f8fb; --card:#fff;
+  --blue:#0047a0; --red:#cd2e3a; --ok:#137333; --okbg:#e6f4ea;
+  --warn:#8a5a00; --warnbg:#fef7e0; --bad:#a50e0e; --badbg:#fce8e6; --mutbg:#eef1f5;
+  --radius:14px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.55;font-size:16px}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:16px 14px 40px}
+.topbar{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
+  background:#0f2440;color:#fff;padding:10px 14px}
+.brand{color:#fff;font-weight:700;font-size:1.15rem}
+.brand:hover{text-decoration:none}
+.brand span{display:block;font-weight:400;font-size:.78rem;opacity:.85}
+.nav-toggle{background:none;border:1px solid #ffffff55;color:#fff;border-radius:8px;font-size:1.1rem;padding:4px 12px}
+.mainnav{display:none;flex-wrap:wrap;gap:6px;background:#0f2440;padding:0 12px 12px}
+body.nav-open .mainnav{display:flex}
+.mainnav a{color:#dbe7ff;padding:7px 12px;border-radius:999px;border:1px solid #ffffff33;font-size:.9rem}
+.mainnav a.active{background:#fff;color:#0f2440;font-weight:700}
+.mainnav a:hover{text-decoration:none;background:#1d3a63}
+h1{font-size:1.55rem;line-height:1.25;margin:.3em 0 .4em}
+h2.section-title{font-size:1.2rem;margin:26px 0 10px}
+.meta{color:var(--mut);font-size:.93rem}
+.hint{color:var(--mut);font-size:.88rem}
+.crumbs{font-size:.85rem;color:var(--mut)}
+.hero{background:linear-gradient(135deg,#0f2440,#0047a0);color:#fff;border-radius:var(--radius);padding:22px 18px;margin-top:6px}
+.hero h1{margin-top:0;font-size:1.7rem}
+.hero .lede{opacity:.95;max-width:65ch}
+.countdown{background:#ffffff1f;display:inline-block;padding:6px 14px;border-radius:999px;font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:16px}
+.stat{background:#fff;color:var(--ink);border-radius:12px;padding:12px;text-align:center}
+.stat b{font-size:1.5rem;display:block}
+.stat span{font-size:.8rem;color:var(--mut)}
+.stat.ok b{color:var(--ok)} .stat.warn b{color:var(--warn)} .stat.bad b{color:var(--bad)} .stat.mut b{color:var(--mut)}
+.alert{background:var(--warnbg);border:1px solid #f0d48a;border-radius:var(--radius);padding:14px 16px;margin:16px 0}
+.alert.red{background:var(--badbg);border-color:#f2b8b5}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.daycard{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;color:var(--ink);display:block}
+.daycard:hover{text-decoration:none;border-color:var(--blue);box-shadow:0 4px 16px #0047a01f}
+.daycard h3{margin:.2em 0 .3em;font-size:1.08rem}
+.dc-top{display:flex;justify-content:space-between;font-size:.78rem;letter-spacing:.06em}
+.dc-day{font-weight:800;color:var(--blue)} .dc-date{color:var(--mut)}
+.dc-area{color:var(--mut);margin:.2em 0 .6em;font-size:.93rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin:16px 0}
+.card h2{margin-top:0;font-size:1.12rem}
+ul.tight,ol.tight{margin:.3em 0 .3em 1.2em;padding:0}
+ul.tight li,ol.tight li{margin:.35em 0}
+.chip{display:inline-block;padding:1px 9px;border-radius:999px;font-size:.76rem;font-weight:600;white-space:nowrap}
+.chip.ok{background:var(--okbg);color:var(--ok)} .chip.warn{background:var(--warnbg);color:var(--warn)}
+.chip.bad{background:var(--badbg);color:var(--bad)} .chip.mut{background:var(--mutbg);color:var(--mut)}
+/* tables: cards on mobile, grid on desktop */
+.table-wrap{overflow-x:auto}
+table.data{width:100%;border-collapse:collapse;font-size:.92rem}
+table.data th{text-align:left;background:#0f2440;color:#fff;padding:8px;font-size:.8rem}
+table.data td{border-top:1px solid var(--line);padding:8px;vertical-align:top}
+table.data tr.st-bad td{background:#fff5f5}
+table.data tr.st-ok td:first-child{border-left:4px solid var(--ok)}
+table.data tr.st-warn td:first-child{border-left:4px solid #e0a800}
+table.data tr.st-bad td:first-child{border-left:4px solid var(--bad)}
+table.data tr.st-mut td:first-child{border-left:4px solid #c3ccd8}
+.nosrc{color:var(--mut);font-style:italic;font-size:.88rem}
+@media (max-width:760px){
+  table.data thead{display:none}
+  table.data,table.data tbody,table.data tr,table.data td{display:block;width:100%}
+  table.data tr{border:1px solid var(--line);border-radius:12px;margin:10px 0;padding:6px 4px;background:#fff}
+  table.data td{border:none;padding:4px 10px}
+  table.data td::before{content:attr(data-label);display:block;font-size:.7rem;font-weight:700;
+    letter-spacing:.05em;color:var(--mut);text-transform:uppercase;margin-bottom:1px}
+  h1{font-size:1.32rem}
+}
+.flag{background:var(--card);border:1px solid var(--line);border-left:6px solid #c3ccd8;border-radius:12px;padding:14px 16px;margin:12px 0}
+.flag.bad{border-left-color:var(--bad)} .flag.warn{border-left-color:#e0a800}
+.flag header{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.flag h3{margin:.2em 0;font-size:1.05rem;flex:1 1 100%}
+.flag-id{font-weight:800;background:#0f2440;color:#fff;border-radius:6px;padding:1px 8px;font-size:.8rem}
+.flag-rel{color:var(--mut);font-size:.85rem;margin-left:auto}
+.flag-src{font-size:.9rem}
+.fbtn{border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 12px;cursor:pointer;font-size:.85rem}
+.fbtn.on{background:#0f2440;color:#fff}
+.flagrefs{font-size:.92rem}
+.prevnext{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.btn{background:#0f2440;color:#fff;padding:10px 16px;border-radius:10px;font-weight:600}
+.btn:hover{text-decoration:none;background:#1d3a63}
+.foot{border-top:1px solid var(--line);color:var(--mut);font-size:.85rem;padding:18px 14px;max-width:1080px;margin:0 auto}
+@media (min-width:761px){
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .stats{grid-template-columns:repeat(4,1fr)}
+  .nav-toggle{display:none}
+  .mainnav{display:flex}
+  body{font-size:16.5px}
+}
+@media print{ .topbar,.mainnav,.foot,.prevnext,.nav-toggle{display:none} body{background:#fff} }

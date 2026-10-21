@@ -63,16 +63,27 @@ A third parallel, independently verified build of the same trip (phone-first day
 
 ---
 
-## Unified Verified Portal & Hotel Public-Transit Matrix — `portal/` & non-overlapping root category subpages (`session arena/2a9f9e6e-koreatrip3`)
+## Day-by-day field guide — `trip/` (session arena/54fb68ab-koreatrip3)
 
-A fourth parallel, zero-inference primary-source verification & public-transit build covering all 52 itinerary items (`data/session-2a9f9e6e/verified-items.json`), 13 door-to-door hotel public-transit legs (`data/session-2a9f9e6e/transit-matrix.json`), and 13 structural/schedule irregularities (`data/session-2a9f9e6e/flagged-irregularities.json`). Published cleanly without overwriting any peer session's files at:
+A fourth parallel, independently verified build of the same trip: a 13-page mobile-first
+site (dashboard, one page per day, Transport, Hotels, Flagged for Review F1–F20), generated
+by `scripts/build_trip_site.py` and published at https://buffedlizard55-lab.github.io/Koreatrip3/trip/ .
+Its line-by-line verification trail is `data/verification-log.md` and the unedited brief is
+preserved in `data/itinerary-raw.md`. Findings agree with the other builds on all material
+points; dates are presented as Nov 2026 with that assumption flagged (F3) for the traveler
+to confirm. Rebuild: `python3 scripts/build_trip_site.py`, then
+`python3 scripts/check_links.py` (checks all 31 pages across every site in the repo).
+
+---
+
+## Unified Verified Portal & Hotel Public-Transit Matrix — `portal/` & category subpages (`session arena/2a9f9e6e-koreatrip3`)
+
+A fifth parallel, zero-inference primary-source verification & public-transit build covering all 52 itinerary items (`data/session-2a9f9e6e/verified-items.json`), 13 door-to-door hotel public-transit legs (`data/session-2a9f9e6e/transit-matrix.json`), and 13 structural/schedule irregularities (`data/session-2a9f9e6e/flagged-irregularities.json`). Preserves 100% of `/`, `/docs/`, `/docs/trip-guide/`, and `/trip/`:
 
 - **Portal Dashboard:** https://buffedlizard55-lab.github.io/Koreatrip3/portal/
 - **Hotel Public-Transit Matrix:** https://buffedlizard55-lab.github.io/Koreatrip3/portal/transit.html
 - **Flagged for Review Audit:** https://buffedlizard55-lab.github.io/Koreatrip3/portal/flagged-for-review.html
-- **Category Subpages:** `itinerary.html`, `attractions.html`, `dining.html`, `shopping.html`, `analysis.html`, `flagged.html`
 
 ```bash
-npm run check   # build portal + non-overlapping root pages & verify 0 broken links across entire repo
+npm run check   # build portal + category pages & verify 0 broken links across all 5 parallel sites
 ```
-
