@@ -42,16 +42,18 @@ jobs:
           print(f'Validated {len(rows)} sourced itinerary rows')
           PY
           python3 scripts/build_site.py --check
+          python3 source-audit/scripts/validate_site.py
           python3 scripts/check_links.py
           node scripts/verify-session-2a9f9e6e.mjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Assemble static site (all 5 integrated session portals)
+      - name: Assemble static site (all 6 integrated itinerary sites)
         run: |
           mkdir -p _site
           cp *.html styles.css app.js .nojekyll _site/
           cp -r assets _site/assets
           cp -r portal _site/portal
+          cp -r source-audit _site/source-audit
           cp -r data _site/data
           cp -r docs _site/docs
           cp -r trip _site/trip

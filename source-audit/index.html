@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183c37">
+  <meta name="description" content="A source-linked Seoul and Busan travel itinerary, transit guide, and review log for two adult travelers.">
+  <title>Korea Trip | Seoul + Busan</title>
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body data-view="dashboard" data-active="overview">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Korea Trip home">
+      <span class="brand-mark" aria-hidden="true">K</span>
+      <span class="brand-copy"><strong>Korea Trip</strong><small>SEOUL · BUSAN</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+      <a href="index.html" data-link="overview">Overview</a>
+      <a href="itinerary.html" data-link="itinerary">Itinerary</a>
+      <a href="attractions.html" data-link="attractions">Attractions</a>
+      <a href="shopping.html" data-link="shopping">Shopping</a>
+      <a href="food.html" data-link="food">Food</a>
+      <a href="stays.html" data-link="stays">Stays</a>
+      <a href="getting-around.html" data-link="transit">Getting around</a>
+      <a href="sources.html" data-link="sources">Sources</a>
+      <a href="flagged-for-review.html" class="nav-review" data-link="review">Flagged for Review</a>
+    </nav>
+  </header>
+
+  <main id="main" class="page-shell">
+    <section class="hero hero-dashboard" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">A considered Korea travel plan · 2 adults</p>
+        <h1 id="page-title">Seoul, then<br><em>Busan.</em></h1>
+        <p class="hero-lede">A practical, source-linked trip dashboard—with the open questions kept visible, not papered over.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="itinerary.html">Explore the itinerary <span aria-hidden="true">↗</span></a>
+          <a class="text-link text-link-light" href="flagged-for-review.html">Review unresolved items <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="hero-side" aria-label="Trip snapshot">
+        <span class="hero-orbit orbit-one"></span>
+        <span class="hero-orbit orbit-two"></span>
+        <div class="snapshot-card">
+          <div class="snapshot-top"><span class="snapshot-dot"></span><span>TRIP SNAPSHOT</span><span class="snapshot-season">DATE TBD</span></div>
+          <div class="snapshot-route"><span>SEOUL</span><span class="route-line" aria-hidden="true"></span><span>BUSAN</span></div>
+          <div class="snapshot-bottom"><span>9 planned days</span><span>2 travelers</span></div>
+        </div>
+        <div class="hero-stamp" aria-hidden="true">KR<br><span>26</span></div>
+        <p class="hero-note">Official links<br>at every stop</p>
+      </div>
+    </section>
+
+    <section class="content-section dashboard-section" aria-labelledby="overview-heading">
+      <div class="section-heading">
+        <div><p class="eyebrow eyebrow-muted">The essentials</p><h2 id="overview-heading">Trip at a glance</h2></div>
+        <p class="section-intro">Checked against official sources on <span data-checked-date>2026-10-21</span>. Trip year not established.</p>
+      </div>
+      <div id="dashboard-stats" class="stats-grid" aria-live="polite">
+        <div class="stat-card"><span class="stat-label">PLANNED DAYS</span><strong>9</strong><span>Day 7 &amp; 8 stay blank</span></div>
+        <div class="stat-card"><span class="stat-label">PLACES &amp; NOTES</span><strong>—</strong><span>Loading source-linked rows</span></div>
+        <div class="stat-card stat-review"><span class="stat-label">OPEN CHECKS</span><strong>—</strong><span>See Flagged for Review</span></div>
+        <div class="stat-card"><span class="stat-label">OFFICIAL SOURCES</span><strong>—</strong><span>Primary sources linked below</span></div>
+      </div>
+    </section>
+
+    <section class="priority-grid" aria-label="Priority itinerary notes">
+      <article class="priority-card priority-alert">
+        <div class="priority-icon" aria-hidden="true">!</div>
+        <div><p class="eyebrow eyebrow-muted">Schedule conflict</p><h3>Tuesday at Gyeongbokgung</h3><p>The palace is normally closed on Tuesdays. Day 3 remains exactly as labeled; no date or exception has been assumed.</p><a href="flagged-for-review.html" class="text-link">See the official closure note <span aria-hidden="true">→</span></a></div>
+      </article>
+      <article class="priority-card priority-date">
+        <div class="priority-icon" aria-hidden="true">↗</div>
+        <div><p class="eyebrow eyebrow-muted">Date strings preserved</p><h3>No silent corrections</h3><p>“Oct.31/Nov 1” and “Monday—Nov 2,2006” remain as written. The trip year and date/weekday pairing need review.</p><a href="flagged-for-review.html" class="text-link">See date flags <span aria-hidden="true">→</span></a></div>
+      </article>
+    </section>
+
+    <section class="content-section" aria-labelledby="quick-links-heading">
+      <div class="section-heading">
+        <div><p class="eyebrow eyebrow-muted">Browse the plan</p><h2 id="quick-links-heading">Plan by category</h2></div>
+        <a href="sources.html" class="text-link">Browse the source register <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="category-grid">
+        <a class="category-card category-itinerary" href="itinerary.html"><span class="category-number">01</span><span class="category-label">The schedule</span><strong>Day by day</strong><span class="category-arrow" aria-hidden="true">↗</span><p>Original date strings, planned notes, and unassigned stops.</p></a>
+        <a class="category-card category-attractions" href="attractions.html"><span class="category-number">02</span><span class="category-label">Seoul + Busan</span><strong>Attractions</strong><span class="category-arrow" aria-hidden="true">↗</span><p>Palaces, neighborhoods, towers, design, and markets.</p></a>
+        <a class="category-card category-shopping" href="shopping.html"><span class="category-number">03</span><span class="category-label">Retail + markets</span><strong>Shopping</strong><span class="category-arrow" aria-hidden="true">↗</span><p>Official locations, opening hours, and shop-level caveats.</p></a>
+        <a class="category-card category-food" href="food.html"><span class="category-number">04</span><span class="category-label">Restaurants + cafés</span><strong>Food</strong><span class="category-arrow" aria-hidden="true">↗</span><p>Verified stops and named businesses held for review.</p></a>
+        <a class="category-card category-stays" href="stays.html"><span class="category-number">05</span><span class="category-label">Home bases</span><strong>Stays</strong><span class="category-arrow" aria-hidden="true">↗</span><p>Hotel addresses and transit anchors for each city.</p></a>
+        <a class="category-card category-transit" href="getting-around.html"><span class="category-number">06</span><span class="category-label">Public transport</span><strong>Getting around</strong><span class="category-arrow" aria-hidden="true">↗</span><p>Airport rail, Seoul Metro, KTX, and Busan connections.</p></a>
+      </div>
+    </section>
+
+    <section class="insight-band" aria-labelledby="analysis-heading">
+      <div class="insight-intro"><p class="eyebrow">Planning analysis</p><h2 id="analysis-heading">Keep the known,<br><em>mark the unknown.</em></h2><p>The best next step is to resolve dates and branch choices—not to guess at them.</p></div>
+      <ul class="insight-list">
+        <li><span class="insight-index">01</span><div><strong>Airport transfer</strong><p>AREX Express and All-stop are different services; “$7 / 45 minutes” does not specify which.</p></div></li>
+        <li><span class="insight-index">02</span><div><strong>Seoul route clusters</strong><p>Seongsu, COEX, and DDP are separate transit clusters. Their day order is left unassigned where the source sequence is unavailable.</p></div></li>
+        <li><span class="insight-index">03</span><div><strong>Rail to Busan</strong><p>KTO confirms the Gyeongbu connection and general booking window; a dated KTX fare, train, and station-arrival rule still need confirmation.</p></div></li>
+      </ul>
+    </section>
+
+    <section class="content-section sources-callout">
+      <div><p class="eyebrow eyebrow-muted">Evidence, not guesswork</p><h2>Every itinerary row links to a source.</h2><p>Official operator, government, tourism, and first-party business pages are separated from indexed excerpts and unresolved results.</p></div>
+      <a class="button button-dark" href="sources.html">Open source register <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="index.html">Korea Trip <span>· Seoul + Busan</span></a>
+    <p>Source snapshot: <span data-checked-date>2026-10-21</span> · Trip dates not confirmed · Official details may change.</p>
+    <a href="flagged-for-review.html">Flagged for Review <span aria-hidden="true">↗</span></a>
+  </footer>
+</body>
+</html>

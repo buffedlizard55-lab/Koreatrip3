@@ -177,3 +177,33 @@ Every table row links directly to an official government, transit, or primary br
 - **Conflict Resolution Log:** Merged latest `origin/main` (`87722a2`, preserving all 4 prior merged sessions: `e8bcfa8a` at `/`, `14a4cdd9` at `/docs/`, `ae3cc5b4` at `/docs/trip-guide/`, and `54fb68ab` at `/trip/`). Updated `.github/workflows/pages.yml` so GitHub Actions validates and deploys all 5 portals simultaneously without dropping any session's directory.
 - **PR #8 (Merged):** https://github.com/buffedlizard55-lab/Koreatrip3/pull/8 (`arena/2a9f9e6e-koreatrip3` → `main`, merge commit `9acf512`).
 - **Live GitHub Pages Deployment Confirmed (2026-10-21):** GitHub Actions workflow run https://github.com/buffedlizard55-lab/Koreatrip3/actions/runs/39566287169 succeeded (`0` validation or link errors across all 48 HTML pages / 5 parallel portals); verified live HTTP 200 at https://buffedlizard55-lab.github.io/Koreatrip3/, https://buffedlizard55-lab.github.io/Koreatrip3/portal/index.html, https://buffedlizard55-lab.github.io/Koreatrip3/portal/transit.html, and https://buffedlizard55-lab.github.io/Koreatrip3/portal/flagged-for-review.html. Flagged items remain published on the Flagged for Review page for traveler review.
+
+---
+
+# Session `arena/b1177e35-koreatrip3` — source-audited companion (`/source-audit/`)
+
+| Task | Status | Owner / session | Scope |
+|---|---|---|---|
+| Official-source itinerary and transit audit; responsive dashboard, category pages, source register, and Flagged for Review | done | `arena/b1177e35-koreatrip3` | `source-audit/**` |
+| Non-destructive integration with the five sites already on `main`; combined QA, PR, merge, and Pages confirmation | in progress | `arena/b1177e35-koreatrip3` | `index.html` link only, `README.md`, `.github/workflows/pages.yml`, this section |
+
+## Claim, scope, and conflict resolution
+
+- The repository at the session's original base (`fa820014`) contained only `README.md`; the full-scope claim was committed and pushed before research as `08e3d04`. The source-linked implementation was committed as `75a1528` and opened as PR #11.
+- Before PR #11 could merge, `origin/main` advanced to `85104b5` and contained the root dashboard plus `/docs/`, `/docs/trip-guide/`, `/trip/`, and `/portal/`. PR #11's original root-level pages, JSON files, and standalone workflow conflicted with that integrated project. No shared-site replacement or conflict-resolution deletion was retained.
+- To preserve every existing site, this session's nine pages, four JSON datasets, assets, and validator were relocated with their relative links intact to `source-audit/`. The latest `main` copies of root pages, data, assets, coordination history, and the multi-site Pages workflow were retained. The root dashboard received only a link to the companion. The combined workflow now runs the companion's validator and packages `/source-audit/` in addition to all prior sites.
+- The existing root site's 68-row dataset and the prior `/docs/`, `/docs/trip-guide/`, `/trip/`, and `/portal/` outputs remain present; this companion is an additional, separate view and does not claim to replace or reduce that root dataset.
+
+## Research and retained ambiguities
+
+- The companion has 9 day cards, 40 itinerary rows, 11 public-transit routes, 57 official source links, and 30 review notes. Each itinerary/transit/review row references an official source; unsupported values remain blank and are flagged.
+- Raw supplied strings `Oct.31/Nov 1` and `Monday—Nov 2,2006` remain unchanged. The U.S. Naval Observatory date calculator confirms that 2 Nov 2006 is Thursday, not Monday; no trip year is inferred. Day 7 and Day 8 stay blank, and unclear venue/day assignments remain unassigned.
+- Day 3 remains labeled Tuesday while the official Gyeongbokgung information lists Tuesday closure; no schedule repair is made. AREX price/duration, the N Seoul Tower `$31` package, date-specific KTX fare/time, the supplied KTX arrival buffer, and several business branches/hours remain unresolved or explicitly qualified.
+- Source register: `source-audit/data/sources.json`; date, venue, price, and transit caveats: `source-audit/data/flags.json`. Directly checked official sources and known dynamic/blocked/redirect limitations are recorded in the source register and in this session's research notes.
+
+## Checks and publication log
+
+- Before integration, the companion-only validator passed: 9 pages, 9 days, 40 rows, 11 routes, 57 source links, and 30 review notes. JSON parsing, JavaScript syntax, `git diff --check`, and local preview HTTP 200 checks for 14 resources also passed.
+- Integration conflict recorded and resolved: PR #11 originally reported `CONFLICTING` against `main`; the resolution preserved all five merged sites and relocated this session's output to `/source-audit/`. Combined pre-merge checks now pass: the root dataset validates 68 sourced rows; `scripts/build_site.py --check` reports 72 records / 0 errors; the companion validator passes (9 pages, 40 rows, 11 routes, 57 sources, 30 flags); `scripts/check_links.py` passes across 57 pages; and the portal verifier passes across 57 pages, 1,042 internal links, and 410 sourced table rows. `git diff --check origin/main` passes.
+- Required pre-push `git pull --rebase` attempts against the stale session ref and `origin/main` both tried to replay already-merged collaboration commits and stopped at an add/add `COORDINATION.md` conflict. Both rebases were aborted without losing changes. The fetched session tip and `origin/main` are ancestors of the integration commit, so the pending branch update is a normal fast-forward; no force push is needed.
+- PR #11: https://github.com/buffedlizard55-lab/Koreatrip3/pull/11 — open; the corrected description is saved and the integrated branch push is pending. GitHub Pages merge/deploy confirmation remains pending.

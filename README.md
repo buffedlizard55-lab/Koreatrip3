@@ -72,7 +72,7 @@ Its line-by-line verification trail is `data/verification-log.md` and the unedit
 preserved in `data/itinerary-raw.md`. Findings agree with the other builds on all material
 points; dates are presented as Nov 2026 with that assumption flagged (F3) for the traveler
 to confirm. Rebuild: `python3 scripts/build_trip_site.py`, then
-`python3 scripts/check_links.py` (checks all 31 pages across every site in the repo).
+`python3 scripts/check_links.py` (checks all 57 pages across every site in the repo after `/source-audit/` is included).
 
 ---
 
@@ -85,5 +85,13 @@ A fifth parallel, zero-inference primary-source verification & public-transit bu
 - **Flagged for Review Audit:** https://buffedlizard55-lab.github.io/Koreatrip3/portal/flagged-for-review.html
 
 ```bash
-npm run check   # build portal + category pages & verify 0 broken links across all 5 parallel sites
+npm run check   # build portal + verify internal links across all 6 sites
 ```
+
+---
+
+## Source-audited companion — `source-audit/` (session `arena/b1177e35-koreatrip3`)
+
+A sixth, independently maintained companion dashboard with a day-by-day itinerary, category pages, hotel-based public-transit guidance, an official source register, and a clearly labeled **Flagged for Review** page. Its separate dataset retains 40 itinerary rows, 11 transit routes, 57 official source links, and 30 review notes across nine day cards. It is published at <https://buffedlizard55-lab.github.io/Koreatrip3/source-audit/> and linked from the root landing page. Existing root, `/docs/`, `/docs/trip-guide/`, `/trip/`, and `/portal/` sites and their datasets remain intact.
+
+Run its offline structural check with `python3 source-audit/scripts/validate_site.py`; the combined Pages workflow also validates its data and packages the directory.

@@ -1,0 +1,515 @@
+[
+  {
+    "id": "sfo-nonstop",
+    "title": "Where We Fly — Asia",
+    "publisher": "San Francisco International Airport",
+    "url": "https://www.flysfo.com/nonstop/where-we-fly-asia",
+    "evidenceType": "Official airport page",
+    "notes": "Current SFO page lists nonstop service to Seoul-Incheon by Air Premia, Asiana, Korean Air, and United. It does not confirm a specific date or flight.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "icn-arrival",
+    "title": "Arrivals / arrival procedures",
+    "publisher": "Incheon International Airport",
+    "url": "https://www.airport.kr/ap_en/1439/subview.do",
+    "evidenceType": "Official airport page",
+    "notes": "Arrival guidance for immigration, baggage claim, and the arrivals hall.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "arex-express",
+    "title": "AREX Express Train information",
+    "publisher": "Airport Railroad (AREX)",
+    "url": "https://www.arex.or.kr/content.do?url=&menuNo=MN201503300000000001",
+    "evidenceType": "Official indexed excerpt; direct page returned an error image",
+    "notes": "Official search excerpt lists Express durations of about 43 minutes from T1 / 51 minutes from T2 and time-sensitive fare information. Verify the live operator page before travel.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "arex-allstop",
+    "title": "AREX All-stop Train information",
+    "publisher": "Airport Railroad (AREX)",
+    "url": "https://www.arex.or.kr/content.do?url=&menuNo=MN201503300000000006",
+    "evidenceType": "Official indexed excerpt; direct page returned an error image",
+    "notes": "Official search excerpt lists All-stop durations of about 59 minutes from T1 / 66 minutes from T2. Confirm current services and fares on the operator page.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "airport-limousine-6015",
+    "title": "Route 6015 — Myeong-dong",
+    "publisher": "Airport Limousine Co., Ltd.",
+    "url": "https://airportlimousine.co.kr/en/sub/sub01.php?cat_no=21",
+    "evidenceType": "Directly fetched first-party operator page",
+    "notes": "Route stop list, adult/child fare, timetable links, and real-time bus tracking. The route lists Lotte Hotel, IBIS Myeong-dong, Royal Hotel / Euljiro 1-ga, and Myeong-dong Station; it does not list Stanford Hotel as a stop.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "stanford-visitseoul",
+    "title": "Stanford Hotel Myeongdong listing",
+    "publisher": "Visit Seoul (Seoul Tourism Organization)",
+    "url": "https://english.visitseoul.net/hotel/view/23843946",
+    "evidenceType": "Official city tourism listing",
+    "notes": "Hotel listing gives 84 Namdaemun-ro, Seoul.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "stanford-faq",
+    "title": "Stanford Hotel Myeongdong FAQ",
+    "publisher": "Stanford Hotel Myeongdong",
+    "url": "https://stanford.webhelper.co.kr/myeongdong/en/contents/list/faq",
+    "evidenceType": "Official hotel FAQ; fetch redirected",
+    "notes": "Official property FAQ link; direct retrieval redirected to the property home page, so no check-in or airport-transfer value is treated as confirmed.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "seoulmetro-faq",
+    "title": "Seoul Metro FAQ",
+    "publisher": "Seoul Metro",
+    "url": "http://www.seoulmetro.co.kr/en/page.do?menuIdx=716",
+    "evidenceType": "Directly fetched official operator page",
+    "notes": "FAQ identifies COEX access via Samseong Station Line 2 Exit 6 and Gyeongbokgung access via Line 3 Exit 5; the page also covers other station guidance.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "seoulmetro-line-map",
+    "title": "Seoul Metro Cyber Station",
+    "publisher": "Seoul Metro",
+    "url": "http://www.seoulmetro.co.kr/en/cyberStation.do?menuIdx=337",
+    "evidenceType": "Official operator route planner",
+    "notes": "Official cyber-station route map/planner. Use it for a date-specific route from the exact hotel entrance.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "gyeongbokgung-kto",
+    "title": "Gyeongbokgung Palace",
+    "publisher": "Korea Tourism Organization — VISITKOREA",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=87740",
+    "evidenceType": "Official tourism listing",
+    "notes": "Palace address, seasonal opening hours, and normal Tuesday closure; date-specific exceptions must be confirmed by the palace.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "royal-life-kto",
+    "title": "Experience Royal Palace Life / palace ceremony schedule",
+    "publisher": "Korea Tourism Organization — VISITKOREA",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=124533",
+    "evidenceType": "Official tourism listing",
+    "notes": "Current general listing gives regular ceremony times Wednesday–Monday at 10:00 and 14:00; schedules can change.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "royal-heritage-notice",
+    "title": "Royal guard performance notice",
+    "publisher": "Korea Heritage Service — Royal Heritage",
+    "url": "https://royal.khs.go.kr/ROYAL/contents/R403000000.do?schM=view&id=20250331155740851139&schBcid=notice01",
+    "evidenceType": "Official heritage-service notice",
+    "notes": "Official notice warns that the guard performance may be canceled due to weather. The notice is not a guarantee for a future trip date.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "bukchon-visitseoul",
+    "title": "Bukchon Hanok Village",
+    "publisher": "Visit Seoul (Seoul Tourism Organization)",
+    "url": "https://english.visitseoul.net/attractions/Bukchon-Hanok-Village/ENP000261",
+    "evidenceType": "Official city tourism listing",
+    "notes": "Lists visitor hours of 10:00–17:00.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "bukchon-seoul-notice",
+    "title": "Notice on restrictions for tourist visits to Bukchon special management area",
+    "publisher": "Seoul Metropolitan Government",
+    "url": "https://english.seoul.go.kr/notice-on-restrictions-for-tourist-visits-to-bukchon-special-management-area-effective-from-november-2024/",
+    "evidenceType": "Official city-government notice",
+    "notes": "Documents red-zone restrictions from 17:00 to 10:00 and a potential ₩100,000 fine; check current boundaries and posted rules.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "nseoul-hours",
+    "title": "N Seoul Tower hours",
+    "publisher": "N Seoul Tower",
+    "url": "https://www.nseoultower.co.kr/eng/visit/use.asp",
+    "evidenceType": "Directly fetched first-party operator page",
+    "notes": "Lists observatory hours (weekdays 10:00–22:30; weekends/holidays 10:00–23:00) and warns that hours may change; last entry is 30 minutes before closing.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "nseoul-admission",
+    "title": "N Seoul Tower admission fees",
+    "publisher": "N Seoul Tower",
+    "url": "https://www.nseoultower.co.kr/eng/visit/use2.asp",
+    "evidenceType": "Directly fetched first-party operator page",
+    "notes": "Lists Observatory adult admission at ₩29,000 and child/senior at ₩23,000. This is not confirmation of a user-supplied $31 combined observatory/cable-car package.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "nseoul-bus",
+    "title": "Getting to N Seoul Tower by bus",
+    "publisher": "N Seoul Tower",
+    "url": "https://www.nseoultower.co.kr/eng/visit/traffic.asp",
+    "evidenceType": "Directly fetched first-party operator page",
+    "notes": "Lists Namsan Sunhwan Shuttle Buses 01A/01B, nearby subway anchors, intervals, operating hours, and ₩1,500 transportation-card fare.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "myeongdong-visitseoul",
+    "title": "Myeongdong",
+    "publisher": "Visit Seoul (Seoul Tourism Organization)",
+    "url": "https://english.visitseoul.net/shopping/Myeong-dong/ENP000067",
+    "evidenceType": "Directly fetched official city tourism listing",
+    "notes": "Describes the shopping district and street stalls; open daily with shop hours varying. Edited May 4, 2026. Does not confirm a fixed 02:00 street-stall closing time.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "oliveyoung-myeongdong",
+    "title": "Olive Young Myeongdong Town store information",
+    "publisher": "Olive Young",
+    "url": "https://m.oliveyoung.co.kr/m/mtn/store/information/D176?storeCode=D176&language=EN&tabType=storeInfo",
+    "evidenceType": "Directly fetched first-party store page",
+    "notes": "Confirms the Myeongdong Town name, 1–2F, 53 Myeongdong-gil address, and station exits. Weekly hours were not fully exposed in the readable view; the itinerary leaves that field blank.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "myeongdong-kyoja-visitseoul",
+    "title": "Myeongdong Kyoja",
+    "publisher": "Visit Seoul (Seoul Tourism Organization)",
+    "url": "https://english.visitseoul.net/eat/Myeongdong-Kyoja-EN/ENP008570",
+    "evidenceType": "Official city tourism listing / official indexed excerpt",
+    "notes": "Lists daily 10:30–21:00 and 29 Myeongdong 10-gil. Other official records list different address details, so this address is not treated as definitive.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "myeongdong-kyoja-kto",
+    "title": "Myeongdong Kyoja",
+    "publisher": "Korea Tourism Organization — VISITKOREA",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99925",
+    "evidenceType": "Official tourism listing",
+    "notes": "English and Korean address fields do not align with the Visit Seoul listing; source supports the address-conflict flag.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "myeongdong-kyoja-official",
+    "title": "Myeongdong Kyoja official website / menu and branch information",
+    "publisher": "Myeongdong Kyoja",
+    "url": "http://www.mdkj.co.kr/en/menu/menu03.php",
+    "evidenceType": "First-party business page / indexed branch excerpt",
+    "notes": "Official site information identifies a main location at 129 Toegye-ro and a branch at 8 Myeongdong 10-gil; this differs from tourist listings. Confirm the branch directly before routing.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "lotte-main",
+    "title": "Lotte Department Store Main Store",
+    "publisher": "LOTTE Department Store",
+    "url": "https://global.lotteshopping.com/eng/store/main?cstrCd=0001",
+    "evidenceType": "Official operator page; hours are dynamic",
+    "notes": "Official branch page for the Main Store at 81 Namdaemun-ro; hours and monthly closures are date-dependent/dynamic.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "shinsegae-main",
+    "title": "Shinsegae Department Store Main Store",
+    "publisher": "Korea Tourism Organization — VISITKOREA (official listing)",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=106990",
+    "evidenceType": "Official tourism listing",
+    "notes": "Lists 63 Sogong-ro and Mon–Thu 10:30–20:00 / Fri–Sun 10:30–20:30; monthly closures vary. Verify with the store for the trip month.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "crystal-jade-shinsegae",
+    "title": "Crystal Jade Shinsegae Main branch",
+    "publisher": "Crystal Jade Korea",
+    "url": "https://www.crystaljade.co.kr/menu/menuInfo.do?shSq=49&shGb=H",
+    "evidenceType": "Directly fetched first-party branch page",
+    "notes": "Confirms Shinsegae Main B1, 63 Sogong-ro, and weekday/weekend hours. Korean page.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "ddp-visitseoul",
+    "title": "Dongdaemun Design Plaza (DDP)",
+    "publisher": "Visit Seoul (Seoul Tourism Organization)",
+    "url": "https://english.visitseoul.net/dongdaemunarea/dongdaemun-design-plaza-en/ENP024679",
+    "evidenceType": "Official city tourism listing",
+    "notes": "Lists 281 Euljiro, 10:00–20:00 (hours vary by space), daily operation, named holiday closures, and Dongdaemun History & Culture Park Station Lines 2/4/5 Exit 1.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "coex-starfield",
+    "title": "Starfield COEX Mall direction / business hours",
+    "publisher": "Starfield COEX Mall",
+    "url": "https://m.starfield.co.kr/coexmall/store/direction?move=subway&lang=en",
+    "evidenceType": "Official operator page / official indexed excerpt",
+    "notes": "Lists 513 Yeongdong-daero, 10:30–22:00 mall hours, and variation by individual store.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "coex-store-directory",
+    "title": "Starfield COEX Mall store information",
+    "publisher": "Starfield COEX Mall",
+    "url": "https://m.starfield.co.kr/coexmall/store/about?lang=en",
+    "evidenceType": "Official operator store directory",
+    "notes": "Official store-information page; no matching tenant named exactly “Soul Market” was confirmed in the reviewed directory/search results.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "coex-visitseoul",
+    "title": "COEX Mall",
+    "publisher": "Visit Seoul (Seoul Tourism Organization)",
+    "url": "https://english.visitseoul.net/shopping/COEX-Mall/ENP000268",
+    "evidenceType": "Official city tourism listing",
+    "notes": "Provides COEX area context, address, and shopping/dining summary; operator hours are taken from Starfield's own page.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "wtc-seoul-visitseoul",
+    "title": "WTC Seoul / COEX area listing",
+    "publisher": "Visit Seoul (Seoul Tourism Organization)",
+    "url": "https://english.visitseoul.net/gangnamarea/WTCSeoul_/42329",
+    "evidenceType": "Official city tourism listing",
+    "notes": "Includes the Psy / Gangnam Style hand statue among COEX-area attractions; no separate operating hours for the photo point are listed.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "gwangjang-kto",
+    "title": "Gwangjang Market",
+    "publisher": "Korea Tourism Organization — VISITKOREA",
+    "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=106345",
+    "evidenceType": "Official tourism listing / official indexed excerpt",
+    "notes": "Lists 88 Changgyeonggung-ro, market hours 09:00–18:00, food street 09:00–23:00, and Sunday closure except the food street.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "gwangjang-visitseoul",
+    "title": "Gwangjang Market",
+    "publisher": "Visit Seoul (Seoul Tourism Organization)",
+    "url": "https://english.visitseoul.net/shopping/Gwangjang-Market_/287",
+    "evidenceType": "Official city tourism listing",
+    "notes": "Provides a second official listing of market and food-alley hours; individual stall schedules may differ.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "mangwon-visitseoul",
+    "title": "Mangwon Market",
+    "publisher": "Visit Seoul (Seoul Tourism Organization)",
+    "url": "https://english.visitseoul.net/shopping/Mangwon-Market/ENP037950",
+    "evidenceType": "Official city tourism listing",
+    "notes": "Lists daily 10:00–21:00, varying by store. Official Visit Seoul material gives the market at 14 Poeun-ro 8-gil, Mapo-gu.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "onion-anguk-official",
+    "title": "Cafe Onion store locations / Anguk",
+    "publisher": "Cafe Onion",
+    "url": "https://m.onionkr.com/artfinger/offline.html?cate_no=26",
+    "evidenceType": "Official indexed first-party store listing",
+    "notes": "Lists Onion Anguk at 5 Gyedong-gil, weekday 07:00–22:00, weekend/holiday 09:00–22:00, and Anguk Station Exit 3. Search excerpt was readable; the exact listing can be reviewed at the first-party link.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "onion-anguk-kto",
+    "title": "Onion Anguk Branch",
+    "publisher": "Korea Tourism Organization — VISITKOREA",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=191156",
+    "evidenceType": "Official tourism listing",
+    "notes": "Lists address 5 Gyedong-gil and weekday/weekend operating hours; hours can differ across snapshots, so the first-party listing is preferred for the displayed current detail.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "margesherwood-official",
+    "title": "Official stockist list — MARGESHERWOOD",
+    "publisher": "MARGESHERWOOD",
+    "url": "https://global.margesherwood.com/pages/stockist-official",
+    "evidenceType": "Directly fetched first-party store listing",
+    "notes": "Lists the Seongsu address at 13 Yeonmujang 11-gil and daily 11:00–20:00 hours.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "musinsa-seongsu-official",
+    "title": "MUSINSA Standard Seongsu location",
+    "publisher": "MUSINSA",
+    "url": "https://locations.musinsa.com/en/stndss",
+    "evidenceType": "Directly fetched first-party location page",
+    "notes": "Lists 83 Yeonmujang-gil and daily 11:00–21:00 hours.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "blue-elephant-official",
+    "title": "Seongsu flagship store",
+    "publisher": "BLUE ELEPHANT",
+    "url": "https://en.blueelephant.co/product/seongsu-flagship-store/3725/",
+    "evidenceType": "Official indexed excerpt; direct fetch hit a Cloudflare challenge",
+    "notes": "Official search excerpt lists 13 Yeonmujang-gil and daily 12:00–22:00. Verify the live first-party page before travel.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "jayeondo-official",
+    "title": "Jayeondo store information",
+    "publisher": "Jayeondo / Moduda Property",
+    "url": "https://modudaproperty.com/en/store/",
+    "evidenceType": "Directly fetched first-party store listing",
+    "notes": "Lists Jayeondo Seongsu at 56-1 Yeonmujang-gil and daily 09:00–22:00 hours.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "hanjungsun-visitseoul",
+    "title": "Hanjungsun",
+    "publisher": "Visit Seoul (Seoul Tourism Organization)",
+    "url": "https://english.visitseoul.net/area/hanjungsun/ENPp1q4s4",
+    "evidenceType": "Directly fetched official city tourism listing",
+    "notes": "Lists address 1F, 43-1 Yeonmujang-gil, daily 10:30–22:00, Seongsu Station Exit 4, and take-out-only service.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "eternalog-official",
+    "title": "Eternalog official site",
+    "publisher": "Eternalog",
+    "url": "http://eternalog-fotobooth.com/",
+    "evidenceType": "First-party business site",
+    "notes": "Official site lists the Seongsu address at 14 Yeonmujang 5ga-gil; no operating hours were found in the page reviewed.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "solsot-instagram",
+    "title": "Solsot Seongsu official Instagram profile",
+    "publisher": "Solsot Seongsu",
+    "url": "https://www.instagram.com/solsot_seongsu/",
+    "evidenceType": "Official indexed profile excerpt; direct fetch unavailable",
+    "notes": "First-party profile excerpt lists 24 Yeonmujang 5ga-gil, 1F, and 11:30–21:00; it also says year-round and gives weekend break guidance. Confirm on the live account.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "ader-official",
+    "title": "ADER ERROR Seoul page",
+    "publisher": "ADER ERROR",
+    "url": "https://en.adererror.com/product/seoul/373/undefined",
+    "evidenceType": "Official brand page; direct fetch blocked",
+    "notes": "The official page result exposed company/office information, not a confirmed Seongsu retail location or local store hours. No office address is used as a retail address.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "brandy-melville-official",
+    "title": "Brandy Melville official site",
+    "publisher": "Brandy Melville",
+    "url": "https://brandymelville.com/",
+    "evidenceType": "Official brand site; Seoul branch not confirmed",
+    "notes": "Provided for manual review only; no Seoul store address or hours were confirmed from an official branch listing.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "rain-report-kto",
+    "title": "Rain Report Croissant (Seongsu) listing",
+    "publisher": "Korea Tourism Organization — VISITKOREA",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=175514",
+    "evidenceType": "Official tourism listing; direct fetch returned an unstable 400 response",
+    "notes": "Official indexed page result identifies Rain Report Croissant at 32 Seongsui-ro 16-gil, 1–2F, with 11:00–22:00 hours and last order 21:00. This is a named Seongsu candidate, not an automatic match to an unspecified “Rain Report” itinerary line.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "rain-report-instagram",
+    "title": "Rain Report official Instagram profile",
+    "publisher": "Rain Report",
+    "url": "https://www.instagram.com/rainreport_official/",
+    "evidenceType": "Official brand profile; direct fetch unavailable",
+    "notes": "Linked to verify the intended branch. Search/profile material shows multiple branch references; no branch is selected in the itinerary.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "ikseon-chwihyang-instagram",
+    "title": "Favorite Ikseon / Ikseon Chwihyang official Instagram",
+    "publisher": "Ikseon Chwihyang",
+    "url": "https://www.instagram.com/favorite_ikseon/",
+    "evidenceType": "Official indexed profile excerpt; direct fetch unavailable",
+    "notes": "Profile excerpt says walk-in only and 12:00–21:00. No street address was confirmed in the readable official result.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "chuncheongol-instagram",
+    "title": "Chuncheongol Dakgalbi official Instagram result",
+    "publisher": "Chuncheongol Dakgalbi (Mia Sageori profile result)",
+    "url": "https://www.instagram.com/heogun_chuncheongol/",
+    "evidenceType": "Official indexed profile excerpt; branch match unresolved",
+    "notes": "Search result is for a similarly named Mia Sageori-area business. The intended branch in the itinerary was not confirmed; do not transfer its details without matching the branch.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "seoul-food-directory",
+    "title": "Official Seoul restaurant directory",
+    "publisher": "Visit Seoul (Seoul Tourism Organization)",
+    "url": "https://english.visitseoul.net/restaurants",
+    "evidenceType": "Official directory / manual-review entry point",
+    "notes": "No primary listing matching the intended Uri Wang Galbitang business and branch was confirmed in the pages reviewed. The directory is linked for manual review only.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "hongojib-official",
+    "title": "Hongojib official franchise/store page",
+    "publisher": "Hongojib",
+    "url": "https://hongojib.com/franchise/list",
+    "evidenceType": "Directly fetched first-party company page; branch identity unresolved",
+    "notes": "The corporate location page gives company details, not the intended dining branch. The franchise list page returned unrelated/outdated entries in the readable view; no branch is treated as verified.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "pig-restaurant-facebook",
+    "title": "Pig Restaurant 2 official Facebook page",
+    "publisher": "Pig Restaurant 2",
+    "url": "https://www.facebook.com/pigrestaurant2se/",
+    "evidenceType": "Official business social page; direct fetch unavailable",
+    "notes": "Official page search information identifies an Itaewon/Yongsan context but did not establish a reliable address or hours.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "kto-train-guide",
+    "title": "Train travel in Korea",
+    "publisher": "Korea Tourism Organization — VISITKOREA",
+    "url": "https://english.visitkorea.or.kr/svc/contents/infoBscView.do?vcontsId=140656",
+    "evidenceType": "Official tourism guide / indexed excerpt",
+    "notes": "Gyeongbu Line connects Seoul and Busan; KTX booking guidance says tickets usually open about one month before departure and can generally be bought until 20 minutes before departure. Does not confirm a specific train, fare, or 45-minute station-arrival rule.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "korail-booking",
+    "title": "KORAIL online booking",
+    "publisher": "Korea Railroad Corporation (KORAIL)",
+    "url": "https://www.korail.com/",
+    "evidenceType": "Official rail operator booking site",
+    "notes": "Use for date-specific train availability, schedules, and fares. No trip date was provided, so no ticket result is published.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "l7-haeundae-location",
+    "title": "L7 HAEUNDAE location and directions",
+    "publisher": "L7 HAEUNDAE by LOTTE HOTELS",
+    "url": "https://www.lottehotel.com/prerendered/haeundae-l7/en/about/location/index.html",
+    "evidenceType": "Directly fetched first-party hotel page",
+    "notes": "Confirms 55 Haeun-daero 570beon-gil and publishes Busan Station bus 1003 / 1001 approximate times and onward walk descriptions to Haeundae Beach entrance.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "haeundae-market-kto",
+    "title": "Busan Haeundae Market",
+    "publisher": "Korea Tourism Organization — VISITKOREA",
+    "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=84963",
+    "evidenceType": "Official tourism listing / official indexed excerpt",
+    "notes": "Lists 22-1 Gunam-ro 41beon-gil, 09:00–22:00, and says hours/holidays vary by store.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "busan-metro-map",
+    "title": "Busan Metro Cyber Station map",
+    "publisher": "Busan Transportation Corporation (Humetro)",
+    "url": "https://www2.humetro.busan.kr/homepage/cyberstation/mapeng.do",
+    "evidenceType": "Directly fetched official transit map",
+    "notes": "Confirms Busan Station on Line 1, Haeundae on Line 2, and interchange at Seomyeon.",
+    "checkedOn": "2026-10-21"
+  },
+  {
+    "id": "usno-date-calculator",
+    "title": "Julian Date Converter",
+    "publisher": "United States Naval Observatory",
+    "url": "https://aa.usno.navy.mil/data/JulianDate",
+    "evidenceType": "Official federal date-calculation tool",
+    "notes": "USNO's official converter explains Gregorian calendar handling and that the day of week can be obtained from the Julian date. Calendar arithmetic for the literal date 2006-11-02 yields Thursday; use the tool to review the date/weekday pairing without altering the supplied text.",
+    "checkedOn": "2026-10-21"
+  }
+]
