@@ -45,6 +45,7 @@ jobs:
           cp index.html styles.css app.js *.html _site/
           cp data/itinerary.json _site/data/
           cp -r docs _site/docs
+          cp -r trip _site/trip
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -60,3 +60,16 @@ Build rules: a row marked Verified, Conflict, Partly verified or Reference must 
 ## Trip guide — `docs/trip-guide/` (session arena/ae3cc5b4-koreatrip3)
 
 A third parallel, independently verified build of the same trip (phone-first day-by-day guide with a recommended Days 3↔4 swap around Gyeongbokgung's Tuesday closure, and a 2026 date-alignment analysis explicitly flagged for traveler confirmation): https://buffedlizard55-lab.github.io/Koreatrip3/docs/trip-guide/ — sources and Flags F1–F20 are inside its pages; coordination/conflict log in `COORDINATION.md`.
+
+---
+
+## Day-by-day field guide — `trip/` (session arena/54fb68ab-koreatrip3)
+
+A fourth parallel, independently verified build of the same trip: a 13-page mobile-first
+site (dashboard, one page per day, Transport, Hotels, Flagged for Review F1–F20), generated
+by `scripts/build_trip_site.py` and published at https://buffedlizard55-lab.github.io/Koreatrip3/trip/ .
+Its line-by-line verification trail is `data/verification-log.md` and the unedited brief is
+preserved in `data/itinerary-raw.md`. Findings agree with the other builds on all material
+points; dates are presented as Nov 2026 with that assumption flagged (F3) for the traveler
+to confirm. Rebuild: `python3 scripts/build_trip_site.py`, then
+`python3 scripts/check_links.py` (checks all 31 pages across every site in the repo).
