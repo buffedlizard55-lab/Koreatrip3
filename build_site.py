@@ -2,8 +2,9 @@
 """
 build_site.py — generates the static Korea-trip itinerary verification site.
 
-Reads data/*.json and writes flat HTML pages to the repo root
-(served by GitHub Pages from the main branch root):
+Reads verified/data/*.json and writes flat HTML pages to verified/
+(served by GitHub Pages at /verified/ — the repo root is owned by the
+final integration session's site):
   index.html        landing dashboard
   itinerary.html    day-by-day view (all 9 days)
   transport.html    getting there & getting around
@@ -24,7 +25,8 @@ import html as H
 from collections import defaultdict
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-DATA = os.path.join(ROOT, "data")
+DATA = os.path.join(ROOT, "verified", "data")
+OUTDIR = os.path.join(ROOT, "verified")
 
 # ---------------------------------------------------------------- load data
 def load(name):
@@ -257,14 +259,15 @@ def page(fname, title, body, active):
 <p><b>Korea Trip Verification Site</b> — Seoul (Myeongdong) + Busan (Haeundae), Nov 1–9 2026 · 2 adults.</p>
 <p>Every table row links its official source. Values that could not be confirmed from an official
 source are left blank and flagged on the <a href="flagged.html">Flagged for Review</a> page.
-Built from <code>data/*.json</code> via <code>build_site.py</code>. Last generated: 2026-10-21 UTC.</p>
+Built from <code>verified/data/*.json</code> via <code>build_site.py</code>; published at <code>/verified/</code>. Last generated: 2026-10-21 UTC.</p>
 </footer>
 </body>
 </html>"""
 
 def write(fname, title, body, active=None):
     active = active or fname
-    with open(os.path.join(ROOT, fname), "w", encoding="utf-8") as f:
+    os.makedirs(OUTDIR, exist_ok=True)
+    with open(os.path.join(OUTDIR, fname), "w", encoding="utf-8") as f:
         f.write(page(fname, title, body, active))
 
 # ---------------------------------------------------------------- stats
@@ -497,15 +500,14 @@ write("flagged.html", "Flagged for Review", flagged_body)
 # ---------------------------------------------------------------- link check
 def link_check():
     problems = []
-    files = [f for f, _ in PAGES]
+    files = [os.path.join(OUTDIR, f) for f, _ in PAGES]
     anchors = {}
     links = defaultdict(list)
     for fn in files:
-        path = os.path.join(ROOT, fn)
-        if not os.path.exists(path):
+        if not os.path.exists(fn):
             problems.append(f"missing file {fn}")
             continue
-        txt = open(path, encoding="utf-8").read()
+        txt = open(fn, encoding="utf-8").read()
         for m in re.finditer(r'id="([^"]+)"', txt):
             anchors.setdefault(fn, set()).add(m.group(1))
         for m in re.finditer(r'href="([^"]+)"', txt):
@@ -524,9 +526,9 @@ def link_check():
                 else:
                     ok += 1
             elif re.match(r"^[^#]+\.html(#.*)?$", h):
-                target = h.split("#")[0]
+                target = os.path.join(os.path.dirname(fn), h.split("#")[0])
                 frag = h.split("#")[1] if "#" in h else None
-                if not os.path.exists(os.path.join(ROOT, target)):
+                if not os.path.exists(target):
                     problems.append(f"{fn}: broken page link {h}")
                     bad += 1
                 elif frag and frag not in anchors.get(target, set()):

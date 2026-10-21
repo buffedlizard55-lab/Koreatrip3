@@ -1,105 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Attractions — Korea Trip Nov 2026 · Verified Itinerary</title>
-<meta name="description" content="Verified 9-day South Korea itinerary (Seoul + Busan, Nov 1-9 2026): every venue checked against official sources, with hours, prices, transport and flagged irregularities.">
-<style>
-:root{--ink:#0f172a;--mut:#64748b;--line:#e2e8f0;--bg:#f1f5f9;--card:#ffffff;
---acc:#0f766e;--accd:#134e4a;--amber:#b45309;--red:#b91c1c;}
-*{box-sizing:border-box;margin:0;padding:0}
-html{-webkit-text-size-adjust:100%}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
-color:var(--ink);background:var(--bg);line-height:1.55;font-size:15px}
-a{color:var(--acc)}
-header.site{background:#0f172a;color:#e2e8f0;padding:10px 16px}
-.hwrap{max-width:1100px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;justify-content:space-between}
-.brand{font-weight:800;font-size:17px;color:#fff;text-decoration:none;letter-spacing:.2px}
-.brand span{color:#5eead4}
-nav.top{display:flex;gap:2px;overflow-x:auto;max-width:100%;-webkit-overflow-scrolling:touch}
-nav.top a{color:#cbd5e1;text-decoration:none;font-size:13px;padding:6px 10px;border-radius:6px;white-space:nowrap}
-nav.top a:hover{background:#1e293b;color:#fff}
-nav.top a.on{background:var(--acc);color:#fff;font-weight:700}
-main{max-width:1100px;margin:0 auto;padding:18px 16px 60px}
-h1{font-size:24px;margin:6px 0 4px}
-h2{font-size:19px;margin:26px 0 10px;padding-top:10px;border-top:2px solid var(--line)}
-h2:first-of-type{border-top:none}
-h3{font-size:16px;margin:16px 0 8px}
-p.lede{color:var(--mut);margin-bottom:14px}
-.muted{color:var(--mut)}
-.small{font-size:12.5px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin:12px 0;box-shadow:0 1px 2px rgba(15,23,42,.04)}
-.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center}
-.stat .n{font-size:26px;font-weight:800}
-.stat .l{font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:.4px}
-.sv{color:var(--acc)} .sp{color:var(--amber)} .su{color:var(--red)}
-.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;background:var(--card);border:1px solid var(--line);border-radius:12px}
-table.tbl{border-collapse:collapse;width:100%;min-width:760px;font-size:13.5px}
-.tbl th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut);
-padding:10px 10px 8px;border-bottom:2px solid var(--line);background:#f8fafc;position:sticky;top:0}
-.tbl td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
-.tbl tr:last-child td{border-bottom:none}
-.namecell{font-weight:700;min-width:150px}
-.ko{font-weight:400;color:var(--mut);font-size:12px}
-.dist{font-weight:400;color:var(--mut);font-size:12px;margin-top:2px}
-.claim{color:#475569;font-size:12.5px;min-width:140px}
-.detcell{min-width:220px}
-.note{font-size:12.5px;color:#475569;margin-top:4px}
-.transit{font-size:12.5px;color:var(--acc);margin-top:4px}
-.srccell{min-width:170px;font-size:12px}
-.src{display:block;margin:2px 0;color:var(--acc);text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:230px}
-.src:hover{text-decoration:underline}
-.nosrc{color:var(--red);font-size:12px}
-.daycell{font-weight:800;color:var(--mut);white-space:nowrap}
-.b{display:inline-block;padding:1px 9px;border-radius:999px;font-size:11px;font-weight:700;white-space:nowrap}
-.b-v{background:#dcfce7;color:#166534}.b-p{background:#fef3c7;color:#92400e}.b-u{background:#fee2e2;color:#991b1b}
-.fl{display:inline-block;margin:3px 4px 0 0;font-size:11px;font-weight:700;text-decoration:none;
-background:#fff7ed;color:#9a3412;border:1px solid #fed7aa;border-radius:999px;padding:1px 8px}
-.s{display:inline-block;padding:1px 9px;border-radius:999px;font-size:11px;font-weight:700;white-space:nowrap}
-.s-c{background:#fee2e2;color:#991b1b}.s-w{background:#fef3c7;color:#92400e}.s-i{background:#e0f2fe;color:#075985}
-.alert{border-left:4px solid var(--red);background:#fef2f2;border-radius:8px;padding:12px 14px;margin:14px 0}
-.alert b{color:var(--red)}
-.tip{border-left:4px solid var(--acc);background:#f0fdfa;border-radius:8px;padding:12px 14px;margin:14px 0}
-.dayhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-top:30px}
-.dayhead .dn{background:var(--accd);color:#fff;font-weight:800;border-radius:8px;padding:2px 10px;font-size:14px}
-.dayhead h2{border:none;margin:0;padding:0;flex:1 1 200px}
-.dayhead .dd{color:var(--mut);font-size:13px}
-.daynote{background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:10px 12px;margin:8px 0 10px;font-size:13.5px}
-.sugg{background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:10px 12px;margin:8px 0 10px;font-size:13.5px}
-.kv{display:grid;grid-template-columns:130px 1fr;gap:4px 10px;font-size:13.5px}
-.kv b{color:var(--mut);font-weight:600}
-.flagcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:12px 0}
-.flagcard.crit{border-left:4px solid var(--red)}
-.flagcard.warn{border-left:4px solid var(--amber)}
-.flagcard.info{border-left:4px solid #0284c7}
-.flagcard h3{margin:2px 0 6px}
-.flagcard .act{background:#f0fdfa;border-radius:6px;padding:8px 10px;margin-top:8px;font-size:13px}
-footer.site{border-top:1px solid var(--line);color:var(--mut);font-size:12px;padding:18px 16px;text-align:center;background:var(--card)}
-.hero{background:linear-gradient(135deg,#134e4a,#0f766e);color:#fff;border-radius:14px;padding:22px 20px;margin:6px 0 16px}
-.hero h1{color:#fff;font-size:26px}
-.hero p{color:#ccfbf1}
-.chips{margin-top:2px}
-.toc{columns:2;column-gap:24px}
-@media(max-width:640px){.toc{columns:1}}
-ul.clean{list-style:none}
-ul.clean li{padding:3px 0;border-bottom:1px dashed var(--line);break-inside:avoid}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attractions, Palaces &amp; Landmarks — South Korea Trip Portal (Oct 31 – Nov 9, 2026)</title>
+  <link rel="stylesheet" href="./assets/portal-2a9f9e6e.css">
 </head>
 <body>
-<header class="site"><div class="hwrap">
-<a class="brand" href="index.html">🇰🇷 Korea Trip <span>· Verified</span></a>
-<nav class="top"><a href="index.html" class="">Dashboard</a><a href="itinerary.html" class="">Itinerary</a><a href="transport.html" class="">Transport</a><a href="hotels.html" class="">Hotels</a><a href="food.html" class="">Food & Cafes</a><a href="shopping.html" class="">Shopping</a><a href="attractions.html" class="on">Attractions</a><a href="flagged.html" class="">Flagged</a></nav>
-</div></header>
-<main>
-<h1>🏛 Attractions</h1><p class="lede">Palaces, towers, villages, plazas and beaches — hours, closures and admission fees from official sources. ⛔ Note Day 3's Tuesday closure of Gyeongbokgung (flag F2).</p><div class="tw"><table class="tbl"><thead><tr><th>Day</th><th>Venue / item</th><th>Original itinerary said</th><th>Verified details (official sources)</th><th>Status</th><th>Sources</th></tr></thead><tbody><tr><td class='daycell'>D2</td><td class="namecell">N Seoul Tower (Namsan Tower) — Observatory <span class="ko">N서울타워</span><div class="dist">Namsan</div><div class="chips"><a class="fl" href="flagged.html#F3" title="N Seoul Tower &amp; cable car hours misstated (&quot;10:00-10:30&quot;)">⚑ F3</a></div></td><td class="claim">Itinerary: &quot;Observatory 10:00-10:30... $31 each (observatory + cable car)&quot;</td><td class="detcell"><div><b>Address:</b> 105 Namsangongwon-gil, Yongsan-gu, Seoul (on Namsan)</div><div><b>Hours:</b> Mon-Fri 10:00-22:30 · weekends/holidays 10:00-23:00 · last admission 30 min before closing · open 365 days</div><div><b>Price:</b> Observatory: ₩29,000 adult (13+) per VisitKorea. Observatory + cable-car round trip ≈ ₩44,000 ≈ $31-32 — the itinerary&#x27;s $31 is accurate.</div><div class="note">The itinerary&#x27;s stated hours (&quot;10:00-10:30&quot;) are wrong — evenings are fine. Hours may change due to weather. See flag F3.</div><div class="transit">🚇 Bus 01A/01B (₩1,500) from Chungmuro Station, or Namsan Cable Car from Myeongdong Station Exit 3 (10-15 min walk).</div></td><td><span class="b b-v">Verified</span></td><td class="srccell"><a class="src" href="https://www.nseoultower.co.kr/eng/visit/use.asp" target="_blank" rel="noopener" title="N Seoul Tower (official) — Hours &amp; Admission">[1]&nbsp;N Seoul Tower (official) — Hours &amp; Admission</a><br><a class="src" href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=88026" target="_blank" rel="noopener" title="VisitKorea — N Seoul Tower observatory fee">[2]&nbsp;VisitKorea — N Seoul Tower observatory fee</a></td></tr><tr><td class='daycell'>D2</td><td class="namecell">Namsan Cable Car <span class="ko">남산케이블카</span><div class="dist">Namsan</div><div class="chips"><a class="fl" href="flagged.html#F3" title="N Seoul Tower &amp; cable car hours misstated (&quot;10:00-10:30&quot;)">⚑ F3</a></div></td><td class="claim">Itinerary: &quot;10:00-10:30 (weather permitting)&quot;</td><td class="detcell"><div><b>Address:</b> Boarding near the Pacific Hotel, from Myeongdong Station (Line 4) Exit 3, 10-15 min walk</div><div><b>Hours:</b> 10:00-23:00 (may change with weather conditions)</div><div><b>Price:</b> Adult ₩15,000 round trip / ₩12,000 one-way</div><div class="note">Runs to 23:00, not 10:30. Weather suspensions are possible — confirm on the day. The free Namsan Ormi incline elevator (09:00-23:00, suspended Mon 09:00-14:00) links Namsan Tunnel 3 to the cable-car station.</div><div class="transit">🚇 Myeongdong Station Exit 3 → walk right of Pacific Hotel.</div></td><td><span class="b b-v">Verified</span></td><td class="srccell"><a class="src" href="https://www.nseoultower.co.kr/eng/visit/traffic2.asp" target="_blank" rel="noopener" title="N Seoul Tower (official) — By Cable Car (hours, fares, walking route)">[1]&nbsp;N Seoul Tower (official) — By Cable Car (hours, fares, walking route)</a></td></tr><tr><td class='daycell'>D3</td><td class="namecell">Bukchon Hanok Village <span class="ko">북촌한옥마을</span><div class="dist">Jongno (between Gyeongbokgung &amp; Changdeokgung)</div><div class="chips"><a class="fl" href="flagged.html#F28" title="Bukchon Hanok Village: legal visiting hours (Red Zone)">⚑ F28</a></div></td><td class="claim">Itinerary: &quot;hanok village between the palaces&quot;</td><td class="detcell"><div><b>Address:</b> Bukchon-ro 11-gil area, Jongno-gu, Seoul (residential hanok district behind Jeongdok Library)</div><div><b>Hours:</b> Red Zone (Bukchon-ro 11-gil): tourist visits allowed 10:00-17:00 only — visiting restricted 17:00-10:00 with ₩100,000 fine (enforced since Mar 1, 2025)</div><div><b>Price:</b> Free (public residential area)</div><div class="note">This is a residential area under a Special Management Area rule — plan the visit inside 10:00-17:00 and keep noise down. Day 3 is a Tuesday (fine — the restriction is daily, not day-specific). Anguk Station (Line 3) Exits 2/3 serve the village; it pairs naturally before/after Changdeokgung (not Gyeongbokgung on a Tuesday).</div><div class="transit">🚇 Anguk Station (Line 3) Exit 2 or 3.</div></td><td><span class="b b-v">Verified</span></td><td class="srccell"><a class="src" href="https://english.seoul.go.kr/notice-on-restrictions-for-tourist-visits-to-bukchon-special-management-area-effective-from-november-2024/" target="_blank" rel="noopener" title="Seoul Metropolitan Government (official) — Bukchon tourist restrictions notice">[1]&nbsp;Seoul Metropolitan Government (official) — Bukchon tourist restrictions notice</a><br><a class="src" href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=97932" target="_blank" rel="noopener" title="VisitKorea — Bukchon Hanok Village">[2]&nbsp;VisitKorea — Bukchon Hanok Village</a><br><a class="src" href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=215658" target="_blank" rel="noopener" title="VisitKorea — notice: entry restricted 17:00-10:00">[3]&nbsp;VisitKorea — notice: entry restricted 17:00-10:00</a></td></tr><tr><td class='daycell'>D3</td><td class="namecell">Gyeongbokgung Palace <span class="ko">경복궁</span><div class="dist">Jongno / Gwanghwamun</div><div class="chips"><a class="fl" href="flagged.html#F2" title="Day 3 (Tue, Nov 3) — Gyeongbokgung Palace is CLOSED">⚑ F2</a></div></td><td class="claim">Itinerary: &quot;₩3,000 entry, 3-4 hours, royal guard ceremony 10:00 &amp; 14:00&quot;</td><td class="detcell"><div><b>Address:</b> 161 Sajik-ro, Jongno-gu, Seoul</div><div><b>Hours:</b> Nov-Feb 09:00-17:00 (last admission 16:00) — CLOSED TUESDAYS (if a Tuesday is a holiday, closed the next business day instead)</div><div><b>Price:</b> ₩3,000 age 19-64 · ₩1,500 age 7-18 · free age 6 &amp; under and 65+. Combination ticket (4 palaces + Jongmyo) ₩10,000, valid 3 months.</div><div class="note">CRITICAL: Day 3 = Tuesday, Nov 3, 2026 → the palace is CLOSED and the guard ceremony does not run on Tuesdays. Move Gyeongbokgung to another day (Day 4-8 all work) or substitute Changdeokgung (closed Mondays instead — open on Tue Nov 3). See flag F2. The ₩3,000 fee, 3-4 h visit length and ceremony times all check out.</div><div class="transit">🚇 Gyeongbokgung Station (Line 3) Exit 5, or Gwanghwamun Station (Line 5) Exit 2.</div></td><td><span class="b b-v">Verified</span></td><td class="srccell"><a class="src" href="https://www.royalpalacekr.org/html/eng_gbg/guide/guide01_tab01.html" target="_blank" rel="noopener" title="Gyeongbokgung Palace (official) — Hours &amp; Admissions">[1]&nbsp;Gyeongbokgung Palace (official) — Hours &amp; Admissions</a><br><a class="src" href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=87740" target="_blank" rel="noopener" title="VisitKorea — Gyeongbokgung">[2]&nbsp;VisitKorea — Gyeongbokgung</a></td></tr><tr><td class='daycell'>D3</td><td class="namecell">Royal Guard Changing Ceremony (Gyeongbokgung) <span class="ko">수문장 교대의식</span><div class="dist">Gwanghwamun / Heungnyemun</div><div class="chips"><a class="fl" href="flagged.html#F2" title="Day 3 (Tue, Nov 3) — Gyeongbokgung Palace is CLOSED">⚑ F2</a></div></td><td class="claim">Itinerary: &quot;10:00 &amp; 14:00&quot;</td><td class="detcell"><div><b>Address:</b> Gwanghwamun Gate &amp; Heungnyemun Gate areas, Gyeongbokgung</div><div><b>Hours:</b> Royal Guard Changing Ceremony 10:00 &amp; 14:00 (20 min) · Guard Duty Performance 11:00 &amp; 13:00 · Guard Training 09:35 &amp; 13:35 · NOT held on Tuesdays (palace closed); may be cancelled in rain</div><div><b>Price:</b> Free to watch (outside the ticket gate)</div><div class="note">Times confirmed — 10:00 and 14:00, ~20 minutes. But again: no ceremony on Tuesday Nov 3. Run by the Korea Heritage Service / Korea Cultural Heritage Foundation.</div><div class="transit">🚇 Gyeongbokgung Station (Line 3) Exit 5 (217 m) or Gwanghwamun Station (Line 5) Exit 2.</div></td><td><span class="b b-v">Verified</span></td><td class="srccell"><a class="src" href="https://www.kh.or.kr/cms/content/view/824" target="_blank" rel="noopener" title="Korea Cultural Heritage Foundation (official) — ceremony program &amp; times">[1]&nbsp;Korea Cultural Heritage Foundation (official) — ceremony program &amp; times</a><br><a class="src" href="https://english.visitseoul.net/events/Changing-of-the-Royal-Guard-at-Gyeongbokgung-Palace-en/ENP008256" target="_blank" rel="noopener" title="VisitSeoul (official) — Changing of the Royal Guard">[2]&nbsp;VisitSeoul (official) — Changing of the Royal Guard</a><br><a class="src" href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=104589" target="_blank" rel="noopener" title="VisitKorea — Palace Royal Guard Changing Ceremony">[3]&nbsp;VisitKorea — Palace Royal Guard Changing Ceremony</a></td></tr><tr><td class='daycell'>D4</td><td class="namecell">Dongdaemun Design Plaza (DDP) <span class="ko">동대문디자인플라자</span><div class="dist">Dongdaemun (2 stops from Seongsu on Line 2)</div><div class="chips"></div></td><td class="claim">Itinerary: &quot;futuristic architecture, night views&quot;</td><td class="detcell"><div><b>Address:</b> 281 Eulji-ro, Jung-gu, Seoul</div><div><b>Hours:</b> Facility 10:00-20:00 (some halls/exhibitions vary) · design store 10:00-21:00 · closed Jan 1, Seollal day, Chuseok day</div><div><b>Price:</b> Building &amp; outdoor areas free; exhibitions priced separately</div><div class="note">Zaha Hadid&#x27;s landmark — best photographed at dusk/night; LED rose garden outside. NOTE the geography: DDP is in Dongdaemun (Dongdaemun History &amp; Culture Park Station, Lines 2/4/5), not in Seongsu — it&#x27;s 2 subway stops from Seongsu Station on Line 2, so it works as a Day 4 evening stop on the way back toward Myeongdong.</div><div class="transit">🚇 Dongdaemun History &amp; Culture Park Station (Lines 2/4/5), direct exit into DDP.</div></td><td><span class="b b-v">Verified</span></td><td class="srccell"><a class="src" href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=67162" target="_blank" rel="noopener" title="VisitKorea — Dongdaemun Design Plaza (hours, closures, address)">[1]&nbsp;VisitKorea — Dongdaemun Design Plaza (hours, closures, address)</a><br><a class="src" href="https://www.ddp.or.kr/" target="_blank" rel="noopener" title="DDP (official site)">[2]&nbsp;DDP (official site)</a></td></tr><tr><td class='daycell'>D5</td><td class="namecell">Gangnam Style statue (PSY) <span class="ko">강남스타일 조형물</span><div class="dist">COEX East Gate</div><div class="chips"></div></td><td class="claim">Itinerary: &quot;iconic Gangnam Style hands statue&quot;</td><td class="detcell"><div><b>Address:</b> COEX East Gate plaza, Yeongdong-daero 513 / 524 Bongeunsa-ro, Gangnam-gu, Seoul</div><div><b>Hours:</b> Outdoor public sculpture — accessible 24/7</div><div><b>Price:</b> Free</div><div class="note">Bronze sculpture of two overlapped fists doing PSY&#x27;s horse-riding move, unveiled April 2016 by Gangnam District Office on the COEX east plaza — sensors trigger the song and LED lights. Just outside COEX&#x27;s east entrance; combine with the Starfield Library visit.</div><div class="transit">🚇 Exit COEX Mall at the east gate (near Samseong Station Line 2 / Bongeunsa Station Line 9 Exit 7).</div></td><td><span class="b b-v">Verified</span></td><td class="srccell"><a class="src" href="https://www.koreatimes.co.kr/entertainment/shows-dramas/20160416/gangnam-style-returns-as-a-landmark-bronze-sculpture" target="_blank" rel="noopener" title="The Korea Times — &#x27;Gangnam Style&#x27; bronze sculpture at COEX (unveiling, size, location)">[1]&nbsp;The Korea Times — &#x27;Gangnam Style&#x27; bronze sculpture at COEX (unveiling, size, location)</a><br><a class="src" href="http://koreabizwire.com/giant-gangnam-style-statue-revealed-at-coex/53041" target="_blank" rel="noopener" title="Korea Bizwire — Giant &#x27;Gangnam Style&#x27; statue revealed at COEX">[2]&nbsp;Korea Bizwire — Giant &#x27;Gangnam Style&#x27; statue revealed at COEX</a></td></tr><tr><td class='daycell'>D5</td><td class="namecell">Starfield Library (별마당 도서관) <span class="ko">별마당 도서관</span><div class="dist">COEX Mall B1</div><div class="chips"></div></td><td class="claim">Itinerary: &quot;iconic open library in the mall&quot;</td><td class="detcell"><div><b>Address:</b> B1 Starfield COEX Mall, 513 Yeongdong-daero, Gangnam-gu, Seoul</div><div><b>Hours:</b> 10:30-22:00 (with the mall)</div><div><b>Price:</b> Free</div><div class="note">The two-story open atrium library inside Starfield COEX Mall; photo landmark. Same hours as the mall per VisitKorea.</div><div class="transit">🚇 Inside COEX Mall (Samseong Station Line 2 direct).</div></td><td><span class="b b-v">Verified</span></td><td class="srccell"><a class="src" href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=60729" target="_blank" rel="noopener" title="VisitKorea — Starfield Library">[1]&nbsp;VisitKorea — Starfield Library</a></td></tr><tr><td class='daycell'>D7</td><td class="namecell">SUGGESTION — Leeum Museum of Art <span class="ko">리움 미술관</span><div class="dist">Itaewon / Hannam-dong</div><div class="chips"><a class="fl" href="flagged.html#F24" title="Days 7 and 8 have no planned venues">⚑ F24</a></div></td><td class="claim">— (Day 7 has no planned venues; verified suggestion)</td><td class="detcell"><div><b>Address:</b> 60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul</div><div><b>Hours:</b> 10:30-18:00 (last admission 17:30) · closed Mondays, Jan 1, Seollal &amp; Chuseok holidays</div><div><b>Price:</b> Free (advance online reservation required per museum policy)</div><div class="note">Samsung art museum (Mario Botta / Jean Nouvel / Rem Koolhaas buildings). Day 7 is a Saturday → OPEN. Reservations via leeum.org.</div><div class="transit">🚇 Hangangjin Station (Line 6) Exit 1, ~100 m toward Itaewon.</div></td><td><span class="b b-v">Verified</span></td><td class="srccell"><a class="src" href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=104050" target="_blank" rel="noopener" title="VisitKorea — Leeum Museum of Art (hours, closures)">[1]&nbsp;VisitKorea — Leeum Museum of Art (hours, closures)</a></td></tr><tr><td class='daycell'>D8</td><td class="namecell">SUGGESTION — Changdeokgung Palace <span class="ko">창덕궁</span><div class="dist">Jongno (next to Bukchon)</div><div class="chips"><a class="fl" href="flagged.html#F24" title="Days 7 and 8 have no planned venues">⚑ F24</a></div></td><td class="claim">— (Day 8 is open; verified suggestion)</td><td class="detcell"><div><b>Address:</b> 99 Yulgok-ro, Jongno-gu, Seoul</div><div><b>Hours:</b> Nov: 09:00-17:30 (last admission 16:30) · closed Mondays (open Sun Nov 8)</div><div><b>Price:</b> Adult ₩3,000 / youth ₩1,500 · free for age 6 &amp; under, hanbok wearers, last Wednesdays</div><div class="note">UNESCO World Heritage palace with the Secret Garden (Huwon — separate timed ticket, book ahead). Day 8 is a Sunday → OPEN. Pairs perfectly with Bukchon (Anguk Station Exit 3) and Ikseon-dong. If you also reschedule Gyeongbokgung, avoid doing both palaces&#x27; crowded same-day unless desired.</div><div class="transit">🚇 Anguk Station (Line 3) Exit 3.</div></td><td><span class="b b-v">Verified</span></td><td class="srccell"><a class="src" href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94399" target="_blank" rel="noopener" title="VisitKorea — Changdeokgung Palace Complex (hours, closures)">[1]&nbsp;VisitKorea — Changdeokgung Palace Complex (hours, closures)</a><br><a class="src" href="https://english.seoul.go.kr/changdeokgung-palace-3/" target="_blank" rel="noopener" title="Seoul Metropolitan Government — Changdeokgung Palace info">[2]&nbsp;Seoul Metropolitan Government — Changdeokgung Palace info</a></td></tr><tr><td class='daycell'>D9</td><td class="namecell">Haeundae Beach <span class="ko">해운대 해수욕장</span><div class="dist">Haeundae</div><div class="chips"></div></td><td class="claim">Itinerary: &quot;walk the beach&quot;</td><td class="detcell"><div><b>Address:</b> 264 Haeundaehaebyeon-ro, Haeundae-gu, Busan (waterfront)</div><div><b>Hours:</b> Public beach — accessible year-round; the officially-operated summer season (June 26 - Aug 2026) ran 09:00-18:00 with lifeguards; November is off-season with free open access</div><div><b>Price:</b> Free</div><div class="note">Busan&#x27;s most famous beach, a short walk from the hotel and Haeundae Market. Off-season strolling is the norm in November; Dongbaek Island coastal trail (wolbae) is nearby. Adjacent tourist info center at 264 Haeundaehaebyeon-ro.</div><div class="transit">🚇 Haeundae Station (Line 2) Exit 3/5, ~5 min walk.</div></td><td><span class="b b-v">Verified</span></td><td class="srccell"><a class="src" href="https://www.busan.go.kr/eng/bsnews01/1735847" target="_blank" rel="noopener" title="Busan Metropolitan City (official) — Haeundae beach season notice">[1]&nbsp;Busan Metropolitan City (official) — Haeundae beach season notice</a><br><a class="src" href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=220545" target="_blank" rel="noopener" title="VisitKorea — Haeundae Tourist Information Center (address)">[2]&nbsp;VisitKorea — Haeundae Tourist Information Center (address)</a></td></tr></tbody></table></div>
-</main>
-<footer class="site">
-<p><b>Korea Trip Verification Site</b> — Seoul (Myeongdong) + Busan (Haeundae), Nov 1–9 2026 · 2 adults.</p>
-<p>Every table row links its official source. Values that could not be confirmed from an official
-source are left blank and flagged on the <a href="flagged.html">Flagged for Review</a> page.
-Built from <code>data/*.json</code> via <code>build_site.py</code>. Last generated: 2026-10-21 UTC.</p>
-</footer>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand-row">
+        <a class="brand-title" href="index.html">
+          <span class="brand-mark">KR</span>
+          <span>Seoul &amp; Busan Verified Itinerary</span>
+        </a>
+        <span class="trip-meta-pill">2 Adults · SFO &rarr; ICN · Oct 31 – Nov 9, 2026</span>
+      </div>
+      <nav class="nav-bar" aria-label="Primary sections">
+        <a href="index.html">Overview</a>
+        <a href="itinerary.html">Days 1–9 Itinerary</a>
+        <a href="stays.html">Hotels</a>
+        <a href="transit.html">Public Transit</a>
+        <a href="attractions.html" aria-current="page">Attractions</a>
+        <a href="dining.html">Dining &amp; Cafes</a>
+        <a href="shopping.html">Shopping &amp; Markets</a>
+        <a href="analysis.html">Analysis &amp; Costs</a>
+        <a href="flagged-for-review.html" class="nav-flagged">Flagged for Review</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <section class="hero">
+      <p class="eyebrow">Official Source Line-by-Line Verification</p>
+      <h1>Attractions, Palaces &amp; Landmarks</h1>
+      <p>Official opening hours, last-admission cutoffs, closed days, and ticket prices across Seoul and Busan landmarks.</p>
+    </section>
+    
+  <div class="filter-bar">
+    <input type="search" class="filter-input" data-table-search placeholder="Search venue, station, neighborhood, or note..." aria-label="Search itinerary rows">
+    <select class="filter-select" data-status-filter aria-label="Filter by verification status">
+      <option value="all">All Statuses</option>
+      <option value="verified">Verified Only</option>
+      <option value="flagged">All Flagged / Unverified</option>
+      <option value="conflict">Conflicts Only</option>
+      <option value="unverified">Unverified Blank Rows</option>
+    </select>
+    <select class="filter-select" data-day-filter aria-label="Filter by day">
+      <option value="all">All 9 Days</option>
+      <option value="Day 1">Day 1</option><option value="Day 2">Day 2</option><option value="Day 3">Day 3</option><option value="Day 4">Day 4</option><option value="Day 5">Day 5</option><option value="Day 6">Day 6</option><option value="Day 7">Day 7</option><option value="Day 8">Day 8</option><option value="Day 9">Day 9</option>
+    </select>
+    <span class="submitted-quote" data-row-count></span>
+  </div>
+  <section class="section-card">
+    <div class="section-header">
+      <h2>Attractions, Palaces &amp; Sightseeing (0 Rows)</h2>
+      <p class="section-sub">Official operating hours, closed days &amp; admission fees</p>
+    </div>
+    <div class="table-wrap">
+    <table class="data-table" id="category-table">
+      <thead>
+        <tr>
+          <th>Day / Area</th>
+          <th>Item &amp; Draft Line</th>
+          <th>Official Location</th>
+          <th>Official Hours</th>
+          <th>Open / Closed</th>
+          <th>Confirmed Cost</th>
+          <th>Public Transit from Hotel</th>
+          <th>Status</th>
+          <th>Official Source</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <strong>Verification Standard:</strong> Every table row links directly to an official government, transit, or primary brand source. Unconfirmed fields remain blank and flagged <a href="flagged-for-review.html">Flagged for Review</a>.
+      </div>
+      <div><a href="./index.html">Root Dashboard</a> · <a href="./portal/index.html">Full Portal (/portal/)</a> · <a href="./docs/index.html">Data Tables (/docs/)</a> · <a href="./docs/trip-guide/index.html">Day-Swap Guide (/docs/trip-guide/)</a> · <a href="./trip/index.html">Day-by-Day Site (/trip/)</a></div>
+    </div>
+  </footer>
+  <script src="./assets/portal-2a9f9e6e.js" defer></script>
 </body>
 </html>
