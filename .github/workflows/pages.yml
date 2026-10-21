@@ -1,0 +1,53 @@
+name: Deploy Korea itinerary to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Validate itinerary data
+        run: |
+          python3 -m json.tool data/itinerary.json >/dev/null
+          python3 - <<'PY'
+          import json
+          rows = json.load(open('data/itinerary.json', encoding='utf-8'))
+          assert rows, 'No itinerary rows found'
+          for n, row in enumerate(rows, 1):
+              assert row.get('item'), f'Row {n} has no item'
+              assert row.get('source', '').startswith('https://'), f'Row {n} has no HTTPS source'
+              assert row.get('sourceLabel'), f'Row {n} has no source label'
+              assert row.get('verification') in {'verified', 'unverified'}, f'Row {n} has invalid status'
+          print(f'Validated {len(rows)} sourced itinerary rows')
+          PY
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Assemble static site
+        run: |
+          mkdir -p _site/data
+          cp index.html styles.css app.js *.html _site/
+          cp data/itinerary.json _site/data/
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
