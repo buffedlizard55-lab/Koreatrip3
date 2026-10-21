@@ -1,47 +1,97 @@
-# Korea Trip · Seoul + Busan
+# Korea Trip — source-audited itinerary
 
-A mobile-friendly, source-linked travel-planning site for two adult travelers. The itinerary audit separates supplied plan notes from facts found on official operator, government, tourism, and first-party business pages.
+A lightweight, mobile-friendly GitHub Pages travel dashboard for two adults, built from the supplied South Korea trip outline. The current data preserves proposed activities and distinguishes them from facts checked against official city, tourism, transit, rail, and hotel sources.
 
-## Browse
+## Pages
 
-- **Overview:** [`index.html`](index.html)
-- **Day-by-day itinerary:** [`itinerary.html`](itinerary.html)
-- **Attractions:** [`attractions.html`](attractions.html)
-- **Shopping and markets:** [`shopping.html`](shopping.html)
-- **Food and cafés:** [`food.html`](food.html)
-- **Hotels:** [`stays.html`](stays.html)
-- **Public transit:** [`getting-around.html`](getting-around.html)
-- **Official source register:** [`sources.html`](sources.html)
-- **Flagged for Review:** [`flagged-for-review.html`](flagged-for-review.html)
+- **Itinerary** — day-by-day list, searchable and filterable by day.
+- **Transit** — official Seoul Subway route-planning, AREX, and KORAIL links.
+- **Food & shopping** — every named restaurant, café, bar, market, and shop supplied in the notes.
+- **Stays** — Seoul and Busan hotel entries.
+- **Flagged for review** — all unverified details, source gaps, and schedule conflicts.
 
-## Research and schedule policy
+## Verification policy
 
-- Every itinerary, transit, and review-register table/card links to an official source for manual review.
-- Unsupported values remain blank and are called out on **Flagged for Review**; conflicts are not silently corrected.
-- Original date strings are preserved exactly as recorded: `Oct.31/Nov 1` and `Monday—Nov 2,2006`. No trip year is inferred.
-- Day 7 and Day 8 remain blank. Venue notes whose day order could not be established stay in **Not assigned to a day**.
-- Search-result excerpts, dynamic pages, and blocked/redirecting sources are labeled as such; recheck date-sensitive hours, fares, closures, and service details before travel.
+- Every data row in `data/itinerary.json` carries a source link.
+- Only factual values supported by official sources are shown in “Officially sourced detail.” Empty values intentionally display as **Not confirmed**.
+- “Source-linked” indicates an official source was consulted for some part of that row; it does not mean every proposed detail is confirmed. Caveats are shown inline and the row is also included on the review page.
+- Some official links provide only district-level context and are explicitly flagged as not verifying a named business. No crowd estimates, route durations, prices, schedules, or reservations are inferred.
+- Opening hours and transit information can change. The official operator/venue source should be checked again for the actual travel dates.
 
-## Run locally
+## Important unresolved source-plan issues
 
-This is a dependency-free static site. From the repository root, run:
+- The date/year is ambiguous. The source outline contains Oct 31/Nov 1 and several dates explicitly labeled 2006; weekdays and dated entries do not resolve to one reliable calendar. The site does not guess the year.
+- Day 3 is labeled Tuesday, while the official Gyeongbokgung listing says the palace is closed on Tuesdays; the guard ceremony page also excludes Tuesdays.
+- The Seoul hotel is listed in the plan as Stanford Hotel Myeongdong; the Busan hotel as L7 HAEUNDAE by LOTTE HOTELS. No reservations were provided.
+- Specific routes from hotels, individual store hours, and many named businesses' current details could not be confirmed from official venue pages. See the review page.
 
-```sh
-python3 -m http.server 8000
-```
+## Local checks
 
-Then open `http://localhost:8000`. The pages load local JSON data, so they should be served over HTTP rather than opened directly as `file://` URLs.
-
-Run the offline structure/data/link check with:
+The site is static and has no build dependencies. From the repository root:
 
 ```sh
-python3 scripts/validate_site.py
+python3 -m json.tool data/itinerary.json >/dev/null
+python3 - <<'PY'
+import json
+items=json.load(open('data/itinerary.json'))
+assert items and all(i.get('source','').startswith('https://') for i in items)
+assert all(i.get('item') and i.get('verification') in {'verified','unverified'} for i in items)
+print(f'{len(items)} rows; {sum(bool(i.get("flag")) for i in items)} flagged')
+PY
 ```
 
-## GitHub Pages
+GitHub Pages deploys from the included GitHub Actions workflow after updates reach `main`.
 
-A GitHub Actions workflow in `.github/workflows/pages.yml` validates the site and deploys it on pushes to `main`. After the first successful deployment, the expected project-site address is:
+---
 
-<https://buffedlizard55-lab.github.io/Koreatrip3/>
+## Verified data site — `docs/` (session arena/14a4cdd9-koreatrip3)
 
-Deployment must be confirmed from the repository's Actions/Pages status after merge.
+A second, source-audited build of the same trip. Its data is `data/records.json` (72 rows) with `data/sources.json` and `data/findings.json`. It is generated by `scripts/build_site.py` into `docs/`, and is published at `/docs/` on the Pages site: https://buffedlizard55-lab.github.io/Koreatrip3/docs/
+
+```bash
+python3 scripts/build_site.py          # validate + build docs/ + link check
+python3 scripts/build_site.py --check  # validate + link check only
+```
+
+Build rules: a row marked Verified, Conflict, Partly verified or Reference must link an official source and carry an official value; Unverified rows keep official fields blank; every source URL must be on an allow-listed official domain. Coordination with the other session is in `COORDINATION.md`.
+
+---
+
+## Trip guide — `docs/trip-guide/` (session arena/ae3cc5b4-koreatrip3)
+
+A third parallel, independently verified build of the same trip (phone-first day-by-day guide with a recommended Days 3↔4 swap around Gyeongbokgung's Tuesday closure, and a 2026 date-alignment analysis explicitly flagged for traveler confirmation): https://buffedlizard55-lab.github.io/Koreatrip3/docs/trip-guide/ — sources and Flags F1–F20 are inside its pages; coordination/conflict log in `COORDINATION.md`.
+
+---
+
+## Day-by-day field guide — `trip/` (session arena/54fb68ab-koreatrip3)
+
+A fourth parallel, independently verified build of the same trip: a 13-page mobile-first
+site (dashboard, one page per day, Transport, Hotels, Flagged for Review F1–F20), generated
+by `scripts/build_trip_site.py` and published at https://buffedlizard55-lab.github.io/Koreatrip3/trip/ .
+Its line-by-line verification trail is `data/verification-log.md` and the unedited brief is
+preserved in `data/itinerary-raw.md`. Findings agree with the other builds on all material
+points; dates are presented as Nov 2026 with that assumption flagged (F3) for the traveler
+to confirm. Rebuild: `python3 scripts/build_trip_site.py`, then
+`python3 scripts/check_links.py` (checks all 57 pages across every site in the repo after `/source-audit/` is included).
+
+---
+
+## Unified Verified Portal & Hotel Public-Transit Matrix — `portal/` & category subpages (`session arena/2a9f9e6e-koreatrip3`)
+
+A fifth parallel, zero-inference primary-source verification & public-transit build covering all 52 itinerary items (`data/session-2a9f9e6e/verified-items.json`), 13 door-to-door hotel public-transit legs (`data/session-2a9f9e6e/transit-matrix.json`), and 13 structural/schedule irregularities (`data/session-2a9f9e6e/flagged-irregularities.json`). Preserves 100% of `/`, `/docs/`, `/docs/trip-guide/`, and `/trip/`:
+
+- **Portal Dashboard:** https://buffedlizard55-lab.github.io/Koreatrip3/portal/
+- **Hotel Public-Transit Matrix:** https://buffedlizard55-lab.github.io/Koreatrip3/portal/transit.html
+- **Flagged for Review Audit:** https://buffedlizard55-lab.github.io/Koreatrip3/portal/flagged-for-review.html
+
+```bash
+npm run check   # build portal + verify internal links across all 6 sites
+```
+
+---
+
+## Source-audited companion — `source-audit/` (session `arena/b1177e35-koreatrip3`)
+
+A sixth, independently maintained companion dashboard with a day-by-day itinerary, category pages, hotel-based public-transit guidance, an official source register, and a clearly labeled **Flagged for Review** page. Its separate dataset retains 40 itinerary rows, 11 transit routes, 57 official source links, and 30 review notes across nine day cards. It is published at <https://buffedlizard55-lab.github.io/Koreatrip3/source-audit/> and linked from the root landing page. Existing root, `/docs/`, `/docs/trip-guide/`, `/trip/`, and `/portal/` sites and their datasets remain intact.
+
+Run its offline structural check with `python3 source-audit/scripts/validate_site.py`; the combined Pages workflow also validates its data and packages the directory.

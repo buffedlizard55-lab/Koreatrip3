@@ -1,0 +1,145 @@
+[
+  {
+    "flagId": "FLG-16",
+    "severity": "critical",
+    "day": "Day 3 (Tue Nov 3)",
+    "item": "Gyeongbokgung Palace & Royal Guard-Changing Ceremony",
+    "submittedClaim": "Day 3: Tuesday - Gyeongbokgung Palace + Bukchon Village (Nov. 3) ... Closed: Tuesdays",
+    "officialFinding": "Gyeongbokgung Palace AND the Royal Guard-Changing Ceremony are CLOSED EVERY TUESDAY (Nov 3 is not a public holiday).",
+    "recommendedAction": "Swap Day 3 (Tuesday Nov 3) and Day 4 (Wednesday Nov 4 — Seongsu), OR visit Changdeokgung / Deoksugung Palace on Tuesday (closed Mondays, open Tuesdays).",
+    "officialSourceLabel": "VisitKorea / Korea Heritage Service — Gyeongbokgung",
+    "officialSourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=87740"
+  },
+  {
+    "flagId": "FLG-05",
+    "severity": "critical",
+    "day": "Day 2 (Mon Nov 2)",
+    "item": "N Seoul Tower Observatory & Namsan Cable Car Hours",
+    "submittedClaim": "Observatory 10:00-10:30 (entry until 10:00) | Cable Car Hours: 10:00-10:30",
+    "officialFinding": "AM/PM omitted & closing hours misstated! Official Observatory hours are Mon–Fri 10:00–22:30 (last entry 22:00), Sat–Sun 10:00–23:00; Official Cable Car hours are 10:00–23:00 daily (round-trip ticket sales close 22:30). Observatory (29,000 KRW) & Cable Car (15,000 KRW RT) are separate tickets.",
+    "recommendedAction": "Enjoy full daytime or sunset/night skyline window; buy separate tickets or use Bus 01A/01B (1,500 KRW).",
+    "officialSourceLabel": "N SEOUL TOWER Official — Hours",
+    "officialSourceUrl": "https://www.nseoultower.co.kr/eng/visit/use.asp"
+  },
+  {
+    "flagId": "FLG-04",
+    "severity": "high",
+    "day": "Day 2 Header",
+    "item": "Calendar Year Typo ('Nov 2,2006') & Spelling ('Namsun')",
+    "submittedClaim": "Day 2: Monday -Namsun Tower & Myeongdong. (Nov 2,2006)",
+    "officialFinding": "Nov 2, 2006 was a Thursday, whereas all 9 weekday/date pairs in the itinerary match Oct 31 – Nov 9, 2026 (Sun Nov 1 through Mon Nov 9). Official landmark spelling is Namsan / N Seoul Tower.",
+    "recommendedAction": "Confirm 2026 travel year for hotel & KTX bookings; search 'Namsan Seoul Tower' or 'N Seoul Tower' in maps.",
+    "officialSourceLabel": "VisitKorea — N Seoul Tower",
+    "officialSourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=88026"
+  },
+  {
+    "flagId": "FLG-19",
+    "severity": "high",
+    "day": "Day 3 (Nov 3)",
+    "item": "Bukchon Hanok Village Mandatory Tourist Curfew",
+    "submittedClaim": "No visiting hours restriction noted in draft; paired with early Cafe Onion morning",
+    "officialFinding": "Bukchon Red Zone restricts tourist entry strictly to 10:00–17:00 daily (entry prohibited 17:00–10:00 under Jongno-gu Special Management rules).",
+    "recommendedAction": "Have breakfast at Cafe Onion Anguk (opens 07:00 weekdays) first, and enter Bukchon alleys only between 10:00 and 17:00.",
+    "officialSourceLabel": "Visit Seoul Official — Bukchon Curfew Notice",
+    "officialSourceUrl": "https://english.visitseoul.net/attractions/Bukchon-Hanok-Village_/263"
+  },
+  {
+    "flagId": "FLG-08",
+    "severity": "high",
+    "day": "Day 2 (Mon Nov 2)",
+    "item": "Olive Young Myeongdong Operating Hours Conflict",
+    "submittedClaim": "Cosmetics Stores: Olive Young 8:00-12:00am",
+    "officialFinding": "Official Olive Young Myeongdong Global Town (53 Myeongdong-gil) opens 10:00–22:30 daily — NOT 8:00 AM to midnight.",
+    "recommendedAction": "Shop between 10:00 and 22:30 and bring physical passports for instant VAT refund (>= 15,000 KRW).",
+    "officialSourceLabel": "Olive Young Myeongdong Global Town",
+    "officialSourceUrl": "https://myeongdongtown.oliveyoung.com/en/"
+  },
+  {
+    "flagId": "FLG-02",
+    "severity": "high",
+    "day": "Day 1 (Sun Nov 1)",
+    "item": "AREX Fare ($7) & Airport Limousine Boarding Rule",
+    "submittedClaim": "Arex (airport train) 45 min, $7 | Airport Limosine bus $13",
+    "officialFinding": "Official AREX Express adult fare is 13,000 KRW (43 min T1 / 51 min T2 to Seoul Station only). Airport Limousine 6015 is 17,000 KRW directly to hotel block and requires buying a ticket at the ICN counter/kiosk before boarding.",
+    "recommendedAction": "With luggage for 2 adults, take Limousine Bus 6015 direct to 'Lotte Hotel / IBIS Myeong-dong' (right next to Stanford Hotel Myeongdong).",
+    "officialSourceLabel": "Airport Limousine Co. — Route 6015",
+    "officialSourceUrl": "https://airportlimousine.co.kr/en/sub/sub01.php?cat_no=47"
+  },
+  {
+    "flagId": "FLG-13",
+    "severity": "medium",
+    "day": "Day 2 (Mon Nov 2)",
+    "item": "Crystal Jade Shinsegae Main Store B1 Early Closing Time & Monthly Dept Store Closure",
+    "submittedClaim": "Listed under evening/dinner after Night Market Exploration; Shinsegae B1 floor",
+    "officialFinding": "Official Crystal Jade Shinsegae Main Store page confirms weekday hours are 10:30–20:00 (weekends 10:30–20:30), closing much earlier than night markets; Lotte & Shinsegae also close 1 Monday per month.",
+    "recommendedAction": "Check Shinsegae's Nov 2026 monthly holiday notice, and eat at Crystal Jade B1 BEFORE 19:15 (then stroll night markets afterward).",
+    "officialSourceLabel": "Crystal Jade Korea — Shinsegae Main Store",
+    "officialSourceUrl": "https://www.crystaljade.co.kr/menu/menuInfo.do?shSq=49&shGb=H"
+  },
+  {
+    "flagId": "FLG-12",
+    "severity": "high",
+    "day": "Day 2 (Mon Nov 2)",
+    "item": "Myeongdong Kyoja Main Restaurant Relocated in 2026 (Stale Address Warning)",
+    "submittedClaim": "Myeongdong Kyoja-Michelin dumplings (older directories list 29 Myeongdong 10-gil)",
+    "officialFinding": "Official Myeongdong Kyoja site confirms the Main Restaurant relocated and integrated in 2026 to 129, Toegye-ro, Jung-gu, Seoul (420 seats, 10:30–21:00 daily; closed New Year's Day & Chuseok only).",
+    "recommendedAction": "Navigate directly to 129 Toegye-ro (by Myeong-dong Station Exit 8/9), NOT the old 29 Myeongdong 10-gil address still shown on third-party sites.",
+    "officialSourceLabel": "Myeongdong Kyoja Official — Main HQ",
+    "officialSourceUrl": "http://mdkj.co.kr/en/restaurant/head.php"
+  },
+  {
+    "flagId": "FLG-22",
+    "severity": "medium",
+    "day": "Day 4 (Wed Nov 4)",
+    "item": "Dongdaemun Design Plaza (DDP) Description & Neighborhood Mix-Up",
+    "submittedClaim": "Dongdaemun Design Plaza or 'DDP' - Industrial warehouses converted into flagship fashion pop-ups, & artisan bakeries",
+    "officialFinding": "DDP (281 Eulji-ro, Jung-gu) is Zaha Hadid's futuristic curved museum/plaza in Dongdaemun (10:00–20:00). The 'converted industrial warehouses, fashion pop-ups & bakeries' description refers to Seongsu-dong itself (e.g., Daelim Changgo / Seongsu Yeonbang).",
+    "recommendedAction": "Keep BOTH if desired — DDP is right on Subway Line 2 between Myeongdong and Seongsu!",
+    "officialSourceLabel": "DDP Official Website",
+    "officialSourceUrl": "https://ddp.or.kr/?menuno=340"
+  },
+  {
+    "flagId": "FLG-34",
+    "severity": "medium",
+    "day": "Day 4 & Day 6",
+    "item": "Triple Duplicate Restaurant ('Chwihyang' = 'Favorite of Ikseon') & Gangdong Outlier",
+    "submittedClaim": "Day 4: 'Uri Wang Galbitang located in Gangdong. Favorite of Ikseon-dong' | Day 6: '1. Chwihyang' & 'Restaurants: Favorite of Ikseon'",
+    "officialFinding": "'Chwihyang' (익선취향) and 'Favorite of Ikseon' refer to the same Ikseon-dong restaurant serving pork belly rosé pasta; 'Uri Wang Galbitang in Gangdong' is far outside Seongsu with unverified hours.",
+    "recommendedAction": "Drop 'Favorite of Ikseon-dong' from Day 4, book/queue at Ikseon Chwihyang ONCE on Day 6, and verify any Seongsu dinner alternative locally.",
+    "officialSourceLabel": "Visit Seoul Official — Restaurants Directory",
+    "officialSourceUrl": "https://english.visitseoul.net/restaurants"
+  },
+  {
+    "flagId": "FLG-38",
+    "severity": "medium",
+    "day": "Day 4 & Day 6",
+    "item": "Rain Report Branch Locations & Duplicate Visit",
+    "submittedClaim": "Day 4: 'Rain Report Cafe' (Seongsu) & Day 6: 'Rain Report Cafe in Insadong'",
+    "officialFinding": "VisitSeoul confirms 'Rain Report Rainbow' (33-7 Supyo-ro 28-gil, 10:30–20:30 daily) is located in Ikseon-dong (across the street from Insadong), whereas Seongsu's Rain Report Croissant has unconfirmed 2026 operating hours.",
+    "recommendedAction": "Visit Rain Report Rainbow in Ikseon-dong on Day 6 (same lane as Jayeondo!) and skip duplicating on Day 4.",
+    "officialSourceLabel": "Visit Seoul Official — Rain Report Rainbow",
+    "officialSourceUrl": "https://english.visitseoul.net/restaurants/rainreport/ENP933ykf"
+  },
+  {
+    "flagId": "FLG-41",
+    "severity": "medium",
+    "day": "Day 7 & Day 8 (Nov 7–8)",
+    "item": "Unscheduled Days — Day 7 (Saturday: Itaewon) & Day 8 (Sunday: Empty)",
+    "submittedClaim": "Day 7: Saturday - Itaewon (Nov 7) [blank] | Day 8: Sunday - (Nov 8) [blank]",
+    "officialFinding": "Both weekend days have zero scheduled stops, while Days 2 & 4 are overloaded with 9–14 items (including an Itaewon BBQ stop on Day 2).",
+    "recommendedAction": "Move Day 2's Itaewon dinner option ('Pig Restaurant 2') to Day 7 (Itaewon) and spread excess Day 2 / Day 4 stops calmly into Day 8!",
+    "officialSourceLabel": "Visit Seoul Official — Neighborhood Guides",
+    "officialSourceUrl": "https://english.visitseoul.net/area"
+  },
+  {
+    "flagId": "FLG-36",
+    "severity": "low",
+    "day": "Days 1–9 (Unverified Fields)",
+    "item": "Independent Venues & Placeholders Kept Strictly Blank (Zero Inference)",
+    "submittedClaim": "Pig Restaurant 2, Hongojib, Sookhee, Solsot, Caricature, Eternalog, Blue Elephant, Cafe Far Ben, Marge Sherwood, Ader Error, Brandy Melville, Break Silence, Chuncheongol Dakgalbi, Uri Wang Galbitang, Soul Market, Ikseon Chwihyang, Jayeondo Ikseon",
+    "officialFinding": "Where an official government or primary brand webpage did not explicitly confirm an address, operating hour, or KRW price, those cells are left blank rather than guessed from blogs or social posts.",
+    "recommendedAction": "Review blank cells on the Flagged for Review page and confirm live hours on Naver Map / official venue pages prior to departure.",
+    "officialSourceLabel": "VisitKorea — Official Travel Portal",
+    "officialSourceUrl": "https://english.visitkorea.or.kr/svc/main/index.do"
+  }
+]

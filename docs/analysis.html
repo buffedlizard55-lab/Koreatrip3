@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Analysis · Korea Trip 2026</title>
+<meta name="description" content="Analysis and findings for the Korea trip itinerary.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><a href="index.html">Korea Trip 2026</a><span>Seoul → Busan · 2 adults · Nov 1–9</span></div>
+  <nav class="nav"><a href="index.html">Dashboard</a><a href="itinerary.html">Itinerary</a><a href="transit.html">Transit</a><a href="hours-locations.html">Hours &amp; locations</a><a href="costs.html">Costs &amp; fees</a><a href="analysis.html" class="on">Analysis</a><a href="flagged.html" class="flag-link">Flagged for Review</a><a href="sources.html">Sources</a></nav>
+</header>
+<main class="wrap">
+
+<h1>Analysis & findings</h1>
+<h2>Summary</h2><div class="tablewrap"><table class=""><thead><tr><th>Measure</th><th>Count</th><th>Meaning</th></tr></thead><tbody><tr><td data-label="Measure">Plan rows (from your submission)</td><td data-label="Count">68</td><td data-label="Meaning">Every submitted line, grouped by day.</td></tr><tr><td data-label="Measure">Verified against official sources</td><td data-label="Count">9</td><td data-label="Meaning">Matches an official page.</td></tr><tr><td data-label="Measure">Conflict</td><td data-label="Count">7</td><td data-label="Meaning">Official page disagrees with the submission. Official value shown.</td></tr><tr><td data-label="Measure">Partly verified</td><td data-label="Count">7</td><td data-label="Meaning">Some parts match, others not confirmed.</td></tr><tr><td data-label="Measure">Unverified</td><td data-label="Count">40</td><td data-label="Meaning">No official source found. Value left blank.</td></tr><tr><td data-label="Measure">Plan note / No plan</td><td data-label="Count">5</td><td data-label="Meaning">Advice or empty days; nothing to verify.</td></tr><tr><td data-label="Measure">Reference rows added</td><td data-label="Count">4</td><td data-label="Meaning">Official transit facts that help with the plan (not from your submission).</td></tr><tr><td data-label="Measure">Irregularities logged</td><td data-label="Count">20</td><td data-label="Meaning">See Flagged for Review.</td></tr></tbody></table></div>
+<h2>Key findings (high severity)</h2><ul><li><b>Palace visit planned on a closed day (Tue Nov 3, 2026).</b> Gyeongbokgung Palace is closed on Tuesdays, and the changing-of-the-guard ceremony does not run that day. Day 3 is Tuesday, Nov 3, 2026.</li><li><b>Olive Young hours conflict.</b> Submitted &#x27;8:00–12:00am&#x27;. The official Olive Young Myeongdong Global Store page shows 10:00–22:30 daily.</li><li><b>N Seoul Tower hours conflict.</b> Submitted observatory &#x27;10:00–10:30&#x27; and cable car &#x27;10:00–10:30&#x27;. Official: observatory 10:00–22:30 weekdays, 10:00–23:00 weekends and holidays; cable car 10:00–23:00.</li><li><b>Palace admission for young visitors is misstated.</b> Submitted &#x27;Free for under 19&#x27;. Official: ages 7–18 pay ₩1,500; ages 6 and under and 65+ are free.</li></ul>
+<p><a href="flagged.html">See all 20 irregularities on Flagged for Review →</a></p>
+<h2>Verification method</h2><ol>
+<li>Each line of the submitted itinerary was transcribed into one row, in order (data/records.json).</li>
+<li>Each fact (hours, fee, address, transit time, hotel details) was looked up on an official site (tourism organisation, operator, government, or venue site). Links are in the Source column.</li>
+<li>A value that could not be confirmed is left blank and the row is marked Unverified. Values are never inferred or converted.</li>
+<li>Calendar: weekdays were computed from the dates (Nov 1, 2026 = Sunday; Nov 3, 2026 = Tuesday).</li>
+<li>Build checks (scripts/build_site.py): every Verified, Conflict, Partly verified or Reference row must link at least one official source with a value; every link must point to an allow-listed official domain; internal links must resolve.</li>
+</ol>
+<h2>Repo review</h2><ul><li>README.md — contains only the title &#x27;# Koreatrip3&#x27;.</li><li>No itinerary, data, or site files existed before this session.</li><li>No COORDINATION.md existed; it was created with tasks T1–T6 claimed by this session.</li></ul><h3>Work done</h3><ul><li>Itinerary transcribed line by line into data/records.json (72 rows; every submitted line is represented or marked as a planning note).</li><li>Every fact-type row checked against official pages; values not confirmed are left blank and flagged.</li><li>Static site generated into docs/ (GitHub Pages source path changed from / to /docs on main).</li></ul><h3>Limits of this review</h3><ul><li>Only official pages that could be retrieved were read. Some values were taken from text the fetch tool returned for the official page; the links are provided so each can be re-checked manually.</li><li>Restaurant, cafe, shop and street-food entries are mostly unverified because most have no official listing available to this review.</li><li>Flight schedule, flight price, taxi times and the KTX timetable were not verified.</li></ul>
+<p class="muted">Checked on 2026-10-21. Branch: arena/14a4cdd9-koreatrip3 (base: main @ fa82001).</p>
+
+</main>
+<footer class="foot">
+  Values were checked against official sources on 2026-10-21. Blank cells are unverified and are not filled in. Check schedules, fares and hours before you travel.
+</footer>
+</body>
+</html>
