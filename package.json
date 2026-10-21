@@ -1,0 +1,11 @@
+{
+  "name": "koreatrip3-itinerary-portal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-session-2a9f9e6e.mjs",
+    "verify": "node scripts/verify-session-2a9f9e6e.mjs",
+    "check": "node scripts/build-session-2a9f9e6e.mjs && node scripts/verify-session-2a9f9e6e.mjs"
+  }
+}

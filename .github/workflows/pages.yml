@@ -23,7 +23,11 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-      - name: Validate itinerary data
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate itinerary datasets & cross-site links across all sessions
         run: |
           python3 -m json.tool data/itinerary.json >/dev/null
           python3 - <<'PY'
@@ -37,15 +41,21 @@ jobs:
               assert row.get('verification') in {'verified', 'unverified'}, f'Row {n} has invalid status'
           print(f'Validated {len(rows)} sourced itinerary rows')
           PY
+          python3 scripts/build_site.py --check
+          python3 scripts/check_links.py
+          node scripts/verify-session-2a9f9e6e.mjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Assemble static site
+      - name: Assemble static site (all 5 integrated session portals)
         run: |
-          mkdir -p _site/data
-          cp index.html styles.css app.js *.html _site/
-          cp data/itinerary.json _site/data/
+          mkdir -p _site
+          cp *.html styles.css app.js .nojekyll _site/
+          cp -r assets _site/assets
+          cp -r portal _site/portal
+          cp -r data _site/data
           cp -r docs _site/docs
           cp -r trip _site/trip
+          if [ -d pages ]; then cp -r pages _site/pages; fi
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
