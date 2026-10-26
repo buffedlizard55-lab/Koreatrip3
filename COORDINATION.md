@@ -1,14 +1,14 @@
 # Coordination
 
-# Session `arena/d1cc02fe-koreatrip3` — full-trip completion and source audit
+# Session `arena/d1cc02fe-koreatrip3` — post-merge final integration audit
 
 | Task | Status | Owner session | File scope |
 |---|---|---|---|
-| Extend and integrate the primary root dashboard to cover every supplied day (Days 1–16), audit missing Busan itinerary/transit details against official sources, publish remaining unknowns on Flagged for Review, and run final site/deployment checks | in progress | `arena/d1cc02fe` (fixed Arena branch `arena/d1cc02fe-koreatrip3`) | `COORDINATION.md`, `README.md`, `index.html`, `app.js`, `data/itinerary.json`, `transit.html`, `flagged-for-review.html`, `.github/workflows/pages.yml` |
+| Re-audit the merged 16-day guide for zero-inference compliance and completeness; add any omitted supplied lines, replace derived/unconfirmed dates, enrich Busan facts with directly checked official hours/days/locations/transit, add category views and official live route tools, then run final integration and Pages checks | in progress | `arena/d1cc02fe` (fixed Arena branch `arena/d1cc02fe-koreatrip3`) | `COORDINATION.md`, `README.md`, `index.html`, `complete/additions.json`, `scripts/build_complete.py`, generated `complete/**`, `.github/workflows/pages.yml` |
 
 ## Log (arena/d1cc02fe)
 
-- **Claim:** Reviewed this task board before work. The existing root dashboard and several parallel builds were already marked done, but their primary itinerary dataset and day-by-day view stop at Day 9; the user's supplied itinerary continues through Day 16. Claimed the integration/follow-up scope above. This session remains on the Arena-fixed branch rather than creating a session-named branch.
+- **Initial claim / scope adjustment:** Read this board before starting. The workspace initially pointed at `a7591af` and the root dataset appeared to stop at Day 9. Per the required pre-push `git pull --rebase origin main`, the branch advanced to the newly merged PR #16 full-trip guide and PR #17 wording fix; both are complete, so this session is not rebuilding them. Scope is now a post-merge final integration audit and targeted corrections to the published `/complete/` guide. This session remains on the Arena-fixed branch rather than creating a session-named branch; the prior `/complete/` task is marked done and no concurrent claim is active.
 
 ---
 
