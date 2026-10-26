@@ -279,3 +279,42 @@ Every table row links directly to an official government, transit, or primary br
 - Rejected wrong/property-not-found candidate URLs recorded in audit register; no facts copied from them. Restaurant hours, prices in USD, precise taxi/bus durations and unspecified restaurants remain blank/unverified.
 - Published findings: duplicate X the SKY (Days 10/12), one-way capsule/package versus requested round trip, Day 11 downtown backtracking, approximate drone duration, general hours versus date guarantees, unresolved return fares/times and hotel checkout. Previous companion assumptions (e.g. inferred 2026) explicitly not adopted/re-certified.
 - Validation: full-trip validator passes 16 days/109 rows/41 new rows; existing data checker passes 72 records; companion validator passes; all internal links pass across 65 pages; portal verifier passes 1,212 internal links and 410 static sourced rows. JavaScript syntax and diff whitespace pass. DOM integration tests (LinkeDOM, temporary dependency outside repo) pass all five root pages: deep link Day 16, all 16 day cards/109 rows, Day 10 filter, no-match search, category pages and Mercure in stays. This is DOM testing, not a claim of visual browser inspection or exhaustive external-link health.
+
+# Session arena/1745f6a4-koreatrip3 — Complete 16-day tap-a-day guide
+
+| # | Task | Status | Owner | Files / scope |
+|---|------|--------|-------|---------------|
+| G1 | Extend coverage to all 16 days (prior root site stopped at Day 9), mobile tap-a-day UI | in progress | arena/1745f6a4 | `guide/**`, one link in `index.html`, `.github/workflows/pages.yml` (add `guide` copy), `COORDINATION.md`, `README.md` |
+| G2 | Line-by-line verification vs official sources; unverified left blank/flagged | in progress | arena/1745f6a4 | `guide/data.json` |
+| G3 | Build/link check, PR, merge, Pages deploy confirmation | unclaimed | arena/1745f6a4 | — |
+
+Log: 2026-10-26 — Claimed G1–G3. Dates: every weekday in the brief matches Nov 2026 (Nov 1 2026 = Sunday … Nov 16 = Monday); "Nov 2, 2006" in the brief is flagged as a typo, year shown as 2026 with that flag visible. Critical conflict retained: Day 3 (Tue Nov 3) Gyeongbokgung is closed Tuesdays.
+- 2026-10-26 — G1/G2 done: `guide/` 16 days, 51 items (11 verified, rest Needs check/Conflict with blank verified fields), 3 hotels, Flags F1–F10, every item has an official-source link. Fresh checks: Gyeongbokgung official hours/closure, N Seoul Tower (VisitKorea + operator cable car), Blueline Park official hours + Tue-07:00/4-week booking, BUSAN X the SKY & SEA LIFE (KTO/operator), Gwangalli drone show (Busan City: Sat, Oct–Feb 19:00 & 21:00). Validators: check_links (66 pages OK), build_site --check OK, source-audit validate OK, session-2a9f9e6e verify OK. G3 in progress.
+
+---
+
+# Session `arena/b000dfde-koreatrip3` — complete 16-day itinerary
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Complete the missing Days 10–16 with source-linked, mobile-friendly 16-day guide and review page | done | `arena/b000dfde-koreatrip3` | `complete/**`, `scripts/build_complete.py` |
+| Integrate guide into Pages and check links/deployment | done | `arena/b000dfde-koreatrip3` | `index.html` (one link), `.github/workflows/pages.yml` (validation + copy), `COORDINATION.md` |
+
+2026-10-26: Claimed only the new `complete/` scope and minimal integration links. Existing sites and data are owned by prior sessions and remain unchanged. Arena binds this session to `arena/b000dfde-koreatrip3`, so no alternate session branch will be created. Official verification will be recorded below; unconfirmed claims will be flagged, not invented.
+
+## Verification and integration record (2026-10-26)
+
+- Existing Days 1–9: reused all 68 rows in `data/itinerary.json` without modifying the owning session's source data. New Days 10–16: 34 added records in `complete/additions.json`; every row has an HTTPS link to an official operator, government, or tourism page. The new guide renders 102 source-linked rows over 16 individually addressable day pages plus transit, places and Flagged for Review pages. Each row separates the user's proposed plan from confirmed facts and displays a warning when any part is uncertain. All 102 rows have at least one caveat; 34/34 new rows manually reviewed against their linked official context. A link marked “context only” does NOT verify a named business.
+- Directly reviewed official pages: [Visit Busan drone show](https://www.visitbusan.net/index.do?menuCd=DOM_000000302008001000&uc_seq=1769&lang_cd=en) (Saturday winter 19:00/21:00, about 10 minutes, not 12), [Visit Busan X the Sky](https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=996&lang_cd=en) (10:00–21:00; ₩27,000 adult), [Blueline booking](https://www.bluelinepark.com/eng/booking.do) and [course](https://www.bluelinepark.com/eng/skyCapsuleCourse.do) (one-way Mipo↔Cheongsapo, booking window), [Visit Busan Songdo/Gamcheon bus guide](https://www.visitbusan.net/index.do?menuCd=DOM_000000302002001000&uc_seq=1689&lang_cd=en), [Accor Mercure hotel](https://all.accor.com/hotel/B696/index.en.shtml), [SEA LIFE operator](https://www.visitsealife.com/busan/en/). Also checked official indexed listings for [Gamcheon visitor hours](https://www.visitbusan.net/index.do?menuCd=DOM_000000301001001000&uc_seq=365&lang_cd=en), [Nurimaru](https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=2121), [Songdo cable car](https://en.busanaircruise.co.kr/info/time?rank=2), [KORAIL booking](https://www.korail.com/global/eng/intro) and [Busan Metro map](https://www2.humetro.busan.kr/homepage/cyberstation/mapeng.do). Some Visit Busan venue pages are dynamically rendered or disagree; uncertain details are flagged rather than presented as final.
+- Irregularities: trip year and Day 1 flight date unresolved; Tuesday Gyeongbokgung closure; unbooked hotels/trains/capsule; Day 10/12 duplicate X the Sky; capsule round-trip assumption vs operator's one-way products; Nurimaru closing-hour disagreement between Visit Busan pages; unspecified Days 7, 8, 13, 15; quoted third-party dollar prices/taxi fares and restaurant hours not verified. All are visible in `complete/flagged.html` and do not block deployment.
+- Local validation: reproducible `python3 scripts/build_complete.py` with no generated diff; `scripts/build_site.py --check`, `source-audit/scripts/validate_site.py`, `scripts/check_links.py` (86 pages; all internal links resolve), `node scripts/verify-session-2a9f9e6e.mjs` (1,507 internal links/anchors), JSON parse, JS syntax, and `git diff --check` passed. Workflow now builds/checks/copies `/complete/` in the GitHub Pages artifact. No existing research data was edited.
+
+- Integration conflict: `origin/main` advanced with PR #15 (`guide/`) while this session was working in separately scoped `/complete/`. Rebased onto the new main, retained both session sections in COORDINATION.md and both dashboard/workflow additions; no `/guide/` files edited.
+
+## Publication result — arena/b000dfde (2026-10-26)
+
+- PR #16: https://github.com/buffedlizard55-lab/Koreatrip3/pull/16 — merged into `main` at 05:51:23 UTC, merge commit `4888b36c52238300ca65797a80c64fd515261c83`. This session's `/complete/` and concurrently merged `/guide/` both remain published; no other site's data was replaced.
+- Pages Actions run https://github.com/buffedlizard55-lab/Koreatrip3/actions/runs/40276500028 completed successfully (validation, assembly, upload, deploy). Live guide opened at https://buffedlizard55-lab.github.io/Koreatrip3/complete/ and displayed all 16 day links. Flagged review remains at `/complete/flagged.html`. Deployment success does not resolve the travel-date and booking flags described above.
+
+- Integration conflict 2026-10-26: `origin/main` advanced through PRs #14–17 during this session. PR #18 first merge attempt correctly failed. Merged latest main locally on assigned branch; preserved both sessions' README/coordination sections and all `/guide/` and `/complete/` files. Landing page preserves both new guide links while removing the now-obsolete “root covers only Days 1–9” assertion.
+- Minimal integration scope extension: `scripts/build_complete.py` filters historical root inputs to Days 1–9 before appending its independently owned Week 2 additions. This prevents duplicate Week 2 rows when the root expands to 16 days, and preserves companion output byte-for-byte. No independently researched companion data was edited.

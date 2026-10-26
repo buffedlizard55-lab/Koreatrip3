@@ -113,3 +113,9 @@ The same dataset drives Transit, Stays, Food & Shopping, and Flagged for Review.
 - Official recurring hours are not date-specific opening guarantees. Source links
   marked context do not verify a venue. External checks are documented per source;
   internal-link tests do not validate external pages.
+
+---
+
+## Complete 16-day field guide — `guide/` (session arena/1745f6a4)
+
+Mobile tap-a-day guide covering **all 16 days** (31 Oct-16 Nov 2026; brief's '2006' flagged as F1), 3 hotels, per-day transit, verified facts only from official sources, and Flags F1-F10: https://buffedlizard55-lab.github.io/Koreatrip3/guide/ - data in `guide/data.json`, no build step.
