@@ -32,6 +32,7 @@ jobs:
           python3 scripts/test-full-trip.py
           node --check app.js
           python3 -m json.tool data/itinerary.json >/dev/null
+          python3 scripts/verify-week2.py
           python3 - <<'PY'
           import json
           rows = json.load(open('data/itinerary.json', encoding='utf-8'))
@@ -45,6 +46,8 @@ jobs:
           PY
           python3 scripts/build_site.py --check
           python3 source-audit/scripts/validate_site.py
+          python3 scripts/build_complete.py
+          git diff --exit-code -- complete/
           python3 scripts/check_links.py
           node scripts/verify-session-2a9f9e6e.mjs
       - name: Configure Pages
@@ -56,9 +59,12 @@ jobs:
           cp -r assets _site/assets
           cp -r portal _site/portal
           cp -r source-audit _site/source-audit
+          cp -r previous-dashboard _site/previous-dashboard
+          cp -r complete _site/complete
           cp -r data _site/data
           cp -r docs _site/docs
           cp -r trip _site/trip
+          cp -r guide _site/guide
           if [ -d pages ]; then cp -r pages _site/pages; fi
           if [ -d verified ]; then cp -r verified _site/verified; fi
       - name: Upload site artifact

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Source-audited South Korea itinerary for two adult travelers, with daily plans, transit references, and items needing confirmation.">
+  <title>Korea Trip | Itinerary dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body data-page="itinerary"><aside style="padding:12px;background:#fff0cf;color:#684d22;text-align:center">Archived parallel dashboard · preserved 26 Oct 2026. Not re-certified by the current audit. <a href="../index.html">Return to current guide</a></aside>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">K</span><span>Korea Trip <small>Field guide · two travelers</small></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Itinerary</a><a href="transit.html">Transit</a><a href="food-shopping.html">Food &amp; shopping</a><a href="stays.html">Stays</a><a class="nav-flag" href="flagged-for-review.html">Flagged for review <span id="nav-flag-count"></span></a>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <div><p class="eyebrow">SOUTH KOREA · SEOUL → BUSAN → HONGDAE</p><h1>A clear plan for every day.</h1><p class="hero-copy">A practical, source-linked itinerary with public-transport references and a visible checklist of details that still need confirmation.</p></div>
+      <div class="hero-badge"><span>TRAVEL PARTY</span><strong>2 adults</strong><small>Dates unresolved</small></div>
+    </section>
+    <section class="alert alert-warn"><strong>Before you rely on this schedule</strong><p>The supplied dates are internally inconsistent, and Day 3 places Gyeongbokgung Palace on a Tuesday when the official tourism listing says it is closed. No travel year is assumed. See <a href="flagged-for-review.html">Flagged for review</a>.</p></section>
+    <section class="stats" aria-label="Itinerary overview">
+      <article class="stat-card"><span class="stat-label">PLANNED DAYS</span><strong id="stat-days">16</strong><small>Including open days and the return to Seoul</small></article>
+      <article class="stat-card"><span class="stat-label">ITINERARY ITEMS</span><strong id="stat-items">—</strong><small>Every row includes a source link</small></article>
+      <article class="stat-card stat-alert"><span class="stat-label">NEEDS REVIEW</span><strong id="stat-flags">—</strong><small>Unverified details or schedule issues</small></article>
+      <article class="stat-card"><span class="stat-label">CITY TRANSFERS</span><strong>2</strong><small>Seoul ↔ Busan by KTX (planned)</small></article>
+    </section>
+    <section class="quick-links" aria-label="Quick links"><a href="transit.html"><span class="quick-icon">↗</span><span><b>Getting around</b><small>Official route and rail tools</small></span></a><a href="food-shopping.html"><span class="quick-icon">⌕</span><span><b>Food &amp; shopping</b><small>Venue-level details and checks</small></span></a><a href="stays.html"><span class="quick-icon">⌂</span><span><b>Hotel stays</b><small>Addresses and booking checks</small></span></a><a class="quick-review" href="flagged-for-review.html"><span class="quick-icon">!</span><span><b>Flagged for review</b><small>Conflicts, unknowns, and source gaps</small></span></a></section>
+    <section class="trip-selector" aria-label="Choose a trip day"><div class="section-heading"><div><p class="eyebrow">16 DAYS · TWO ADULTS · THREE HOTEL BASES</p><h2>Where are we today?</h2><p>Choose a day to see its plan, transport and source checks. Dates remain unresolved.</p></div><button type="button" class="print-plan" onclick="window.print()">Print current plan</button></div><div id="day-picker" class="day-picker"></div></section>
+    <section class="alert"><strong>What is confirmed—and what is not</strong><p>Days 10–16 checked 26 Oct 2026. Days 1–9 retain historical source records dated 21 Oct; these have not been freshly re-certified. “Published detail checked” verifies only the stated detail, not your booking or date. Unknown facts are blank; context links are not evidence for venue hours. <a href="flagged-for-review.html">Read all findings</a>.</p></section>
+    <details class="archive-links"><summary>Earlier research and category archives (Days 1–9)</summary><p>Parallel-session outputs are preserved, but may disagree on the year or current details. They are historical research, not a second confirmed schedule: <a href="../portal/index.html">Transit portal</a> · <a href="../source-audit/index.html">Source audit</a> · <a href="../verified/index.html">Prior verification</a> · <a href="itinerary.html">Prior category tables</a> · <a href="../docs/index.html">Docs</a> · <a href="../docs/trip-guide/index.html">Trip guide</a> · <a href="../trip/index.html">Trip archive</a>. Use this dashboard for the full 16-day submission.</p></details>
+    <aside class="alert"><strong>Additional parallel guides preserved</strong><p><a href="../complete/index.html">Complete static day pages</a> · <a href="../guide/index.html">Parallel tap-a-day guide</a>. These independently maintained guides may use different price records or assume a year. This dashboard does not adopt those assumptions; compare the linked sources and review flags.</p></aside>
+    <section class="section-heading"><div><p class="eyebrow">YOUR DAY-BY-DAY PLAN</p><h2>Itinerary</h2><p>Official-source facts are separated from the proposed plan. Blank facts mean no detail was confirmed.</p></div><div class="table-tools"><label class="search-label"><span class="sr-only">Search itinerary</span><input id="search" type="search" placeholder="Search places or plans"></label><select id="day-filter" aria-label="Filter by day"><option value="all">All days</option></select></div></section>
+    <div id="day-groups" class="day-groups" aria-live="polite"><p class="loading">Loading source-linked plan…</p></div>
+    <footer class="page-footer"><p>Planning reference only. Confirm live opening times, routes, ticket availability, and reservations with the linked official source before departure.</p><span>Week 2 audit · 26 Oct 2026</span></footer>
+  </main>
+</body>
+</html>

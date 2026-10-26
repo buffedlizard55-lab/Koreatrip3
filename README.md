@@ -1,6 +1,6 @@
 # Korea, together — current 16-day travel dashboard
 
-**Live site:** https://buffedlizard55-lab.github.io/Koreatrip3/  
+**Live site:** https://buffedlizard55-lab.github.io/Koreatrip3/
 **Current review register:** https://buffedlizard55-lab.github.io/Koreatrip3/flagged-for-review.html
 
 The primary site now covers **all 16 days for two adult travelers**: Seoul / Myeongdong → Busan / Haeundae → Seoul / Hongdae. Select a day, search/filter category tables, inspect official-source links, or print/save the itinerary. All content is statically rendered and remains readable without JavaScript or third-party resources after loading. A new offline network fetch is not required to switch days; this is not a service-worker offline app.
@@ -17,7 +17,7 @@ node scripts/verify-session-2a9f9e6e.mjs
 python3 -m http.server 8080 --bind 0.0.0.0
 ```
 
-`data/full-trip.json` is the **current** primary source of truth (105 entries / 16 days). `data/current-sources.json` records 43 official references, checked evidence, methods and limitations on 26 October 2026. `scripts/build-full-trip.py` deterministically generates the 14 root pages. PR CI checks empty-field/evidence invariants and all local links. The Pages workflow repeats checks and publishes the primary site plus preserved archives.
+`data/full-trip.json` is the **current** primary source of truth (105 entries / 16 days). `data/current-sources.json` records 43 official references, checked evidence, methods and limitations on 26 October 2026. `scripts/build-full-trip.py` deterministically generates the 13 root pages. PR CI checks empty-field/evidence invariants and all local links. The Pages workflow repeats checks and publishes the primary site plus preserved archives.
 
 Optional real-browser checks: install `playwright-core` and `@sparticuz/chromium` in a temporary directory outside the repository, set `NODE_PATH` to that installation's `node_modules`, provide the Chromium shared libraries appropriate to your environment, and run `npm run test:browser` against the separately running preview. `BASE_URL` overrides the default local test-server URL. The site itself never calls localhost.
 
@@ -33,7 +33,7 @@ Optional real-browser checks: install `playwright-core` and `@sparticuz/chromium
 
 ## Prior parallel-session material (historical, not current primary facts)
 
-All archived sites remain intact under `/docs/`, `/docs/trip-guide/`, `/trip/`, `/portal/`, `/source-audit/`, `/verified/`. The current site labels them as historical research and does not inherit their assumptions (including 2026 dates, secondary-source store data or unsupported KTX fares). The old `data/itinerary.json` remains unchanged for archive compatibility. `npm run build:archives` and `npm run verify:archives` preserve the older portal commands. Do not regenerate older archives as a way to build the current root site.
+The concurrently published dashboard is preserved at `/previous-dashboard/`, alongside `/complete/` and `/guide/`. All earlier archived sites remain intact under `/docs/`, `/docs/trip-guide/`, `/trip/`, `/portal/`, `/source-audit/`, `/verified/`. The current site labels them as historical research and does not inherit their assumptions (including 2026 dates, secondary-source store data or unsupported KTX fares). The concurrent `data/itinerary.json` remains unchanged for archive compatibility. `npm run build:archives` and `npm run verify:archives` preserve the older portal commands. Do not regenerate older archives as a way to build the current root site.
 
 The earlier README is preserved below as a historical log; its counts, verification claims and primary-site descriptions are superseded by this section.
 
@@ -136,3 +136,27 @@ npm run check   # build portal + verify internal links across all 6 sites
 A sixth, independently maintained companion dashboard with a day-by-day itinerary, category pages, hotel-based public-transit guidance, an official source register, and a clearly labeled **Flagged for Review** page. Its separate dataset retains 40 itinerary rows, 11 transit routes, 57 official source links, and 30 review notes across nine day cards. It is published at <https://buffedlizard55-lab.github.io/Koreatrip3/source-audit/> and linked from the root landing page. Existing root, `/docs/`, `/docs/trip-guide/`, `/trip/`, and `/portal/` sites and their datasets remain intact.
 
 Run its offline structural check with `python3 source-audit/scripts/validate_site.py`; the combined Pages workflow also validates its data and packages the directory.
+
+## Full 16-day dashboard update — 26 October 2026
+
+The root dashboard now covers the entire newly supplied trip: Days 1–16, 109 rows,
+including 41 Week 2 rows, the Busan–Seoul return, and Mercure Hongdae. Use the day
+buttons or share `index.html#day-16` to select a day. Print uses the current filter.
+The same dataset drives Transit, Stays, Food & Shopping, and Flagged for Review.
+
+- New input preservation: [`data/week2-input.md`](data/week2-input.md).
+- Official source register and rejected URLs: [`data/week2-audit.json`](data/week2-audit.json).
+- Week 2 invariants: `python3 scripts/verify-week2.py`.
+- Historical Days 1–9 retain the previous 21 October audit date. This update does
+  **not** certify all older facts or contradictory assumptions in companion sites.
+- Blank days stay unassigned. No year, extra calendar dates, USD conversion,
+  restaurant branch, transit duration, or booking is invented.
+- Official recurring hours are not date-specific opening guarantees. Source links
+  marked context do not verify a venue. External checks are documented per source;
+  internal-link tests do not validate external pages.
+
+---
+
+## Complete 16-day field guide — `guide/` (session arena/1745f6a4)
+
+Mobile tap-a-day guide covering **all 16 days** (31 Oct-16 Nov 2026; brief's '2006' flagged as F1), 3 hotels, per-day transit, verified facts only from official sources, and Flags F1-F10: https://buffedlizard55-lab.github.io/Koreatrip3/guide/ - data in `guide/data.json`, no build step.

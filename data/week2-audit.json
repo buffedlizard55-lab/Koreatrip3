@@ -1,0 +1,105 @@
+{
+  "checkedAt": "2026-10-26",
+  "scope": "New Days 10–16; historical Days 1–9 retained with prior check date. Context links are not verification. No year inferred. Day 9 duplicate retained once.",
+  "rows": 41,
+  "sources": [
+    {
+      "key": "busan",
+      "url": "https://www.visitbusan.net/en/index.do",
+      "label": "Visit Busan — official tourism (context only)",
+      "retrieval": "context or pending full retrieval; not fact verification"
+    },
+    {
+      "key": "nuri",
+      "url": "https://www.busan.go.kr/nurimaru/english/Design/sub0101.jsp",
+      "label": "Busan Metropolitan City — Nurimaru visitor guide",
+      "retrieval": "direct official content read"
+    },
+    {
+      "key": "gam",
+      "url": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=365&lang_cd=en",
+      "label": "Visit Busan — Gamcheon Culture Village",
+      "retrieval": "direct official content read"
+    },
+    {
+      "key": "downtown",
+      "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000302011001000&uc_seq=2809&lang_cd=en",
+      "label": "Visit Busan — historic downtown route",
+      "retrieval": "direct official content read"
+    },
+    {
+      "key": "skywalk",
+      "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301001001000&uc_seq=282&lang_cd=en",
+      "label": "Visit Busan — three skywalks",
+      "retrieval": "direct official content read"
+    },
+    {
+      "key": "family",
+      "url": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302011001000&uc_seq=1697",
+      "label": "Visit Busan — family coastal itinerary",
+      "retrieval": "direct official content read"
+    },
+    {
+      "key": "capsule",
+      "url": "https://www.bluelinepark.com/eng/booking.do",
+      "label": "Haeundae Blueline Park — official booking guide",
+      "retrieval": "direct official content read"
+    },
+    {
+      "key": "xthe",
+      "url": "https://www.busanxthesky.com/xtheskyMob/xtheskyM.php",
+      "label": "Busan X the SKY — official visitor information",
+      "retrieval": "direct official content read"
+    },
+    {
+      "key": "aqua",
+      "url": "https://www.visitsealife.com/busan/en/plan-your-visit/before-you-visit/opening-hours/",
+      "label": "SEA LIFE Busan — official opening hours",
+      "retrieval": "direct official content read"
+    },
+    {
+      "key": "drone",
+      "url": "https://www.gwangallimdrone.co.kr/overview",
+      "label": "Gwangalli M Drone Show — official overview",
+      "retrieval": "direct official content read"
+    },
+    {
+      "key": "mercure",
+      "url": "https://all.accor.com/hotel/B696/index.en.shtml",
+      "label": "Accor — Mercure Ambassador Seoul Hongdae",
+      "retrieval": "direct official content read"
+    },
+    {
+      "key": "arex",
+      "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140654",
+      "label": "Korea Tourism Organization — airport transportation",
+      "retrieval": "direct official content read: Express versus All-Stop confirmed"
+    },
+    {
+      "key": "korail",
+      "url": "https://www.letskorail.com/ebizbf/EbizBfTicketSearch.do",
+      "label": "KORAIL — official train search (not a reservation)",
+      "retrieval": "context or pending full retrieval; not fact verification"
+    },
+    {
+      "key": "l7",
+      "url": "https://www.lottehotel.com/prerendered/haeundae-l7/en/about/art-experience/l7/index.html",
+      "label": "LOTTE — L7 HAEUNDAE (context; checkout not confirmed)",
+      "retrieval": "official art page retrieved, but no checkout policy; context only"
+    }
+  ],
+  "failedCandidates": [
+    {
+      "url": "https://www.bluelinepark.com/eng/skyCapsuleFare.do",
+      "result": "Official site page-not-found message; replaced with working official booking page."
+    },
+    {
+      "url": "https://www.busanxthesky.com/eng/guide.do",
+      "result": "Page not found; working Korean operator mobile page read instead."
+    },
+    {
+      "url": "https://all.accor.com/hotel/B4P7/index.en.shtml",
+      "result": "Wrong property (Petra). Rejected, never used as Seoul evidence."
+    }
+  ]
+}
