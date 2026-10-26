@@ -385,5 +385,59 @@
     "method": "Official page opened",
     "evidence": "Official brand shop and collection pages opened.",
     "limitation": "No Seongsu store hours or address established from this page; brand context only."
+  },
+  {
+    "id": "aircruise-price",
+    "label": "Busan Air Cruise · operator fares",
+    "url": "https://en.busanaircruise.co.kr/info/price?rank=1",
+    "checked": "2026-10-26",
+    "method": "Official operator page opened",
+    "evidence": "Air Cruise adult ₩19,000 round trip / ₩15,000 one way; Crystal Cruise adult ₩24,000 / ₩19,000. Child fares are listed separately; adult means age 13+.",
+    "limitation": "Fares are subject to change. Live ticket availability was not checked; use the operator for current booking."
+  },
+  {
+    "id": "aircruise-time",
+    "label": "Busan Air Cruise · operator hours",
+    "url": "https://en.busanaircruise.co.kr/info/time?rank=2",
+    "checked": "2026-10-26",
+    "method": "Official operator page opened",
+    "evidence": "January–February and December 09:00–20:00; March–June and September–November 09:00–21:00; July–August 09:00–22:00. Ticketing closes 30 minutes before closing.",
+    "limitation": "The operator says weather or other unavoidable conditions can change hours or close early. Page also displayed live operating status only for the fetch date."
+  },
+  {
+    "id": "aircruise-kto",
+    "label": "Korea Tourism Organization · Busan Air Cruise",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=60283",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "171 Songdohaebyeon-ro, Seo-gu, Busan; open year-round subject to bad-weather closure. Lists the same seasonal hours and adult fares as the operator; last ticketing 30 minutes before close.",
+    "limitation": "Fees are subject to change; verify live operation and date-specific notices with the operator."
+  },
+  {
+    "id": "aircruise-visitbusan-old",
+    "label": "Visit Busan · older Songdo area listing (fare comparison)",
+    "url": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=1176&lang_cd=en",
+    "checked": "2026-10-26",
+    "method": "Official tourism article opened; older editorial listing",
+    "evidence": "Lists Busan Air Cruise adult Air Cruise ₩15,000 round trip / ₩12,000 one way and Crystal Cruise ₩20,000 / ₩16,000, with 09:00–21:00 hours and Jagalchi-to-Songdo bus approaches.",
+    "limitation": "Fare and hour entries differ from the current operator and KTO listings; treated as a historical discrepancy, not the current price or schedule."
+  },
+  {
+    "id": "amso-visitbusan",
+    "label": "Visit Busan · Haeundae Somunnan Amso Galbijip itinerary listing",
+    "url": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302011001000&uc_seq=2606",
+    "checked": "2026-10-26",
+    "method": "Official Visit Busan search extract; direct fetch returned only the page heading",
+    "evidence": "Search excerpt lists 333 Haeundaehaebyeon-ro, 11:00–22:00, break 15:00–17:00, last orders 14:00 and 21:00.",
+    "limitation": "KTO listing gives a different street address, 11:30–22:00, and weekend break 15:15–16:30. Because official listings disagree and this page did not fully render, exact address/hours/break remain blank pending operator confirmation."
+  },
+  {
+    "id": "kyoja-official",
+    "label": "Myeongdong Kyoja · official site (HTTP 406 on direct fetch)",
+    "url": "https://www.mdkj.co.kr/en/restaurant/head.php",
+    "checked": "2026-10-26",
+    "method": "Official business URL attempted; request returned HTTP 406",
+    "evidence": "The request returned a 406 response; no page content was accessible in this check.",
+    "limitation": "Not evidence for current address, hours, closure days or relocation. Keep the KTO English/Korean address conflict flagged."
   }
 ]

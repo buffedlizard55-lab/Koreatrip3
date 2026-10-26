@@ -10,7 +10,7 @@ assert D['travelYear'] is None and D['travelers']==2
 assert [d['day'] for d in D['days']]==list(range(1,17))
 assert set(r['day'] for r in D['rows'])==set(range(1,17))
 assert len({r['id'] for r in D['rows']})==len(D['rows'])
-allowed={'english.visitseoul.net','english.seoul.go.kr','english.visitkorea.or.kr','www.stanford-hotel.com','www.nseoultower.co.kr','www.korail.com','www2.humetro.busan.kr','www.lottehotel.com','all.accor.com','www.visitbusan.net','visitbusan.net','www.bluelinepark.com','www.busanxthesky.com','www.visitsealife.com','www.gwangallimdrone.co.kr','locations.musinsa.com','global.margesherwood.com','www.adererror.com'}
+allowed={'english.visitseoul.net','english.seoul.go.kr','english.visitkorea.or.kr','www.stanford-hotel.com','www.nseoultower.co.kr','www.korail.com','www2.humetro.busan.kr','www.lottehotel.com','all.accor.com','www.visitbusan.net','visitbusan.net','www.bluelinepark.com','www.busanxthesky.com','www.visitsealife.com','www.gwangallimdrone.co.kr','en.busanaircruise.co.kr','www.mdkj.co.kr','locations.musinsa.com','global.margesherwood.com','www.adererror.com'}
 for s in S.values():
  u=urlparse(s['url']); assert u.scheme=='https' and u.hostname in allowed, s
  assert s['checked']=='2026-10-26' and s['evidence'] and s['method']
@@ -23,7 +23,13 @@ for r in D['rows']:
  assert all('$' not in r[k] for k in ['hours','closed','address','price','facts']),r
  assert r['checked']=='2026-10-26'
 byid={r['id']:r for r in D['rows']}
-assert byid['R018']['address']=='' # unresolved Kyoja address
+assert len(S)==49
+assert byid['R018']['address']=='' and 'kyoja-official' in byid['R018']['sourceIds'] # unresolved Kyoja address; direct operator URL linked for review
+assert byid['R070']['hours']=='' and byid['R070']['address']=='' # conflicting official Amso listings remain unresolved
+assert 'Lunar New Year' in byid['R070']['closed'] # KTO-listed closure retained with explicit attribution
+assert {'amso','amso-visitbusan'} <= set(byid['R070']['sourceIds'])
+assert byid['R086']['price'] and {'aircruise-price','aircruise-time','aircruise-kto','aircruise-visitbusan-old'} <= set(byid['R086']['sourceIds'])
+assert 'older official Visit Busan' in byid['R086']['flag']
 assert byid['R075']['hours']=='' # unresolved Cheongsapo hours
 assert byid['R061']['price']=='' and '45 minutes' in byid['R062']['flag']
 assert 'Tuesdays' in byid['R023']['closed']

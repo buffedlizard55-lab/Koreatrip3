@@ -17,7 +17,7 @@ node scripts/verify-session-2a9f9e6e.mjs
 python3 -m http.server 8080 --bind 0.0.0.0
 ```
 
-`data/full-trip.json` is the **current** primary source of truth (105 entries / 16 days). `data/current-sources.json` records 43 official references, checked evidence, methods and limitations on 26 October 2026. `scripts/build-full-trip.py` deterministically generates the 13 root pages. PR CI checks empty-field/evidence invariants and all local links. The Pages workflow repeats checks and publishes the primary site plus preserved archives.
+`data/full-trip.json` is the **current** primary source of truth (105 entries / 16 days). `data/current-sources.json` records 49 official references, checked evidence, methods and limitations on 26 October 2026, including the current Busan Air Cruise operator tariff and the older conflicting Visit Busan fare listing. `scripts/build-full-trip.py` deterministically generates the 13 root pages. PR CI checks empty-field/evidence invariants and all local links. The Pages workflow repeats checks and publishes the primary site plus preserved archives.
 
 Optional real-browser checks: install `playwright-core` and `@sparticuz/chromium` in a temporary directory outside the repository, set `NODE_PATH` to that installation's `node_modules`, provide the Chromium shared libraries appropriate to your environment, and run `npm run test:browser` against the separately running preview. `BASE_URL` overrides the default local test-server URL. The site itself never calls localhost.
 
@@ -26,7 +26,7 @@ Optional real-browser checks: install `playwright-core` and `@sparticuz/chromium
 - No travel year inferred from inconsistent dates. Day 3 retains the Tuesday palace closure conflict; no silent rescheduling.
 - Only **displayed nonempty factual fields** have source support. `partial` never means a whole itinerary row, reservation or future visit is verified. Context-only links explicitly do not verify the proposed venue.
 - Unconfirmed hours, closed days, addresses and prices are blank. No USD conversions or guessed exact transit times. Official source excerpts are labeled when used instead of full-page reads.
-- Kyoja's official-tourism English/Korean addresses disagree; Cheongsapo's official closing times conflict. Exact affected fields remain blank.
+- Kyoja's official-tourism English/Korean addresses disagree; Cheongsapo's official closing times conflict; and official Amso Galbijip listings conflict on address, opening time and weekend break. Exact affected address/hour fields remain blank; the KTO-listed holiday closure is labeled as such and should be reconfirmed.
 - Sky Capsule journeys are one-way; return transport needs separate confirmation. X the SKY repeats on Days 10 and 12. Day 9 duplicate consolidated; open Days 8, 13 and 15 remain open.
 - Sources are an audit snapshot, not live operating status. No hotel, train, flight or attraction booking was made.
 - Attempted blocked/error sources: `data/audit-attempts.md`. Submitted Week 2 plan: `data/full-trip-addendum.md`. Earlier Days 1–9 transcription remains `data/itinerary-raw.md`.
