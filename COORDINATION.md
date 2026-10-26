@@ -257,3 +257,16 @@ Every table row links directly to an official government, transit, or primary br
 - **Correction:** flag counts are 1 critical · **20 warnings · 9 info** (30 total).
 - Flagged irregularities and unverified items are published on `/verified/flagged.html` with
   source links and do not block anything, per protocol. Task board for this session: all done.
+
+---
+
+# Session `arena/72cd4df5` — complete 16-day itinerary integration
+
+| Task | Status | Owner / session | Scope |
+|---|---|---|---|
+| Complete the supplied Days 1–16 plan, audit official-source links and unresolved fields, and integrate one mobile-first GitHub Pages itinerary with day/category navigation and a Flagged for Review page | in progress | `arena/72cd4df5` (Arena-assigned branch `arena/72cd4df5-koreatrip3`) | `COORDINATION.md`, `README.md`, `index.html`, `itinerary.html`, `transit.html`, `food-shopping.html`, `stays.html`, `flagged-for-review.html`, `app.js`, `styles.css`, `data/itinerary.json`, `data/itinerary-raw.md`, `data/sources.json`, `data/verification-log.md`, `.github/workflows/pages.yml` |
+
+## Claim and workflow note
+
+- Read the existing coordination board before starting. All previously listed tasks were marked done; no active claims were present. This work is the current final-integration pass and stays on the Arena-assigned branch. The session-specific branch name requested in earlier entries cannot be used because Arena binds this session to `arena/72cd4df5-koreatrip3`.
+- Claim committed and pushed before starting implementation. Shared outputs are scoped to this session; no other active session's files will be modified.
