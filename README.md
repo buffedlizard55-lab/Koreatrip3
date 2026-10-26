@@ -1,46 +1,44 @@
 # Korea Trip — source-audited itinerary
 
-A lightweight, mobile-friendly GitHub Pages travel dashboard for two adults, built from the supplied South Korea trip outline. The current data preserves proposed activities and distinguishes them from facts checked against official city, tourism, transit, rail, and hotel sources.
+A lightweight, mobile-friendly GitHub Pages guide for two adult travelers. The root site organizes the supplied South Korea plan into day-by-day and categorized pages, adds public-transit tools from the planned hotel bases/cities, and keeps unresolved details visible rather than filling them by inference.
 
-## Pages
+## Current root experience
 
-- **Itinerary** — day-by-day list, searchable and filterable by day.
-- **Transit** — official Seoul Subway route-planning, AREX, and KORAIL links.
-- **Food & shopping** — every named restaurant, café, bar, market, and shop supplied in the notes.
-- **Stays** — Seoul and Busan hotel entries.
-- **Flagged for review** — all unverified details, source gaps, and schedule conflicts.
+- **Itinerary** (`index.html`, `itinerary.html`) — 16 numbered day groups, searchable and filterable by day/category, plus a separate section for four research references whose day placement is unknown.
+- **Transit** (`transit.html`) — official Seoul subway, AREX, Busan Metro, bus and KORAIL tools; hotel-base guidance for Myeongdong, Haeundae and Hongdae; day-level transit rows.
+- **Attractions** (`attractions.html`) — activities, opening-hour/access notes and unassigned research references.
+- **Dining** (`dining.html`) and **Shopping** (`shopping.html`) — separate category pages, with **Food & shopping** (`food-shopping.html`) as a combined view.
+- **Stays** (`stays.html`) — hotel details and booking caveats.
+- **Analysis** (`analysis.html`) — live row counts, day coverage and official-source conflicts.
+- **Flagged for review** (`flagged-for-review.html`) — date conflicts, unknown values, incomplete days and source gaps.
 
-## Verification policy
+The root dataset currently has 86 rows: 44 rows marked source-linked and 42 marked unverified. All rows carry a linked source and a caveat. “Source-linked” means at least one stated fact is supported; it does not validate the entire proposed plan.
 
-- Every data row in `data/itinerary.json` carries a source link.
-- Only factual values supported by official sources are shown in “Officially sourced detail.” Empty values intentionally display as **Not confirmed**.
-- “Source-linked” indicates an official source was consulted for some part of that row; it does not mean every proposed detail is confirmed. Caveats are shown inline and the row is also included on the review page.
-- Some official links provide only district-level context and are explicitly flagged as not verifying a named business. No crowd estimates, route durations, prices, schedules, or reservations are inferred.
-- Opening hours and transit information can change. The official operator/venue source should be checked again for the actual travel dates.
+## Verification policy and current limitations
 
-## Important unresolved source-plan issues
-
-- The date/year is ambiguous. The source outline contains Oct 31/Nov 1 and several dates explicitly labeled 2006; weekdays and dated entries do not resolve to one reliable calendar. The site does not guess the year.
-- Day 3 is labeled Tuesday, while the official Gyeongbokgung listing says the palace is closed on Tuesdays; the guard ceremony page also excludes Tuesdays.
-- The Seoul hotel is listed in the plan as Stanford Hotel Myeongdong; the Busan hotel as L7 HAEUNDAE by LOTTE HOTELS. No reservations were provided.
-- Specific routes from hotels, individual store hours, and many named businesses' current details could not be confirmed from official venue pages. See the review page.
+- Every itinerary table row has an HTTPS source link. Official venue, operator, tourism-agency and government sources are preferred; the root-site source registry (`data/itinerary-sources.json`) records the official source set and any supplementary trusted guide.
+- Facts appear separately from the proposed plan. Unsupported values remain blank, and row-level flags explain uncertainty, conflicts, context-only sources, or planning notes.
+- No route duration, fare, reservation, venue-specific hours, trip year, or day placement is inferred. Use live operator searches for travel-date details.
+- The original raw itinerary text and structured record preserve the complete schedule only through Day 9. Days 10–16 are sparse research-backed entries, not a recovered full schedule. Days 13 and 15 are missing-detail placeholders, not free days; four Busan research references remain unassigned. Day 8 is likewise not confirmed as a rest/buffer day.
+- The year/date sequence is unresolved: the source includes Oct 31/Nov 1 and a Day 2 reference explicitly marked 2006. Day 3 is labeled Tuesday, while official Gyeongbokgung and royal-guard information lists Tuesday closures. No year or replacement day is assumed.
+- Material source differences remain flagged, including BUSAN X the SKY admission, Nurimaru closing time, Haeundae Amso Galbi address/break times, and the Myeongdong Kyoja address listing. Recheck dynamic details with the operator before booking.
 
 ## Local checks
 
-The site is static and has no build dependencies. From the repository root:
+The root site is static. From the repository root, the same core validation steps used by the Pages workflow are:
 
 ```sh
 python3 -m json.tool data/itinerary.json >/dev/null
-python3 - <<'PY'
-import json
-items=json.load(open('data/itinerary.json'))
-assert items and all(i.get('source','').startswith('https://') for i in items)
-assert all(i.get('item') and i.get('verification') in {'verified','unverified'} for i in items)
-print(f'{len(items)} rows; {sum(bool(i.get("flag")) for i in items)} flagged')
-PY
+python3 -m json.tool data/itinerary-sources.json >/dev/null
+python3 -m json.tool data/sources.json >/dev/null
+node --check app.js
+python3 scripts/build_site.py --check
+python3 source-audit/scripts/validate_site.py
+python3 scripts/check_links.py
+node scripts/verify-session-2a9f9e6e.mjs
 ```
 
-GitHub Pages deploys from the included GitHub Actions workflow after updates reach `main`.
+GitHub Pages deploys from the included Actions workflow after updates reach `main` (or via `workflow_dispatch`).
 
 ---
 

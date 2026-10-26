@@ -30,16 +30,31 @@ jobs:
       - name: Validate itinerary datasets & cross-site links across all sessions
         run: |
           python3 -m json.tool data/itinerary.json >/dev/null
+          python3 -m json.tool data/itinerary-sources.json >/dev/null
+          python3 -m json.tool data/sources.json >/dev/null
           python3 - <<'PY'
           import json
           rows = json.load(open('data/itinerary.json', encoding='utf-8'))
+          registry = json.load(open('data/itinerary-sources.json', encoding='utf-8'))['sources']
           assert rows, 'No itinerary rows found'
+          assert len({source['id'] for source in registry}) == len(registry), 'Source IDs must be unique'
+          sources = {source['id']: source for source in registry}
           for n, row in enumerate(rows, 1):
               assert row.get('item'), f'Row {n} has no item'
-              assert row.get('source', '').startswith('https://'), f'Row {n} has no HTTPS source'
               assert row.get('sourceLabel'), f'Row {n} has no source label'
               assert row.get('verification') in {'verified', 'unverified'}, f'Row {n} has invalid status'
-          print(f'Validated {len(rows)} sourced itinerary rows')
+              assert row.get('flag'), f'Row {n} has no review note'
+              links = row.get('sourceLinks')
+              assert links, f'Row {n} has no registered source links'
+              assert row.get('source') == links[0].get('url'), f'Row {n} primary URL does not match its first source link'
+              assert row.get('sourceLabel') == links[0].get('label'), f'Row {n} primary label does not match its first source link'
+              for link in links:
+                  assert link.get('id') in sources, f'Row {n} references unknown source ID {link.get("id")}'
+                  assert link.get('url', '').startswith('https://'), f'Row {n} has a non-HTTPS source'
+                  assert link['url'] == sources[link['id']]['url'], f'Row {n} URL does not match registry for {link["id"]}'
+              primary = sources[links[0]['id']]
+              assert primary.get('type') == 'official', f'Row {n} primary source is not official'
+          print(f'Validated {len(rows)} sourced itinerary rows and {len(registry)} registered sources')
           PY
           python3 scripts/build_site.py --check
           python3 source-audit/scripts/validate_site.py
