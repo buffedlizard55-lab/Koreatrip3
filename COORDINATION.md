@@ -260,20 +260,52 @@ Every table row links directly to an official government, transit, or primary br
 
 ---
 
-# Session `arena/49c638ef-koreatrip3` (`session-49c638ef`) — Full 16-Day (Week 1 Seoul + Week 2 Busan → Seoul Hongdae) Audit, Public-Transit Matrix & Integration
+# Session arena/1745f6a4-koreatrip3 — Complete 16-day tap-a-day guide
 
-**Session branch:** `arena/49c638ef-koreatrip3` (bound by Arena session environment; all tasks below are executed on this branch with non-overlapping primary scope in `data/session-49c638ef/`, `scripts/build-session-49c638ef.mjs`, and `full-itinerary/`, plus final integration into shared root outputs once tasks complete).
+| # | Task | Status | Owner | Files / scope |
+|---|------|--------|-------|---------------|
+| G1 | Extend coverage to all 16 days (prior root site stopped at Day 9), mobile tap-a-day UI | in progress | arena/1745f6a4 | `guide/**`, one link in `index.html`, `.github/workflows/pages.yml` (add `guide` copy), `COORDINATION.md`, `README.md` |
+| G2 | Line-by-line verification vs official sources; unverified left blank/flagged | in progress | arena/1745f6a4 | `guide/data.json` |
+| G3 | Build/link check, PR, merge, Pages deploy confirmation | unclaimed | arena/1745f6a4 | — |
+
+Log: 2026-10-26 — Claimed G1–G3. Dates: every weekday in the brief matches Nov 2026 (Nov 1 2026 = Sunday … Nov 16 = Monday); "Nov 2, 2006" in the brief is flagged as a typo, year shown as 2026 with that flag visible. Critical conflict retained: Day 3 (Tue Nov 3) Gyeongbokgung is closed Tuesdays.
+- 2026-10-26 — G1/G2 done: `guide/` 16 days, 51 items (11 verified, rest Needs check/Conflict with blank verified fields), 3 hotels, Flags F1–F10, every item has an official-source link. Fresh checks: Gyeongbokgung official hours/closure, N Seoul Tower (VisitKorea + operator cable car), Blueline Park official hours + Tue-07:00/4-week booking, BUSAN X the SKY & SEA LIFE (KTO/operator), Gwangalli drone show (Busan City: Sat, Oct–Feb 19:00 & 21:00). Validators: check_links (66 pages OK), build_site --check OK, source-audit validate OK, session-2a9f9e6e verify OK. G3 in progress.
+
+---
+
+# Session `arena/b000dfde-koreatrip3` — complete 16-day itinerary
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Complete the missing Days 10–16 with source-linked, mobile-friendly 16-day guide and review page | done | `arena/b000dfde-koreatrip3` | `complete/**`, `scripts/build_complete.py` |
+| Integrate guide into Pages and check links/deployment | done | `arena/b000dfde-koreatrip3` | `index.html` (one link), `.github/workflows/pages.yml` (validation + copy), `COORDINATION.md` |
+
+2026-10-26: Claimed only the new `complete/` scope and minimal integration links. Existing sites and data are owned by prior sessions and remain unchanged. Arena binds this session to `arena/b000dfde-koreatrip3`, so no alternate session branch will be created. Official verification will be recorded below; unconfirmed claims will be flagged, not invented.
+
+## Verification and integration record (2026-10-26)
+
+- Existing Days 1–9: reused all 68 rows in `data/itinerary.json` without modifying the owning session's source data. New Days 10–16: 34 added records in `complete/additions.json`; every row has an HTTPS link to an official operator, government, or tourism page. The new guide renders 102 source-linked rows over 16 individually addressable day pages plus transit, places and Flagged for Review pages. Each row separates the user's proposed plan from confirmed facts and displays a warning when any part is uncertain. All 102 rows have at least one caveat; 34/34 new rows manually reviewed against their linked official context. A link marked “context only” does NOT verify a named business.
+- Directly reviewed official pages: [Visit Busan drone show](https://www.visitbusan.net/index.do?menuCd=DOM_000000302008001000&uc_seq=1769&lang_cd=en) (Saturday winter 19:00/21:00, about 10 minutes, not 12), [Visit Busan X the Sky](https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=996&lang_cd=en) (10:00–21:00; ₩27,000 adult), [Blueline booking](https://www.bluelinepark.com/eng/booking.do) and [course](https://www.bluelinepark.com/eng/skyCapsuleCourse.do) (one-way Mipo↔Cheongsapo, booking window), [Visit Busan Songdo/Gamcheon bus guide](https://www.visitbusan.net/index.do?menuCd=DOM_000000302002001000&uc_seq=1689&lang_cd=en), [Accor Mercure hotel](https://all.accor.com/hotel/B696/index.en.shtml), [SEA LIFE operator](https://www.visitsealife.com/busan/en/). Also checked official indexed listings for [Gamcheon visitor hours](https://www.visitbusan.net/index.do?menuCd=DOM_000000301001001000&uc_seq=365&lang_cd=en), [Nurimaru](https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=2121), [Songdo cable car](https://en.busanaircruise.co.kr/info/time?rank=2), [KORAIL booking](https://www.korail.com/global/eng/intro) and [Busan Metro map](https://www2.humetro.busan.kr/homepage/cyberstation/mapeng.do). Some Visit Busan venue pages are dynamically rendered or disagree; uncertain details are flagged rather than presented as final.
+- Irregularities: trip year and Day 1 flight date unresolved; Tuesday Gyeongbokgung closure; unbooked hotels/trains/capsule; Day 10/12 duplicate X the Sky; capsule round-trip assumption vs operator's one-way products; Nurimaru closing-hour disagreement between Visit Busan pages; unspecified Days 7, 8, 13, 15; quoted third-party dollar prices/taxi fares and restaurant hours not verified. All are visible in `complete/flagged.html` and do not block deployment.
+- Local validation: reproducible `python3 scripts/build_complete.py` with no generated diff; `scripts/build_site.py --check`, `source-audit/scripts/validate_site.py`, `scripts/check_links.py` (86 pages; all internal links resolve), `node scripts/verify-session-2a9f9e6e.mjs` (1,507 internal links/anchors), JSON parse, JS syntax, and `git diff --check` passed. Workflow now builds/checks/copies `/complete/` in the GitHub Pages artifact. No existing research data was edited.
+
+- Integration conflict: `origin/main` advanced with PR #15 (`guide/`) while this session was working in separately scoped `/complete/`. Rebased onto the new main, retained both session sections in COORDINATION.md and both dashboard/workflow additions; no `/guide/` files edited.
+
+---
+
+# Session `arena/49c638ef-koreatrip3` (`session-49c638ef`) — Full 16-Day (Week 1 Seoul + Week 2 Busan → Seoul Hongdae) Audit, Public-Transit Matrix & Dashboard (`/full-itinerary/`)
+
+**Session branch:** `arena/49c638ef-koreatrip3` (bound by Arena session environment; all tasks below are executed on this branch with non-overlapping scope in `data/session-49c638ef/`, `scripts/build-session-49c638ef.mjs`, `scripts/verify-session-49c638ef.mjs`, and `full-itinerary/`, preserving 100% of all existing sessions' directories).
 
 | Task ID | Task Description | Status | Owner Session | File Scope |
 |---|---|---|---|---|
-| `W2-1` | Repo audit (review existing Days 1–9 datasets & 7 portals; identify missing Week 2 Days 9–16 entries & irregularities) | `in progress` | `arena/49c638ef-koreatrip3` | `COORDINATION.md` |
+| `W2-1` | Repo audit (review existing Days 1–9 datasets & parallel portals; identify missing Week 2 Days 9–16 entries & irregularities) | `done` | `arena/49c638ef-koreatrip3` | `COORDINATION.md` |
 | `W2-2` | Line-by-line official-source verification of full 16-day itinerary (Week 1 Myeongdong Days 1–9 + Week 2 Busan & Seoul Hongdae Days 9–16; zero inference, blank for unconfirmed values) | `in progress` | `arena/49c638ef-koreatrip3` | `data/session-49c638ef/verified-items.json`, `data/session-49c638ef/sources.json` |
 | `W2-3` | Public-transit verification & door-to-door hotel route matrix across all 3 hotels (Stanford Hotel Myeongdong, L7 Haeundae by LOTTE, Mercure Ambassador Seoul Hongdae) | `in progress` | `arena/49c638ef-koreatrip3` | `data/session-49c638ef/transit-matrix.json`, `data/session-49c638ef/hotels.json` |
 | `W2-4` | Schedule conflict, duplicate Day 9, blank days (Days 7, 8, 12 dinner, 13, 14 daytime, 15), hours/fare discrepancy & unverified item audit | `in progress` | `arena/49c638ef-koreatrip3` | `data/session-49c638ef/flagged-irregularities.json` |
-| `W2-5` | Build clean mobile-friendly 16-day dashboard & category subpages (`/full-itinerary/` + generator & verifier scripts) | `in progress` | `arena/49c638ef-koreatrip3` | `full-itinerary/**`, `scripts/build-session-49c638ef.mjs`, `scripts/verify-session-49c638ef.mjs` |
-| `W2-6` | Final integration: merge/preserve any concurrent session work on `main`, update root dashboard & datasets (`data/itinerary.json`, root HTML tables, `portal/`) to cover all 16 days (Weeks 1 & 2), run all validators & link checks, deploy to GitHub Pages, open & merge PR | `unclaimed` (reserved for final integration step) | `arena/49c638ef-koreatrip3` | `COORDINATION.md`, `README.md`, `index.html`, `data/itinerary.json`, `itinerary.html`, `transit.html`, `stays.html`, `food-shopping.html`, `attractions.html`, `dining.html`, `shopping.html`, `analysis.html`, `flagged-for-review.html`, `flagged.html`, `portal/**`, `.github/workflows/pages.yml` |
+| `W2-5` | Build clean mobile-friendly 16-day dashboard, clickable per-day views (`day-1.html`–`day-16.html`) & category subpages (`/full-itinerary/` + generator & verifier scripts) | `in progress` | `arena/49c638ef-koreatrip3` | `full-itinerary/**`, `scripts/build-session-49c638ef.mjs`, `scripts/verify-session-49c638ef.mjs` |
+| `W2-6` | Final integration: preserve all concurrent session portals (`/`, `/docs/`, `/docs/trip-guide/`, `/trip/`, `/portal/`, `/source-audit/`, `/verified/`, `/guide/`, `/complete/`), add 1-line link in `index.html`, `README.md`, and `.github/workflows/pages.yml`, run all validators & link checks, deploy to GitHub Pages, open & merge PR | `unclaimed` (reserved for final integration step) | `arena/49c638ef-koreatrip3` | `COORDINATION.md`, `README.md`, `index.html` (1 link line), `.github/workflows/pages.yml` (validation + copy) |
 
 ## Log (`arena/49c638ef-koreatrip3`)
 
-- **2026-10-26 (Claim):** Read `COORDINATION.md` and inspected repository state on `main` (`a7591af`). Prior sessions (`e8bcfa8a`, `14a4cdd9`, `ae3cc5b4`, `54fb68ab`, `2a9f9e6e`, `b1177e35`, `641974df`) completed on 2026-10-21 and covered only Week 1 (Days 1–9). None of the Week 2 Busan / return-to-Seoul-Hongdae items (Days 9–16: Haeundae Amso Galbi, Dongbaekseom Island, Nurimaru APEC House, Haeundae Blueline Park Sky Capsule Mipo–Cheongsapo, Cheongsapo Daritdol Observatory, Busan X the SKY, Gamcheon Culture Village, Coffee It House, BIFF Square, Jagalchi Market, Songdo Beach, Songdo Cloud Trails, Songdo Marine Cable Car, Gukje Market, Nampo-dong, SEA LIFE Busan Aquarium, Gwangalli Beach, Gwangalli M Drone Light Show, Mercure Ambassador Seoul Hongdae) were present in the repo. Claimed tasks `W2-1` through `W2-5` in non-overlapping scope (`data/session-49c638ef/`, `full-itinerary/`, `scripts/*-session-49c638ef.mjs`) and reserved `W2-6` for final integration.
-
+- **2026-10-26 (Claim & Merge Resolution):** Claimed `W2-1`..`W2-6` in non-overlapping scope (`data/session-49c638ef/`, `full-itinerary/`, `scripts/*-session-49c638ef.mjs`). Merged `origin/main` (`4888b36`) after PRs #15 (`arena/1745f6a4-koreatrip3`, `/guide/`) and #16 (`arena/b000dfde-koreatrip3`, `/complete/`) landed; resolved `COORDINATION.md` conflict by keeping both sessions' sections verbatim and appending this section. No files owned by any prior or concurrent session are modified except the 1-line integration link at final integration (`W2-6`).
