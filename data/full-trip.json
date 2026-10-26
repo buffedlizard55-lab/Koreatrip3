@@ -486,7 +486,8 @@
       "price": "",
       "facts": "Kalguksu, mandu and bibim guksu listed.",
       "sourceIds": [
-        "kyoja"
+        "kyoja",
+        "kyoja-official"
       ],
       "status": "partial",
       "flag": "Address conflict: same KTO page says 29 Myeongdong 10-gil in English and 129 Toegye-ro in Korean. Operator blocked with 406. Exact address blank pending review; Michelin claim not re-verified.",
@@ -1471,16 +1472,17 @@
       "category": "Food",
       "item": "Haeundae Amso Galbi",
       "plan": "Draft: opens 11:30; arrive 30 minutes early; Michelin restaurant.",
-      "hours": "11:30–22:00; weekend break 15:15–16:30 (KTO)",
-      "closed": "Lunar New Year and Chuseok holidays",
+      "hours": "",
+      "closed": "KTO lists closure during Lunar New Year and Chuseok holidays; reconfirm with the operator",
       "address": "",
       "price": "",
-      "facts": "",
+      "facts": "Official tourism listings conflict on the street address, opening time and weekend break; no single current venue schedule is selected.",
       "sourceIds": [
-        "amso"
+        "amso",
+        "amso-visitbusan"
       ],
       "status": "partial",
-      "flag": "KTO English and Korean addresses disagree. Address, Michelin status and queue estimate unconfirmed.",
+      "flag": "KTO English and Korean addresses disagree. Visit Busan additionally lists 333 Haeundaehaebyeon-ro, 11:00–22:00, break 15:00–17:00 and last orders 14:00/21:00, while KTO lists 11:30–22:00 and a weekend break 15:15–16:30. Visit Busan direct fetch returned only a heading. Address, exact hours/break, Michelin status and queue estimate remain unconfirmed.",
       "time": "Lunch option",
       "checked": "2026-10-26"
     },
@@ -1779,16 +1781,19 @@
       "category": "Activities",
       "item": "Songdo Marine Cable Car · optional",
       "plan": "Optional cable-car ride.",
-      "hours": "",
-      "closed": "",
-      "address": "",
-      "price": "",
-      "facts": "",
+      "hours": "Jan–Feb and Dec 09:00–20:00; Mar–Jun and Sep–Nov 09:00–21:00; Jul–Aug 09:00–22:00; ticketing closes 30 min before close",
+      "closed": "Open year-round; weather/operating conditions may cause closure or early finish",
+      "address": "171 Songdohaebyeon-ro, Seo-gu, Busan",
+      "price": "Adult (13+): Air Cruise ₩19,000 round trip / ₩15,000 one way; Crystal Cruise ₩24,000 round trip / ₩19,000 one way",
+      "facts": "Current operator and KTO listings agree. An older Visit Busan article lists lower fares; see the linked source comparison.",
       "sourceIds": [
-        "skywalks"
+        "aircruise-price",
+        "aircruise-time",
+        "aircruise-kto",
+        "aircruise-visitbusan-old"
       ],
-      "status": "unverified",
-      "flag": "Official city article confirms a cable car at Songdo but current operator schedule/tickets not checked. Fare/hours blank. Official link is context only, not evidence for this named venue or schedule.",
+      "status": "partial",
+      "flag": "Optional stop in the supplied Day 11 notes. Current operator/KTO fares differ from an older official Visit Busan article; use the operator listing for current published fares and reconfirm before travel. Weather and live ticket availability remain unconfirmed; no ride is booked.",
       "time": "Optional",
       "checked": "2026-10-26"
     },
