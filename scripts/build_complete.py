@@ -7,7 +7,9 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'complete'
-old = json.loads((ROOT / 'data/itinerary.json').read_text())
+# This independent archive supplies its own Week 2 rows; avoid duplicating
+# the root dashboard's newly integrated Days 10–16.
+old = [r for r in json.loads((ROOT / 'data/itinerary.json').read_text()) if r['day'] <= 9]
 new = json.loads((OUT / 'additions.json').read_text())
 rows = old + new
 DATES = ['Sun · Oct 31 / Nov 1', 'Mon · Nov 2', 'Tue · Nov 3', 'Wed · Nov 4', 'Thu · Nov 5', 'Fri · Nov 6', 'Sat · Nov 7', 'Sun · Nov 8', 'Mon · Nov 9', 'Tue · Nov 10', 'Wed · Nov 11', 'Thu · Nov 12', 'Fri · Nov 13', 'Sat · Nov 14', 'Sun · Nov 15', 'Mon · Nov 16']

@@ -260,6 +260,26 @@ Every table row links directly to an official government, transit, or primary br
 
 ---
 
+# Session arena/2f7ab3db-koreatrip3 — full 16-day integration (2026-10-26)
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Audit missing Week 2, preserve supplied lines, extend root daily dashboard and review/transit/stay tables; validate and publish | in progress | arena/2f7ab3db-koreatrip3 | COORDINATION.md, data/itinerary.json, data/week2-input.md, data/week2-audit.json, index.html, app.js, styles.css, flagged-for-review.html, scripts/verify-week2.py, README.md |
+
+- Read entire existing coordination board and repository inventory before claiming. Existing sites cover Days 1–9; the newly supplied Days 10–16 are missing from root data. Historical in-progress integration claim is over five days old; its final publication logs show completed deployments. Taking over only root integration scope; all companion outputs remain unchanged.
+- Work uses the assigned Arena branch (branch creation is prohibited by session constraints). No other active uncompleted recent claims found. Claim committed/pushed before implementation.
+- Verification policy: previous source checks are historical, not automatically re-certified. New facts require direct official-page evidence; blocked/unreachable pages yield blank facts and explicit review flags. Context links do not verify venue details.
+
+## Week 2 verification and integration progress
+
+- 2026-10-26: Claim push created the assigned remote branch. Pre-push pull-rebase reported remote branch missing on the initial claim only; no conflict or lost work.
+- Scope extension: `.github/workflows/pages.yml` validation step only, to run the new full-trip invariants in every deployment. Prior integration owners are completed/stale; all seven sites and their copy steps are preserved.
+- Preserved 68 historical rows and appended 41 rows covering every supplied Week 2 entry (including blank meals/days, heading-only shopping, repeated stops, and the empty trailing number). Duplicate Day 9 remains a single day. Every new row has an official link, evidence scope, audit date and caveat; no trip year/date inferred.
+- Direct official content read on 26 Oct: Visit Busan Gamcheon visitor/access page; city Nurimaru operator visitor guide; Visit Busan downtown route (BIFF/Jagalchi/Gwangbok-ro); Visit Busan family itinerary chunks 0–1 (beach, Cheongsapo, Songdo/access); Blueline Park booking guide; X the SKY Korean operator mobile page; SEA LIFE opening hours; Gwangalli show overview; Accor B696 hotel page chunks 0–1; KTO airport transport guide. URLs in `data/week2-audit.json` and each data row. LOTTE art page retrieved but does NOT verify checkout; no checkout fact claimed. KORAIL link is a search tool, not a checked service or reservation.
+- Rejected wrong/property-not-found candidate URLs recorded in audit register; no facts copied from them. Restaurant hours, prices in USD, precise taxi/bus durations and unspecified restaurants remain blank/unverified.
+- Published findings: duplicate X the SKY (Days 10/12), one-way capsule/package versus requested round trip, Day 11 downtown backtracking, approximate drone duration, general hours versus date guarantees, unresolved return fares/times and hotel checkout. Previous companion assumptions (e.g. inferred 2026) explicitly not adopted/re-certified.
+- Validation: full-trip validator passes 16 days/109 rows/41 new rows; existing data checker passes 72 records; companion validator passes; all internal links pass across 65 pages; portal verifier passes 1,212 internal links and 410 static sourced rows. JavaScript syntax and diff whitespace pass. DOM integration tests (LinkeDOM, temporary dependency outside repo) pass all five root pages: deep link Day 16, all 16 day cards/109 rows, Day 10 filter, no-match search, category pages and Mercure in stays. This is DOM testing, not a claim of visual browser inspection or exhaustive external-link health.
+
 # Session arena/1745f6a4-koreatrip3 — Complete 16-day tap-a-day guide
 
 | # | Task | Status | Owner | Files / scope |
@@ -295,3 +315,7 @@ Log: 2026-10-26 — Claimed G1–G3. Dates: every weekday in the brief matches N
 
 - PR #16: https://github.com/buffedlizard55-lab/Koreatrip3/pull/16 — merged into `main` at 05:51:23 UTC, merge commit `4888b36c52238300ca65797a80c64fd515261c83`. This session's `/complete/` and concurrently merged `/guide/` both remain published; no other site's data was replaced.
 - Pages Actions run https://github.com/buffedlizard55-lab/Koreatrip3/actions/runs/40276500028 completed successfully (validation, assembly, upload, deploy). Live guide opened at https://buffedlizard55-lab.github.io/Koreatrip3/complete/ and displayed all 16 day links. Flagged review remains at `/complete/flagged.html`. Deployment success does not resolve the travel-date and booking flags described above.
+
+- Integration conflict 2026-10-26: `origin/main` advanced through PRs #14–17 during this session. PR #18 first merge attempt correctly failed. Merged latest main locally on assigned branch; preserved both sessions' README/coordination sections and all `/guide/` and `/complete/` files. Landing page preserves both new guide links while removing the now-obsolete “root covers only Days 1–9” assertion.
+- Minimal integration scope extension: `scripts/build_complete.py` filters historical root inputs to Days 1–9 before appending its independently owned Week 2 additions. This prevents duplicate Week 2 rows when the root expands to 16 days, and preserves companion output byte-for-byte. No independently researched companion data was edited.
+- Required pre-push `git pull --rebase` against the session ref tried replaying already-merged parallel guide commits and hit a coordination add/add conflict. Aborted rebase without dropping either side; the remote session head is an ancestor of the integration merge, so a normal fast-forward push is used (no force). Combined checks pass across 87 HTML pages and 1,509 internal links; `/complete/` rebuild has zero generated diff.
