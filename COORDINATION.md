@@ -257,3 +257,15 @@ Every table row links directly to an official government, transit, or primary br
 - **Correction:** flag counts are 1 critical · **20 warnings · 9 info** (30 total).
 - Flagged irregularities and unverified items are published on `/verified/flagged.html` with
   source links and do not block anything, per protocol. Task board for this session: all done.
+
+---
+
+# Session arena/2f7ab3db-koreatrip3 — full 16-day integration (2026-10-26)
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Audit missing Week 2, preserve supplied lines, extend root daily dashboard and review/transit/stay tables; validate and publish | in progress | arena/2f7ab3db-koreatrip3 | COORDINATION.md, data/itinerary.json, data/week2-input.md, data/week2-audit.json, index.html, app.js, styles.css, flagged-for-review.html, scripts/verify-week2.py, README.md |
+
+- Read entire existing coordination board and repository inventory before claiming. Existing sites cover Days 1–9; the newly supplied Days 10–16 are missing from root data. Historical in-progress integration claim is over five days old; its final publication logs show completed deployments. Taking over only root integration scope; all companion outputs remain unchanged.
+- Work uses the assigned Arena branch (branch creation is prohibited by session constraints). No other active uncompleted recent claims found. Claim committed/pushed before implementation.
+- Verification policy: previous source checks are historical, not automatically re-certified. New facts require direct official-page evidence; blocked/unreachable pages yield blank facts and explicit review flags. Context links do not verify venue details.
