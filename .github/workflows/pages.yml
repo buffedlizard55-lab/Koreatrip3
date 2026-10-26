@@ -41,6 +41,7 @@ jobs:
               assert row.get('verification') in {'verified', 'unverified'}, f'Row {n} has invalid status'
           print(f'Validated {len(rows)} sourced itinerary rows')
           PY
+          python3 scripts/validate_root_itinerary.py
           python3 scripts/build_site.py --check
           python3 source-audit/scripts/validate_site.py
           python3 scripts/check_links.py

@@ -19,6 +19,8 @@
     .then(response => { if (!response.ok) throw new Error(`Data request failed (${response.status})`); return response.json(); })
     .then(items => {
       const flaggedCount = items.filter(isFlagged).length;
+      const plannedDayCount = new Set(items.map(item => item.day)).size;
+      document.getElementById('stat-days')?.replaceChildren(document.createTextNode(String(plannedDayCount)));
       document.getElementById('nav-flag-count')?.replaceChildren(document.createTextNode(String(flaggedCount)));
       document.getElementById('stat-items')?.replaceChildren(document.createTextNode(String(items.length)));
       document.getElementById('stat-flags')?.replaceChildren(document.createTextNode(String(flaggedCount)));
@@ -35,6 +37,7 @@
         if (page === 'transit') return items.filter(i => i.category === 'Transit');
         if (page === 'food') return items.filter(i => ['Food','Shopping','Nightlife'].includes(i.category));
         if (page === 'stays') return items.filter(i => i.category === 'Stay');
+        if (page === 'attractions') return items.filter(i => ['Attractions','Activities'].includes(i.category));
         if (page === 'flags') return items.filter(isFlagged);
         return items;
       };
@@ -44,7 +47,7 @@
         <td data-label="Proposed plan">${esc(item.plan)}</td>
         <td data-label="Officially sourced detail">${item.facts ? esc(item.facts) : '<span class="blank-value">Not confirmed</span>'}</td>
         <td data-label="Status"><span class="status ${item.verification === 'verified' ? 'status-source' : 'status-pending'}">${item.verification === 'verified' ? 'Source-linked' : 'Needs confirmation'}</span>${item.flag ? `<span class="row-flag">${esc(item.flag)}</span>` : ''}</td>
-        <td data-label="Source"><a class="source-link" href="${esc(sourceHref(item.source))}" target="_blank" rel="noopener">${esc(item.sourceLabel)} <span aria-hidden="true">↗</span></a></td>
+        <td data-label="Source">${[{label:item.sourceLabel,url:item.source},...(item.sourceAlternates||[])].map(source => `<a class="source-link" href="${esc(sourceHref(source.url))}" target="_blank" rel="noopener">${esc(source.label)} <span aria-hidden="true">↗</span></a>`).join('<br>')}</td>
       </tr>`;
       const table = (rows, label) => rows.length ? `<div class="table-scroll"><table class="data-table" aria-label="${esc(label)}">${columns}<tbody>${rows.map(row).join('')}</tbody></table></div>` : '<div class="empty-state">No matching itinerary items.</div>';
       const render = () => {
@@ -59,9 +62,10 @@
         if (host) {
           if (!visible.length) { host.innerHTML = '<div class="empty-state">No matching itinerary items.</div>'; return; }
           const days = [...new Set(visible.map(i => i.day))].sort((a,b) => a-b);
-          host.innerHTML = days.map(day => {
+          const dayNav = `<nav class="day-jump" aria-label="Jump to a day">${days.map(day => `<a href="#day-${day}">Day ${day}</a>`).join('')}</nav>`;
+          host.innerHTML = dayNav + days.map(day => {
             const dayItems = visible.filter(i => i.day === day);
-            return `<section class="day-card"><div class="day-head"><div><span class="day-number">DAY ${day}</span><h3>${esc(dayItems[0].date)}</h3></div><span class="day-count">${dayItems.length} ${dayItems.length === 1 ? 'item' : 'items'}</span></div>${table(dayItems,`Day ${day} itinerary`)}</section>`;
+            return `<section class="day-card" id="day-${day}"><div class="day-head"><div><span class="day-number">DAY ${day}</span><h3>${esc(dayItems[0].date)}</h3></div><span class="day-count">${dayItems.length} ${dayItems.length === 1 ? 'item' : 'items'}</span></div>${table(dayItems,`Day ${day} itinerary`)}</section>`;
           }).join('');
         } else {
           const el = document.getElementById('data-table');

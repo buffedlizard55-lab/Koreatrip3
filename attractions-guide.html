@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Source-linked Seoul and Busan attractions and activities in the 16-day Korea travel plan.">
+  <title>Attractions &amp; activities | Korea Trip</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body data-page="attractions">
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">K</span><span>Korea Trip <small>Field guide · two travelers</small></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Itinerary</a><a href="transit.html">Transit</a><a href="food-shopping.html">Food &amp; shopping</a><a href="stays.html">Stays</a><a class="nav-flag" href="flagged-for-review.html">Flagged for review <span id="nav-flag-count"></span></a>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="hero compact"><div><p class="eyebrow">SEOUL · BUSAN</p><h1>Attractions &amp; activities</h1><p class="hero-copy">The supplied attractions and activity ideas, grouped by day. Official details are separated from plan notes; unknown values remain blank and are flagged.</p></div></section>
+    <section class="alert alert-info"><strong>Use the official source before visiting</strong><p>Seasonal hours, weather, reservations, and access can change. Links on each row are official context sources; read the inline status and caveat for what that source does—and does not—confirm.</p></section>
+    <section class="section-heading"><div><p class="eyebrow">PLACE-BY-PLACE</p><h2>Visit list</h2><p>Search by attraction or filter by day/category.</p></div><div class="table-tools"><label class="search-label"><span class="sr-only">Search attractions</span><input id="search" type="search" placeholder="Search attractions"></label><select id="day-filter" aria-label="Filter by day"><option value="all">All days</option></select><select id="category-filter" aria-label="Filter by category"><option value="all">All types</option></select></div></section>
+    <div id="data-table" class="table-wrap"><p class="loading">Loading attractions…</p></div>
+    <footer class="page-footer"><p>Planning reference only. Confirm location, hours, availability, and access with the linked official source before departure.</p><span>Source status is shown per row</span></footer>
+  </main>
+</body>
+</html>
