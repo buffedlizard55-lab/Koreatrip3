@@ -264,7 +264,7 @@ Every table row links directly to an official government, transit, or primary br
 
 | Task | Status | Owner | File scope |
 |---|---|---|---|
-| Audit missing Week 2, preserve supplied lines, extend root daily dashboard and review/transit/stay tables; validate and publish | in progress | arena/2f7ab3db-koreatrip3 | COORDINATION.md, data/itinerary.json, data/week2-input.md, data/week2-audit.json, index.html, app.js, styles.css, flagged-for-review.html, scripts/verify-week2.py, README.md |
+| Audit missing Week 2, preserve supplied lines, extend root daily dashboard and review/transit/stay tables; validate and publish | done | arena/2f7ab3db-koreatrip3 | COORDINATION.md, data/itinerary.json, data/week2-input.md, data/week2-audit.json, index.html, app.js, styles.css, flagged-for-review.html, scripts/verify-week2.py, README.md |
 
 - Read entire existing coordination board and repository inventory before claiming. Existing sites cover Days 1–9; the newly supplied Days 10–16 are missing from root data. Historical in-progress integration claim is over five days old; its final publication logs show completed deployments. Taking over only root integration scope; all companion outputs remain unchanged.
 - Work uses the assigned Arena branch (branch creation is prohibited by session constraints). No other active uncompleted recent claims found. Claim committed/pushed before implementation.
@@ -319,3 +319,10 @@ Log: 2026-10-26 — Claimed G1–G3. Dates: every weekday in the brief matches N
 - Integration conflict 2026-10-26: `origin/main` advanced through PRs #14–17 during this session. PR #18 first merge attempt correctly failed. Merged latest main locally on assigned branch; preserved both sessions' README/coordination sections and all `/guide/` and `/complete/` files. Landing page preserves both new guide links while removing the now-obsolete “root covers only Days 1–9” assertion.
 - Minimal integration scope extension: `scripts/build_complete.py` filters historical root inputs to Days 1–9 before appending its independently owned Week 2 additions. This prevents duplicate Week 2 rows when the root expands to 16 days, and preserves companion output byte-for-byte. No independently researched companion data was edited.
 - Required pre-push `git pull --rebase` against the session ref tried replaying already-merged parallel guide commits and hit a coordination add/add conflict. Aborted rebase without dropping either side; the remote session head is an ancestor of the integration merge, so a normal fast-forward push is used (no force). Combined checks pass across 87 HTML pages and 1,509 internal links; `/complete/` rebuild has zero generated diff.
+
+## Publication result — arena/2f7ab3db
+
+- PR #18 https://github.com/buffedlizard55-lab/Koreatrip3/pull/18 merged 2026-10-26 05:53:46 UTC; merge commit `90c3cf4df0fef0a90f2286cf9a926c7276cd7401`.
+- GitHub Pages deployment https://github.com/buffedlizard55-lab/Koreatrip3/actions/runs/40276715929 succeeded (all validators, assembly, upload, deployment). Live root https://buffedlizard55-lab.github.io/Koreatrip3/ opened successfully; rendered content confirmed 16 day buttons, 109 rows and updated audit labels.
+- Review page: https://buffedlizard55-lab.github.io/Koreatrip3/flagged-for-review.html . All caveats remain visible. Deployment success does not certify unresolved venue/booking facts; historical Week 1 facts were not freshly re-certified.
+- Nonblocking Actions warnings: v4/v5 actions' Node 20 runtime deprecation (runner forces Node 24), ubuntu-latest migration notice. No build/deploy failures.
