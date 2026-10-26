@@ -1,0 +1,389 @@
+[
+  {
+    "id": "seoul",
+    "label": "Visit Seoul · official city tourism",
+    "url": "https://english.visitseoul.net/",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Official tourism directory and destination navigation only.",
+    "limitation": "Context only: does not establish a business identity, branch, menu, hours or booking."
+  },
+  {
+    "id": "airport",
+    "label": "Seoul Metropolitan Government · airport rail",
+    "url": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Express non-stop ICN–Seoul: 43 min T1 / 51 min T2; ₩13,000. All-stop serves Hongik Univ., Gongdeok and Seoul.",
+    "limitation": "City page includes older airport-bus price ranges; those are not used as current route fares. Rail times are published station-to-station figures, not hotel transfer times."
+  },
+  {
+    "id": "stanford",
+    "label": "Stanford Hotel · room information",
+    "url": "https://www.stanford-hotel.com/myeongdong/en/room/view/16",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Check-in / Check-out PM 03:00 / PM 12:00.",
+    "limitation": "Room-specific page, not a confirmation of the travelers’ reservation."
+  },
+  {
+    "id": "stanford-address",
+    "label": "Visit Seoul · Stanford Hotel",
+    "url": "https://english.visitseoul.net/hotel/view/23843946",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "84 Namdaemun-ro, Jung-gu, Seoul 04534.",
+    "limitation": ""
+  },
+  {
+    "id": "tower",
+    "label": "N Seoul Tower · hours",
+    "url": "https://www.nseoultower.co.kr/eng/visit/use.asp",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Observatory weekday 10:00–22:30; weekends/holidays 10:00–23:00. New visitors stop 30 minutes before closing. Open 365 days. Hours may change with weather.",
+    "limitation": ""
+  },
+  {
+    "id": "tower-kto",
+    "label": "Korea Tourism Organization · N Seoul Tower",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=88026",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "105 Namsangongwon-gil; adults ages 13+ ₩29,000; seniors 65+ ₩23,000.",
+    "limitation": ""
+  },
+  {
+    "id": "tower-bus",
+    "label": "N Seoul Tower · getting here",
+    "url": "https://www.nseoultower.co.kr/eng/visit/traffic.asp",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "01A / 01B Namsan circular shuttle; Chungmuro Exit 2; 06:30–23:00; ₩1,500, transportation card only.",
+    "limitation": ""
+  },
+  {
+    "id": "cable",
+    "label": "Korea Tourism Organization · Namsan cable car",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=96828",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "83 Sopa-ro; 10:00–23:00; last round-trip admission 22:30 / one-way 22:45; adult round trip ₩15,000 / one way ₩12,000. Open all year.",
+    "limitation": ""
+  },
+  {
+    "id": "gwangjang",
+    "label": "Korea Tourism Organization · Gwangjang Market",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=106345",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "88 Changgyeonggung-ro; food street 09:00–23:00, open all year; general market 09:00–18:00, closed Sundays.",
+    "limitation": ""
+  },
+  {
+    "id": "mangwon",
+    "label": "Korea Tourism Organization · Mangwon Market",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=62735",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "27 Poeun-ro 6-gil; operating hours and holidays vary by store.",
+    "limitation": ""
+  },
+  {
+    "id": "kyoja",
+    "label": "Korea Tourism Organization · Myeongdong Kyoja",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99925",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "10:30–21:00, open all year; kalguksu, mandu and bibim guksu.",
+    "limitation": "English address is 29 Myeongdong 10-gil but Korean address is 129 Toegye-ro on the same page. Exact branch address deliberately blank; operator site returned 406."
+  },
+  {
+    "id": "palace",
+    "label": "Korea Tourism Organization · Gyeongbokgung",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=87740",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "161 Sajik-ro; Nov–Feb 09:00–17:00, last admission 16:00. Closed Tuesdays; if Tuesday is a public holiday, closed next business day. Adult admission ₩3,000.",
+    "limitation": "Age concessions should be checked with operator; do not assume both adult travelers qualify for the regular rate."
+  },
+  {
+    "id": "bukchon",
+    "label": "Visit Seoul · Bukchon Hanok Village",
+    "url": "https://english.visitseoul.net/attractions/Bukchon-Hanok-Village/ENP000261",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "37 Gyedong-gil; designated restricted tourist areas 10:00–17:00; residential area, keep quiet. Anguk Line 3 Exit 3.",
+    "limitation": ""
+  },
+  {
+    "id": "onion",
+    "label": "Visit Seoul · Onion Anguk",
+    "url": "https://english.visitseoul.net/hallyu/The-Style-of-Old--Hanok---Hanok-View-2Latin-Hage/ENN039575",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Onion Anguk: 5 Gyedong-gil; weekdays 07:00–22:00, weekends 09:00–22:00; Anguk Line 3 Exit 3.",
+    "limitation": "Editorial last edited 2023: listed hours are not a fresh operator guarantee; queue times unconfirmed."
+  },
+  {
+    "id": "seongsu",
+    "label": "Visit Seoul · Seongsu district",
+    "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Seongsu Station; neighborhood of flagship stores, pop-ups, cafés and shops.",
+    "limitation": "District context is not evidence for all named shops in the submitted list."
+  },
+  {
+    "id": "ddp",
+    "label": "Visit Seoul · Dongdaemun Design Plaza",
+    "url": "https://english.visitseoul.net/attractions/Dongdaemun-Design-Plaza-en/ENP024679",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "281 Eulji-ro, Jung-gu; hours 10:00–20:00, vary by space; Jan 1, Lunar New Year and Chuseok closures; Lines 2/4/5 Dongdaemun History & Culture Park Exit 1.",
+    "limitation": "Page also lists general information-desk hours to 21:00; do not apply those to all exhibitions. DDP is not in Seongsu."
+  },
+  {
+    "id": "library",
+    "label": "Visit Seoul · Starfield Library",
+    "url": "https://english.visitseoul.net/attractions/Starfield-Library/ENP026558",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "513 Yeongdong-daero; daily 10:30–22:00, open year-round, free admission. Samseong Line 2 Exit 5 or Bongeunsa Line 9 Exit 7.",
+    "limitation": "Library hours are not a mall-wide or shop-specific guarantee."
+  },
+  {
+    "id": "korail",
+    "label": "KORAIL · official English booking",
+    "url": "https://www.korail.com/global/eng/main",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Booking search accepts departure, arrival, date and passengers.",
+    "limitation": "No trip year or train is confirmed; exact fare, timetable, platform, luggage space and duration remain blank. Old smart.letskorail ticket URL returned HTTP404ERROR."
+  },
+  {
+    "id": "metro",
+    "label": "Busan Transportation Corporation · Cyber Station",
+    "url": "https://www2.humetro.busan.kr/homepage/cyberstation/mapeng.do",
+    "checked": "2026-10-26",
+    "method": "Official map station list opened",
+    "evidence": "Line 1 includes Busan Station, Seomyeon, Toseong, Jagalchi and Nampo. Line 2 includes Seomyeon, Haeundae, Dongbaek and Gwangan.",
+    "limitation": "Station connectivity only. Door-to-door duration, fare, hotel walking leg and date-specific service not confirmed."
+  },
+  {
+    "id": "l7",
+    "label": "LOTTE HOTELS · L7 HAEUNDAE",
+    "url": "https://www.lottehotel.com/haeundae-l7/en",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Official property page identifies L7 HAEUNDAE in Haeundae.",
+    "limitation": "Hotel overview/location candidate paths returned unavailable. Check-in/check-out and street address remain blank in this audit until an accessible operator policy is checked."
+  },
+  {
+    "id": "mercure",
+    "label": "Accor · Mercure Ambassador Seoul Hongdae",
+    "url": "https://all.accor.com/hotel/B696/index.en.shtml",
+    "checked": "2026-10-26",
+    "method": "Official page opened, chunks 0–1",
+    "evidence": "144 Yanghwa-ro, Mapo-gu; check-in 15:00 / check-out 12:00; next to Hongik University Exit 9.",
+    "limitation": "Page uses 1-, 2-, and 5-minute walking descriptions from different station access points. Exact AREX-platform-to-hotel walking time remains blank, not the supplied 8 minutes."
+  },
+  {
+    "id": "gamcheon",
+    "label": "Visit Busan · Gamcheon Culture Village",
+    "url": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=365&lang_cd=en",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "203 Gamnae 2-ro; Nov–Feb 09:00–17:00; free except parking; open throughout year. Toseong Exit 6 → Saha 1-1, Seo-gu 2 or 2-2 → Gamjeong Elementary School → walk 5 minutes.",
+    "limitation": ""
+  },
+  {
+    "id": "nurimaru",
+    "label": "Visit Busan · Nurimaru APEC House",
+    "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301001001000&uc_seq=2121&lang_cd=en",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "116 Dongbaek-ro; 09:00–18:00; first Monday of month closed; free. Dongbaek Line 2 Exit 1 → 14-minute walk.",
+    "limitation": "Confirms the APEC House and location on Dongbaekseom, not all trail opening hours."
+  },
+  {
+    "id": "skywalks",
+    "label": "Visit Busan · Songdo Cloud Trails",
+    "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301001001000&uc_seq=282&lang_cd=en",
+    "checked": "2026-10-26",
+    "method": "Official page opened, chunks 0–1",
+    "evidence": "Songdo Cloud Trails: 129-4 Amnam-dong; 06:00–23:00, free. Jagalchi Exit 2 → bus 26, 30, 7, 71 or 96 → Songdo Beach. Weather/repair restrictions.",
+    "limitation": "Same older city article lists Cheongsapo closing at 18:00, conflicting with current KTO seasonal listing. No exact Cheongsapo closing time adopted."
+  },
+  {
+    "id": "daritdol",
+    "label": "Korea Tourism Organization · Cheongsapo Daritdol",
+    "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=112698",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "167 Cheongsapo-ro; free, open year-round; KTO lists Sep–Nov 09:00–21:00.",
+    "limitation": "Visit Busan skywalk article lists 09:00–18:00. Conflicting exact hours remain blank in row and are flagged."
+  },
+  {
+    "id": "capsule",
+    "label": "Haeundae Blueline Park · Sky Capsule route",
+    "url": "https://www.bluelinepark.com/eng/skyCapsuleCourse.do",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Mipo ↔ Cheongsapo; 2 km, about 30 minutes ONE WAY; one-way departures in either direction; 4-person capsules.",
+    "limitation": ""
+  },
+  {
+    "id": "capsule-hours",
+    "label": "Haeundae Blueline Park · seasonal hours",
+    "url": "https://www.bluelinepark.com/eng/skyCapsuleTime.do",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "November–February 08:30–18:00; changes for safety and boarding demand.",
+    "limitation": ""
+  },
+  {
+    "id": "capsule-book",
+    "label": "Haeundae Blueline Park · reservations",
+    "url": "https://www.bluelinepark.com/eng/booking.do",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Tickets for the week four weeks later (Mon–Sun) open Tuesdays 07:00. On-site tickets limited and may sell out early. Package is Beach Train + Sky Capsule one way.",
+    "limitation": "Live ticket availability and fare not obtained. Do not assume a round-trip capsule product or a booked return."
+  },
+  {
+    "id": "xsky",
+    "label": "BUSAN X the SKY · operator",
+    "url": "https://www.busanxthesky.com/xtheskyMob/xtheskyM.php",
+    "checked": "2026-10-26",
+    "method": "Official operator page opened (Korean)",
+    "evidence": "Daily 10:00–21:00; last on-site ticket issuance 30 minutes before close. Adult 13+ ₩29,000, senior 65+ ₩26,000. 30 Dalmaji-gil, LCT Landmark Tower.",
+    "limitation": "Older Visit Busan entry lists ₩27,000. Operator price used; supplied $17.59 Klook promotion not confirmed. No reentry on same ticket."
+  },
+  {
+    "id": "aquarium",
+    "label": "SEA LIFE Busan · opening hours",
+    "url": "https://www.visitsealife.com/busan/en/plan-your-visit/before-you-visit/opening-hours/",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Weekdays 10:00–19:00 last entry 18:00; weekends 10:00–20:00 last entry 19:00. Hours subject to change.",
+    "limitation": "Calendar shows past dates as closed placeholders: not treated as an actual closure history. $15 ticket not confirmed."
+  },
+  {
+    "id": "drone",
+    "label": "Gwangalli M Drone · official overview",
+    "url": "https://www.gwangallimdrone.co.kr/en/overview",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Every Saturday, two performances. Oct–Feb 19:00 and 21:00. Gwangalli Beach area. Over 12 minutes.",
+    "limitation": "Not a date-specific performance guarantee; exact November date/year unresolved. Check cancellation notices before travel."
+  },
+  {
+    "id": "haeundae-market",
+    "label": "Korea Tourism Organization · Haeundae Market",
+    "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=84963",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "22-1 Gunam-ro 41beon-gil; 09:00–22:00 varies by store; holidays vary by store.",
+    "limitation": ""
+  },
+  {
+    "id": "jagalchi",
+    "label": "Korea Tourism Organization · Jagalchi Market",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=69318",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "52 Jagalchihaean-ro; 05:00–22:00; first and third Tuesdays closed.",
+    "limitation": ""
+  },
+  {
+    "id": "gukje",
+    "label": "Korea Tourism Organization · Gukje Market",
+    "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=96189",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Area of Sinchang-ro 4-ga; 09:00–20:00 varies by shop; Sunday closure listed.",
+    "limitation": "Separate KTO food-street listing describes first and third Sundays. Shop/section calendars differ; verify target section."
+  },
+  {
+    "id": "haeundae-beach",
+    "label": "Visit Busan · Haeundae Beach",
+    "url": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=373",
+    "checked": "2026-10-26",
+    "method": "Official tourism search extract",
+    "evidence": "264 Haeundaehaebyeon-ro; free; Haeundae Line 2 Exit 5.",
+    "limitation": "Only address/access retained; no promenade/nighttime access hours inferred from beach-facility hours."
+  },
+  {
+    "id": "amso",
+    "label": "Korea Tourism Organization · Haeundae Amso Galbijip",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=73814",
+    "checked": "2026-10-26",
+    "method": "Official tourism search extract",
+    "evidence": "11:30–22:00; weekend break 15:15–16:30; Lunar New Year and Chuseok holidays closed.",
+    "limitation": "English street address and Korean street address disagree in listing; exact address blank. Michelin status, queue wait and current menu price unconfirmed."
+  },
+  {
+    "id": "nampo",
+    "label": "Visit Busan · Gwangbok-ro Fashion Street",
+    "url": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301003001000&uc_seq=413",
+    "checked": "2026-10-26",
+    "method": "Official tourism search extract",
+    "evidence": "Adjacent to Jagalchi, Gukje and BIFF Square; Nampo Line 1 Exit 3 → walk 5 minutes.",
+    "limitation": "Area context only for BIFF Square and Nampo; not shop-specific schedules or food-stall guarantees."
+  },
+  {
+    "id": "musinsa",
+    "label": "MUSINSA · Seongsu store",
+    "url": "https://locations.musinsa.com/ko/stndss",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "83 Yeonmujang-gil, Seongdong-gu, floors 1–2; 11:00–21:00; every day.",
+    "limitation": "Korean operator page. Draft “Musina” spelling is retained in proposed-plan context, normalized brand name supported."
+  },
+  {
+    "id": "hanjungsun",
+    "label": "Visit Seoul · Hanjungsun",
+    "url": "https://english.visitseoul.net/area/hanjungsun/ENPp1q4s4",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "43-1 Yeonmujang-gil, floor 1; daily 10:30–22:00; fruit glutinous rice cakes, take-out only.",
+    "limitation": "Specific item prices and current queue not established."
+  },
+  {
+    "id": "marge",
+    "label": "MARGESHERWOOD · official stores",
+    "url": "https://global.margesherwood.com/pages/stockist-official",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Seoul flagship: 1–2F, 13 Yeonmujang 11-gil, Seongdong-gu; Mon–Sun 11:00–20:00.",
+    "limitation": "Store details read in final page chunk; Hannam store is a separate branch, not substituted."
+  },
+  {
+    "id": "coex",
+    "label": "Korea Tourism Organization · Starfield COEX Mall",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=73375",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "513 Yeongdong-daero; 10:30–22:00; open all year, varies by shop.",
+    "limitation": "Individual shop exceptions still require branch verification."
+  },
+  {
+    "id": "statue",
+    "label": "Visit Seoul · WTC Seoul / Gangnam Style statue",
+    "url": "https://english.visitseoul.net/gangnamarea/WTCSeoul/ENP042328",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "WTC listing names Gangnam Style Statue (Psy Hand Statue); area reference 511 Yeongdong-daero; Samseong exits 5/6 and Bongeunsa exit 7.",
+    "limitation": "Listing address is area-level, not precise statue pin."
+  },
+  {
+    "id": "ader",
+    "label": "ADERERROR · official brand",
+    "url": "https://www.adererror.com/us",
+    "checked": "2026-10-26",
+    "method": "Official page opened",
+    "evidence": "Official brand shop and collection pages opened.",
+    "limitation": "No Seongsu store hours or address established from this page; brand context only."
+  }
+]

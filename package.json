@@ -4,8 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-session-2a9f9e6e.mjs",
-    "verify": "node scripts/verify-session-2a9f9e6e.mjs",
-    "check": "node scripts/build-session-2a9f9e6e.mjs && node scripts/verify-session-2a9f9e6e.mjs"
+    "build": "python3 scripts/build-full-trip.py",
+    "verify": "python3 scripts/test-full-trip.py && python3 scripts/check_links.py && node --check app.js",
+    "check": "npm run build && npm run verify",
+    "build:archives": "node scripts/build-session-2a9f9e6e.mjs",
+    "verify:archives": "node scripts/verify-session-2a9f9e6e.mjs",
+    "test:browser": "node scripts/test-full-trip-browser.cjs"
   }
 }
