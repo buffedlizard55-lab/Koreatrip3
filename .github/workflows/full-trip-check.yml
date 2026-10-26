@@ -1,0 +1,25 @@
+name: Validate complete itinerary
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Evidence invariants, complete days and deterministic build
+        run: npm run check
+      - name: Preserve parallel-session integrations
+        run: |
+          python3 scripts/build_site.py --check
+          python3 source-audit/scripts/validate_site.py
+          node scripts/verify-session-2a9f9e6e.mjs
+          git diff --exit-code

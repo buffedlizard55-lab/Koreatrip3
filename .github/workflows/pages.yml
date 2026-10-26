@@ -29,6 +29,8 @@ jobs:
           node-version: '22'
       - name: Validate itinerary datasets & cross-site links across all sessions
         run: |
+          python3 scripts/test-full-trip.py
+          node --check app.js
           python3 -m json.tool data/itinerary.json >/dev/null
           python3 - <<'PY'
           import json

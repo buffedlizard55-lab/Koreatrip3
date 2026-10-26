@@ -1,3 +1,44 @@
+# Korea, together — current 16-day travel dashboard
+
+**Live site:** https://buffedlizard55-lab.github.io/Koreatrip3/  
+**Current review register:** https://buffedlizard55-lab.github.io/Koreatrip3/flagged-for-review.html
+
+The primary site now covers **all 16 days for two adult travelers**: Seoul / Myeongdong → Busan / Haeundae → Seoul / Hongdae. Select a day, search/filter category tables, inspect official-source links, or print/save the itinerary. All content is statically rendered and remains readable without JavaScript or third-party resources after loading. A new offline network fetch is not required to switch days; this is not a service-worker offline app.
+
+## Build and checks
+
+No runtime dependencies or package install required; Python 3 and Node are sufficient.
+
+```sh
+npm run check
+python3 scripts/build_site.py --check
+python3 source-audit/scripts/validate_site.py
+node scripts/verify-session-2a9f9e6e.mjs
+python3 -m http.server 8080 --bind 0.0.0.0
+```
+
+`data/full-trip.json` is the **current** primary source of truth (105 entries / 16 days). `data/current-sources.json` records 43 official references, checked evidence, methods and limitations on 26 October 2026. `scripts/build-full-trip.py` deterministically generates the 14 root pages. PR CI checks empty-field/evidence invariants and all local links. The Pages workflow repeats checks and publishes the primary site plus preserved archives.
+
+Optional real-browser checks: install `playwright-core` and `@sparticuz/chromium` in a temporary directory outside the repository, set `NODE_PATH` to that installation's `node_modules`, provide the Chromium shared libraries appropriate to your environment, and run `npm run test:browser` against the separately running preview. `BASE_URL` overrides the default local test-server URL. The site itself never calls localhost.
+
+## Evidence policy / important limitations
+
+- No travel year inferred from inconsistent dates. Day 3 retains the Tuesday palace closure conflict; no silent rescheduling.
+- Only **displayed nonempty factual fields** have source support. `partial` never means a whole itinerary row, reservation or future visit is verified. Context-only links explicitly do not verify the proposed venue.
+- Unconfirmed hours, closed days, addresses and prices are blank. No USD conversions or guessed exact transit times. Official source excerpts are labeled when used instead of full-page reads.
+- Kyoja's official-tourism English/Korean addresses disagree; Cheongsapo's official closing times conflict. Exact affected fields remain blank.
+- Sky Capsule journeys are one-way; return transport needs separate confirmation. X the SKY repeats on Days 10 and 12. Day 9 duplicate consolidated; open Days 8, 13 and 15 remain open.
+- Sources are an audit snapshot, not live operating status. No hotel, train, flight or attraction booking was made.
+- Attempted blocked/error sources: `data/audit-attempts.md`. Submitted Week 2 plan: `data/full-trip-addendum.md`. Earlier Days 1–9 transcription remains `data/itinerary-raw.md`.
+
+## Prior parallel-session material (historical, not current primary facts)
+
+All archived sites remain intact under `/docs/`, `/docs/trip-guide/`, `/trip/`, `/portal/`, `/source-audit/`, `/verified/`. The current site labels them as historical research and does not inherit their assumptions (including 2026 dates, secondary-source store data or unsupported KTX fares). The old `data/itinerary.json` remains unchanged for archive compatibility. `npm run build:archives` and `npm run verify:archives` preserve the older portal commands. Do not regenerate older archives as a way to build the current root site.
+
+The earlier README is preserved below as a historical log; its counts, verification claims and primary-site descriptions are superseded by this section.
+
+---
+
 # Korea Trip — source-audited itinerary
 
 A lightweight, mobile-friendly GitHub Pages travel dashboard for two adults, built from the supplied South Korea trip outline. The current data preserves proposed activities and distinguishes them from facts checked against official city, tourism, transit, rail, and hotel sources.
