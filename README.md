@@ -96,8 +96,36 @@ A sixth, independently maintained companion dashboard with a day-by-day itinerar
 
 Run its offline structural check with `python3 source-audit/scripts/validate_site.py`; the combined Pages workflow also validates its data and packages the directory.
 
+## Full 16-day dashboard update — 26 October 2026
+
+The root dashboard now covers the entire newly supplied trip: Days 1–16, 109 rows,
+including 41 Week 2 rows, the Busan–Seoul return, and Mercure Hongdae. Use the day
+buttons or share `index.html#day-16` to select a day. Print uses the current filter.
+The same dataset drives Transit, Stays, Food & Shopping, and Flagged for Review.
+
+- New input preservation: [`data/week2-input.md`](data/week2-input.md).
+- Official source register and rejected URLs: [`data/week2-audit.json`](data/week2-audit.json).
+- Week 2 invariants: `python3 scripts/verify-week2.py`.
+- Historical Days 1–9 retain the previous 21 October audit date. This update does
+  **not** certify all older facts or contradictory assumptions in companion sites.
+- Blank days stay unassigned. No year, extra calendar dates, USD conversion,
+  restaurant branch, transit duration, or booking is invented.
+- Official recurring hours are not date-specific opening guarantees. Source links
+  marked context do not verify a venue. External checks are documented per source;
+  internal-link tests do not validate external pages.
+
 ---
 
 ## Complete 16-day field guide — `guide/` (session arena/1745f6a4)
 
 Mobile tap-a-day guide covering **all 16 days** (31 Oct-16 Nov 2026; brief's '2006' flagged as F1), 3 hotels, per-day transit, verified facts only from official sources, and Flags F1-F10: https://buffedlizard55-lab.github.io/Koreatrip3/guide/ - data in `guide/data.json`, no build step.
+
+---
+
+## Full 16-Day Verified Dashboard, Per-Day Guides & 3-Hotel Transit Matrix — `full-itinerary/` (session `arena/49c638ef-koreatrip3`)
+
+A complete, independently maintained 26-page mobile-friendly dashboard and category portal covering all 16 days (Week 1 Seoul Myeongdong + Week 2 Busan + Day 16 return to Seoul Hongdae):
+- **82 line-by-line verified itinerary items** (`data/session-49c638ef/verified-items.json`), **3 planned hotels** (`data/session-49c638ef/hotels.json`), **24 door-to-door public-transit legs** (`data/session-49c638ef/transit-matrix.json`), and **25 flagged irregularities** (`data/session-49c638ef/flagged-irregularities.json`).
+- Includes clickable standalone pages for every day (`full-itinerary/day-1.html` through `full-itinerary/day-16.html`), plus category subpages (`itinerary.html`, `stays.html`, `transit.html`, `attractions.html`, `dining.html`, `shopping.html`, `analysis.html`, and `flagged-for-review.html`).
+- Published at https://buffedlizard55-lab.github.io/Koreatrip3/full-itinerary/ . Build & verify locally with `node scripts/build-session-49c638ef.mjs && node scripts/verify-session-49c638ef.mjs`.
+

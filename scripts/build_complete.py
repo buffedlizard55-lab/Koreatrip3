@@ -7,7 +7,9 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'complete'
-old = json.loads((ROOT / 'data/itinerary.json').read_text())
+# This independent archive supplies its own Week 2 rows; avoid duplicating
+# the root dashboard's newly integrated Days 10–16.
+old = [r for r in json.loads((ROOT / 'data/itinerary.json').read_text()) if r['day'] <= 9]
 new = json.loads((OUT / 'additions.json').read_text())
 rows = old + new
 DATES = ['Sun · Oct 31 / Nov 1', 'Mon · Nov 2', 'Tue · Nov 3', 'Wed · Nov 4', 'Thu · Nov 5', 'Fri · Nov 6', 'Sat · Nov 7', 'Sun · Nov 8', 'Mon · Nov 9', 'Tue · Nov 10', 'Wed · Nov 11', 'Thu · Nov 12', 'Fri · Nov 13', 'Sat · Nov 14', 'Sun · Nov 15', 'Mon · Nov 16']
@@ -41,7 +43,7 @@ def table(items):
     return '<div class="table-wrap"><table><thead><tr><th>Plan item</th><th>Your plan (not verified)</th><th>Official detail / caveat</th><th>Status & official source</th></tr></thead><tbody>' + ''.join(cells) + '</tbody></table></div>'
 def intro(kicker, title, subtitle): return f'<div class="heading"><p class="eyebrow">{E(kicker)}</p><h1>{E(title)}</h1><p>{E(subtitle)}</p></div>'
 warning = '<aside class="notice"><strong>Schedule warning · Tuesday palace closure</strong><p>Day 3 is marked Tuesday but Gyeongbokgung is closed Tuesdays. The supplied “Nov 2, 2006” also conflicts with the weekday sequence; year/flight dates need confirmation. No bookings or itinerary swaps are assumed. See <a href="flagged.html">all flags</a>.</p></aside>'
-daylinks = '<div class="day-grid">' + ''.join(f'<a href="day-{d}.html"><small>DAY {d:02d} · {E(DATES[d-1])}</small><strong>{E(TITLES[d-1])}</strong><span>{sum(x["day"]==d for x in rows)} plan items →</span></a>' for d in range(1,17)) + '</div>'
+daylinks = '<div class="day-grid">' + ''.join(f'<a href="day-{d}.html"><small>DAY {d:02d} · {E(DATES[d-1])}</small><strong>{E(TITLES[d-1])}</strong><span>{sum(x["day"]==d for x in rows)} plan {"item" if sum(x["day"]==d for x in rows)==1 else "items"} →</span></a>' for d in range(1,17)) + '</div>'
 (OUT/'index.html').write_text(page('16-day dashboard','Overview',intro('THE TRIP AT A GLANCE','A full 16-day field guide','Choose a day, check the source-linked table, and travel with the unresolved details in view.') + warning + '<div class="metrics"><div><b>16</b><span>days in the brief</span></div><div><b>'+str(len(rows))+'</b><span>source-linked rows</span></div><div><b>'+str(sum(bool(x.get('flag')) for x in rows))+'</b><span>cautions to review</span></div></div><h2>Pick a day</h2>'+daylinks+'<p class="notice">Seoul base: Stanford Hotel Myeongdong (Days 1–9). Busan base: L7 Haeundae (Days 9–16). Return: Mercure Ambassador Seoul Hongdae (Day 16). Hotels named in the brief are not confirmed reservations. <a href="transit.html">See transport notes →</a></p>'))
 (OUT/'days.html').write_text(page('Every day','Every day',intro('DAY-BY-DAY','All 16 days','Each day has its own readable plan and official-source table.')+warning+daylinks))
 for d in range(1,17):
