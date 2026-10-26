@@ -257,3 +257,14 @@ Every table row links directly to an official government, transit, or primary br
 - **Correction:** flag counts are 1 critical · **20 warnings · 9 info** (30 total).
 - Flagged irregularities and unverified items are published on `/verified/flagged.html` with
   source links and do not block anything, per protocol. Task board for this session: all done.
+
+---
+
+# Session `arena/5bca61ae-koreatrip3` — complete Busan itinerary coverage
+
+| Task | Status | Owner / session | Files / scope |
+|---|---|---|---|
+| Follow-up integration: add source-linked Day 10–16 coverage from the user's supplied plan, preserve blank/unspecified days, and validate the combined Pages site | in progress | `arena/5bca61ae-koreatrip3` | `COORDINATION.md`, `data/itinerary.json`, `index.html` |
+
+- Claim recorded before edits. Existing sessions' separate sites and datasets are not being edited. The current Arena-assigned branch is used; no alternate branch/worktree is created.
+- Identified completeness gap during current-branch review: root dashboard and the shared 52-row portal dataset only contain days 1–9, despite the submitted brief specifying Busan plans through Day 16. Day 9's repeated description represents one transfer day. The user's itinerary notes are the only plan authority; unsupported operational details will remain blank and be flagged.
