@@ -1,0 +1,41 @@
+[
+  {
+    "id": "HTL-01",
+    "name": "Stanford Hotel Myeongdong",
+    "city": "Seoul (Myeongdong)",
+    "days": "Days 1–9 (Nights 1–8)",
+    "address": "84 Namdaemun-ro, Jung-gu, Seoul (Check-in lobby on 9F)",
+    "checkIn": "From 15:00",
+    "checkOut": "Until 12:00",
+    "nearestTransit": "Seoul Metro Line 2 Euljiro 1(il)-ga Station Exit 5/6 (~2 min walk); Line 4 Myeongdong Station (~7 min walk); Airport Limousine Bus 6015 'Lotte Hotel / IBIS Myeong-dong' stop on same block",
+    "luggageNotes": "Tell taxi drivers 'Stanford Hotel Myeongdong (Namdaemun-ro)' — do NOT confuse with Stanford Hotel Seoul in Sangam-dong (Mapo-gu).",
+    "officialSourceLabel": "Stanford Hotel Myeongdong Official",
+    "officialSourceUrl": "https://stanford.webhelper.co.kr/myeongdong/en/room/view/12"
+  },
+  {
+    "id": "HTL-02",
+    "name": "L7 HAEUNDAE by LOTTE HOTELS",
+    "city": "Busan (Haeundae Beach)",
+    "days": "Days 9–16 (Nights 9–15)",
+    "address": "55 Haeun-daero 570beon-gil, Haeundae-gu, Busan (Check-in lobby on 3F)",
+    "checkIn": "From 15:00",
+    "checkOut": "Until 11:00",
+    "nearestTransit": "Busan Metro Line 2 Haeundae Station Exit 5 (~4 min level walk down Gunam-ro); ~3–4 min walk to Haeundae Beach & SEA LIFE Aquarium",
+    "luggageNotes": "Check-out is 11:00 AM (1 hour earlier than Seoul hotels). Exit 5 of Haeundae Station has nearby elevator access on Gunam-ro.",
+    "officialSourceLabel": "LOTTE Hotels — L7 HAEUNDAE Official",
+    "officialSourceUrl": "https://www.lottehotel.com/haeundae-l7/en"
+  },
+  {
+    "id": "HTL-03",
+    "name": "Mercure Ambassador Seoul Hongdae",
+    "city": "Seoul (Hongdae)",
+    "days": "Day 16+ (Night 16)",
+    "address": "144 Yanghwa-ro, Mapo-gu, Seoul (Check-in lobby on 4F)",
+    "checkIn": "From 15:00",
+    "checkOut": "Until 12:00",
+    "nearestTransit": "Hongik Univ. Station (AREX All-Stop / Seoul Metro Line 2 / Gyeongui-Jungang Line) — Exit 9 (~2 min walk via stairs) or Exit 8 (~4–5 min walk with elevator)",
+    "luggageNotes": "From AREX platforms at Hongik Univ. Station, follow underground transfer walkway (~5–6 min) to Line 2 Exit 8 (elevator) or Exit 9 (stairs). Hotel ground entrance is at the rear of the building behind the Yanghwa-ro retail storefronts.",
+    "officialSourceLabel": "Accor Official — Mercure Ambassador Seoul Hongdae",
+    "officialSourceUrl": "https://all.accor.com/hotel/B696/index.en.shtml"
+  }
+]

@@ -160,3 +160,13 @@ The same dataset drives Transit, Stays, Food & Shopping, and Flagged for Review.
 ## Complete 16-day field guide — `guide/` (session arena/1745f6a4)
 
 Mobile tap-a-day guide covering **all 16 days** (31 Oct-16 Nov 2026; brief's '2006' flagged as F1), 3 hotels, per-day transit, verified facts only from official sources, and Flags F1-F10: https://buffedlizard55-lab.github.io/Koreatrip3/guide/ - data in `guide/data.json`, no build step.
+
+---
+
+## Full 16-Day Verified Dashboard, Per-Day Guides & 3-Hotel Transit Matrix — `full-itinerary/` (session `arena/49c638ef-koreatrip3`)
+
+A complete, independently maintained 26-page mobile-friendly dashboard and category portal covering all 16 days (Week 1 Seoul Myeongdong + Week 2 Busan + Day 16 return to Seoul Hongdae):
+- **82 line-by-line verified itinerary items** (`data/session-49c638ef/verified-items.json`), **3 planned hotels** (`data/session-49c638ef/hotels.json`), **24 door-to-door public-transit legs** (`data/session-49c638ef/transit-matrix.json`), and **25 flagged irregularities** (`data/session-49c638ef/flagged-irregularities.json`).
+- Includes clickable standalone pages for every day (`full-itinerary/day-1.html` through `full-itinerary/day-16.html`), plus category subpages (`itinerary.html`, `stays.html`, `transit.html`, `attractions.html`, `dining.html`, `shopping.html`, `analysis.html`, and `flagged-for-review.html`).
+- Published at https://buffedlizard55-lab.github.io/Koreatrip3/full-itinerary/ . Build & verify locally with `node scripts/build-session-49c638ef.mjs && node scripts/verify-session-49c638ef.mjs`.
+

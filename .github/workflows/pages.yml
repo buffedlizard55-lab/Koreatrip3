@@ -48,6 +48,7 @@ jobs:
           python3 source-audit/scripts/validate_site.py
           python3 scripts/build_complete.py
           git diff --exit-code -- complete/
+          node scripts/verify-session-49c638ef.mjs
           python3 scripts/check_links.py
           node scripts/verify-session-2a9f9e6e.mjs
       - name: Configure Pages
@@ -61,6 +62,7 @@ jobs:
           cp -r source-audit _site/source-audit
           cp -r previous-dashboard _site/previous-dashboard
           cp -r complete _site/complete
+          cp -r full-itinerary _site/full-itinerary
           cp -r data _site/data
           cp -r docs _site/docs
           cp -r trip _site/trip
