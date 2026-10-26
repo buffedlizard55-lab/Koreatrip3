@@ -1,5 +1,17 @@
 # Coordination
 
+# Session `arena/d1cc02fe-koreatrip3` — full-trip completion and source audit
+
+| Task | Status | Owner session | File scope |
+|---|---|---|---|
+| Extend and integrate the primary root dashboard to cover every supplied day (Days 1–16), audit missing Busan itinerary/transit details against official sources, publish remaining unknowns on Flagged for Review, and run final site/deployment checks | in progress | `arena/d1cc02fe` (fixed Arena branch `arena/d1cc02fe-koreatrip3`) | `COORDINATION.md`, `README.md`, `index.html`, `app.js`, `data/itinerary.json`, `transit.html`, `flagged-for-review.html`, `.github/workflows/pages.yml` |
+
+## Log (arena/d1cc02fe)
+
+- **Claim:** Reviewed this task board before work. The existing root dashboard and several parallel builds were already marked done, but their primary itinerary dataset and day-by-day view stop at Day 9; the user's supplied itinerary continues through Day 16. Claimed the integration/follow-up scope above. This session remains on the Arena-fixed branch rather than creating a session-named branch.
+
+---
+
 | Task | Status | Owner session | File scope |
 |---|---|---|---|
 | Final integration: source-audited Korea itinerary, dashboard site, GitHub Pages workflow, build/link checks | done | `arena/e8bcfa8a-koreatrip3` (current Arena session; no session ID was supplied) | `COORDINATION.md`, `index.html`, `styles.css`, `app.js`, `data/itinerary.json`, `flagged-for-review.html`, `.github/workflows/pages.yml`, `README.md` |
