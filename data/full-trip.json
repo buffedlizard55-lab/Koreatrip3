@@ -1,0 +1,2180 @@
+{
+  "checked": "2026-10-26",
+  "travelYear": null,
+  "travelers": 2,
+  "days": [
+    {
+      "day": 1,
+      "title": "Arrival & Myeongdong",
+      "date": "Sunday · Oct 31 / Nov 1 · year unresolved",
+      "city": "Seoul",
+      "hotel": "Stanford Hotel Myeongdong",
+      "outline": "Flight → airport transfer → hotel → rest",
+      "note": "Arrival terminal and flight details are missing."
+    },
+    {
+      "day": 2,
+      "title": "Namsan & Myeongdong",
+      "date": "Monday · Nov 2, 2006 as supplied",
+      "city": "Seoul",
+      "hotel": "Stanford Hotel Myeongdong",
+      "outline": "Tower → shopping → choose a market and dinner",
+      "note": "Too many alternatives for one day: choose one dinner and one market. Bus and cable car are alternative uphill choices."
+    },
+    {
+      "day": 3,
+      "title": "Palace & Bukchon",
+      "date": "Tuesday · Nov 3 · year unresolved",
+      "city": "Seoul",
+      "hotel": "Stanford Hotel Myeongdong",
+      "outline": "Palace (closure conflict) → Bukchon → tea",
+      "note": "Gyeongbokgung is normally closed Tuesday. Move palace to a confirmed open day; no automatic rescheduling."
+    },
+    {
+      "day": 4,
+      "title": "Seongsu discoveries",
+      "date": "Wednesday · Nov 4 · year unresolved",
+      "city": "Seoul",
+      "hotel": "Stanford Hotel Myeongdong",
+      "outline": "Solsot → cafés & shops → dinner options",
+      "note": "DDP is not in Seongsu. Keep it as a separate optional leg; venue branches remain unresolved."
+    },
+    {
+      "day": 5,
+      "title": "COEX & Gangnam",
+      "date": "Thursday · Nov 5 · year unresolved",
+      "city": "Seoul",
+      "hotel": "Stanford Hotel Myeongdong",
+      "outline": "COEX → library → coffee → statue",
+      "note": "Library opening hours do not establish hours for every store."
+    },
+    {
+      "day": 6,
+      "title": "Ikseon-dong & Insadong",
+      "date": "Friday · Nov 6 · year unresolved",
+      "city": "Seoul",
+      "hotel": "Stanford Hotel Myeongdong",
+      "outline": "Neighborhoods → pasta → cafés & salt bread",
+      "note": "Possible restaurant duplicates remain separate until identities are confirmed."
+    },
+    {
+      "day": 7,
+      "title": "Itaewon, at your pace",
+      "date": "Saturday · Nov 7 · year unresolved",
+      "city": "Seoul",
+      "hotel": "Stanford Hotel Myeongdong",
+      "outline": "Itaewon · no individual stops supplied",
+      "note": "No unrequested attractions have been added."
+    },
+    {
+      "day": 8,
+      "title": "Room to explore",
+      "date": "Sunday · Nov 8 · year unresolved",
+      "city": "Seoul",
+      "hotel": "Stanford Hotel Myeongdong",
+      "outline": "Open day · no activities supplied",
+      "note": "Use as a buffer only if desired; no bookings assumed."
+    },
+    {
+      "day": 9,
+      "title": "Seoul → Busan",
+      "date": "Monday · Nov 9 · year unresolved",
+      "city": "Transfer",
+      "hotel": "Stanford → L7 Haeundae",
+      "outline": "Check out → Seoul Station → KTX → Haeundae",
+      "note": "Day 9 was duplicated in the input; included once. Arrive early is a personal buffer, not permission to board 45 minutes early."
+    },
+    {
+      "day": 10,
+      "title": "Haeundae & the coast",
+      "date": "Tuesday · date not supplied",
+      "city": "Busan",
+      "hotel": "L7 HAEUNDAE by LOTTE HOTELS",
+      "outline": "Beach → Dongbaek → APEC House → Sky Capsule",
+      "note": "Busy day with a west/east coastal switch. If capsule slots do not fit, consider an open Busan day; this is a suggestion, not a schedule change."
+    },
+    {
+      "day": 11,
+      "title": "Gamcheon, Songdo & Nampo",
+      "date": "Wednesday · date not supplied",
+      "city": "Busan",
+      "hotel": "L7 HAEUNDAE by LOTTE HOTELS",
+      "outline": "Gamcheon → BIFF/Jagalchi → Songdo → Nampo",
+      "note": "Draft returns to Nampo twice. Consider grouping the old-downtown stops; exact bus times not verified."
+    },
+    {
+      "day": 12,
+      "title": "Haeundae from above & below",
+      "date": "Thursday · date not supplied",
+      "city": "Busan",
+      "hotel": "L7 HAEUNDAE by LOTTE HOTELS",
+      "outline": "X the SKY → lunch → aquarium → shopping",
+      "note": "X the SKY is also optional on Day 10. Choose one visit to avoid duplicate admission."
+    },
+    {
+      "day": 13,
+      "title": "An open Busan day",
+      "date": "Friday · date not supplied",
+      "city": "Busan",
+      "hotel": "L7 HAEUNDAE by LOTTE HOTELS",
+      "outline": "Open day · no activities supplied",
+      "note": "No activities invented. Can serve as a personal weather/booking buffer."
+    },
+    {
+      "day": 14,
+      "title": "Gwangalli after dark",
+      "date": "Saturday · date not supplied",
+      "city": "Busan",
+      "hotel": "L7 HAEUNDAE by LOTTE HOTELS",
+      "outline": "17:00 beach & dinner → target 19:00 drone show",
+      "note": "Winter general schedule confirmed, exact performance and weather still unconfirmed."
+    },
+    {
+      "day": 15,
+      "title": "Slow Sunday in Busan",
+      "date": "Sunday · date not supplied",
+      "city": "Busan",
+      "hotel": "L7 HAEUNDAE by LOTTE HOTELS",
+      "outline": "Open day · no activities supplied",
+      "note": "No activities invented. Keep flexible before the return transfer."
+    },
+    {
+      "day": 16,
+      "title": "Busan → Seoul · Hongdae",
+      "date": "Monday · date not supplied",
+      "city": "Transfer",
+      "hotel": "L7 Haeundae → Mercure Hongdae",
+      "outline": "Check out → Busan Station → KTX → AREX all-stop → hotel",
+      "note": "Use AREX all-stop for Hongik Univ., not Airport Express. Return flight and remaining nights not supplied."
+    }
+  ],
+  "rows": [
+    {
+      "id": "R001",
+      "day": 1,
+      "category": "Travel",
+      "item": "SFO → ICN flight",
+      "plan": "Flight from San Francisco International Airport to Incheon International Airport. Airline, flight number, times, and exact date were not supplied.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Flight, carrier, arrival terminal, travel year and arrival date unconfirmed. Official city link is destination context only.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R002",
+      "day": 1,
+      "category": "Transit",
+      "item": "ICN → Seoul by AREX",
+      "plan": "Airport railroad option listed in supplied plan.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "₩13,000 one-way per person (city listing)",
+      "facts": "AREX Express is non-stop to Seoul Station; published station-to-station time 43 min from T1 / 51 min from T2.",
+      "sourceIds": [
+        "airport"
+      ],
+      "status": "partial",
+      "flag": "Draft 45 min / $7 is not verified. Terminal and final hotel transfer unresolved.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R003",
+      "day": 1,
+      "category": "Transit",
+      "item": "ICN → Seoul by airport limousine bus",
+      "plan": "Draft alternative: airport limousine bus, $13.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "airport"
+      ],
+      "status": "unverified",
+      "flag": "Specific route, stop, fare and timetable unconfirmed. City page has generic older ranges; not used as route-level prices. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R004",
+      "day": 1,
+      "category": "Transit",
+      "item": "Possible airport limousine route 6001 to Myeongdong",
+      "plan": "Specific airport-bus route candidate to the Myeongdong hotel area; exact hotel drop-off was not specified.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "airport"
+      ],
+      "status": "unverified",
+      "flag": "Prior route 6001 claim not re-verified: operator fetch returned HTTP 500. Route, fare, stop and hotel walk blank. Official city source is context only.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R005",
+      "day": 1,
+      "category": "Stay",
+      "item": "Stanford Hotel Myeongdong — check-in",
+      "plan": "Hotel named in supplied plan; reservation and arrival details not supplied.",
+      "hours": "Check-in 15:00 / check-out 12:00",
+      "closed": "",
+      "address": "84 Namdaemun-ro, Jung-gu, Seoul",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "stanford",
+        "stanford-address"
+      ],
+      "status": "partial",
+      "flag": "Property policies sourced; reservation, room and dates not confirmed.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R006",
+      "day": 1,
+      "category": "Activities",
+      "item": "Settle in and light Myeongdong exploration",
+      "plan": "Rest and explore the hotel neighborhood after arrival.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Self-directed rest/neighborhood plan, not a booked activity; individual venue times unknown. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R007",
+      "day": 2,
+      "category": "Transit",
+      "item": "Travel to N Seoul Tower",
+      "plan": "Draft: take a bus from the hotel; 31-minute journey.",
+      "hours": "06:30–23:00 (published bus operating span)",
+      "closed": "",
+      "address": "",
+      "price": "₩1,500 per person",
+      "facts": "Namsan shuttle 01A or 01B from Chungmuro Station Exit 2 serves N Seoul Tower. Transportation card only.",
+      "sourceIds": [
+        "tower-bus"
+      ],
+      "status": "partial",
+      "flag": "Hotel-to-stop leg and 31-minute door-to-door duration unconfirmed. Cable car is an alternative, not required with the tower bus.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R008",
+      "day": 2,
+      "category": "Activities",
+      "item": "N Seoul Tower observatory",
+      "plan": "Visit observatory; supplied plan includes a cable-car plus observatory ticket.",
+      "hours": "Weekdays 10:00–22:30; weekends/holidays 10:00–23:00; last entry 30 min before close",
+      "closed": "Open year-round; weather changes possible",
+      "address": "105 Namsangongwon-gil, Yongsan-gu, Seoul",
+      "price": "₩29,000 adult 13+; ₩23,000 senior 65+",
+      "facts": "",
+      "sourceIds": [
+        "tower",
+        "tower-kto"
+      ],
+      "status": "partial",
+      "flag": "Draft $31 combined ticket unconfirmed; observatory and cable car are separate products. Supplied 10:00–10:30 notation is ambiguous.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R009",
+      "day": 2,
+      "category": "Transit",
+      "item": "Namsan Cable Car",
+      "plan": "Cable car to tower, weather permitting, per supplied plan.",
+      "hours": "10:00–23:00; last admission round trip 22:30 / one way 22:45",
+      "closed": "Open year-round (listing)",
+      "address": "83 Sopa-ro, Jung-gu, Seoul",
+      "price": "Adult ₩15,000 round trip / ₩12,000 one way",
+      "facts": "",
+      "sourceIds": [
+        "cable"
+      ],
+      "status": "partial",
+      "flag": "Alternative to the uphill bus; do not double-book. Operation depends on conditions.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R010",
+      "day": 2,
+      "category": "Shopping",
+      "item": "Myeongdong shopping district",
+      "plan": "Shopping and food exploration.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "District proposal only. No single opening time applies to all Myeongdong stalls or shops. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R011",
+      "day": 2,
+      "category": "Shopping",
+      "item": "Lotte Department Store",
+      "plan": "Draft Lotte hours: 10:30–20:00 weekdays; 10:30–20:30 weekends.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Branch/date-specific department store hours and rest days not confirmed; city directory is context only.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R012",
+      "day": 2,
+      "category": "Shopping",
+      "item": "Shinsegae Department Store",
+      "plan": "Draft Shinsegae hours: 10:30–20:00 weekdays; 10:30–20:30 weekends.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Branch/date-specific department store hours and rest days not confirmed; city directory is context only.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R013",
+      "day": 2,
+      "category": "Shopping",
+      "item": "Olive Young and other cosmetics stores",
+      "plan": "Draft: Olive Young 08:00–00:00; major cosmetics brands 10:00–22:00.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Exact Myeongdong branches not confirmed; do not apply one schedule to all cosmetics shops. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R014",
+      "day": 2,
+      "category": "Food",
+      "item": "Myeongdong street-food stalls",
+      "plan": "Draft: most street-food stalls 11:00–22:00; some until 23:00.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "District proposal only. No single opening time applies to all Myeongdong stalls or shops. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R015",
+      "day": 2,
+      "category": "Food",
+      "item": "Gwangjang Market food street",
+      "plan": "Evening market alternative; look for hand-cut noodles and the Netflix-famous stall.",
+      "hours": "Food street 09:00–23:00",
+      "closed": "Food street open year-round; general market closed Sundays",
+      "address": "88 Changgyeonggung-ro, Jongno-gu, Seoul",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "gwangjang"
+      ],
+      "status": "partial",
+      "flag": "Exact Netflix stall identity, individual stall hours and draft 02:00 closing not confirmed.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R016",
+      "day": 2,
+      "category": "Food",
+      "item": "Myeongdong Night Food Market / evening street food",
+      "plan": "Supplied plan names a Myeongdong night-food-market exploration; specific stalls not identified.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "District proposal only. No single opening time applies to all Myeongdong stalls or shops. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R017",
+      "day": 2,
+      "category": "Food",
+      "item": "Mangwon Market — alternative to Gwangjang",
+      "plan": "Alternative described in supplied plan as less touristy.",
+      "hours": "Varies by store",
+      "closed": "Varies by store",
+      "address": "27 Poeun-ro 6-gil, Mapo-gu, Seoul",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "mangwon"
+      ],
+      "status": "partial",
+      "flag": "Alternative to Gwangjang, not an additional required market. “Less touristy” is subjective.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R018",
+      "day": 2,
+      "category": "Food",
+      "item": "Myeongdong Kyoja",
+      "plan": "Dinner option; supplied notes describe noodles and dumplings.",
+      "hours": "10:30–21:00 (KTO listing)",
+      "closed": "Open year-round (KTO listing)",
+      "address": "",
+      "price": "",
+      "facts": "Kalguksu, mandu and bibim guksu listed.",
+      "sourceIds": [
+        "kyoja"
+      ],
+      "status": "partial",
+      "flag": "Address conflict: same KTO page says 29 Myeongdong 10-gil in English and 129 Toegye-ro in Korean. Operator blocked with 406. Exact address blank pending review; Michelin claim not re-verified.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R019",
+      "day": 2,
+      "category": "Food",
+      "item": "Crystal Jade — proposed Shinsegae basement location",
+      "plan": "Draft alternative: Crystal Jade Korean/Chinese food; Shinsegae basement location preferred.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Exact branch, Shinsegae basement location and current hours not confirmed. Directory is context only.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R020",
+      "day": 2,
+      "category": "Food",
+      "item": "Hongojib",
+      "plan": "Draft dinner alternative: Hongojib full BBQ for one at $10.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Venue identity, spelling, branch and $10 meal not confirmed. Directory is context only.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R021",
+      "day": 2,
+      "category": "Food",
+      "item": "Pig Restaurant 2 — Itaewon",
+      "plan": "Draft dinner alternative: Pig Restaurant 2, premium quality, Itaewon.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Exact restaurant identity and Itaewon location not confirmed. Do not substitute a similarly named business. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R022",
+      "day": 2,
+      "category": "Nightlife",
+      "item": "Myeongdong Sookhee bar",
+      "plan": "Bar suggestion in supplied itinerary.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Specific venue identity, address, hours, days open, and age/entry policy are unverified. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R023",
+      "day": 3,
+      "category": "Activities",
+      "item": "Gyeongbokgung Palace",
+      "plan": "Draft Tuesday palace visit, allow 3–4 hours.",
+      "hours": "November–February 09:00–17:00; last admission 16:00",
+      "closed": "Tuesdays; public-holiday exception: closes following business day",
+      "address": "161 Sajik-ro, Jongno-gu, Seoul",
+      "price": "₩3,000 standard adult",
+      "facts": "",
+      "sourceIds": [
+        "palace"
+      ],
+      "status": "partial",
+      "flag": "Closure conflict: Tuesday is the regular closing day. Do not follow this palace plan as written. Proposed remedy: move palace to a confirmed open day; not silently rescheduled.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R024",
+      "day": 3,
+      "category": "Activities",
+      "item": "Changing of the Royal Guard",
+      "plan": "Draft guard ceremony 10:00 and 14:00; no Tuesday ceremony.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "palace"
+      ],
+      "status": "unverified",
+      "flag": "Exact ceremony schedule not re-verified from ceremony operator; palace source establishes Tuesday closure only. Ceremony times left blank. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R025",
+      "day": 3,
+      "category": "Food",
+      "item": "Traditional lunch near palace",
+      "plan": "Lunch planned near Gyeongbokgung; no restaurant supplied.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Restaurant, address, hours, and menu are not specified. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R026",
+      "day": 3,
+      "category": "Activities",
+      "item": "Bukchon Hanok Village",
+      "plan": "Walk through traditional residential neighborhood, view traditional hanok architecture, take photos, and browse crafts where open (as proposed in the supplied plan).",
+      "hours": "Designated tourist Red Zone 10:00–17:00",
+      "closed": "",
+      "address": "37 Gyedong-gil, Jongno-gu, Seoul (listing reference)",
+      "price": "",
+      "facts": "Residential village: keep quiet and respect posted restricted-area boundaries.",
+      "sourceIds": [
+        "bukchon"
+      ],
+      "status": "partial",
+      "flag": "These are restricted tourism hours, not opening hours for every café or public street.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R027",
+      "day": 3,
+      "category": "Food",
+      "item": "Cafe Onion Anguk",
+      "plan": "Draft: arrive before opening because there may be a queue.",
+      "hours": "Weekdays 07:00–22:00 / weekends 09:00–22:00 (2023 editorial)",
+      "closed": "",
+      "address": "5 Gyedong-gil, Jongno-gu, Seoul",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "onion"
+      ],
+      "status": "partial",
+      "flag": "Official editorial is old. Current operator hours and queue length unconfirmed; arriving early does not guarantee entry.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R028",
+      "day": 3,
+      "category": "Activities",
+      "item": "Traditional tea-house / tea ceremony",
+      "plan": "Draft tea ceremony/tea house, typically 12:00–21:00, some to 22:00.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "No venue or tea ceremony booking supplied. Prior tea-house recommendation URL now returns 404; all venue times blank. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R029",
+      "day": 4,
+      "category": "Food",
+      "item": "Seongdong-gu Solsot",
+      "plan": "Draft Solsot stone-pot rice with sides; arrive before opening; $7–$14.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seongsu"
+      ],
+      "status": "unverified",
+      "flag": "Restaurant identity/branch, opening time, menu and price unconfirmed. Seongsu article is context only. Candidate official Instagram returned HTTP 403.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R030",
+      "day": 4,
+      "category": "Activities",
+      "item": "Seongsu-dong / Seongdong-gu exploration",
+      "plan": "Explore the area described as 'Brooklyn of Seoul'.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Visit Seoul describes Seongsu as a district of pop-ups, flagship stores and cafés.",
+      "sourceIds": [
+        "seongsu"
+      ],
+      "status": "partial",
+      "flag": "Pop-ups and availability are date-specific; DDP is a separate district, not a Seongsu warehouse venue.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R031",
+      "day": 4,
+      "category": "Activities",
+      "item": "Dongdaemun Design Plaza (DDP)",
+      "plan": "Possible design / fashion stop included in the Seongsu day notes.",
+      "hours": "10:00–20:00; varies by space",
+      "closed": "Jan 1, Lunar New Year’s Day, Chuseok (listing)",
+      "address": "281 Eulji-ro, Jung-gu, Seoul",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "ddp"
+      ],
+      "status": "partial",
+      "flag": "DDP is in Dongdaemun, not Seongsu. Additional cross-city leg needed; individual exhibition hours and tickets differ.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R032",
+      "day": 4,
+      "category": "Food",
+      "item": "Hanjungsun — fruit mochi",
+      "plan": "Mochi stop named in supplied itinerary.",
+      "hours": "Daily 10:30–22:00",
+      "closed": "",
+      "address": "43-1 Yeonmujang-gil, floor 1, Seongdong-gu, Seoul",
+      "price": "",
+      "facts": "Fruit glutinous rice cakes; take-out only, no tables.",
+      "sourceIds": [
+        "hanjungsun"
+      ],
+      "status": "partial",
+      "flag": "Current fruit selection, menu prices and wait time not confirmed.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R033",
+      "day": 4,
+      "category": "Activities",
+      "item": "Caricature portrait",
+      "plan": "Have a portrait drawn as an animated character.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seongsu"
+      ],
+      "status": "unverified",
+      "flag": "No named artist/studio, address, hours, or booking information supplied. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R034",
+      "day": 4,
+      "category": "Activities",
+      "item": "Eternalog photo booth",
+      "plan": "Photo booth experience listed in supplied itinerary.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seongsu"
+      ],
+      "status": "unverified",
+      "flag": "Venue identity, address, days open, and hours unverified. Official link is context only, not evidence for this named venue or schedule. Candidate Eternalog site exposed navigation only; no store facts extracted.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R035",
+      "day": 4,
+      "category": "Shopping",
+      "item": "Blue Elephant eyewear",
+      "plan": "Store visit suggested.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seongsu"
+      ],
+      "status": "unverified",
+      "flag": "Specific branch, current address, hours, and open days were not confirmed from a store page. Official link is context only, not evidence for this named venue or schedule. Candidate official product/store page redirected to a browser challenge.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R036",
+      "day": 4,
+      "category": "Food",
+      "item": "Cafe Far Ben",
+      "plan": "Draft Cafe Far Ben: pistachio latte with cream top.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seongsu"
+      ],
+      "status": "unverified",
+      "flag": "Venue identity, address, hours, and menu item are unverified. Official link is context only, not evidence for this named venue or schedule. Candidate official Instagram returned HTTP 403.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R037",
+      "day": 4,
+      "category": "Food",
+      "item": "Cafe Onion (branch unspecified)",
+      "plan": "Cafe suggestion in supplied notes.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seongsu"
+      ],
+      "status": "unverified",
+      "flag": "The official page supports Cafe Onion Anguk only; it does not verify a Seongsu branch, which is not specified. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R038",
+      "day": 4,
+      "category": "Food",
+      "item": "Rain Report Cafe",
+      "plan": "Cafe listed in supplied notes; branch not specified.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seongsu"
+      ],
+      "status": "unverified",
+      "flag": "Branch, address, operating days/hours, and whether this is intended for this district are unverified. Official link is context only, not evidence for this named venue or schedule. Prior KTO Rain Report Croissant URL returned an error; no closure inferred.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R039",
+      "day": 4,
+      "category": "Food",
+      "item": "Jayeondo Sogeumppang — salt bread",
+      "plan": "Bakery stop listed in supplied notes.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seongsu"
+      ],
+      "status": "unverified",
+      "flag": "Exact branch, address, hours, availability, and price are not verified. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R040",
+      "day": 4,
+      "category": "Shopping",
+      "item": "MUSINSA Standard · Seongsu",
+      "plan": "Basics clothing store suggested.",
+      "hours": "11:00–21:00",
+      "closed": "Open every day (operator listing)",
+      "address": "83 Yeonmujang-gil, Seongdong-gu, Seoul, floors 1–2",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "musinsa"
+      ],
+      "status": "partial",
+      "flag": "Draft “Musina” spelling corrected to operator brand MUSINSA; individual product availability and prices unconfirmed.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R041",
+      "day": 4,
+      "category": "Shopping",
+      "item": "Marge Sherwood",
+      "plan": "Handbag store suggested.",
+      "hours": "Monday–Sunday 11:00–20:00",
+      "closed": "",
+      "address": "13 Yeonmujang 11-gil, floors 1–2, Seongdong-gu, Seoul",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "marge"
+      ],
+      "status": "partial",
+      "flag": "Seoul flagship branch confirmed; inventory and prices not confirmed.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R042",
+      "day": 4,
+      "category": "Shopping",
+      "item": "Ader Error",
+      "plan": "Contemporary streetwear store suggested.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "ader"
+      ],
+      "status": "unverified",
+      "flag": "Brand site opened but exact Seongsu store location, opening times and prices not established. Official brand link is context only.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R043",
+      "day": 4,
+      "category": "Shopping",
+      "item": "Brandy Melville",
+      "plan": "Clothing shop suggested.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seongsu"
+      ],
+      "status": "unverified",
+      "flag": "Specific branch, address, hours, and current operation are unverified. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R044",
+      "day": 4,
+      "category": "Nightlife",
+      "item": "Break Silence",
+      "plan": "R&B and cocktails suggestion.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seongsu"
+      ],
+      "status": "unverified",
+      "flag": "Venue identity, location, hours, age policy, and event schedule are unverified. Official link is context only, not evidence for this named venue or schedule. Candidate Break Silence site did not expose venue details sufficient to identify the intended R&B cocktail bar.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R045",
+      "day": 4,
+      "category": "Food",
+      "item": "Chuncheongol Dakgalbi",
+      "plan": "Draft dinner at Chuncheongol Dakgalbi; unlimited lettuce and perilla wraps.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seongsu"
+      ],
+      "status": "unverified",
+      "flag": "Exact name, location, menu and unlimited-wrap offer not confirmed. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R046",
+      "day": 4,
+      "category": "Food",
+      "item": "Uri Wang Galbitang",
+      "plan": "Draft Uri Wang Galbitang, described as in Gangdong; “Favorite of Ikseon-dong” appears nearby.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Venue identity and district/day association unclear. Do not merge this with Favorite of Ikseon or place it in Seongsu without evidence. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R047",
+      "day": 5,
+      "category": "Transit",
+      "item": "Hotel → Starfield COEX Mall",
+      "plan": "Draft subway trip from Stanford to COEX, 47 minutes.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Library access: Samseong Line 2 Exit 5 or Bongeunsa Line 9 Exit 7.",
+      "sourceIds": [
+        "library"
+      ],
+      "status": "partial",
+      "flag": "47-minute hotel-to-mall duration and full route not confirmed; official source supports destination station access only.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R048",
+      "day": 5,
+      "category": "Activities",
+      "item": "Starfield COEX Mall / Starfield Library",
+      "plan": "Mall visit and photo stop.",
+      "hours": "Mall & library 10:30–22:00 (separate official listings)",
+      "closed": "Open year-round; mall exceptions vary by shop",
+      "address": "513 Yeongdong-daero, Gangnam-gu, Seoul",
+      "price": "Library admission free",
+      "facts": "",
+      "sourceIds": [
+        "coex",
+        "library"
+      ],
+      "status": "partial",
+      "flag": "Mall and library listings support their general schedules, not all tenant hours. Individual shops may differ.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R049",
+      "day": 5,
+      "category": "Food",
+      "item": "Soul Market pastries and coffee",
+      "plan": "Pastry/coffee stop listed in supplied notes.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "library"
+      ],
+      "status": "unverified",
+      "flag": "Soul Market identity/branch not confirmed; library source is area context only.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R050",
+      "day": 5,
+      "category": "Activities",
+      "item": "Gangnam Style statue",
+      "plan": "Photo stop suggested.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "City guide identifies the Gangnam Style / Psy Hand Statue in the WTC / COEX area.",
+      "sourceIds": [
+        "statue"
+      ],
+      "status": "partial",
+      "flag": "Area reference only: exact statue pin, photo access and opening times unconfirmed.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R051",
+      "day": 6,
+      "category": "Activities",
+      "item": "Ikseon-dong neighborhood stroll",
+      "plan": "Explore Ikseon-dong as named in the supplied Day 6 heading.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Neighborhood plan; individual shop and café hours not confirmed. Official directory is context only.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R052",
+      "day": 6,
+      "category": "Activities",
+      "item": "Insadong neighborhood stroll",
+      "plan": "Explore Insadong as named in the supplied Day 6 heading.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Neighborhood plan; individual shop and café hours not confirmed. Official directory is context only.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R053",
+      "day": 6,
+      "category": "Food",
+      "item": "Chwihyang — pork-belly rosé pasta",
+      "plan": "Draft Chwihyang pork-belly rosé pasta.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Venue identity/branch and dish not confirmed; possible overlap with Favorite of Ikseon not treated as fact. Official link is context only, not evidence for this named venue or schedule. Candidate official Instagram returned HTTP 403.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R054",
+      "day": 6,
+      "category": "Food",
+      "item": "Rain Report Cafe — Insadong",
+      "plan": "Cafe stop, branch/location supplied as Insadong.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Rain Report Insadong branch identity/current operation unconfirmed; do not apply Seongsu or other branch hours. Official link is context only, not evidence for this named venue or schedule. Prior Visit Seoul branch URL returned 404; no closure inferred.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R055",
+      "day": 6,
+      "category": "Food",
+      "item": "Jayeondo Saltbread House",
+      "plan": "Draft Jayeondo Saltbread & House: $8.77 for four.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Exact branch, opening hours and four-piece price not confirmed. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R056",
+      "day": 6,
+      "category": "Food",
+      "item": "Favorite of Ikseon",
+      "plan": "Draft Favorite of Ikseon: pork-belly rosé pasta $14.50.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Venue identity, price and possible duplicate with Chwihyang unresolved. Official link is context only, not evidence for this named venue or schedule. Candidate official Instagram returned HTTP 403.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R057",
+      "day": 7,
+      "category": "Activities",
+      "item": "Itaewon day — no stops specified",
+      "plan": "Itaewon is the only day-level entry in the supplied itinerary.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "Itaewon is the only supplied plan for Day 7; no specific stops were provided. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R058",
+      "day": 8,
+      "category": "Activities",
+      "item": "Unscheduled / buffer day",
+      "plan": "The supplied itinerary gives no activity for this day.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "seoul"
+      ],
+      "status": "unverified",
+      "flag": "No Day 8 activities supplied. Kept open rather than inventing a schedule. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R059",
+      "day": 9,
+      "category": "Stay",
+      "item": "Check out of Stanford Hotel Myeongdong",
+      "plan": "Draft: leave by 10:00, check out by noon.",
+      "hours": "Check-out 12:00 (hotel page)",
+      "closed": "",
+      "address": "84 Namdaemun-ro, Jung-gu, Seoul",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "stanford",
+        "stanford-address"
+      ],
+      "status": "partial",
+      "flag": "10:00 departure is a personal buffer, not a hotel or rail requirement. Reservation conditions not confirmed.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R060",
+      "day": 9,
+      "category": "Transit",
+      "item": "Hotel → Seoul Station",
+      "plan": "Draft: taxi/Uber from Stanford to Seoul Station.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "korail"
+      ],
+      "status": "unverified",
+      "flag": "Taxi fare, exact duration and hotel-to-station public-transit route not confirmed. KORAIL link is rail context only.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R061",
+      "day": 9,
+      "category": "Transit",
+      "item": "KTX Seoul Station → Busan Station",
+      "plan": "Draft KTX Seoul → Busan; 2 hours 45 minutes.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Use official KORAIL search for Seoul ↔ Busan with two adult passengers.",
+      "sourceIds": [
+        "korail"
+      ],
+      "status": "partial",
+      "flag": "2h45 is a draft estimate, not a checked train schedule. Exact fare/duration remain blank.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R062",
+      "day": 9,
+      "category": "Transit",
+      "item": "KTX luggage / arrive early",
+      "plan": "Draft: arrive/board 45 minutes early for luggage space.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Use official KORAIL search for Seoul ↔ Busan with two adult passengers.",
+      "sourceIds": [
+        "korail"
+      ],
+      "status": "partial",
+      "flag": "Arriving early is a personal buffer. Boarding 45 minutes early and guaranteed luggage space are not confirmed operator policies.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R063",
+      "day": 9,
+      "category": "Transit",
+      "item": "Seoul Station → Busan Station",
+      "plan": "Train destination in supplied plan.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Use official KORAIL search for Seoul ↔ Busan with two adult passengers.",
+      "sourceIds": [
+        "korail"
+      ],
+      "status": "partial",
+      "flag": "Duplicate route reference retained for traceability, not a second required train journey.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R064",
+      "day": 9,
+      "category": "Transit",
+      "item": "Busan Station → L7 HAEUNDAE by LOTTE HOTELS",
+      "plan": "Draft: taxi/Uber Busan Station → L7 Haeundae.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Public-transit option: Busan Station Line 1 → Seomyeon transfer → Line 2 Haeundae. Reverse for return.",
+      "sourceIds": [
+        "metro",
+        "l7"
+      ],
+      "status": "partial",
+      "flag": "Station connection sourced from operator map. Hotel walks, total time, fare and luggage accessibility not confirmed.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R065",
+      "day": 9,
+      "category": "Stay",
+      "item": "L7 HAEUNDAE by LOTTE HOTELS — check-in",
+      "plan": "Check-in and rest after arrival in Busan.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "l7"
+      ],
+      "status": "unverified",
+      "flag": "Property identified, but check-in policy/address not established by checked page; reservation unconfirmed. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R066",
+      "day": 9,
+      "category": "Activities",
+      "item": "Haeundae Beach walk",
+      "plan": "Optional evening Haeundae Beach walk after transfer.",
+      "hours": "",
+      "closed": "",
+      "address": "264 Haeundaehaebyeon-ro, Haeundae-gu, Busan",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "haeundae-beach"
+      ],
+      "status": "partial",
+      "flag": "Walking time from hotel and night-access conditions unconfirmed.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R067",
+      "day": 9,
+      "category": "Food",
+      "item": "Haeundae Market and street food",
+      "plan": "Draft: hotteok, tteokbokki, mandu, Korean fried chicken and seafood.",
+      "hours": "09:00–22:00; varies by store",
+      "closed": "Varies by store",
+      "address": "22-1 Gunam-ro 41beon-gil, Haeundae-gu, Busan",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "haeundae-market"
+      ],
+      "status": "partial",
+      "flag": "Market hours do not guarantee specific food stalls or menu availability.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R068",
+      "day": 9,
+      "category": "Stay",
+      "item": "Return to hotel and rest",
+      "plan": "Rest at L7 HAEUNDAE.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "l7"
+      ],
+      "status": "unverified",
+      "flag": "Personal rest plan, not a hotel service or reservation confirmation. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R069",
+      "day": 10,
+      "category": "Activities",
+      "item": "Haeundae Beach morning",
+      "plan": "Morning beachfront walk; explore cafés and shops.",
+      "hours": "",
+      "closed": "",
+      "address": "264 Haeundaehaebyeon-ro, Haeundae-gu, Busan",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "haeundae-beach"
+      ],
+      "status": "partial",
+      "flag": "Individual café/shop schedules and hotel walking time unconfirmed.",
+      "time": "Morning",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R070",
+      "day": 10,
+      "category": "Food",
+      "item": "Haeundae Amso Galbi",
+      "plan": "Draft: opens 11:30; arrive 30 minutes early; Michelin restaurant.",
+      "hours": "11:30–22:00; weekend break 15:15–16:30 (KTO)",
+      "closed": "Lunar New Year and Chuseok holidays",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "amso"
+      ],
+      "status": "partial",
+      "flag": "KTO English and Korean addresses disagree. Address, Michelin status and queue estimate unconfirmed.",
+      "time": "Lunch option",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R071",
+      "day": 10,
+      "category": "Activities",
+      "item": "Dongbaekseom Island & coastal trail",
+      "plan": "Late morning/lunch: walk toward the west end of Haeundae; follow coastal trail.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Official tourism page locates Nurimaru APEC House on Dongbaekseom Island.",
+      "sourceIds": [
+        "nurimaru"
+      ],
+      "status": "partial",
+      "flag": "Full coastal-trail hours, walking time and closures not confirmed.",
+      "time": "Late morning",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R072",
+      "day": 10,
+      "category": "Activities",
+      "item": "Nurimaru APEC House",
+      "plan": "Visit the APEC House; free admission.",
+      "hours": "09:00–18:00 (city listing)",
+      "closed": "First Monday of each month",
+      "address": "116 Dongbaek-ro, Haeundae-gu, Busan",
+      "price": "Free",
+      "facts": "",
+      "sourceIds": [
+        "nurimaru"
+      ],
+      "status": "partial",
+      "flag": "Check venue notices before visit; trail hours are separate.",
+      "time": "After Dongbaek walk",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R073",
+      "day": 10,
+      "category": "Transit",
+      "item": "Hotel → Mipo Station",
+      "plan": "Draft: take a bus from hotel to Mipo Station.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Mipo is a Sky Capsule departure station.",
+      "sourceIds": [
+        "capsule"
+      ],
+      "status": "partial",
+      "flag": "No bus number, exact stop, fare or hotel-to-Mipo travel time verified.",
+      "time": "Before capsule",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R074",
+      "day": 10,
+      "category": "Activities",
+      "item": "Sky Capsule · Mipo → Cheongsapo",
+      "plan": "Book in advance; draft asks for a round-trip capsule.",
+      "hours": "Nov–Feb 08:30–18:00; safety/demand changes possible",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "2 km; about 30 minutes one way. Operator lists one-way departures in either direction. Booking weeks open Tuesday 07:00 for the week four weeks later.",
+      "sourceIds": [
+        "capsule",
+        "capsule-hours",
+        "capsule-book"
+      ],
+      "status": "partial",
+      "flag": "Do not assume a round-trip ticket. Confirm a separate return or another transport mode. Fare and live availability blank.",
+      "time": "Reserved slot needed",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R075",
+      "day": 10,
+      "category": "Activities",
+      "item": "Cheongsapo Daritdol Observatory",
+      "plan": "Draft: walk to sea-facing skywalk and take photos if not returning by capsule.",
+      "hours": "",
+      "closed": "",
+      "address": "167 Cheongsapo-ro, Haeundae-gu, Busan",
+      "price": "Free",
+      "facts": "",
+      "sourceIds": [
+        "daritdol",
+        "skywalks"
+      ],
+      "status": "partial",
+      "flag": "Official hours conflict: KTO Sep–Nov 09:00–21:00; Visit Busan 09:00–18:00. Hours blank pending resolution. Skywalk is a stop, not transport back to hotel.",
+      "time": "After capsule",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R076",
+      "day": 10,
+      "category": "Activities",
+      "item": "BUSAN X the SKY · optional",
+      "plan": "Draft optional late-afternoon observatory; $17.59 on Klook. Skip if uninterested.",
+      "hours": "10:00–21:00 daily; last on-site ticket issuance 20:30",
+      "closed": "",
+      "address": "30 Dalmaji-gil, Haeundae-gu, LCT Landmark Tower",
+      "price": "₩29,000 adult 13+ / ₩26,000 senior 65+",
+      "facts": "",
+      "sourceIds": [
+        "xsky"
+      ],
+      "status": "partial",
+      "flag": "Also on Day 12. Choose one visit unless intentionally buying another admission. Klook price unconfirmed.",
+      "time": "Late afternoon · optional",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R077",
+      "day": 10,
+      "category": "Food",
+      "item": "Haeundae dinner & market",
+      "plan": "Dinner in Haeundae; explore Haeundae Market.",
+      "hours": "09:00–22:00; varies by store",
+      "closed": "",
+      "address": "22-1 Gunam-ro 41beon-gil, Haeundae-gu, Busan",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "haeundae-market"
+      ],
+      "status": "partial",
+      "flag": "No dinner restaurant or reservation specified.",
+      "time": "Evening",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R078",
+      "day": 11,
+      "category": "Food",
+      "item": "Breakfast",
+      "plan": "Get breakfast before travel.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "l7"
+      ],
+      "status": "unverified",
+      "flag": "No restaurant specified; hotel breakfast inclusion and price unknown. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "Morning",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R079",
+      "day": 11,
+      "category": "Transit",
+      "item": "Haeundae → Gamcheon",
+      "plan": "Draft: two buses; 1 hour 17 minutes.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Rail option: Haeundae Line 2 → Seomyeon → Line 1 Toseong. City access: Toseong Exit 6 → Saha 1-1 / Seo-gu 2 / 2-2 → Gamjeong Elementary School, then walk 5 min.",
+      "sourceIds": [
+        "metro",
+        "gamcheon"
+      ],
+      "status": "partial",
+      "flag": "Draft two-bus route and 1h17 total unconfirmed. Rail connection is map-based; bus access from official city listing. No exact door-to-door time/fare.",
+      "time": "Morning transfer",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R080",
+      "day": 11,
+      "category": "Activities",
+      "item": "Gamcheon Culture Village",
+      "plan": "Spend 2–3 hours wandering alleys, viewpoints, art and shops.",
+      "hours": "Nov–Feb 09:00–17:00 (city visitor listing)",
+      "closed": "Open year-round",
+      "address": "203 Gamnae 2-ro, Saha-gu, Busan",
+      "price": "Free (except parking)",
+      "facts": "",
+      "sourceIds": [
+        "gamcheon"
+      ],
+      "status": "partial",
+      "flag": "Residential area; keep quiet. 2–3 hours is your proposed visit length, not an official requirement.",
+      "time": "Morning",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R081",
+      "day": 11,
+      "category": "Food",
+      "item": "Coffee It House",
+      "plan": "Draft: café two-minute walk away.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "gamcheon"
+      ],
+      "status": "unverified",
+      "flag": "Exact café identity, location, hours and two-minute walk unconfirmed; city village source is context only.",
+      "time": "Café option",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R082",
+      "day": 11,
+      "category": "Food",
+      "item": "BIFF Square lunch & snacks",
+      "plan": "Draft: bus to BIFF Square for street food/snacks.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Official city guide places BIFF Square near Gukje and Jagalchi in the Gwangbok-ro area.",
+      "sourceIds": [
+        "nampo"
+      ],
+      "status": "partial",
+      "flag": "Exact bus route, stall hours and meal price unconfirmed.",
+      "time": "Lunch",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R083",
+      "day": 11,
+      "category": "Activities",
+      "item": "Jagalchi Fish Market",
+      "plan": "Draft: nine-minute walk from BIFF Square; seafood market visit.",
+      "hours": "05:00–22:00",
+      "closed": "First and third Tuesdays",
+      "address": "52 Jagalchihaean-ro, Jung-gu, Busan",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "jagalchi"
+      ],
+      "status": "partial",
+      "flag": "Nine-minute walk not verified; individual vendors may differ. Listed again later in draft, consolidated to avoid repeat travel.",
+      "time": "After lunch",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R084",
+      "day": 11,
+      "category": "Transit",
+      "item": "Jagalchi → Songdo Beach",
+      "plan": "Draft: 13-minute bus plus nine-minute walk.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Visit Busan access: Jagalchi Line 1 Exit 2 → bus 26, 30, 7, 71 or 96 → Songdo Beach.",
+      "sourceIds": [
+        "skywalks"
+      ],
+      "status": "partial",
+      "flag": "Draft 13-minute ride/nine-minute walk and current departure times unconfirmed.",
+      "time": "Afternoon transfer",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R085",
+      "day": 11,
+      "category": "Activities",
+      "item": "Songdo Beach & Cloud Trails",
+      "plan": "Walk Songdo Beach and Songdo Cloud Trails.",
+      "hours": "Cloud Trails 06:00–23:00 (city listing)",
+      "closed": "Weather/repair restrictions possible",
+      "address": "Cloud Trails: 129-4 Amnam-dong, Seo-gu, Busan",
+      "price": "Cloud Trails free",
+      "facts": "",
+      "sourceIds": [
+        "skywalks"
+      ],
+      "status": "partial",
+      "flag": "Beach-facility hours separate; do not confuse Cloud Trails with Songdo Yonggung Suspension Bridge.",
+      "time": "Afternoon",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R086",
+      "day": 11,
+      "category": "Activities",
+      "item": "Songdo Marine Cable Car · optional",
+      "plan": "Optional cable-car ride.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "skywalks"
+      ],
+      "status": "unverified",
+      "flag": "Official city article confirms a cable car at Songdo but current operator schedule/tickets not checked. Fare/hours blank. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "Optional",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R087",
+      "day": 11,
+      "category": "Shopping",
+      "item": "Old downtown · Nampo-dong / BIFF",
+      "plan": "Draft late-afternoon Jagalchi, BIFF Square and Nampo shopping streets.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Official city guide describes the adjacent Gwangbok-ro / BIFF / Jagalchi / Gukje cluster.",
+      "sourceIds": [
+        "nampo"
+      ],
+      "status": "partial",
+      "flag": "Planning analysis: this returns to an earlier district after Songdo. Consider grouping Nampo stops together; not silently reordered.",
+      "time": "Late afternoon",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R088",
+      "day": 11,
+      "category": "Shopping",
+      "item": "Gukje Market",
+      "plan": "Draft “Gukje Marker” old-downtown stop.",
+      "hours": "09:00–20:00; varies by shop",
+      "closed": "Sundays (KTO main-market listing)",
+      "address": "Area of Sinchang-ro 4-ga, Jung-gu, Busan",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "gukje"
+      ],
+      "status": "partial",
+      "flag": "Food-street subsection has a different Sunday schedule. Verify section and target shops; “Marker” treated as draft spelling, not another venue.",
+      "time": "Late afternoon",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R089",
+      "day": 12,
+      "category": "Food",
+      "item": "Breakfast",
+      "plan": "Eat breakfast somewhere.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "l7"
+      ],
+      "status": "unverified",
+      "flag": "No restaurant specified; no price or opening time confirmed. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "Morning",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R090",
+      "day": 12,
+      "category": "Activities",
+      "item": "BUSAN X the SKY",
+      "plan": "Draft visit 10:00–11:30. Observation deck views of city and coast.",
+      "hours": "10:00–21:00 daily; last on-site ticket issuance 20:30",
+      "closed": "",
+      "address": "30 Dalmaji-gil, Haeundae-gu, LCT Landmark Tower",
+      "price": "₩29,000 adult 13+ / ₩26,000 senior 65+",
+      "facts": "",
+      "sourceIds": [
+        "xsky"
+      ],
+      "status": "partial",
+      "flag": "Duplicate with optional Day 10; 10:00–11:30 is proposed visit duration, not a reservation.",
+      "time": "10:00–11:30 · proposed",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R091",
+      "day": 12,
+      "category": "Food",
+      "item": "Haeundae beachfront lunch",
+      "plan": "Choose a restaurant around the beach.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "haeundae-beach"
+      ],
+      "status": "unverified",
+      "flag": "No restaurant, booking, menu or price supplied. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "Lunch",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R092",
+      "day": 12,
+      "category": "Activities",
+      "item": "SEA LIFE Busan Aquarium",
+      "plan": "Draft $15 admission, weekday hours 10:00–19:00.",
+      "hours": "Weekdays 10:00–19:00 (last entry 18:00); weekends 10:00–20:00 (last entry 19:00)",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "aquarium"
+      ],
+      "status": "partial",
+      "flag": "Draft $15 ticket not confirmed from operator. Price and exact trip-date availability blank.",
+      "time": "Afternoon",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R093",
+      "day": 12,
+      "category": "Shopping",
+      "item": "Haeundae shopping",
+      "plan": "Shopping appears in Day 12 heading.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "haeundae-beach"
+      ],
+      "status": "unverified",
+      "flag": "No stores named; area source is context only, no single shop schedule applies.",
+      "time": "Flexible",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R094",
+      "day": 12,
+      "category": "Food",
+      "item": "Dinner · not specified",
+      "plan": "Dinner entry is blank in supplied draft.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "haeundae-market"
+      ],
+      "status": "unverified",
+      "flag": "No restaurant selected; market link is optional area context only, not a confirmed dinner.",
+      "time": "Evening",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R095",
+      "day": 13,
+      "category": "Activities",
+      "item": "Open day",
+      "plan": "Friday — no activities supplied.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "haeundae-beach"
+      ],
+      "status": "unverified",
+      "flag": "No itinerary supplied. Kept open; no attractions invented. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R096",
+      "day": 14,
+      "category": "Food",
+      "item": "Gwangalli Beach · early dinner",
+      "plan": "Draft: head to Gwangalli at 17:00; early dinner/snack and viewing spot.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Show viewing area is Gwangalli Beach.",
+      "sourceIds": [
+        "drone"
+      ],
+      "status": "partial",
+      "flag": "17:00 is a personal plan, not a performance or restaurant opening time. No dinner venue supplied.",
+      "time": "17:00 · proposed",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R097",
+      "day": 14,
+      "category": "Activities",
+      "item": "Gwangalli M Drone Light Show",
+      "plan": "Draft: watch Saturday 19:00 winter show, about 12 minutes.",
+      "hours": "Saturdays Oct–Feb 19:00 & 21:00; Mar–Sep 20:00 & 22:00",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Operator overview describes performances over 12 minutes.",
+      "sourceIds": [
+        "drone"
+      ],
+      "status": "partial",
+      "flag": "Exact Saturday/year and weather cancellation status unconfirmed. General schedule is not a guaranteed performance.",
+      "time": "19:00 · target show",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R098",
+      "day": 15,
+      "category": "Activities",
+      "item": "Open day",
+      "plan": "Sunday — no activities supplied.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "haeundae-beach"
+      ],
+      "status": "unverified",
+      "flag": "No itinerary supplied. Kept open; no attractions invented. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "As planned",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R099",
+      "day": 16,
+      "category": "Food",
+      "item": "Breakfast",
+      "plan": "Eat breakfast before check-out.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "l7"
+      ],
+      "status": "unverified",
+      "flag": "No restaurant supplied; hotel breakfast inclusion unconfirmed. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "Morning",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R100",
+      "day": 16,
+      "category": "Stay",
+      "item": "L7 HAEUNDAE · check-out",
+      "plan": "Draft: check out before 11:00.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "",
+      "sourceIds": [
+        "l7"
+      ],
+      "status": "unverified",
+      "flag": "11:00 is user-supplied, not established by the checked operator page. Confirm hotel reservation policy; official time blank. Official link is context only, not evidence for this named venue or schedule.",
+      "time": "Before 11:00 · draft",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R101",
+      "day": 16,
+      "category": "Transit",
+      "item": "L7 Haeundae → Busan Station",
+      "plan": "Draft: Uber, one hour, $20–$30.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Public-transit alternative: Haeundae Line 2 → Seomyeon → Line 1 Busan Station.",
+      "sourceIds": [
+        "metro",
+        "l7"
+      ],
+      "status": "partial",
+      "flag": "Taxi time/fare, hotel walking legs and public-transit total duration/fare unconfirmed.",
+      "time": "After check-out",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R102",
+      "day": 16,
+      "category": "Transit",
+      "item": "KTX · Busan → Seoul Station",
+      "plan": "Take KTX back to Seoul Station.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Search official KORAIL for Busan → Seoul and two adult passengers.",
+      "sourceIds": [
+        "korail"
+      ],
+      "status": "partial",
+      "flag": "No exact date/year, train, fare, travel time or ticket confirmed.",
+      "time": "Booked departure needed",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R103",
+      "day": 16,
+      "category": "Transit",
+      "item": "Seoul Station → Hongik Univ.",
+      "plan": "Draft: AREX to Hongik University station.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "AREX all-stop station sequence includes Seoul, Gongdeok and Hongik Univ. Express is non-stop Seoul–ICN, so does not stop at Hongik Univ.",
+      "sourceIds": [
+        "airport",
+        "mercure"
+      ],
+      "status": "partial",
+      "flag": "Use all-stop toward the airport, not Airport Express. Exact fare, departure and hotel walk unconfirmed.",
+      "time": "After KTX arrival",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R104",
+      "day": 16,
+      "category": "Stay",
+      "item": "Mercure Ambassador Seoul Hongdae",
+      "plan": "Draft: eight-minute walk from Hongik Univ.; check in.",
+      "hours": "Check-in 15:00 / check-out 12:00",
+      "closed": "",
+      "address": "144 Yanghwa-ro, Mapo-gu, Seoul",
+      "price": "",
+      "facts": "Operator describes hotel next to Hongik University Station Exit 9.",
+      "sourceIds": [
+        "mercure"
+      ],
+      "status": "partial",
+      "flag": "Exact eight-minute walk not confirmed; operator uses different walk estimates for different station accesses. Reservation and onward/return flight not supplied.",
+      "time": "Check-in from 15:00",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "R105",
+      "day": 14,
+      "category": "Transit",
+      "item": "Haeundae → Gwangalli",
+      "plan": "Reach Gwangalli Beach before the target 19:00 performance.",
+      "hours": "",
+      "closed": "",
+      "address": "",
+      "price": "",
+      "facts": "Metro station option: Haeundae and Gwangan are both on Line 2; use the official operator route planner.",
+      "sourceIds": [
+        "metro",
+        "drone"
+      ],
+      "status": "partial",
+      "flag": "Hotel-to-station and Gwangan-to-viewing-area walking legs, total travel time and fare unconfirmed. Check cancellation notices before setting out.",
+      "time": "Before 17:00 arrival target",
+      "checked": "2026-10-26"
+    }
+  ],
+  "issues": [
+    {
+      "id": "DATES",
+      "title": "Travel year and arrival date unresolved",
+      "detail": "Input combines Oct 31 / Nov 1, “Nov 2, 2006” and Monday labels. No year inferred and no dates invented for Days 10–16. Booking dates and holiday exceptions cannot be finalized.",
+      "sourceIds": [
+        "seoul"
+      ],
+      "kind": "critical"
+    },
+    {
+      "id": "ARCHIVES",
+      "title": "Archived views contain conflicting assumptions",
+      "detail": "Earlier parallel sites cover only Days 1–9 and some assume 2026 or quote different fares. They are retained for provenance, not merged as current evidence. This primary 16-day view uses only the current source register.",
+      "sourceIds": [
+        "korail"
+      ],
+      "kind": "warning"
+    }
+  ]
+}

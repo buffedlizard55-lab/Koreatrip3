@@ -10,13 +10,8 @@
     "source": "https://www.flysfo.com/",
     "verification": "unverified",
     "flag": "No flight details or year were supplied; this link is airport information, not a flight confirmation.",
-    "sourceLinks": [
-      {
-        "id": "S58",
-        "label": "San Francisco International Airport (official)",
-        "url": "https://www.flysfo.com/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 1,
@@ -25,17 +20,12 @@
     "item": "ICN → Seoul by AREX",
     "plan": "Airport railroad option listed in supplied plan.",
     "facts": "AREX Express: 43 min from Terminal 1 or 51 min from Terminal 2 to Seoul Station; ₩13,000 one-way per Seoul Metropolitan Government page. All-stop service: 59 min (T1) or 66 min (T2); ₩4,150–₩4,750 shown on that page. Check current timetable and fares.",
-    "sourceLabel": "Getting to Seoul from Incheon Airport",
+    "sourceLabel": "Seoul Metropolitan Government: airport transfers",
     "source": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/",
     "verification": "verified",
     "flag": "The supplied 45-minute / $7 figure does not match the official page’s service-specific times and fares. Origin terminal is unknown; check current timetable and fare.",
-    "sourceLinks": [
-      {
-        "id": "S06",
-        "label": "Getting to Seoul from Incheon Airport",
-        "url": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 1,
@@ -44,17 +34,12 @@
     "item": "ICN → Seoul by airport limousine bus",
     "plan": "Bus alternative listed; route and stop were not specified.",
     "facts": "Seoul Metropolitan Government page: airport limousine buses take about 60–80 min (varies by route, region, and traffic) and cost ₩5,000–₩15,000 (varies by bus).",
-    "sourceLabel": "Getting to Seoul from Incheon Airport",
+    "sourceLabel": "Seoul Metropolitan Government: airport transfers",
     "source": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/",
     "verification": "verified",
     "flag": "The supplied $13 amount and route/stop are not confirmed. The published city figures are a broad range; verify a specific bus, fare, terminal, and stop with its operator.",
-    "sourceLinks": [
-      {
-        "id": "S06",
-        "label": "Getting to Seoul from Incheon Airport",
-        "url": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 1,
@@ -63,17 +48,12 @@
     "item": "Possible airport limousine route 6001 to Myeongdong",
     "plan": "Specific airport-bus route candidate to the Myeongdong hotel area; exact hotel drop-off was not specified.",
     "facts": "Airport Limousine operator lists route 6001 (Dongdaemun–Myeongdong), stops including Myeongdong Station and Incheon Airport Terminals 1/2; adult ₩17,000, child ₩12,000; first-come seats and no online reservation.",
-    "sourceLabel": "운행노선 및 시간표 – Route 6001 Dongdaemun–Myeongdong (fare, stops, timetable)",
+    "sourceLabel": "Airport Limousine official route 6001",
     "source": "https://www.airportlimousine.co.kr/sub/sub01.php",
     "verification": "verified",
     "flag": "The official route lists Myeongdong Station, but this does not establish that it is the best stop for Stanford Hotel or confirm walking distance. Check route and timetable for the arrival date.",
-    "sourceLinks": [
-      {
-        "id": "S07",
-        "label": "운행노선 및 시간표 – Route 6001 Dongdaemun–Myeongdong (fare, stops, timetable)",
-        "url": "https://www.airportlimousine.co.kr/sub/sub01.php"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 1,
@@ -86,13 +66,8 @@
     "source": "https://english.visitseoul.net/hotel/view/23843946",
     "verification": "verified",
     "flag": "Booking, check-in time, room, and whether this is the booked property remain unconfirmed.",
-    "sourceLinks": [
-      {
-        "id": "S59",
-        "label": "Visit Seoul (Seoul city tourism): hotel listing",
-        "url": "https://english.visitseoul.net/hotel/view/23843946"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 1,
@@ -105,13 +80,8 @@
     "source": "https://english.seoul.go.kr/myeong-dong/",
     "verification": "verified",
     "flag": "No precise route or opening hours are verified for an arrival evening.",
-    "sourceLinks": [
-      {
-        "id": "S60",
-        "label": "Seoul Metropolitan Government: Myeong-dong",
-        "url": "https://english.seoul.go.kr/myeong-dong/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -124,13 +94,8 @@
     "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=88026",
     "verification": "verified",
     "flag": "The stated 31-minute bus ride and fare are not confirmed. Use Seoul Metro's route search for a live route.",
-    "sourceLinks": [
-      {
-        "id": "S61",
-        "label": "Korea Tourism Organization: N Seoul Tower",
-        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=88026"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -139,27 +104,12 @@
     "item": "N Seoul Tower observatory",
     "plan": "Visit observatory; supplied plan includes a cable-car plus observatory ticket.",
     "facts": "VisitKorea listing: tower address 105 Namsangongwon-gil; listed tower operating hours Mon–Fri 10:00–22:30 and Sat–Sun 10:00–23:00. Observatory adult admission listed as ₩29,000; ages 3–12 and 65+ ₩23,000.",
-    "sourceLabel": "N SEOUL TOWER – Hours & Admission > Hours",
-    "source": "https://www.nseoultower.co.kr/eng/visit/use.asp",
+    "sourceLabel": "Korea Tourism Organization: N Seoul Tower",
+    "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=88026",
     "verification": "verified",
     "flag": "The supplied $31 cable-car-plus-observatory package price and entry window were not confirmed. Observatory and cable-car prices are published separately; check tower live official site and weather before travel.",
-    "sourceLinks": [
-      {
-        "id": "S03",
-        "label": "N SEOUL TOWER – Hours & Admission > Hours",
-        "url": "https://www.nseoultower.co.kr/eng/visit/use.asp"
-      },
-      {
-        "id": "S04",
-        "label": "N SEOUL TOWER – Hours & Admission > Admission Fees & Information",
-        "url": "https://www.nseoultower.co.kr/eng/visit/use2.asp"
-      },
-      {
-        "id": "S61",
-        "label": "Korea Tourism Organization: N Seoul Tower",
-        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=88026"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -172,18 +122,8 @@
     "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=96828",
     "verification": "verified",
     "flag": "Supplied $31 bundled ticket price is not confirmed; cable-car fares are listed separately from observatory admission. Check service status for the travel date.",
-    "sourceLinks": [
-      {
-        "id": "S62",
-        "label": "Korea Tourism Organization: Namsan Cable Car",
-        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=96828"
-      },
-      {
-        "id": "S05",
-        "label": "N SEOUL TOWER – Getting Here > By Cable Car",
-        "url": "https://www.nseoultower.co.kr/eng/visit/traffic2.asp"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -196,13 +136,8 @@
     "source": "https://english.seoul.go.kr/myeong-dong/",
     "verification": "verified",
     "flag": "No official source found for the blanket department-store, cosmetics-store, or street-stall hours in the supplied notes. Individual shops vary.",
-    "sourceLinks": [
-      {
-        "id": "S60",
-        "label": "Seoul Metropolitan Government: Myeong-dong",
-        "url": "https://english.seoul.go.kr/myeong-dong/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -215,13 +150,8 @@
     "source": "https://www.lotteshopping.com/",
     "verification": "unverified",
     "flag": "The supplied hours cannot be applied to every branch/date. Confirm the specific store and hours in the official branch information.",
-    "sourceLinks": [
-      {
-        "id": "S63",
-        "label": "Lotte Shopping official site",
-        "url": "https://www.lotteshopping.com/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -234,13 +164,8 @@
     "source": "https://www.shinsegae.com/",
     "verification": "unverified",
     "flag": "Branch and supplied hours are not confirmed; check the selected store’s official branch information.",
-    "sourceLinks": [
-      {
-        "id": "S64",
-        "label": "Shinsegae official site",
-        "url": "https://www.shinsegae.com/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -253,13 +178,8 @@
     "source": "https://global.oliveyoung.com/",
     "verification": "unverified",
     "flag": "Branch, exact hours, and days open are not verified; do not rely on the supplied 8:00–00:00 or 10:00–22:00 blanket hours.",
-    "sourceLinks": [
-      {
-        "id": "S65",
-        "label": "Olive Young official site",
-        "url": "https://global.oliveyoung.com/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -272,13 +192,8 @@
     "source": "https://english.seoul.go.kr/myeong-dong/",
     "verification": "unverified",
     "flag": "No consistent official opening time applies to all independent stalls; individual stall hours and operating days are unverified.",
-    "sourceLinks": [
-      {
-        "id": "S60",
-        "label": "Seoul Metropolitan Government: Myeong-dong",
-        "url": "https://english.seoul.go.kr/myeong-dong/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -291,13 +206,8 @@
     "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=106345",
     "verification": "verified",
     "flag": "The supplied 21:00–23:00 characterization is incomplete: official listing says food street opens earlier. Specific vendor hours vary.",
-    "sourceLinks": [
-      {
-        "id": "S66",
-        "label": "Korea Tourism Organization: Gwangjang Market",
-        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=106345"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -310,13 +220,8 @@
     "source": "https://english.seoul.go.kr/myeong-dong/",
     "verification": "verified",
     "flag": "A specific 'night market' operating schedule or 21:00–02:00 stall hours were not verified. Individual stall hours vary and are unconfirmed.",
-    "sourceLinks": [
-      {
-        "id": "S60",
-        "label": "Seoul Metropolitan Government: Myeong-dong",
-        "url": "https://english.seoul.go.kr/myeong-dong/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -329,13 +234,8 @@
     "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=62735",
     "verification": "verified",
     "flag": "The official source confirms the market/location but not exact market-wide hours. The “less touristy” comparison is subjective; consult the separate VisitKorea Mangwon-dong editorial for neighborhood context.",
-    "sourceLinks": [
-      {
-        "id": "S67",
-        "label": "Korea Tourism Organization: Mangwon Market",
-        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=62735"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -343,23 +243,13 @@
     "category": "Food",
     "item": "Myeongdong Kyoja",
     "plan": "Dinner option; supplied notes describe noodles and dumplings.",
-    "facts": "VisitKorea lists kalguksu and dumplings, operating hours 10:30–21:00, and both 29 Myeongdong 10-gil and a Korean address at 129 Toegye-ro. Its current branch/address is not unambiguous. The 2026 MICHELIN Guide listing also shows 29 Myeongdong 10-gil.",
-    "sourceLabel": "Myeongdong Kyoja (명동교자)",
-    "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99925",
+    "facts": "MICHELIN Guide 2026 listing: 29 Myeongdong 10-gil, Jung-gu, Seoul; specializes in kalguksu and dumplings; listed daily 10:30–21:00. The restaurant manages its own bookings; the Guide listing says no reservations.",
+    "sourceLabel": "MICHELIN Guide: Myeongdong Kyoja",
+    "source": "https://guide.michelin.com/us/en/seoul-capital-area/kr-seoul/restaurant/myeongdong-kyoja",
     "verification": "verified",
-    "flag": "VisitKorea publishes two address forms and the current branch is unresolved. Confirm the address and booking/queue policy with the official restaurant before relying on this stop; MICHELIN is a secondary guide, not an official booking confirmation.",
-    "sourceLinks": [
-      {
-        "id": "S16",
-        "label": "Myeongdong Kyoja (명동교자)",
-        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99925"
-      },
-      {
-        "id": "S17",
-        "label": "Myeongdong Kyoja – Michelin Guide Seoul listing",
-        "url": "https://guide.michelin.com/us/en/seoul-capital-area/kr-seoul/restaurant/myeongdong-kyoja"
-      }
-    ]
+    "flag": "The supplied “there may be a line” is not a guaranteed wait estimate. Recheck hours for the visit date.",
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -372,13 +262,8 @@
     "source": "https://www.crystaljade.com/",
     "verification": "unverified",
     "flag": "Branch existence/location, hours, and recommendation have not been confirmed from an official store listing.",
-    "sourceLinks": [
-      {
-        "id": "S68",
-        "label": "Crystal Jade official site",
-        "url": "https://www.crystaljade.com/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -391,13 +276,8 @@
     "source": "https://english.seoul.go.kr/the-culinary-city-of-seoul-2026-edition/",
     "verification": "unverified",
     "flag": "No official business page matching this name, location, menu, or price was verified. The supplied price is unverified.",
-    "sourceLinks": [
-      {
-        "id": "S69",
-        "label": "Seoul Metropolitan Government dining information",
-        "url": "https://english.seoul.go.kr/the-culinary-city-of-seoul-2026-edition/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -406,17 +286,12 @@
     "item": "Pig Restaurant 2 — Itaewon",
     "plan": "Alternative dinner in Itaewon.",
     "facts": "",
-    "sourceLabel": "Visit Seoul official Seoul travel directory (context only)",
+    "sourceLabel": "Visit Seoul (official city tourism) dining directory",
     "source": "https://english.visitseoul.net/",
     "verification": "unverified",
     "flag": "Exact business identity, address, hours, and travel time are unverified; no booking should be made from the name alone.",
-    "sourceLinks": [
-      {
-        "id": "S70",
-        "label": "Visit Seoul official Seoul travel directory (context only)",
-        "url": "https://english.visitseoul.net/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 2,
@@ -429,13 +304,8 @@
     "source": "https://english.seoul.go.kr/myeong-dong/",
     "verification": "unverified",
     "flag": "Specific venue identity, address, hours, days open, and age/entry policy are unverified.",
-    "sourceLinks": [
-      {
-        "id": "S60",
-        "label": "Seoul Metropolitan Government: Myeong-dong",
-        "url": "https://english.seoul.go.kr/myeong-dong/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 3,
@@ -444,22 +314,12 @@
     "item": "Gyeongbokgung Palace",
     "plan": "Main palace visit; supplied notes allow 3–4 hours and list admission.",
     "facts": "Korea Tourism Organization: November–February 09:00–17:00, last admission 16:00; closed Tuesdays (with a public-holiday exception described on the listing). Address: 161 Sajik-ro, Jongno-gu, Seoul. Adult admission listed as ₩3,000.",
-    "sourceLabel": "Gyeongbokgung Palace – Hours & Admissions",
-    "source": "https://www.royalpalacekr.org/html/eng_gbg/guide/guide01_tab01.html",
+    "sourceLabel": "Korea Tourism Organization: Gyeongbokgung Palace",
+    "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=87740",
     "verification": "verified",
     "flag": "Major schedule conflict: the title says Tuesday, and the official source says the palace is closed Tuesdays. The year and exact date are unresolved. VisitKorea's admission page should be checked for traveler-specific eligibility; supplied age bands are not adopted.",
-    "sourceLinks": [
-      {
-        "id": "S01",
-        "label": "Gyeongbokgung Palace – Hours & Admissions",
-        "url": "https://www.royalpalacekr.org/html/eng_gbg/guide/guide01_tab01.html"
-      },
-      {
-        "id": "S71",
-        "label": "Korea Tourism Organization: Gyeongbokgung Palace",
-        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=87740"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 3,
@@ -467,18 +327,13 @@
     "category": "Activities",
     "item": "Changing of the Royal Guard",
     "plan": "Supplied note lists 10:00 and 14:00 ceremonies.",
-    "facts": "The Korea Heritage Service lists ceremonies at 10:00 and 14:00 and excludes Tuesdays.",
-    "sourceLabel": "Program of the Palace Royal Guard Changing Ceremony",
-    "source": "https://www.kh.or.kr/cms/content/view/824",
+    "facts": "Korea.net, the Republic of Korea's official site, reports ceremonies at Gwanghwamun Gate at 10:00 and 14:00 except Tuesdays.",
+    "sourceLabel": "Korea.net: Royal Guard ceremony",
+    "source": "https://www.korea.net/NewsFocus/HonoraryReporters/view?articleId=229944",
     "verification": "verified",
-    "flag": "No ceremony Tuesday per the official schedule; the source-labeled weekday conflicts with the planned visit. Move only after the actual travel dates are confirmed.",
-    "sourceLinks": [
-      {
-        "id": "S02",
-        "label": "Program of the Palace Royal Guard Changing Ceremony",
-        "url": "https://www.kh.or.kr/cms/content/view/824"
-      }
-    ]
+    "flag": "No ceremony Tuesday per official source; must move to a verified operating day if it is a priority.",
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 3,
@@ -487,17 +342,12 @@
     "item": "Traditional lunch near palace",
     "plan": "Lunch planned near Gyeongbokgung; no restaurant supplied.",
     "facts": "",
-    "sourceLabel": "Visit Seoul official Seoul travel directory (context only)",
+    "sourceLabel": "Visit Seoul official dining directory",
     "source": "https://english.visitseoul.net/",
     "verification": "unverified",
     "flag": "Restaurant, address, hours, and menu are not specified.",
-    "sourceLinks": [
-      {
-        "id": "S70",
-        "label": "Visit Seoul official Seoul travel directory (context only)",
-        "url": "https://english.visitseoul.net/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 3,
@@ -510,13 +360,8 @@
     "source": "https://english.visitseoul.net/attractions/Bukchon-Hanok-Village/ENP000261",
     "verification": "verified",
     "flag": "Check current map and designated restricted-area boundaries before visiting.",
-    "sourceLinks": [
-      {
-        "id": "S73",
-        "label": "Visit Seoul: Bukchon Hanok Village",
-        "url": "https://english.visitseoul.net/attractions/Bukchon-Hanok-Village/ENP000261"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 3,
@@ -529,13 +374,8 @@
     "source": "https://english.visitseoul.net/hallyu/The-Style-of-Old--Hanok---Hanok-View-2Latin-Hage/ENN039575",
     "verification": "verified",
     "flag": "Queue length and 'arrive before opening' advice are not verifiable guarantees; confirm hours near the visit date.",
-    "sourceLinks": [
-      {
-        "id": "S74",
-        "label": "Visit Seoul: Cafe Onion Anguk",
-        "url": "https://english.visitseoul.net/hallyu/The-Style-of-Old--Hanok---Hanok-View-2Latin-Hage/ENN039575"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 3,
@@ -548,13 +388,8 @@
     "source": "https://english.visitseoul.net/PalaceArea/Recommendations-for-Hanok-Caf%C3%A9-in-Seoul/ENN031658/",
     "verification": "verified",
     "flag": "The linked Visit Seoul listing identifies one tea-house option and says it is closed Tuesdays. This Day 3 is labeled Tuesday, so that specific option conflicts with the stated date. No formal tea ceremony or generic 12:00–21:00 schedule was confirmed.",
-    "sourceLinks": [
-      {
-        "id": "S75",
-        "label": "Visit Seoul: Bukchon tea-house recommendations",
-        "url": "https://english.visitseoul.net/PalaceArea/Recommendations-for-Hanok-Caf%C3%A9-in-Seoul/ENN031658/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -567,13 +402,8 @@
     "source": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
     "verification": "unverified",
     "flag": "Exact restaurant identity, address, hours, menu, and price not verified. The area guide does not corroborate this business.",
-    "sourceLinks": [
-      {
-        "id": "S76",
-        "label": "Visit Seoul official Seongsu travel guide",
-        "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -582,17 +412,12 @@
     "item": "Seongsu-dong / Seongdong-gu exploration",
     "plan": "Explore the area described as 'Brooklyn of Seoul'.",
     "facts": "Visit Seoul describes Seongsu as an evolving district of shops, cafés, pop-ups, and former industrial spaces.",
-    "sourceLabel": "Visit Seoul official Seongsu travel guide",
+    "sourceLabel": "Visit Seoul: Seongsu-dong trend guide",
     "source": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
     "verification": "verified",
     "flag": "Pop-ups and businesses change frequently; verify individual venues on the day.",
-    "sourceLinks": [
-      {
-        "id": "S76",
-        "label": "Visit Seoul official Seongsu travel guide",
-        "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -605,13 +430,8 @@
     "source": "https://english.visitseoul.net/attractions/Dongdaemun-Design-Plaza-en/ENP024679",
     "verification": "verified",
     "flag": "DDP is in a different district from Seongsu; travel time and whether this is intended as a combined day are unverified. The supplied description about industrial warehouses/flagship pop-ups is not established by the official DDP listing; check event/space hours.",
-    "sourceLinks": [
-      {
-        "id": "S77",
-        "label": "Visit Seoul: DDP",
-        "url": "https://english.visitseoul.net/attractions/Dongdaemun-Design-Plaza-en/ENP024679"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -624,13 +444,8 @@
     "source": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
     "verification": "unverified",
     "flag": "Business identity, address, opening days/hours, and product availability are unverified.",
-    "sourceLinks": [
-      {
-        "id": "S76",
-        "label": "Visit Seoul official Seongsu travel guide",
-        "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -643,13 +458,8 @@
     "source": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
     "verification": "unverified",
     "flag": "No named artist/studio, address, hours, or booking information supplied.",
-    "sourceLinks": [
-      {
-        "id": "S76",
-        "label": "Visit Seoul official Seongsu travel guide",
-        "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -662,13 +472,8 @@
     "source": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
     "verification": "unverified",
     "flag": "Venue identity, address, days open, and hours unverified.",
-    "sourceLinks": [
-      {
-        "id": "S76",
-        "label": "Visit Seoul official Seongsu travel guide",
-        "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -681,13 +486,8 @@
     "source": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
     "verification": "unverified",
     "flag": "Specific branch, current address, hours, and open days were not confirmed from a store page.",
-    "sourceLinks": [
-      {
-        "id": "S76",
-        "label": "Visit Seoul official Seongsu travel guide",
-        "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -700,13 +500,8 @@
     "source": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
     "verification": "unverified",
     "flag": "Venue identity, address, hours, and menu item are unverified.",
-    "sourceLinks": [
-      {
-        "id": "S76",
-        "label": "Visit Seoul official Seongsu travel guide",
-        "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -715,17 +510,12 @@
     "item": "Cafe Onion (branch unspecified)",
     "plan": "Cafe suggestion in supplied notes.",
     "facts": "",
-    "sourceLabel": "Visit Seoul: Cafe Onion Anguk",
+    "sourceLabel": "Visit Seoul: Cafe Onion Anguk (one branch only)",
     "source": "https://english.visitseoul.net/hallyu/The-Style-of-Old--Hanok---Hanok-View-2Latin-Hage/ENN039575",
     "verification": "unverified",
     "flag": "The official page supports Cafe Onion Anguk only; it does not verify a Seongsu branch, which is not specified.",
-    "sourceLinks": [
-      {
-        "id": "S74",
-        "label": "Visit Seoul: Cafe Onion Anguk",
-        "url": "https://english.visitseoul.net/hallyu/The-Style-of-Old--Hanok---Hanok-View-2Latin-Hage/ENN039575"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -734,17 +524,12 @@
     "item": "Rain Report Cafe",
     "plan": "Cafe listed in supplied notes; branch not specified.",
     "facts": "",
-    "sourceLabel": "Visit Seoul official Seongsu travel guide",
+    "sourceLabel": "Visit Seoul official district guide",
     "source": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
     "verification": "unverified",
     "flag": "Branch, address, operating days/hours, and whether this is intended for this district are unverified.",
-    "sourceLinks": [
-      {
-        "id": "S76",
-        "label": "Visit Seoul official Seongsu travel guide",
-        "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -757,13 +542,8 @@
     "source": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
     "verification": "unverified",
     "flag": "Exact branch, address, hours, availability, and price are not verified.",
-    "sourceLinks": [
-      {
-        "id": "S76",
-        "label": "Visit Seoul official Seongsu travel guide",
-        "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -776,13 +556,8 @@
     "source": "https://english.seoul.go.kr/a-new-way-to-wear-seoul-smg-and-musinsa-standard-launch-my-seoul-t-shirt-customization-service/",
     "verification": "unverified",
     "flag": "This source verifies a Myeongdong store, not a Seongsu location. Seongsu branch and hours are unverified.",
-    "sourceLinks": [
-      {
-        "id": "S78",
-        "label": "Seoul Metropolitan Government: Musinsa Standard Myeongdong store notice",
-        "url": "https://english.seoul.go.kr/a-new-way-to-wear-seoul-smg-and-musinsa-standard-launch-my-seoul-t-shirt-customization-service/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -795,13 +570,8 @@
     "source": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
     "verification": "unverified",
     "flag": "Specific branch, address, opening hours/days, and stock are unverified.",
-    "sourceLinks": [
-      {
-        "id": "S76",
-        "label": "Visit Seoul official Seongsu travel guide",
-        "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -814,13 +584,8 @@
     "source": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
     "verification": "unverified",
     "flag": "Specific branch, address, current hours/days, and availability are unverified.",
-    "sourceLinks": [
-      {
-        "id": "S76",
-        "label": "Visit Seoul official Seongsu travel guide",
-        "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -833,13 +598,8 @@
     "source": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
     "verification": "unverified",
     "flag": "Specific branch, address, hours, and current operation are unverified.",
-    "sourceLinks": [
-      {
-        "id": "S76",
-        "label": "Visit Seoul official Seongsu travel guide",
-        "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -852,13 +612,8 @@
     "source": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx",
     "verification": "unverified",
     "flag": "Venue identity, location, hours, age policy, and event schedule are unverified.",
-    "sourceLinks": [
-      {
-        "id": "S76",
-        "label": "Visit Seoul official Seongsu travel guide",
-        "url": "https://english.visitseoul.net/editorspicks/2025SeoulTrendReportSeongsu-dong/ENNvepwqx"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -871,13 +626,8 @@
     "source": "https://english.visitseoul.net/attractions/seongsu-dong-galbi-alley_/29624",
     "verification": "unverified",
     "flag": "Exact restaurant, address, hours, and menu are unverified; district-level source is not evidence for this restaurant.",
-    "sourceLinks": [
-      {
-        "id": "S79",
-        "label": "Visit Seoul official Seongsu dining-area guide",
-        "url": "https://english.visitseoul.net/attractions/seongsu-dong-galbi-alley_/29624"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 4,
@@ -886,17 +636,12 @@
     "item": "Uri Wang Galbitang",
     "plan": "Alternative dinner; supplied notes associate it with Gangdong / Ikseon-dong.",
     "facts": "",
-    "sourceLabel": "Visit Seoul official Seoul travel directory (context only)",
+    "sourceLabel": "Visit Seoul official Seoul travel directory",
     "source": "https://english.visitseoul.net/",
     "verification": "unverified",
     "flag": "Supplied location description is internally unclear (Gangdong versus Ikseon-dong); exact business identity and current details unverified.",
-    "sourceLinks": [
-      {
-        "id": "S70",
-        "label": "Visit Seoul official Seoul travel directory (context only)",
-        "url": "https://english.visitseoul.net/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 5,
@@ -909,13 +654,8 @@
     "source": "https://english.seoul.go.kr/new-subway-app-exclusive-for-foreign-residents-and-tourists/",
     "verification": "verified",
     "flag": "The supplied 47-minute duration is unverified and depends on the exact hotel entrance, departure time, and destination. Plan live in the app.",
-    "sourceLinks": [
-      {
-        "id": "S80",
-        "label": "Seoul Metropolitan Government: official Seoul Subway app",
-        "url": "https://english.seoul.go.kr/new-subway-app-exclusive-for-foreign-residents-and-tourists/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 5,
@@ -928,13 +668,8 @@
     "source": "https://english.visitseoul.net/attractions/Starfield-Library/ENP026558",
     "verification": "verified",
     "flag": "Opening hours for the full mall and each store differ; verify intended venues separately.",
-    "sourceLinks": [
-      {
-        "id": "S81",
-        "label": "Visit Seoul: Starfield Library",
-        "url": "https://english.visitseoul.net/attractions/Starfield-Library/ENP026558"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 5,
@@ -943,17 +678,12 @@
     "item": "Soul Market pastries and coffee",
     "plan": "Pastry/coffee stop listed in supplied notes.",
     "facts": "",
-    "sourceLabel": "Visit Seoul: Starfield Library",
+    "sourceLabel": "Visit Seoul: COEX / Starfield Library district",
     "source": "https://english.visitseoul.net/attractions/Starfield-Library/ENP026558",
     "verification": "unverified",
     "flag": "Exact business, branch, address, menu, hours, and operating days are not confirmed.",
-    "sourceLinks": [
-      {
-        "id": "S81",
-        "label": "Visit Seoul: Starfield Library",
-        "url": "https://english.visitseoul.net/attractions/Starfield-Library/ENP026558"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 5,
@@ -966,13 +696,8 @@
     "source": "https://english.visitseoul.net/gangnamarea/WTCSeoul/ENP042328",
     "verification": "verified",
     "flag": "The precise statue position and temporary access restrictions were not specified by the source; check signs on arrival.",
-    "sourceLinks": [
-      {
-        "id": "S82",
-        "label": "Visit Seoul: World Trade Center Seoul",
-        "url": "https://english.visitseoul.net/gangnamarea/WTCSeoul/ENP042328"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 6,
@@ -981,17 +706,12 @@
     "item": "Ikseon-dong neighborhood stroll",
     "plan": "Explore Ikseon-dong as named in the supplied Day 6 heading.",
     "facts": "Korea Tourism Organization lists Ikseon-dong Hanok Street as a Seoul destination.",
-    "sourceLabel": "Ikseon-dong Hanok Street (익선동 한옥거리)",
+    "sourceLabel": "Korea Tourism Organization: Ikseon-dong Hanok Street",
     "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=14709&menuSn=351",
     "verification": "verified",
     "flag": "No exact walking route, visit duration, or business-level hours were supplied or verified.",
-    "sourceLinks": [
-      {
-        "id": "S28",
-        "label": "Ikseon-dong Hanok Street (익선동 한옥거리)",
-        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=14709&menuSn=351"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 6,
@@ -1004,13 +724,8 @@
     "source": "https://english.visitseoul.net/shopping/Insa-dong/ENP000080",
     "verification": "verified",
     "flag": "Individual shop/restaurant opening days and hours vary and were not confirmed.",
-    "sourceLinks": [
-      {
-        "id": "S83",
-        "label": "Visit Seoul: Insa-dong",
-        "url": "https://english.visitseoul.net/shopping/Insa-dong/ENP000080"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 6,
@@ -1019,17 +734,12 @@
     "item": "Chwihyang — pork-belly rosé pasta",
     "plan": "Restaurant and dish suggestion in supplied notes.",
     "facts": "",
-    "sourceLabel": "Visit Seoul official Seoul travel directory (context only)",
+    "sourceLabel": "Visit Seoul official Ikseon-dong district guide",
     "source": "https://english.visitseoul.net/",
     "verification": "unverified",
     "flag": "Exact venue identity, address, menu, price, hours, and operating days are unverified.",
-    "sourceLinks": [
-      {
-        "id": "S70",
-        "label": "Visit Seoul official Seoul travel directory (context only)",
-        "url": "https://english.visitseoul.net/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 6,
@@ -1038,17 +748,12 @@
     "item": "Rain Report Cafe — Insadong",
     "plan": "Cafe stop, branch/location supplied as Insadong.",
     "facts": "",
-    "sourceLabel": "Visit Seoul official Seoul travel directory (context only)",
+    "sourceLabel": "Visit Seoul official Insadong guide",
     "source": "https://english.visitseoul.net/",
     "verification": "unverified",
     "flag": "Exact branch, address, opening hours/days, and current operation are unverified.",
-    "sourceLinks": [
-      {
-        "id": "S70",
-        "label": "Visit Seoul official Seoul travel directory (context only)",
-        "url": "https://english.visitseoul.net/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 6,
@@ -1057,17 +762,12 @@
     "item": "Jayeondo Saltbread House",
     "plan": "Salt bread purchase; supplied amount is $8.77 for four.",
     "facts": "",
-    "sourceLabel": "Visit Seoul official Seoul travel directory (context only)",
+    "sourceLabel": "Visit Seoul official Seoul travel directory",
     "source": "https://english.visitseoul.net/",
     "verification": "unverified",
     "flag": "Business identity, branch, price, hours, and product availability are unverified; supplied USD price may be stale.",
-    "sourceLinks": [
-      {
-        "id": "S70",
-        "label": "Visit Seoul official Seoul travel directory (context only)",
-        "url": "https://english.visitseoul.net/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 6,
@@ -1076,17 +776,12 @@
     "item": "Favorite of Ikseon",
     "plan": "Dinner option; supplied notes mention pork-belly rosé pasta at $14.50.",
     "facts": "",
-    "sourceLabel": "Visit Seoul official Seoul travel directory (context only)",
+    "sourceLabel": "Visit Seoul official Seoul travel directory",
     "source": "https://english.visitseoul.net/",
     "verification": "unverified",
     "flag": "Name, venue identity, address, menu/price, hours, and booking status are unverified.",
-    "sourceLinks": [
-      {
-        "id": "S70",
-        "label": "Visit Seoul official Seoul travel directory (context only)",
-        "url": "https://english.visitseoul.net/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 7,
@@ -1095,36 +790,26 @@
     "item": "Itaewon day — no stops specified",
     "plan": "Itaewon is the only day-level entry in the supplied itinerary.",
     "facts": "Seoul Metropolitan Government identifies Itaewon as a Seoul district and tourism destination in city resources.",
-    "sourceLabel": "Seoul Metropolitan Government (context only)",
+    "sourceLabel": "Seoul Metropolitan Government",
     "source": "https://english.seoul.go.kr/",
     "verification": "unverified",
     "flag": "No attractions, restaurants, addresses, transit route, or opening details were supplied.",
-    "sourceLinks": [
-      {
-        "id": "S84",
-        "label": "Seoul Metropolitan Government (context only)",
-        "url": "https://english.seoul.go.kr/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 8,
     "date": "Sunday; Nov 8 (year not stated)",
     "category": "Activities",
-    "item": "Day 8 — no details preserved in saved itinerary",
-    "plan": "The saved source outline contains a Day 8 heading but no day-specific activities.",
+    "item": "Unscheduled / buffer day",
+    "plan": "The supplied itinerary gives no activity for this day.",
     "facts": "",
-    "sourceLabel": "Seoul Metropolitan Government (context only)",
+    "sourceLabel": "Seoul Metropolitan Government official visitor information",
     "source": "https://english.seoul.go.kr/",
     "verification": "unverified",
-    "flag": "Coverage marker only; no free day, rest day, or buffer-day intention is confirmed.",
-    "sourceLinks": [
-      {
-        "id": "S84",
-        "label": "Seoul Metropolitan Government (context only)",
-        "url": "https://english.seoul.go.kr/"
-      }
-    ]
+    "flag": "No plan supplied. Keep open rather than inventing activities.",
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 9,
@@ -1133,17 +818,12 @@
     "item": "Check out of Stanford Hotel Myeongdong",
     "plan": "Supplied target is leave by 10:00 and check out by 12:00.",
     "facts": "Visit Seoul hotel record supports the property's name and address only.",
-    "sourceLabel": "Visit Seoul (Seoul city tourism): hotel listing",
+    "sourceLabel": "Visit Seoul hotel listing",
     "source": "https://english.visitseoul.net/hotel/view/23843946",
     "verification": "unverified",
     "flag": "Reservation-specific checkout time is not confirmed; confirm directly with the hotel. Supplied 10:00 departure is a planning preference, not a hotel rule.",
-    "sourceLinks": [
-      {
-        "id": "S59",
-        "label": "Visit Seoul (Seoul city tourism): hotel listing",
-        "url": "https://english.visitseoul.net/hotel/view/23843946"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 9,
@@ -1156,13 +836,8 @@
     "source": "https://english.seoul.go.kr/new-subway-app-exclusive-for-foreign-residents-and-tourists/",
     "verification": "verified",
     "flag": "Taxi/ride-hail duration and fare are unverified. Public transit route not calculated because exact hotel entrance and train departure are missing.",
-    "sourceLinks": [
-      {
-        "id": "S80",
-        "label": "Seoul Metropolitan Government: official Seoul Subway app",
-        "url": "https://english.seoul.go.kr/new-subway-app-exclusive-for-foreign-residents-and-tourists/"
-      }
-    ]
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 9,
@@ -1170,18 +845,13 @@
     "category": "Transit",
     "item": "KTX Seoul Station → Busan Station",
     "plan": "Supplied notes estimate 2 h 45 min.",
-    "facts": "KORAIL's official English booking page supports date-specific schedule and ticket searches. The published booking guidance says tickets are released from 07:00 one month before travel until 20 minutes before departure.",
-    "sourceLabel": "KORAIL — English ticket search and booking",
-    "source": "https://www.korail.com/global/eng/main",
+    "facts": "Korail's official booking page allows schedule search and ticket purchase; availability, service, and duration are date/train-specific.",
+    "sourceLabel": "KORAIL official reservation search",
+    "source": "https://smart.letskorail.com/ebizbf/EbizBfTicketSearchM.do?lang=EN",
     "verification": "verified",
-    "flag": "No travel year, departure, train, seat class, fare, or booked ticket is confirmed. The supplied 2 h 45 min is not a fixed official duration; search the exact date in KORAIL.",
-    "sourceLinks": [
-      {
-        "id": "S53",
-        "label": "KORAIL — English ticket search and booking",
-        "url": "https://www.korail.com/global/eng/main"
-      }
-    ]
+    "flag": "No date/year or train selected. The 2 h 45 min estimate, fare, and exact departure/arrival must be confirmed in Korail for the travel date.",
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 9,
@@ -1189,18 +859,13 @@
     "category": "Transit",
     "item": "KTX luggage / arrive early",
     "plan": "Supplied notes advise arriving 45 minutes early to find luggage space.",
-    "facts": "KORAIL's official English booking page is the current source for date-specific tickets and service information.",
-    "sourceLabel": "KORAIL — English ticket search and booking",
-    "source": "https://www.korail.com/global/eng/main",
+    "facts": "Korail's booking page is the official source for current service/ticket information.",
+    "sourceLabel": "KORAIL official reservation search",
+    "source": "https://smart.letskorail.com/ebizbf/EbizBfTicketSearchM.do?lang=EN",
     "verification": "unverified",
-    "flag": "No official source confirmed a 45-minute early-arrival rule or guaranteed luggage-rack space. The stated advice remains a personal planning note, not a verified requirement.",
-    "sourceLinks": [
-      {
-        "id": "S53",
-        "label": "KORAIL — English ticket search and booking",
-        "url": "https://www.korail.com/global/eng/main"
-      }
-    ]
+    "flag": "No official source confirmed a 45-minute luggage-space rule. Arrive according to station/ticket needs; luggage rack availability is not guaranteed.",
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 9,
@@ -1208,18 +873,13 @@
     "category": "Transit",
     "item": "Seoul Station → Busan Station",
     "plan": "Train destination in supplied plan.",
-    "facts": "KORAIL provides date-specific train and seat searches for the Seoul Station → Busan Station trip; choose the actual service and travel date in the official booking system.",
-    "sourceLabel": "KORAIL — English ticket search and booking",
-    "source": "https://www.korail.com/global/eng/main",
+    "facts": "Korail station information identifies Busan Station; Korail schedule search supports checking the intended route.",
+    "sourceLabel": "KORAIL official booking search",
+    "source": "https://smart.letskorail.com/ebizbf/EbizBfTicketSearchM.do?lang=EN",
     "verification": "verified",
-    "flag": "Train time, fare, class, availability, and reservation remain unconfirmed; check the exact date in KORAIL. This row is route context, not a booked ticket.",
-    "sourceLinks": [
-      {
-        "id": "S53",
-        "label": "KORAIL — English ticket search and booking",
-        "url": "https://www.korail.com/global/eng/main"
-      }
-    ]
+    "flag": "Train time/price and exact station pair need date-specific search and reservation.",
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 9,
@@ -1227,18 +887,13 @@
     "category": "Transit",
     "item": "Busan Station → L7 HAEUNDAE by LOTTE HOTELS",
     "plan": "Taxi/ride-hail suggested in supplied notes.",
-    "facts": "Busan Transportation Corporation’s map shows Busan Station on Line 1, the Seomyeon interchange, and Haeundae Station on Line 2; the mapped rail path is Line 1 to Seomyeon, then Line 2 to Haeundae.",
-    "sourceLabel": "Busan Metro Cyber Station — English route map",
+    "facts": "Busan Transportation Corporation’s official Cyber Station map shows Busan Station on Line 1 and Haeundae on Line 2, connected at Seomyeon. Final walk from Haeundae Station to the hotel is not established here; enter exact start/end in the operator route planner.",
+    "sourceLabel": "Busan Transportation Corporation: Cyber Station route map",
     "source": "https://www2.humetro.busan.kr/homepage/cyberstation/mapeng.do",
     "verification": "verified",
-    "flag": "The proposed taxi/ride-hail fare and time are unverified. The exact walk from Haeundae Station to the L7 entrance and a date-specific journey time/fare were not confirmed; use the linked operator planner.",
-    "sourceLinks": [
-      {
-        "id": "S30",
-        "label": "Busan Metro Cyber Station — English route map",
-        "url": "https://www2.humetro.busan.kr/homepage/cyberstation/mapeng.do"
-      }
-    ]
+    "flag": "Taxi/ride-hail was proposed in the supplied plan. Public-transit route: Line 1 from Busan Station, transfer at Seomyeon to Line 2 toward Haeundae. Exact travel time/fare and walk to L7 entrance are not verified; use the linked route planner.",
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 9,
@@ -1246,18 +901,13 @@
     "category": "Stay",
     "item": "L7 HAEUNDAE by LOTTE HOTELS — check-in",
     "plan": "Check-in and rest after arrival in Busan.",
-    "facts": "LOTTE HOTELS’ current property page lists 55 Haeun-daero 570beon-gil, Haeundae-gu, Busan; check-in 15:00 and check-out 11:00; main line +82-51-771-1000.",
-    "sourceLabel": "L7 HAEUNDAE by LOTTE HOTELS — property details",
-    "source": "https://www.lottehotel.com/haeundae-l7/en",
+    "facts": "Official Lotte Hotels page lists the Busan hotel's address as 55 Haeun-daero 570beon-gil, Haeundae-gu.",
+    "sourceLabel": "L7 HAEUNDAE by LOTTE HOTELS (official)",
+    "source": "https://www.lottehotel.com/prerendered/haeundae-l7/en/about/art-experience/l7/index.html",
     "verification": "verified",
-    "flag": "The address and general hotel check-in/out times are verified; no reservation, room, or booking status was supplied.",
-    "sourceLinks": [
-      {
-        "id": "S29",
-        "label": "L7 HAEUNDAE by LOTTE HOTELS — property details",
-        "url": "https://www.lottehotel.com/haeundae-l7/en"
-      }
-    ]
+    "flag": "Reservation, room, check-in time, and booking status are not supplied.",
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 9,
@@ -1265,18 +915,13 @@
     "category": "Activities",
     "item": "Haeundae Beach walk",
     "plan": "Optional evening walk if not tired.",
-    "facts": "Visit Busan lists Haeundae Beach at 264 Haeundaehaebyeon-ro, free to visit, with listed daily hours of 09:00–18:00. Its access notes give a 15-minute walk from Haeundae Station Exit 5 or buses 139, 307, and 1003.",
-    "sourceLabel": "Haeundae Beach",
-    "source": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=373",
-    "verification": "verified",
-    "flag": "The exact walking route from the L7 entrance is not stated by this source. The listed hours do not establish seasonal swimming/lifeguard access; check local notices for the date.",
-    "sourceLinks": [
-      {
-        "id": "S27",
-        "label": "Haeundae Beach",
-        "url": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=373"
-      }
-    ]
+    "facts": "",
+    "sourceLabel": "Visit Busan (official Busan tourism portal)",
+    "source": "https://www.visitbusan.net/",
+    "verification": "unverified",
+    "flag": "No official page was checked for seasonal access, event restrictions, or exact route from hotel. Optional only.",
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 9,
@@ -1284,18 +929,13 @@
     "category": "Food",
     "item": "Haeundae Market and street food",
     "plan": "Try hotteok, tteokbokki, mandu, fried chicken, and seafood per supplied notes.",
-    "facts": "VisitKorea lists Haeundae Market at 22-1 Gunam-ro 41beon-gil, Haeundae-gu, with listed hours 09:00–22:00; hours and holiday closures vary by store. The listing gives Haeundae Station Exit 3 and a five-minute walk, plus buses 100, 115-1, 141, 200, 307, and 39.",
-    "sourceLabel": "Busan Haeundae Market (부산 해운대시장)",
-    "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=84963",
-    "verification": "verified",
-    "flag": "The listed address/hours do not confirm any named stall, menu item, price, or the exact walk from the L7 entrance; confirm individual businesses before relying on them.",
-    "sourceLinks": [
-      {
-        "id": "S26",
-        "label": "Busan Haeundae Market (부산 해운대시장)",
-        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=84963"
-      }
-    ]
+    "facts": "",
+    "sourceLabel": "Visit Busan (official Busan tourism portal)",
+    "source": "https://www.visitbusan.net/",
+    "verification": "unverified",
+    "flag": "Specific market identity, individual stalls, dishes, operating days/hours, and prices were not confirmed on an official listing.",
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 9,
@@ -1304,443 +944,585 @@
     "item": "Return to hotel and rest",
     "plan": "Rest at L7 HAEUNDAE.",
     "facts": "",
-    "sourceLabel": "L7 HAEUNDAE by LOTTE HOTELS — property details",
-    "source": "https://www.lottehotel.com/haeundae-l7/en",
-    "verification": "unverified",
-    "flag": "Planning note only. No venue fact is being asserted; this row is not evidence of a hotel reservation or completed route.",
-    "sourceLinks": [
-      {
-        "id": "S29",
-        "label": "L7 HAEUNDAE by LOTTE HOTELS — property details",
-        "url": "https://www.lottehotel.com/haeundae-l7/en"
-      }
-    ]
+    "sourceLabel": "L7 HAEUNDAE by LOTTE HOTELS (official)",
+    "source": "https://www.lottehotel.com/prerendered/haeundae-l7/en/about/art-experience/l7/index.html",
+    "verification": "verified",
+    "flag": "Plan only; reservation is not confirmed.",
+    "checkedAt": "2026-10-21",
+    "sourceScope": "Historical source record; not re-certified in the Week 2 audit"
   },
   {
     "day": 10,
-    "date": "Date/year unresolved",
+    "date": "Tuesday; date and year not supplied",
     "category": "Activities",
-    "item": "Haeundae Beach — Busan coast day",
-    "plan": "Haeundae Beach is named for Day 10 in the available trip notes; the original time block and activity order are not present in the saved raw itinerary.",
-    "facts": "Visit Busan lists the beach at 264 Haeundaehaebyeon-ro, free to visit, with listed daily hours of 09:00–18:00. Access notes: Haeundae Station (Line 2) Exit 5, 15-minute walk; buses 139, 307, or 1003.",
-    "sourceLabel": "Haeundae Beach",
-    "source": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=373",
-    "sourceLinks": [
-      {
-        "id": "S27",
-        "label": "Haeundae Beach",
-        "url": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=373"
-      }
-    ],
+    "item": "Haeundae Beach and nearby cafés",
+    "plan": "Morning beachfront walk, cafés and shops.",
+    "facts": "Visit Busan places Haeundae Beach at 1415-48 Jungdong, Haeundae-gu; access from Haeundae Station Line 2, Exit 5.",
+    "sourceLabel": "Visit Busan — family coastal itinerary",
+    "source": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302011001000&uc_seq=1697",
     "verification": "verified",
-    "flag": "Day/date/year and exact visit time are unresolved. Listed hours do not establish seasonal swimming/lifeguard access; hotel-to-beach route time was not confirmed."
+    "flag": "Exact hotel walking route, shop hours and weather/access restrictions are not confirmed.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
   },
   {
-    "day": 11,
-    "date": "Date/year unresolved",
+    "day": 10,
+    "date": "Tuesday; date and year not supplied",
+    "category": "Food",
+    "item": "Haeundae Amso Galbi",
+    "plan": "Supplied: Michelin restaurant, opens 11:30; arrive 30 minutes early.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — official tourism (context only)",
+    "source": "https://www.visitbusan.net/en/index.do",
+    "verification": "unverified",
+    "flag": "Restaurant hours, exact identity/address and Michelin claim were not confirmed from an official venue source. Queue buffer is a traveler preference, not a guarantee.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
+  },
+  {
+    "day": 10,
+    "date": "Tuesday; date and year not supplied",
+    "category": "Activities",
+    "item": "Dongbaekseom and coastal trail",
+    "plan": "Late morning/lunch: walk west towards Dongbaekseom; follow the coastal trail.",
+    "facts": "",
+    "sourceLabel": "Busan Metropolitan City — Nurimaru visitor guide",
+    "source": "https://www.busan.go.kr/nurimaru/english/Design/sub0101.jsp",
+    "verification": "unverified",
+    "flag": "Official Nurimaru guide is contextual; hotel-to-trail route, trail access and walking duration remain unconfirmed. No lunch venue supplied.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
+  },
+  {
+    "day": 10,
+    "date": "Tuesday; date and year not supplied",
+    "category": "Activities",
+    "item": "Nurimaru APEC House",
+    "plan": "Visit during the Dongbaek walk.",
+    "facts": "09:00–18:00; last admission 17:00. Closed first Monday of each month. Admission free.",
+    "sourceLabel": "Busan Metropolitan City — Nurimaru visitor guide",
+    "source": "https://www.busan.go.kr/nurimaru/english/Design/sub0101.jsp",
+    "verification": "verified",
+    "flag": "Published general schedule, not a date-specific opening guarantee. Some city tourism listings show 17:00 as closing; operator guide distinguishes last entry from closing.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 10,
+    "date": "Tuesday; date and year not supplied",
     "category": "Transit",
-    "item": "L7 Haeundae → Gamcheon / Nampo-dong by public transit",
-    "plan": "Use Busan Metro and local-bus guidance for the Day 11 Gamcheon and market stops; the original route, departure time, and transfer sequence were not saved.",
-    "facts": "Busan Metro’s official map shows Haeundae on Line 2, the Seomyeon interchange, and Toseong/Goejeong on Line 1. Visit Busan directs Gamcheon visitors from Toseong or Goejeong via village bus and a walk. Busan’s English Bus Information System provides live route/arrival lookup.",
-    "sourceLabel": "Busan Metro Cyber Station — English route map",
-    "source": "https://www2.humetro.busan.kr/homepage/cyberstation/mapeng.do",
-    "sourceLinks": [
-      {
-        "id": "S30",
-        "label": "Busan Metro Cyber Station — English route map",
-        "url": "https://www2.humetro.busan.kr/homepage/cyberstation/mapeng.do"
-      },
-      {
-        "id": "S31",
-        "label": "Busan Bus Information Management System — English",
-        "url": "https://bus.busan.go.kr/busanBIMS/mobile/EN/webApp/page/main/main.asp"
-      },
-      {
-        "id": "S43",
-        "label": "Gamcheon Culture Village",
-        "url": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=365"
-      }
-    ],
+    "item": "Public transport to Dongbaek",
+    "plan": "Alternative public-transport access to the Dongbaek/Nurimaru visit.",
+    "facts": "City operator guide: Metro Line 2 to Dongbaek Station, Exit 1; or bus 1003 to Dongbaek-seom.",
+    "sourceLabel": "Busan Metropolitan City — Nurimaru visitor guide",
+    "source": "https://www.busan.go.kr/nurimaru/english/Design/sub0101.jsp",
     "verification": "verified",
-    "flag": "This is network-level guidance, not a live door-to-door itinerary. Exact bus number at the chosen entrance, departure time, fare, travel duration, and last service were not confirmed; check the official route planner for the actual date."
+    "flag": "These are official destination access instructions, not a verified hotel-door route or travel-time quote.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 10,
+    "date": "Tuesday; date and year not supplied",
+    "category": "Transit",
+    "item": "Hotel → Mipo Station",
+    "plan": "Supplied: take a bus from hotel to Mipo.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — family coastal itinerary",
+    "source": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302011001000&uc_seq=1697",
+    "verification": "unverified",
+    "flag": "No hotel bus stop/route or duration confirmed. City guide identifies Mipo at 13 Dalmaji-gil 62beon-gil and describes access from Jungdong Station; summer operating hours on that page must not be used for November.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
+  },
+  {
+    "day": 10,
+    "date": "Tuesday; date and year not supplied",
+    "category": "Activities",
+    "item": "Sky Capsule: Mipo → Cheongsapo",
+    "plan": "Reserve in advance; supplied plan requests round-trip capsule tickets.",
+    "facts": "Official booking page offers Sky Capsule departures from Mipo and Cheongsapo. Its package is Beach Train + one-way Sky Capsule. Tickets for the week four weeks later open Tuesdays at 07:00; limited walk-up tickets may sell out.",
+    "sourceLabel": "Haeundae Blueline Park — official booking guide",
+    "source": "https://www.bluelinepark.com/eng/booking.do",
+    "verification": "verified",
+    "flag": "A round-trip capsule ticket was not confirmed. Do not treat a beach-train package as two capsule rides. Exact date, fare for two, availability and return transport remain unresolved.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 10,
+    "date": "Tuesday; date and year not supplied",
+    "category": "Activities",
+    "item": "Cheongsapo Daritdol Observatory",
+    "plan": "Optional walk/photos after arrival at Cheongsapo; does not itself provide transport back.",
+    "facts": "Visit Busan lists 09:00–18:00, with restricted opening during snow, rain and strong-wind warnings.",
+    "sourceLabel": "Visit Busan — family coastal itinerary",
+    "source": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302011001000&uc_seq=1697",
+    "verification": "verified",
+    "flag": "Exact walk from capsule station and return route not confirmed. An observatory visit is not an alternative return ticket.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 10,
+    "date": "Tuesday; date and year not supplied",
+    "category": "Activities",
+    "item": "Busan X the SKY — optional",
+    "plan": "Late-afternoon option; supplied Klook quote $17.59. Skip if not interested in observatories.",
+    "facts": "Daily 10:00–21:00. Adult admission (13+) ₩29,000; two standard adult admissions total ₩58,000 (calculation, no discount). Same-day on-site ticket issuance ends 30 minutes before closing. Address: 30 Dalmaji-gil, Haeundae-gu, LCT Landmark Tower.",
+    "sourceLabel": "Busan X the SKY — official visitor information",
+    "source": "https://www.busanxthesky.com/xtheskyMob/xtheskyM.php",
+    "verification": "verified",
+    "flag": "Also scheduled on Day 12. Keep one visit unless deliberately choosing a repeat. Reseller USD quote and date-specific availability unverified; standard official price is not a Klook offer.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 10,
+    "date": "Tuesday; date and year not supplied",
+    "category": "Food",
+    "item": "Haeundae dinner and market",
+    "plan": "Evening dinner and Haeundae Market. No restaurant supplied.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — official tourism (context only)",
+    "source": "https://www.visitbusan.net/en/index.do",
+    "verification": "unverified",
+    "flag": "No venue-specific official facts confirmed; context link does not verify hours, prices, branch or route.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
   },
   {
     "day": 11,
-    "date": "Date/year unresolved",
+    "date": "Wednesday; date and year not supplied",
+    "category": "Food",
+    "item": "Breakfast",
+    "plan": "Eat breakfast; no venue supplied.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — official tourism (context only)",
+    "source": "https://www.visitbusan.net/en/index.do",
+    "verification": "unverified",
+    "flag": "No venue-specific official facts confirmed; context link does not verify hours, prices, branch or route.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
+  },
+  {
+    "day": 11,
+    "date": "Wednesday; date and year not supplied",
+    "category": "Transit",
+    "item": "L7 Haeundae → Gamcheon access",
+    "plan": "Supplied: two buses, 1 hour 17 minutes.",
+    "facts": "Official destination access: Toseong Station Line 1, Exit 6 → village bus Saha 1-1, Seo-gu 2 or Seo-gu 2-2 → Gamjeong Elementary School → walk 5 minutes. Alternative: Goejeong Station Exit 6 → Saha 1 or 1-1.",
+    "sourceLabel": "Visit Busan — Gamcheon Culture Village",
+    "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=365&lang_cd=en",
+    "verification": "verified",
+    "flag": "The hotel-to-Line-1 connection, total duration, fare and live bus operation are not confirmed. The supplied two-bus itinerary is not verified.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 11,
+    "date": "Wednesday; date and year not supplied",
     "category": "Activities",
     "item": "Gamcheon Culture Village",
-    "plan": "Visit Gamcheon Culture Village on Day 11; exact arrival time and route order are not retained in the saved itinerary text.",
-    "facts": "Visit Busan lists 203 Gamnae 2-ro; free admission except parking; March–October 09:00–18:00 and November–February 09:00–17:00. Its directions use Line 1 to Goejeong or Toseong, then a village bus and walk. The listing asks visitors to be quiet in this residential area and not fly drones.",
-    "sourceLabel": "Gamcheon Culture Village",
-    "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=365",
-    "sourceLinks": [
-      {
-        "id": "S43",
-        "label": "Gamcheon Culture Village",
-        "url": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=365"
-      }
-    ],
+    "plan": "Allow a proposed 2–3 hours for alleys, art, viewpoints and shops.",
+    "facts": "203 Gamnae 2-ro, Saha-gu. City guide: November–February 09:00–17:00; March–October 09:00–18:00; open year-round, free except parking. Residential etiquette: quiet, cleanliness, no drones.",
+    "sourceLabel": "Visit Busan — Gamcheon Culture Village",
+    "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=365&lang_cd=en",
     "verification": "verified",
-    "flag": "Date/year and arrival time are unresolved; exact village-bus departure, wait, fare, and walking duration are not confirmed. Observe the source’s residential-area etiquette."
+    "flag": "2–3 hours is a planning allowance, not an official requirement. Individual shops may differ; KTO describes the village streets as open 24 hours, so city visitor hours must not be read as shop-wide guarantees.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
   },
   {
     "day": 11,
-    "date": "Date/year unresolved",
+    "date": "Wednesday; date and year not supplied",
     "category": "Food",
-    "item": "Jagalchi Market",
-    "plan": "Visit Jagalchi Market on Day 11; the saved notes do not identify a specific stall, meal, or time.",
-    "facts": "Visit Busan lists 52 Jagalchihaean-ro, 05:00–22:00, closed the 1st, 3rd, and 5th Tuesdays; prices vary by store. The listing gives a six-minute walk from Nampo Station Exit 2 or Jagalchi Station Exit 10 and several bus stops.",
-    "sourceLabel": "Jagalchi Market",
-    "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301003001000&uc_seq=412",
-    "sourceLinks": [
-      {
-        "id": "S44",
-        "label": "Jagalchi Market",
-        "url": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301003001000&uc_seq=412"
-      }
-    ],
-    "verification": "verified",
-    "flag": "Store-level prices, menus, and schedules vary. The travel year/date and exact hotel-to-market route are unresolved; confirm the chosen stall and market notices."
+    "item": "Coffee It House",
+    "plan": "Supplied: 2-minute walk from Gamcheon.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — official tourism (context only)",
+    "source": "https://www.visitbusan.net/en/index.do",
+    "verification": "unverified",
+    "flag": "Exact café identity, address, hours and 2-minute walking claim unverified; no matching official business page checked.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
   },
   {
     "day": 11,
-    "date": "Date/year unresolved",
+    "date": "Wednesday; date and year not supplied",
+    "category": "Transit",
+    "item": "Gamcheon → BIFF Square",
+    "plan": "Take a bus to BIFF Square for lunch.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — historic downtown route",
+    "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000302011001000&uc_seq=2809&lang_cd=en",
+    "verification": "unverified",
+    "flag": "Destination is in the official downtown route, but bus number, boarding stop, fare and duration not confirmed.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
+  },
+  {
+    "day": 11,
+    "date": "Wednesday; date and year not supplied",
+    "category": "Food",
+    "item": "BIFF Square street-food lunch",
+    "plan": "Try street food and snacks.",
+    "facts": "Around 58-1 Gudeok-ro, Jung-gu. Square open at all times; city guide says street stalls/shops generally operate around 10:00–22:00.",
+    "sourceLabel": "Visit Busan — historic downtown route",
+    "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000302011001000&uc_seq=2809&lang_cd=en",
+    "verification": "verified",
+    "flag": "General range is not a guarantee for any stall, menu or price.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 11,
+    "date": "Wednesday; date and year not supplied",
+    "category": "Transit",
+    "item": "BIFF Square → Jagalchi Market",
+    "plan": "Supplied: 9-minute walk.",
+    "facts": "Official city itinerary describes the downtown route including Jagalchi and BIFF Square as walkable.",
+    "sourceLabel": "Visit Busan — historic downtown route",
+    "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000302011001000&uc_seq=2809&lang_cd=en",
+    "verification": "verified",
+    "flag": "Exact 9-minute walk, entrances and accessibility not confirmed.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 11,
+    "date": "Wednesday; date and year not supplied",
+    "category": "Activities",
+    "item": "Jagalchi Fish Market",
+    "plan": "Visit after lunch; also repeated in supplied late-afternoon list.",
+    "facts": "52 Jagalchihaean-ro, Jung-gu. City guide: 05:00–22:00; closed first and third Tuesdays each month.",
+    "sourceLabel": "Visit Busan — historic downtown route",
+    "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000302011001000&uc_seq=2809&lang_cd=en",
+    "verification": "verified",
+    "flag": "Vendor hours can vary. Duplicate afternoon mention consolidated into this row, not a second required visit.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 11,
+    "date": "Wednesday; date and year not supplied",
+    "category": "Transit",
+    "item": "Nampo → Songdo Beach",
+    "plan": "Supplied: bus 13 minutes + walk 9 minutes.",
+    "facts": "City guide: Nampo Station Line 1, Exit 1 → bus 26, 30 or 71 from Nampo-dong bus stop → Songdo Beach bus stop.",
+    "sourceLabel": "Visit Busan — family coastal itinerary",
+    "source": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302011001000&uc_seq=1697",
+    "verification": "verified",
+    "flag": "Supplied 13-minute ride and 9-minute walk not verified. Live bus route/fare and exact boarding location require operator confirmation.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 11,
+    "date": "Wednesday; date and year not supplied",
+    "category": "Activities",
+    "item": "Songdo Beach and Cloud Trails",
+    "plan": "Walk the beach and Songdo Cloud Trails.",
+    "facts": "City itinerary lists Songdo Cloud Trail at 129-4 Amnam-dong, Seo-gu; 06:00–23:00; use restricted depending on weather.",
+    "sourceLabel": "Visit Busan — family coastal itinerary",
+    "source": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302011001000&uc_seq=1697",
+    "verification": "verified",
+    "flag": "Check weather restrictions. Cloud Trails are not the separate Songdo Yonggung Suspension Bridge.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 11,
+    "date": "Wednesday; date and year not supplied",
+    "category": "Activities",
+    "item": "Songdo Marine Cable Car — optional",
+    "plan": "Optional cable-car ride.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — family coastal itinerary",
+    "source": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302011001000&uc_seq=1697",
+    "verification": "unverified",
+    "flag": "Official city itinerary names Busan Air Cruise in Songdo, but current November hours, adult fares, boarding address and operation were not confirmed from the operator. No ticket is booked.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
+  },
+  {
+    "day": 11,
+    "date": "Wednesday; date and year not supplied",
+    "category": "Activities",
+    "item": "Late afternoon: BIFF / Nampo-dong shopping",
+    "plan": "Return to old downtown for movie-themed streets, food, cosmetics and cafés.",
+    "facts": "Official city route includes BIFF Square, Jagalchi and Gwangbok-ro shopping streets; Gwangbok-ro hours vary by shop.",
+    "sourceLabel": "Visit Busan — historic downtown route",
+    "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000302011001000&uc_seq=2809&lang_cd=en",
+    "verification": "verified",
+    "flag": "Supplied route revisits BIFF/Jagalchi after Songdo. This backtracking is preserved, not required; optional simplification is to finish downtown stops before Songdo. Exact return transit unconfirmed.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 11,
+    "date": "Wednesday; date and year not supplied",
     "category": "Shopping",
     "item": "Gukje Market",
-    "plan": "Visit Gukje Market on Day 11; specific shops and purchases are not recorded.",
-    "facts": "Visit Busan lists 32 Junggu-ro, hours 09:00–20:00 (varying by store) and Sunday closure. Access notes give a seven-minute walk from Jagalchi Station Line 1, Exit 7.",
-    "sourceLabel": "Gukje Market",
-    "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301003001000&uc_seq=399",
-    "sourceLinks": [
-      {
-        "id": "S45",
-        "label": "Gukje Market",
-        "url": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301003001000&uc_seq=399"
-      }
-    ],
-    "verification": "verified",
-    "flag": "Individual shops vary, and the date/year is unresolved. The official listing does not confirm the exact route from the hotel or specific shop availability."
+    "plan": "Include Gukje Market in old-downtown visit.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — official tourism (context only)",
+    "source": "https://www.visitbusan.net/en/index.do",
+    "verification": "unverified",
+    "flag": "Market-level address/hours and shop closures not confirmed in this audit. Original trailing empty numbered item “9.” has no activity to verify.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
   },
   {
     "day": 12,
-    "date": "Date/year unresolved",
-    "category": "Activities",
-    "item": "BUSAN X the SKY observatory",
-    "plan": "Visit BUSAN X the SKY on Day 12; the saved trip notes do not preserve a time slot or ticket quantity.",
-    "facts": "The operator lists 10:00–21:00 daily, address 30 Dalmaji-gil, and admission of ₩29,000 for adults (13+) and ₩26,000 for children (36 months to under 13). Visit Busan’s listing shows lower prices of ₩27,000/₩24,000.",
-    "sourceLabel": "BUSAN X the SKY — operating hours, admission, location",
-    "source": "https://www.busanxthesky.com/xtheskyMob/xtheskyM.php",
-    "sourceLinks": [
-      {
-        "id": "S41",
-        "label": "BUSAN X the SKY — operating hours, admission, location",
-        "url": "https://www.busanxthesky.com/xtheskyMob/xtheskyM.php"
-      },
-      {
-        "id": "S42",
-        "label": "BUSAN X the SKY — Visit Busan listing",
-        "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000302008001000&uc_seq=996&lang_cd=en"
-      }
-    ],
+    "date": "Thursday; date and year not supplied",
+    "category": "Food",
+    "item": "Breakfast",
+    "plan": "Eat breakfast somewhere; no venue supplied.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — official tourism (context only)",
+    "source": "https://www.visitbusan.net/en/index.do",
     "verification": "unverified",
-    "flag": "The operator and Visit Busan disagree on admission prices. Confirm the current amount and ticket terms with the operator before purchase; trip date and booking are unresolved."
+    "flag": "No venue-specific official facts confirmed; context link does not verify hours, prices, branch or route.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
+  },
+  {
+    "day": 12,
+    "date": "Thursday; date and year not supplied",
+    "category": "Activities",
+    "item": "Busan X the SKY",
+    "plan": "Proposed 10:00–11:30 visit to observation deck in LCT Landmark Tower.",
+    "facts": "Daily 10:00–21:00. Adult admission (13+) ₩29,000; two standard adult admissions total ₩58,000 (calculation, no discount). Same-day on-site ticket issuance ends 30 minutes before closing. Address: 30 Dalmaji-gil, Haeundae-gu, LCT Landmark Tower.",
+    "sourceLabel": "Busan X the SKY — official visitor information",
+    "source": "https://www.busanxthesky.com/xtheskyMob/xtheskyM.php",
+    "verification": "verified",
+    "flag": "Duplicates Day 10 optional visit. Proposed 90-minute visit is not an official duration or reservation; choose one day before buying tickets.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 12,
+    "date": "Thursday; date and year not supplied",
+    "category": "Food",
+    "item": "Lunch by Haeundae Beach",
+    "plan": "Choose a beachfront/nearby restaurant; no venue supplied.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — official tourism (context only)",
+    "source": "https://www.visitbusan.net/en/index.do",
+    "verification": "unverified",
+    "flag": "No venue-specific official facts confirmed; context link does not verify hours, prices, branch or route.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
+  },
+  {
+    "day": 12,
+    "date": "Thursday; date and year not supplied",
+    "category": "Activities",
+    "item": "SEA LIFE Busan Aquarium",
+    "plan": "Afternoon aquarium visit; supplied ticket $15.",
+    "facts": "Published weekday hours 10:00–19:00 (last entry 18:00); weekends 10:00–20:00 (last entry 19:00). Operator says hours may change with site/weather conditions.",
+    "sourceLabel": "SEA LIFE Busan — official opening hours",
+    "source": "https://www.visitsealife.com/busan/en/plan-your-visit/before-you-visit/opening-hours/",
+    "verification": "verified",
+    "flag": "USD $15 ticket not confirmed. General hours are not confirmation of a specific trip date; page calendar includes past days marked closed and must not be used as a blanket closure announcement.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
+  },
+  {
+    "day": 12,
+    "date": "Thursday; date and year not supplied",
+    "category": "Shopping",
+    "item": "Haeundae shopping",
+    "plan": "Shopping is in the day heading; no stores supplied.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — official tourism (context only)",
+    "source": "https://www.visitbusan.net/en/index.do",
+    "verification": "unverified",
+    "flag": "No venue-specific official facts confirmed; context link does not verify hours, prices, branch or route.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
+  },
+  {
+    "day": 12,
+    "date": "Thursday; date and year not supplied",
+    "category": "Food",
+    "item": "Dinner — unassigned",
+    "plan": "Dinner field was blank; no restaurant or time supplied.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — official tourism (context only)",
+    "source": "https://www.visitbusan.net/en/index.do",
+    "verification": "unverified",
+    "flag": "No venue-specific official facts confirmed; context link does not verify hours, prices, branch or route.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
   },
   {
     "day": 13,
-    "date": "Date/year unresolved",
+    "date": "Friday; date and year not supplied",
     "category": "Activities",
-    "item": "Day 13 — itinerary details not present in saved source text",
-    "plan": "No stop, meal, activity, or time block for Day 13 is preserved in the repository’s raw itinerary. This placeholder is not confirmation that the day was intended to be free.",
+    "item": "Open day — no activities supplied",
+    "plan": "Friday has no supplied activities. Leave available for rest, weather changes or a deliberate later choice.",
     "facts": "",
-    "sourceLabel": "Visit Busan official English tourism portal (context only)",
-    "source": "https://www.visitbusan.net/index.do?lang_cd=en",
+    "sourceLabel": "Visit Busan — official tourism (context only)",
+    "source": "https://www.visitbusan.net/en/index.do",
     "verification": "unverified",
-    "flag": "Original Day 13 details are missing from saved materials. Keep the plan blank rather than adding unrequested activities; restore the original stops if they are available.",
-    "sourceLinks": [
-      {
-        "id": "S85",
-        "label": "Visit Busan official English tourism portal (context only)",
-        "url": "https://www.visitbusan.net/index.do?lang_cd=en"
-      }
-    ]
+    "flag": "No activities, booking or visit facts to verify. No date inferred and no venue invented.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
   },
   {
     "day": 14,
-    "date": "Date/year unresolved",
-    "category": "Activities",
-    "item": "Gwangalli Beach — M Drone Light Show",
-    "plan": "Attend the Gwangalli M Drone Light Show on Day 14 as identified in the research notes; exact show time and trip date/year were not preserved.",
-    "facts": "Busan’s 2026 event page lists Saturday shows: March–September at 20:00 and 22:00; October–February at 19:00 and 21:00. Shows last about 12 minutes, are free, and may be delayed or canceled for weather/technical issues. Visit Busan lists Gwangalli Beach at 219 Gwanganhaebyeon-ro; Gwangan Station (Line 2) Exit 5 is a 13-minute walk, with buses 42/62 also listed.",
-    "sourceLabel": "Gwangalli M Drone Light Show — 2026 event information",
-    "source": "https://www.busan.go.kr/eng/bsevents/1713160",
-    "sourceLinks": [
-      {
-        "id": "S52",
-        "label": "Gwangalli M Drone Light Show — 2026 event information",
-        "url": "https://www.busan.go.kr/eng/bsevents/1713160"
-      },
-      {
-        "id": "S51",
-        "label": "Gwangalli Beach — official Visit Busan listing",
-        "url": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en"
-      }
-    ],
+    "date": "Saturday; date and year not supplied",
+    "category": "Transit",
+    "item": "Haeundae → Gwangalli Beach",
+    "plan": "Supplied: head to Gwangalli at 17:00.",
+    "facts": "",
+    "sourceLabel": "Gwangalli M Drone Show — official overview",
+    "source": "https://www.gwangallimdrone.co.kr/overview",
     "verification": "unverified",
-    "flag": "The published show schedule is explicitly for 2026; the trip year/date is unresolved. Confirm the Saturday program, show time, and cancellation notice close to the visit."
+    "flag": "17:00 is a proposed departure, not a confirmed travel time. Hotel-to-beach route, fare and duration unverified; official show location alone does not verify transit.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
+  },
+  {
+    "day": 14,
+    "date": "Saturday; date and year not supplied",
+    "category": "Food",
+    "item": "Gwangalli early dinner / snack",
+    "plan": "Find food and a viewing spot before the 19:00 show.",
+    "facts": "",
+    "sourceLabel": "Gwangalli M Drone Show — official overview",
+    "source": "https://www.gwangallimdrone.co.kr/overview",
+    "verification": "unverified",
+    "flag": "No restaurant supplied; show page is context only for the area. Meal price, hours and viewing access unverified.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
+  },
+  {
+    "day": 14,
+    "date": "Saturday; date and year not supplied",
+    "category": "Activities",
+    "item": "Gwangalli M Drone Light Show",
+    "plan": "Watch the 19:00 winter show. Supplied duration 12 minutes.",
+    "facts": "Official overview: two Saturday performances. October–February 19:00 and 21:00; March–September 20:00 and 22:00; Gwangalli Beach. Overview describes performances as at least 12 minutes; homepage says about 12 minutes.",
+    "sourceLabel": "Gwangalli M Drone Show — official overview",
+    "source": "https://www.gwangallimdrone.co.kr/overview",
+    "verification": "verified",
+    "flag": "Recurring schedule is not a guarantee for a particular Saturday. Trip date unresolved; special-event notices/weather can supersede it. Duration is approximate, not exactly 12 minutes.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
   },
   {
     "day": 15,
-    "date": "Date/year unresolved",
+    "date": "Sunday; date and year not supplied",
     "category": "Activities",
-    "item": "Day 15 — itinerary details not present in saved source text",
-    "plan": "No stop, meal, activity, or time block for Day 15 is preserved in the repository’s raw itinerary. This placeholder is not confirmation that the day was intended to be free.",
+    "item": "Open day — no activities supplied",
+    "plan": "Sunday has no supplied activities. Keep unassigned.",
     "facts": "",
-    "sourceLabel": "Visit Busan official English tourism portal (context only)",
-    "source": "https://www.visitbusan.net/index.do?lang_cd=en",
+    "sourceLabel": "Visit Busan — official tourism (context only)",
+    "source": "https://www.visitbusan.net/en/index.do",
     "verification": "unverified",
-    "flag": "Original Day 15 details are missing from saved materials. Keep the plan blank rather than adding unrequested activities; restore the original stops if they are available.",
-    "sourceLinks": [
-      {
-        "id": "S85",
-        "label": "Visit Busan official English tourism portal (context only)",
-        "url": "https://www.visitbusan.net/index.do?lang_cd=en"
-      }
-    ]
+    "flag": "No date, venue, opening hours or booking supplied; nothing inferred.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
   },
   {
     "day": 16,
-    "date": "Date/year unresolved",
+    "date": "Monday; date and year not supplied",
+    "category": "Food",
+    "item": "Breakfast before checkout",
+    "plan": "Eat breakfast; no venue supplied.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — official tourism (context only)",
+    "source": "https://www.visitbusan.net/en/index.do",
+    "verification": "unverified",
+    "flag": "No venue-specific official facts confirmed; context link does not verify hours, prices, branch or route.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
+  },
+  {
+    "day": 16,
+    "date": "Monday; date and year not supplied",
     "category": "Stay",
-    "item": "L7 HAEUNDAE — check out",
-    "plan": "Check out of L7 HAEUNDAE before traveling back to Seoul; the departure train and actual booking are not specified.",
-    "facts": "LOTTE HOTELS’ current property page lists check-out at 11:00 and gives the hotel address as 55 Haeun-daero 570beon-gil, Haeundae-gu, Busan.",
-    "sourceLabel": "L7 HAEUNDAE by LOTTE HOTELS — property details",
-    "source": "https://www.lottehotel.com/haeundae-l7/en",
-    "sourceLinks": [
-      {
-        "id": "S29",
-        "label": "L7 HAEUNDAE by LOTTE HOTELS — property details",
-        "url": "https://www.lottehotel.com/haeundae-l7/en"
-      }
-    ],
-    "verification": "verified",
-    "flag": "The general check-out time is verified, but the room reservation, luggage storage, exact departure time, and train booking are not supplied."
+    "item": "L7 HAEUNDAE checkout",
+    "plan": "Supplied: check out before 11:00.",
+    "facts": "",
+    "sourceLabel": "LOTTE — L7 HAEUNDAE (context; checkout not confirmed)",
+    "source": "https://www.lottehotel.com/prerendered/haeundae-l7/en/about/art-experience/l7/index.html",
+    "verification": "unverified",
+    "flag": "11:00 remains a supplied planning claim, not independently confirmed from the official hotel in this audit. Reservation-specific checkout and luggage arrangements unverified.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
   },
   {
     "day": 16,
-    "date": "Date/year unresolved",
+    "date": "Monday; date and year not supplied",
     "category": "Transit",
     "item": "L7 Haeundae → Busan Station",
-    "plan": "Travel from the Haeundae hotel to Busan Station for the return KTX; no departure time is recorded.",
-    "facts": "Busan Transportation Corporation’s map shows Haeundae on Line 2, Seomyeon as an interchange, and Busan Station on Line 1; the mapped rail path is Line 2 to Seomyeon, transfer to Line 1 for Busan Station.",
-    "sourceLabel": "Busan Metro Cyber Station — English route map",
-    "source": "https://www2.humetro.busan.kr/homepage/cyberstation/mapeng.do",
-    "sourceLinks": [
-      {
-        "id": "S30",
-        "label": "Busan Metro Cyber Station — English route map",
-        "url": "https://www2.humetro.busan.kr/homepage/cyberstation/mapeng.do"
-      }
-    ],
-    "verification": "verified",
-    "flag": "Exact walk to the Haeundae platform, route time, fare, crowding, and the KTX check-in buffer are not confirmed. Check the live operator route tool and the booked train."
+    "plan": "Supplied: Uber, 1 hour, $20–$30.",
+    "facts": "",
+    "sourceLabel": "Visit Busan — official tourism (context only)",
+    "source": "https://www.visitbusan.net/en/index.do",
+    "verification": "unverified",
+    "flag": "Taxi quote, journey time, traffic and pickup location unverified. USD estimate is not an official fare. No precise public-transit alternative claimed without operator evidence.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
   },
   {
     "day": 16,
-    "date": "Date/year unresolved",
+    "date": "Monday; date and year not supplied",
     "category": "Transit",
-    "item": "KTX Busan Station → Seoul Station",
-    "plan": "Return to Seoul by KTX on Day 16; train, departure, arrival time, and fare are not recorded.",
-    "facts": "KORAIL’s official English booking page supports date-specific search and ticket purchase. Its booking guidance states that tickets are released from 07:00 one month before travel until 20 minutes before departure.",
-    "sourceLabel": "KORAIL — English ticket search and booking",
-    "source": "https://www.korail.com/global/eng/main",
-    "sourceLinks": [
-      {
-        "id": "S53",
-        "label": "KORAIL — English ticket search and booking",
-        "url": "https://www.korail.com/global/eng/main"
-      }
-    ],
-    "verification": "verified",
-    "flag": "No travel date, train, seat class, ticket, journey time, or fare is confirmed. Search the exact date in KORAIL; do not rely on third-party fare or duration estimates."
+    "item": "KTX: Busan → Seoul Station",
+    "plan": "Take KTX to Seoul Station.",
+    "facts": "",
+    "sourceLabel": "KORAIL — official train search (not a reservation)",
+    "source": "https://www.letskorail.com/ebizbf/EbizBfTicketSearch.do",
+    "verification": "unverified",
+    "flag": "Exact travel date, service, departure/arrival times, fare for two adults, seats and luggage availability unverified. Search official date-specific inventory; no train booked.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Context / unresolved detail"
   },
   {
     "day": 16,
-    "date": "Date/year unresolved",
+    "date": "Monday; date and year not supplied",
     "category": "Transit",
-    "item": "Seoul Station → Hongik University Station (AREX)",
-    "plan": "Transfer from KTX at Seoul Station to Hongik University Station for Mercure Ambassador Seoul Hongdae; exact train and walking route are not recorded.",
-    "facts": "AREX’s official all-stop passenger-service site lists Seoul Station and Hongik University among the station choices for live route/timetable lookup. Accor lists the Mercure beside Hongik University Station Exit 9.",
-    "sourceLabel": "AREX — official all-stop train route and station search",
-    "source": "https://www.airportrailroad.com/main",
-    "sourceLinks": [
-      {
-        "id": "S54",
-        "label": "AREX — official all-stop train route and station search",
-        "url": "https://www.airportrailroad.com/main"
-      },
-      {
-        "id": "S06",
-        "label": "Getting to Seoul from Incheon Airport",
-        "url": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/"
-      },
-      {
-        "id": "S55",
-        "label": "Mercure Ambassador Seoul Hongdae — official hotel page",
-        "url": "https://all.accor.com/hotel/B696/index.en.shtml"
-      }
-    ],
+    "item": "Seoul Station → Hongik Univ. by AREX",
+    "plan": "Supplied: take AREX to Hongdae; get off Hongik Univ. Station.",
+    "facts": "Korea Tourism Organization distinguishes the non-stop airport Express from the All-Stop service, which serves Hongik University Station. Choose All-Stop for Hongik Univ.; no Express stop there.",
+    "sourceLabel": "Korea Tourism Organization — airport transportation",
+    "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140654",
     "verification": "verified",
-    "flag": "The exact Seoul Station → Hongik University departure, journey time, fare, transfer path through Seoul Station, and walk with luggage were not confirmed for the unresolved trip date; check the operator’s live search."
+    "flag": "Exact fare, timetable, direction/platform and KTX-to-AREX transfer time remain unverified.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
   },
   {
     "day": 16,
-    "date": "Date/year unresolved",
-    "category": "Stay",
-    "item": "Mercure Ambassador Seoul Hongdae — arrival/check-in",
-    "plan": "Check in at Mercure Ambassador Seoul Hongdae after returning to Seoul; reservation and check-in time were not supplied.",
-    "facts": "Accor lists the address as 144 Yanghwa-ro, Mapo-gu, Seoul. The official page says the hotel is next to Hongik University Station Exit 9 and describes a two-minute walk from the subway station; it describes AREX as about a five-minute walk away.",
-    "sourceLabel": "Mercure Ambassador Seoul Hongdae — official hotel page",
+    "date": "Monday; date and year not supplied",
+    "category": "Transit",
+    "item": "Hongik Univ. Station → Mercure",
+    "plan": "Supplied: 8-minute walk.",
+    "facts": "Hotel operator identifies Hongik University Station Exit 9 as nearby; hotel is at 144 Yanghwa-ro, Mapo-gu, Seoul.",
+    "sourceLabel": "Accor — Mercure Ambassador Seoul Hongdae",
     "source": "https://all.accor.com/hotel/B696/index.en.shtml",
-    "sourceLinks": [
-      {
-        "id": "S55",
-        "label": "Mercure Ambassador Seoul Hongdae — official hotel page",
-        "url": "https://all.accor.com/hotel/B696/index.en.shtml"
-      }
-    ],
     "verification": "verified",
-    "flag": "The itinerary’s eight-minute walk estimate differs from Accor’s two-minute subway-station description. Confirm the exact hotel entrance/AREX exit and booking-specific check-in details."
+    "flag": "Hotel page describes different access times (1–2 minutes for subway access; about 5 minutes for AREX). Supplied 8 minutes is not confirmed; AREX platform-to-street transfer and luggage can change walking time.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
   },
   {
-    "day": null,
-    "date": "Day placement unresolved",
-    "category": "Activities",
-    "item": "Haeundae Blueline Park — Sky Capsule (Mipo ↔ Cheongsapo)",
-    "plan": "The research record includes Sky Capsule details, but the saved raw plan does not preserve its assigned day, time, or direction. This reference is deliberately not placed in Days 10–16.",
-    "facts": "The operator describes Mipo–Cheongsapo as a 2 km, roughly 30-minute one-way ride. Capsule fares listed for 2/3/4 passengers are ₩50,000/₩55,000/₩60,000. Reservations open four weeks ahead on Tuesdays at 07:00; the ride is one-way, and the operator says to return by buying another one-way capsule or a Beach Train ticket. Visit Busan lists Mipo Station at 13 Dalmaji-gil 62beon-gil and an 18-minute walk from Jung-dong Station Exit 7.",
-    "sourceLabel": "Sky Capsule — course",
-    "source": "https://www.bluelinepark.com/eng/skyCapsuleCourse.do",
-    "sourceLinks": [
-      {
-        "id": "S33",
-        "label": "Sky Capsule — course",
-        "url": "https://www.bluelinepark.com/eng/skyCapsuleCourse.do"
-      },
-      {
-        "id": "S34",
-        "label": "Sky Capsule — operating hours",
-        "url": "https://www.bluelinepark.com/eng/skyCapsuleTime.do"
-      },
-      {
-        "id": "S35",
-        "label": "Fare information",
-        "url": "https://www.bluelinepark.com/eng/fare.do"
-      },
-      {
-        "id": "S36",
-        "label": "Official reservation guidance",
-        "url": "https://www.bluelinepark.com/eng/booking.do"
-      },
-      {
-        "id": "S37",
-        "label": "Official FAQ — Sky Capsule return trips and ticket availability",
-        "url": "https://www.bluelinepark.com/eng/faqList.do?pageNo=2"
-      },
-      {
-        "id": "S38",
-        "label": "Haeundae Blueline Park (Beach Train, Sky Capsule)",
-        "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301001001000&uc_seq=980&lang_cd=en"
-      },
-      {
-        "id": "S57",
-        "label": "All Aboard the Romantic Haeundae Beach Train on Busan Green Railway Trail",
-        "url": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302002001000&uc_seq=1026&lang_cd=en"
-      }
-    ],
+    "day": 16,
+    "date": "Monday; date and year not supplied",
+    "category": "Stay",
+    "item": "Mercure Ambassador Seoul Hongdae",
+    "plan": "Arrive after rail transfer; stay at the named hotel.",
+    "facts": "144 Yanghwa-ro, Mapo-gu, Seoul. Operator lists check-in from 15:00 and checkout up to 12:00.",
+    "sourceLabel": "Accor — Mercure Ambassador Seoul Hongdae",
+    "source": "https://all.accor.com/hotel/B696/index.en.shtml",
     "verification": "verified",
-    "flag": "The assigned day, date, departure slot, availability, and hotel-to-Mipo route are unresolved. Do not treat one capsule ticket as a round trip; check the operator’s live schedule and return leg."
-  },
-  {
-    "day": null,
-    "date": "Day placement unresolved",
-    "category": "Activities",
-    "item": "SEA LIFE Busan Aquarium",
-    "plan": "The research record includes SEA LIFE Busan, but its assigned day and intended time are not preserved in the saved raw plan. Kept outside the day-specific schedule.",
-    "facts": "The operator lists weekday hours 10:00–19:00 and weekend hours 10:00–20:00, with last entry one hour before closing. Its official ticket page exposes date/time selection; an adult price was not visible in the page content checked.",
-    "sourceLabel": "SEA LIFE Busan — official opening hours",
-    "source": "https://www.visitsealife.com/busan/en/plan-your-visit/before-you-visit/opening-hours/",
-    "sourceLinks": [
-      {
-        "id": "S39",
-        "label": "SEA LIFE Busan — official opening hours",
-        "url": "https://www.visitsealife.com/busan/en/plan-your-visit/before-you-visit/opening-hours/"
-      },
-      {
-        "id": "S40",
-        "label": "SEA LIFE Busan — official ticket page",
-        "url": "https://www.visitsealife.com/busan/en/tickets-passes/"
-      }
-    ],
-    "verification": "verified",
-    "flag": "Day/date and weekday are unresolved; check date-specific operating hours and adult admission on the official ticket page before planning. No adult price is filled in."
-  },
-  {
-    "day": null,
-    "date": "Day placement unresolved",
-    "category": "Activities",
-    "item": "Dongbaekseom coastal walk / Nurimaru APEC House",
-    "plan": "Official-source research includes Dongbaekseom and Nurimaru, but the preserved raw plan does not establish their assigned day or sequence. Kept outside the scheduled days.",
-    "facts": "Busan City lists Nurimaru APEC House at 116 Dongbaek-ro, free admission, 09:00–18:00 with last admission one hour before close, closed the first Monday of each month; Dongbaek Station Line 2 Exit 1 is an access point. Visit Busan lists a 14-minute walk from that exit and the same 09:00–18:00 hours. An older Visit Busan trail listing says 09:00–17:00.",
-    "sourceLabel": "Nurimaru APEC House — visitor information",
-    "source": "https://www.busan.go.kr/nurimaru/english/Design/sub0101.jsp",
-    "sourceLinks": [
-      {
-        "id": "S46",
-        "label": "Nurimaru APEC House — visitor information",
-        "url": "https://www.busan.go.kr/nurimaru/english/Design/sub0101.jsp"
-      },
-      {
-        "id": "S47",
-        "label": "Nurimaru APEC House — official Visit Busan listing",
-        "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301001001000&uc_seq=2121&lang_cd=en"
-      },
-      {
-        "id": "S56",
-        "label": "Dongbaek coastal trail and Nurimaru APEC House — Visit Busan itinerary",
-        "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000302002001000&uc_seq=284&lang_cd=en"
-      }
-    ],
-    "verification": "unverified",
-    "flag": "Official listings differ between 17:00 and 18:00 closing; this may reflect last admission versus closing time but is not resolved here. Confirm current hours and the intended itinerary day."
-  },
-  {
-    "day": null,
-    "date": "Day placement unresolved",
-    "category": "Food",
-    "item": "Haeundae Amso Galbi (Haeundae Rib Barbecue Restaurant)",
-    "plan": "The research record includes the restaurant/MICHELIN listing, but its assigned day and meal time are not preserved in the saved raw plan.",
-    "facts": "VisitKorea lists Haeundae Amso Galbijip at 32-10 Jungdong 2-ro 10beon-gil, 11:30–22:00, with a weekend break 15:15–16:30 and closure on Seollal/Chuseok holidays. MICHELIN Guide lists Haeundae Rib Barbecue Restaurant at 333 Haeundaehaebyeon-ro, ₩₩, and says fresh ribs may sell out early and may be reserved up to one week ahead. The restaurant’s own site is linked by VisitKorea.",
-    "sourceLabel": "Haeundae Amso Galbijip",
-    "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=73814",
-    "sourceLinks": [
-      {
-        "id": "S48",
-        "label": "Haeundae Amso Galbijip",
-        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=73814"
-      },
-      {
-        "id": "S49",
-        "label": "Haeundae Rib Barbecue Restaurant — MICHELIN Guide listing",
-        "url": "https://guide.michelin.com/us/en/busan-region/busan_1025838/restaurant/haeundae-rib-barbecue-restaurant"
-      },
-      {
-        "id": "S50",
-        "label": "Haeundae Amso Galbi — restaurant website",
-        "url": "https://www.haeundaegalbi.com/"
-      }
-    ],
-    "verification": "unverified",
-    "flag": "Published addresses differ: VisitKorea lists 32-10 Jungdong 2-ro 10beon-gil; MICHELIN lists 333 Haeundaehaebyeon-ro. Break-time details also conflict (VisitKorea weekend 15:15–16:30; MICHELIN daily 14:00–17:00). Confirm current branch, hours, reservation and assigned day with the restaurant; “arrive 30 minutes early” is not verified."
+    "flag": "Reservation, room, early check-in and actual arrival date remain unconfirmed.",
+    "checkedAt": "2026-10-26",
+    "sourceScope": "Checked published detail only"
   }
 ]
