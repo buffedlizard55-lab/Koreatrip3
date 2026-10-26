@@ -10,7 +10,7 @@ assert D['travelYear'] is None and D['travelers']==2
 assert [d['day'] for d in D['days']]==list(range(1,17))
 assert set(r['day'] for r in D['rows'])==set(range(1,17))
 assert len({r['id'] for r in D['rows']})==len(D['rows'])
-allowed={'english.visitseoul.net','english.seoul.go.kr','english.visitkorea.or.kr','www.stanford-hotel.com','www.nseoultower.co.kr','www.korail.com','www2.humetro.busan.kr','www.lottehotel.com','all.accor.com','www.visitbusan.net','visitbusan.net','www.bluelinepark.com','www.busanxthesky.com','www.visitsealife.com','www.gwangallimdrone.co.kr','locations.musinsa.com','global.margesherwood.com','www.adererror.com'}
+allowed={'english.visitseoul.net','english.seoul.go.kr','english.visitkorea.or.kr','www.stanford-hotel.com','www.nseoultower.co.kr','www.korail.com','www2.humetro.busan.kr','bus.busan.go.kr','www.lottehotel.com','all.accor.com','www.visitbusan.net','visitbusan.net','www.bluelinepark.com','www.busanxthesky.com','www.visitsealife.com','www.gwangallimdrone.co.kr','locations.musinsa.com','global.margesherwood.com','www.adererror.com'}
 for s in S.values():
  u=urlparse(s['url']); assert u.scheme=='https' and u.hostname in allowed, s
  assert s['checked']=='2026-10-26' and s['evidence'] and s['method']

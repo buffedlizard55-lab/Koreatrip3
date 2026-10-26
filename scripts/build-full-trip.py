@@ -60,7 +60,7 @@ for file,title,sub,cat in [
  ('shopping.html','Shops & neighborhoods','Shopping entries, with branch-level gaps left visible.',['Shopping'])]:
  extra=''
  if file=='transit.html':
-  extra='<div class="callout"><b>The important distinction</b><p>AREX Express runs non-stop between ICN and Seoul Station. Day 16 needs the <strong>all-stop</strong> service for Hongik University. KTX needs a separate, date-specific ticket for each direction.</p>'+refs(['airport','korail'])+'</div>'
+  extra='<div class="callout"><b>The important distinction</b><p>AREX Express runs non-stop between ICN and Seoul Station. Day 16 needs the <strong>all-stop</strong> service for Hongik University. KTX needs a separate, date-specific ticket for each direction.</p>'+refs(['airport','korail'])+'</div><div class="callout"><b>Busan city buses</b><p>For planned Busan bus legs, use the official English Bus Information Management System to look up current routes and stops. This live lookup does not establish future service.</p>'+refs(['busan-bims'])+'</div>'
  if file=='stays.html':
   extra='<div class="hotel-strip"><article><span>01 · SEOUL</span><h2>Stanford Myeongdong</h2><p>Days 1–8 · depart Day 9</p>'+refs(['stanford','stanford-address'])+'</article><article><span>02 · BUSAN</span><h2>L7 HAEUNDAE</h2><p>Days 9–15 · depart Day 16</p>'+refs(['l7'])+'</article><article><span>03 · SEOUL</span><h2>Mercure Hongdae</h2><p>Arrive Day 16 · departure not supplied</p>'+refs(['mercure'])+'</article></div><p class="muted">Stays above follow the proposed day sequence, not confirmed bookings or calendar dates.</p>'
  save(file,title,sub,extra+controls()+blanknote+table([r for r in rows if r['category'] in cat],title))
