@@ -1,0 +1,308 @@
+[
+  {
+    "day": 10,
+    "category": "Activities",
+    "item": "Haeundae Beach and beachfront cafés",
+    "plan": "Morning beach walk; browse cafés and shops.",
+    "facts": "Visit Busan places Haeundae Beach at the coast beside Dongbaekseom Island.",
+    "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=373&lang_cd=en",
+    "flag": "Café choices and individual hours not confirmed."
+  },
+  {
+    "day": 10,
+    "category": "Food",
+    "item": "Haeundae Amso Galbi",
+    "plan": "Lunch; plan says arrive 30 minutes before 11:30 and claims Michelin listing.",
+    "facts": "",
+    "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=373&lang_cd=en",
+    "flag": "Context link only (beach area). Restaurant identity, Michelin status, opening time and wait are not confirmed from an official venue source."
+  },
+  {
+    "day": 10,
+    "category": "Activities",
+    "item": "Dongbaekseom and coastal trail",
+    "plan": "Walk toward Dongbaekseom at west end of Haeundae Beach; follow the coastal trail.",
+    "facts": "Visit Busan describes the coastal trail around Dongbaekseom, overlooking Haeundae and Gwangandaegyo.",
+    "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302002001000&uc_seq=1321",
+    "flag": "Trail access can change with weather; no exact walk duration confirmed."
+  },
+  {
+    "day": 10,
+    "category": "Activities",
+    "item": "Nurimaru APEC House",
+    "plan": "Visit while walking Dongbaekseom.",
+    "facts": "Visit Busan lists free admission and first-Monday monthly closure; its listings conflict on closing hour (17:00 vs 18:00).",
+    "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=2121",
+    "flag": "Official Visit Busan pages disagree on closing hour; check Busan city venue listing before visiting."
+  },
+  {
+    "day": 10,
+    "category": "Transit",
+    "item": "L7 Haeundae → Mipo Station",
+    "plan": "Proposed bus from hotel to Mipo; specific line, stop, fare and duration not supplied.",
+    "facts": "Blueline Park identifies Mipo Station as a Sky Capsule origin; its course page also identifies Cheongsapo Station.",
+    "source": "https://www.bluelinepark.com/eng/skyCapsuleCourse.do",
+    "flag": "No official door-to-door bus route verified. Check live route from the hotel; walking may be an option but duration is not confirmed."
+  },
+  {
+    "day": 10,
+    "category": "Activities",
+    "item": "Sky Capsule Mipo → Cheongsapo",
+    "plan": "Book in advance; travel toward Cheongsapo. Original plan suggests a round trip.",
+    "facts": "Operator reservation page says tickets for the week four weeks later open Tuesdays at 07:00; limited on-site tickets may sell out. Operator offers bookings from Mipo and Cheongsapo.",
+    "source": "https://www.bluelinepark.com/eng/booking.do",
+    "flag": "Operator describes each capsule direction as one-way; do not assume a round-trip capsule ticket is available. Book outbound and confirm return mode separately."
+  },
+  {
+    "day": 10,
+    "category": "Activities",
+    "item": "Cheongsapo Daritdol Observatory",
+    "plan": "Optional sea-facing skywalk after the capsule; take photographs.",
+    "facts": "Visit Busan lists the Cheongsapo Daritdol Observatory at 167 Cheongsapo-ro, Haeundae-gu.",
+    "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=282",
+    "flag": "Current hours and weather restrictions not confirmed."
+  },
+  {
+    "day": 10,
+    "category": "Activities",
+    "item": "Busan X the Sky — optional on Day 10",
+    "plan": "Optional late-afternoon observatory; avoid repeating it on Day 12 unless intentionally revisiting.",
+    "facts": "Visit Busan lists 30 Dalmaji-gil; 10:00–21:00, last admission 20:30; adult admission ₩27,000.",
+    "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=996&lang_cd=en",
+    "flag": "Plan's $17.59 third-party price is not an official standard fare; duplicate Day 12 stop."
+  },
+  {
+    "day": 10,
+    "category": "Food",
+    "item": "Haeundae Market dinner",
+    "plan": "Eat locally and explore the market in the evening.",
+    "facts": "Visit Busan identifies Haeundae Traditional Market near Haeundae Beach.",
+    "source": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=373",
+    "flag": "Individual stalls, opening hours and menu availability not confirmed."
+  },
+  {
+    "day": 11,
+    "category": "Food",
+    "item": "Breakfast and Coffee It House",
+    "plan": "Breakfast before travel; Coffee It House near Gamcheon after exploring.",
+    "facts": "",
+    "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301001001000&uc_seq=365&lang_cd=en",
+    "flag": "Context link only (Gamcheon). Café location, claimed two-minute walk and hours unverified."
+  },
+  {
+    "day": 11,
+    "category": "Transit",
+    "item": "L7 Haeundae → Gamcheon Culture Village",
+    "plan": "Plan proposes two buses, 1 h 17 min.",
+    "facts": "Visit Busan lists Toseong Station Exit 6, then village bus Saha 1-1, Seo-gu 2 or Seo-gu 2-2 to Gamjeong Elementary School, then a walk to Gamcheon.",
+    "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000302002001000&uc_seq=1689&lang_cd=en",
+    "flag": "This is the tourism office route from Toseong, not a verified route from L7; the supplied two-bus / 1 h 17 min estimate is unconfirmed."
+  },
+  {
+    "day": 11,
+    "category": "Activities",
+    "item": "Gamcheon Culture Village",
+    "plan": "Spend 2–3 hours in alleys, viewpoints, art installations and shops.",
+    "facts": "Visit Busan lists 203 Gamnae 2-ro, Saha-gu; November–February visitor hours 09:00–17:00, admission free.",
+    "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301001001000&uc_seq=365&lang_cd=en",
+    "flag": "Respect residential streets; individual stores and planned dwell time not guaranteed."
+  },
+  {
+    "day": 11,
+    "category": "Transit",
+    "item": "Gamcheon → BIFF Square / Jagalchi",
+    "plan": "Head toward BIFF Square for street-food lunch; walk to Jagalchi (plan says nine minutes).",
+    "facts": "Visit Busan lists BIFF Square and Jagalchi Market among the Nampo downtown attractions.",
+    "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302002001000&uc_seq=860",
+    "flag": "Specific bus service and nine-minute walk not officially confirmed."
+  },
+  {
+    "day": 11,
+    "category": "Food",
+    "item": "BIFF Square street food",
+    "plan": "Snack or lunch at BIFF Square.",
+    "facts": "Visit Busan lists BIFF Square at 31 BIFF gwangjang-ro, Jung-gu.",
+    "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302002001000&uc_seq=860",
+    "flag": "Vendor hours and food choices not confirmed."
+  },
+  {
+    "day": 11,
+    "category": "Activities",
+    "item": "Jagalchi Fish Market",
+    "plan": "Explore the seafood market.",
+    "facts": "Visit Busan identifies Jagalchi as a major seafood market in the Nampo area.",
+    "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301003001000&uc_seq=412",
+    "flag": "Specific building hours and vendor availability not confirmed."
+  },
+  {
+    "day": 11,
+    "category": "Transit",
+    "item": "Nampo / Jagalchi → Songdo Beach",
+    "plan": "Original plan says bus 13 minutes plus nine-minute walk.",
+    "facts": "Visit Busan suggests Jagalchi Station Exit 2, then bus 96, 26, 30, 7 or 71 to Songdo Beach and a short walk.",
+    "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302002001000&uc_seq=1689",
+    "flag": "Suggested buses are a tourism listing, not a live timetable. Claimed 13+9 minutes unverified; confirm live directions."
+  },
+  {
+    "day": 11,
+    "category": "Activities",
+    "item": "Songdo Beach and Cloud Trails",
+    "plan": "Walk Songdo Beach and its ocean skywalk.",
+    "facts": "Visit Busan describes the glass sections of Songdo Cloud Trails at Songdo Beach.",
+    "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=286",
+    "flag": "Trail accessibility/hours may vary with conditions; recheck."
+  },
+  {
+    "day": 11,
+    "category": "Activities",
+    "item": "Songdo Marine Cable Car — optional",
+    "plan": "Optional ride above Songdo.",
+    "facts": "Operator lists September–November operating hours 09:00–21:00; closing/operations can change due to weather.",
+    "source": "https://en.busanaircruise.co.kr/info/time?rank=2",
+    "flag": "Ticket type and price not selected; weather may interrupt operation."
+  },
+  {
+    "day": 11,
+    "category": "Activities",
+    "item": "Gukje Market and Nampo-dong shopping",
+    "plan": "Explore old downtown shopping after Songdo, if time allows.",
+    "facts": "Visit Busan identifies Gukje Market in the Nampo downtown cluster.",
+    "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301003001000&uc_seq=399",
+    "flag": "Day 11 crosses districts repeatedly; individual store hours and transfer time unverified. Consider Nampo stops together before Songdo."
+  },
+  {
+    "day": 12,
+    "category": "Activities",
+    "item": "Busan X the Sky — main visit",
+    "plan": "10:00–11:30 observatory, unless already visited on Day 10.",
+    "facts": "Visit Busan lists 30 Dalmaji-gil; daily 10:00–21:00, last entry 20:30; adult ₩27,000.",
+    "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=996&lang_cd=en",
+    "flag": "The Day 10 stop is a duplicate. 11:30 departure is a plan, not an operator requirement."
+  },
+  {
+    "day": 12,
+    "category": "Food",
+    "item": "Haeundae lunch and dinner",
+    "plan": "Choose restaurants around the beachfront for lunch and dinner.",
+    "facts": "",
+    "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=373&lang_cd=en",
+    "flag": "Context link only. No restaurant, hours, price, or reservation provided."
+  },
+  {
+    "day": 12,
+    "category": "Activities",
+    "item": "SEA LIFE Busan Aquarium",
+    "plan": "Aquarium and Haeundae shopping after lunch.",
+    "facts": "SEA LIFE official website identifies the aquarium as near Haeundae Beach; Visit Busan separately lists it at 266 Haeundaehaebyeon-ro.",
+    "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000302008001000&uc_seq=44&lang_cd=en",
+    "flag": "The $15 third-party ticket claim is unverified. The operator's live daily hours/prices should be checked for visit date; plan states weekday 10:00–19:00."
+  },
+  {
+    "day": 12,
+    "category": "Shopping",
+    "item": "Haeundae shopping",
+    "plan": "Browse Haeundae shops after aquarium.",
+    "facts": "",
+    "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=373&lang_cd=en",
+    "flag": "Context link only. No particular store, address, or hours provided."
+  },
+  {
+    "day": 13,
+    "category": "Activities",
+    "item": "Open day in Busan",
+    "plan": "Friday has no activities specified. Keep as a rest or flexible day; do not assume a booking.",
+    "facts": "",
+    "source": "https://www.visitbusan.net/",
+    "flag": "No itinerary supplied for Day 13; source is destination context only."
+  },
+  {
+    "day": 14,
+    "category": "Activities",
+    "item": "Gwangalli Beach and early dinner",
+    "plan": "Plan to arrive near 17:00 and choose a viewing spot; restaurant not specified.",
+    "facts": "Visit Busan locates the beach/show at 219 Gwanganhaebyeon-ro and describes access from Gwangan Station Line 2 Exit 5.",
+    "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000302008001000&uc_seq=1769&lang_cd=en",
+    "flag": "The 17:00 arrival is a preference, not an official event requirement; dinner venue unspecified."
+  },
+  {
+    "day": 14,
+    "category": "Activities",
+    "item": "Gwangalli M Drone Light Show",
+    "plan": "Watch first Saturday winter performance, weather permitting.",
+    "facts": "Visit Busan lists Saturday shows in October–February at 19:00 and 21:00, approximately 10 minutes each.",
+    "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000302008001000&uc_seq=1769&lang_cd=en",
+    "flag": "Plan claims 12 minutes; Visit Busan says about 10. Specific November date, weather, and special-event cancellations must be checked."
+  },
+  {
+    "day": 14,
+    "category": "Transit",
+    "item": "L7 Haeundae → Gwangalli Beach",
+    "plan": "Travel from Haeundae base to Gwangalli before the evening show.",
+    "facts": "Visit Busan lists Gwangan Station on Busan Metro Line 2, Exit 5, as the approach to the beach.",
+    "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000302008001000&uc_seq=1769&lang_cd=en",
+    "flag": "Hotel-to-station transfer, route duration and last return train not verified; use live metro routing."
+  },
+  {
+    "day": 15,
+    "category": "Activities",
+    "item": "Open day in Busan",
+    "plan": "Sunday has no activities specified. Keep flexible; do not assume a reservation.",
+    "facts": "",
+    "source": "https://www.visitbusan.net/",
+    "flag": "No itinerary supplied for Day 15; source is destination context only."
+  },
+  {
+    "day": 16,
+    "category": "Food",
+    "item": "Breakfast",
+    "plan": "Eat breakfast before checking out.",
+    "facts": "",
+    "source": "https://www.lottehotel.com/haeundae-l7/en.html",
+    "flag": "No restaurant, booking or opening hours specified; hotel link is context only."
+  },
+  {
+    "day": 16,
+    "category": "Stay",
+    "item": "L7 Haeundae checkout",
+    "plan": "Check out before 11:00 as stated in plan.",
+    "facts": "Official Lotte hotel identifies L7 Haeundae at 55 Haeun-daero 570beon-gil, Haeundae-gu, Busan.",
+    "source": "https://www.lottehotel.com/haeundae-l7/en.html",
+    "flag": "Checkout time and reservation not independently confirmed from the official hotel page; verify against booking."
+  },
+  {
+    "day": 16,
+    "category": "Transit",
+    "item": "L7 Haeundae → Busan Station",
+    "plan": "Plan proposes taxi/ride-hail and estimates one hour and $20–$30.",
+    "facts": "Busan Transportation Corporation map shows Haeundae on Line 2 and Busan Station on Line 1, with a transfer at Seomyeon. This is a rail alternative, not a door-to-door hotel route.",
+    "source": "https://www2.humetro.busan.kr/homepage/cyberstation/mapeng.do",
+    "flag": "Hotel-to-Haeundae station walk, total rail time and fare unverified. Original taxi estimate of one hour / $20–$30 is unverified; check live routing with luggage."
+  },
+  {
+    "day": 16,
+    "category": "Transit",
+    "item": "KTX Busan Station → Seoul Station",
+    "plan": "Book a train for the return journey; alight at Seoul Station.",
+    "facts": "KORAIL official booking site provides date-specific timetable, availability, ticket prices and station selection.",
+    "source": "https://www.korail.com/global/eng/intro",
+    "flag": "No train number, departure time, fare or ticket booking was supplied. Do not assume same time as outbound."
+  },
+  {
+    "day": 16,
+    "category": "Transit",
+    "item": "Seoul Station → Hongik Univ. Station",
+    "plan": "Take the AREX all-stop train toward Hongik Univ. Station; do not board airport Express (non-stop).",
+    "facts": "Seoul Metro identifies Seoul Station as an Airport Railroad interchange and Hongik Univ. as served by Airport Railroad.",
+    "source": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/",
+    "flag": "Exact platform, frequency, travel time and fare are unverified; follow station signage and live directions."
+  },
+  {
+    "day": 16,
+    "category": "Stay",
+    "item": "Mercure Ambassador Seoul Hongdae",
+    "plan": "Walk from Hongik Univ. Station and check in; supplied plan claims an eight-minute walk.",
+    "facts": "Accor hotel page lists 144 Yanghwa-ro, Mapo-gu, Seoul and describes access by Hongik Univ. Station Exit 9.",
+    "source": "https://all.accor.com/hotel/B696/index.en.shtml",
+    "flag": "Booking and check-in time unconfirmed. Operator describes the hotel as much closer than the supplied eight-minute walk; check chosen exit and luggage access."
+  }
+]
