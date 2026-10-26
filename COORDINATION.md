@@ -257,3 +257,15 @@ Every table row links directly to an official government, transit, or primary br
 - **Correction:** flag counts are 1 critical · **20 warnings · 9 info** (30 total).
 - Flagged irregularities and unverified items are published on `/verified/flagged.html` with
   source links and do not block anything, per protocol. Task board for this session: all done.
+
+---
+
+# Session arena/64cb369d-koreatrip3 — full 16-day integration (2026-10-26)
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Complete Days 1–16, current-source audit, mobile dashboard integration, tests and publication | in progress | arena/64cb369d-koreatrip3 | Root index.html, styles.css, app.js, root category pages, data/full-trip.json, data/current-sources.json, scripts/build-full-trip.py, scripts/test-full-trip.py, .github/workflows/pages.yml, README.md, COORDINATION.md |
+
+- Read the existing board before claiming. Prior root tasks are done; the only old integration claim dates to Oct 21 (>60 hours stale) and its own log records completion. Taking over final integration for the expanded user request (Days 10–16 are missing from the primary dashboard). All archived parallel sites and their datasets/build scripts remain untouched.
+- Branch constraint: work must remain on the assigned `arena/64cb369d-koreatrip3`; no separate session branch is created. Integration is sequential in this session.
+- Existing irregularities: seven competing dashboards, primary site covers only Days 1–9, some archived views assume 2026 or assert unverifiable future fares. New primary view will explicitly distinguish current checked facts, user-supplied proposals, and unverified fields; no year is inferred.
