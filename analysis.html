@@ -1,137 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trip Analysis, Pacing Audit &amp; Confirmed Costs — South Korea Trip Portal (Oct 31 – Nov 9, 2026)</title>
-  <link rel="stylesheet" href="./assets/portal-2a9f9e6e.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Data-driven completeness, pacing, source conflicts, and itinerary review analysis for a South Korea trip.">
+  <title>Analysis | Korea Trip</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
 </head>
-<body>
-  <a class="skip-link" href="#main-content">Skip to main content</a>
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="brand-row">
-        <a class="brand-title" href="index.html">
-          <span class="brand-mark">KR</span>
-          <span>Seoul &amp; Busan Verified Itinerary</span>
-        </a>
-        <span class="trip-meta-pill">2 Adults · SFO &rarr; ICN · Oct 31 – Nov 9, 2026</span>
-      </div>
-      <nav class="nav-bar" aria-label="Primary sections">
-        <a href="index.html">Overview</a>
-        <a href="itinerary.html">Days 1–9 Itinerary</a>
-        <a href="stays.html">Hotels</a>
-        <a href="transit.html">Public Transit</a>
-        <a href="attractions.html">Attractions</a>
-        <a href="dining.html">Dining &amp; Cafes</a>
-        <a href="shopping.html">Shopping &amp; Markets</a>
-        <a href="analysis.html" aria-current="page">Analysis &amp; Costs</a>
-        <a href="flagged-for-review.html" class="nav-flagged">Flagged for Review</a>
-      </nav>
-    </div>
+<body data-page="analysis">
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">K</span><span>Korea Trip <small>Field guide · 2 adults</small></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Itinerary</a><a href="transit.html">Transit</a><a href="attractions.html">Attractions</a><a href="dining.html">Dining</a><a href="shopping.html">Shopping</a><a href="stays.html">Stays</a><a class="active" href="analysis.html">Analysis</a><a class="nav-flag" href="flagged-for-review.html">Flagged <span id="nav-flag-count"></span></a>
+    </nav>
   </header>
-
-  <main id="main-content" class="container">
-    <section class="hero">
-      <p class="eyebrow">Official Source Line-by-Line Verification</p>
-      <h1>Trip Analysis, Pacing Audit &amp; Confirmed Costs</h1>
-      <p>Day-load balancing, Green Line 2 transit efficiency, and non-inferred KRW cost floor for two adults.</p>
+  <main class="container">
+    <section class="hero compact"><div><p class="eyebrow">COVERAGE · PACING · EVIDENCE</p><h1>Trip analysis</h1><p class="hero-copy">A transparent view of the saved schedule, its source coverage, structural gaps, and the official-source conflicts that could affect planning.</p></div></section>
+    <section id="analysis-metrics" class="stats" aria-live="polite"><p class="loading">Calculating itinerary coverage…</p></section>
+    <section class="analysis-block"><div class="section-heading"><div><p class="eyebrow">SCHEDULE COMPLETENESS</p><h2>Day-by-day coverage</h2><p>Counts are calculated from the itinerary data; a source-linked row does not mean every proposed detail is verified. The table shows one example source per day; open the day plan for every row’s links.</p></div></div><div id="analysis-days"><p class="loading">Loading day analysis…</p></div></section>
+    <section class="analysis-grid">
+      <article class="analysis-card"><span class="analysis-index">01 · SCHEDULE SOURCE</span><h2>Original plan coverage ends at Day 9</h2><p>The saved raw itinerary and structured source record preserve exact day-by-day text only through Day 9. Later entries are limited to named stops in the research notes; no full Days 10–16 schedule or year was recovered. Day 13 and Day 15 are explicit missing-detail placeholders, not free days.</p><a href="itinerary.html">Review the incomplete days →</a></article>
+      <article class="analysis-card"><span class="analysis-index">02 · DATE CONFLICT</span><h2>Day 3 palace visit conflicts with Tuesday closures</h2><p>The proposed Day 3 visit is labeled Tuesday. Official Gyeongbokgung and royal-guard information lists Tuesday as a closure day. Because the travel year and dates are unresolved, the itinerary does not shift the palace visit to another day.</p><div class="analysis-sources"><a href="https://www.royalpalacekr.org/html/eng_gbg/guide/guide01_tab01.html" target="_blank" rel="noopener noreferrer">Gyeongbokgung Palace · official guide ↗</a><a href="https://www.kh.or.kr/cms/content/view/824" target="_blank" rel="noopener noreferrer">Royal guard ceremony · Korea Heritage Agency ↗</a></div></article>
+      <article class="analysis-card"><span class="analysis-index">03 · OFFICIAL PRICE CONFLICT</span><h2>BUSAN X the SKY admission differs by source</h2><p>The operator page and Visit Busan listing publish different admission prices. Keep price blank for booking decisions until the operator’s ticket page confirms the price on the actual visit date.</p><div class="analysis-sources"><a href="https://www.busanxthesky.com/xtheskyMob/xtheskyM.php" target="_blank" rel="noopener noreferrer">BUSAN X the SKY · operator ↗</a><a href="https://www.visitbusan.net/index.do?menuCd=DOM_000000302008001000&amp;uc_seq=996&amp;lang_cd=en" target="_blank" rel="noopener noreferrer">BUSAN X the SKY · Visit Busan ↗</a></div></article>
+      <article class="analysis-card"><span class="analysis-index">04 · OFFICIAL HOURS CONFLICT</span><h2>Nurimaru closing time differs by listing</h2><p>Busan City and the current Visit Busan listing show one closing time, while an older Visit Busan trail listing shows an earlier time. Recheck with the venue before relying on an arrival window.</p><div class="analysis-sources"><a href="https://www.busan.go.kr/nurimaru/english/Design/sub0101.jsp" target="_blank" rel="noopener noreferrer">Nurimaru APEC House · Busan City ↗</a><a href="https://www.visitbusan.net/index.do?menuCd=DOM_000000301001001000&amp;uc_seq=2121&amp;lang_cd=en" target="_blank" rel="noopener noreferrer">Current Visit Busan listing ↗</a><a href="https://www.visitbusan.net/index.do?menuCd=DOM_000000302002001000&amp;uc_seq=284&amp;lang_cd=en" target="_blank" rel="noopener noreferrer">Older trail listing ↗</a></div></article>
+      <article class="analysis-card"><span class="analysis-index">05 · RESTAURANT HOURS CONFLICT</span><h2>Haeundae Amso Galbi break times differ</h2><p>VisitKorea lists a weekend break period and address 32-10 Jungdong 2-ro 10beon-gil; MICHELIN lists a daily break period and address 333 Haeundaehaebyeon-ro. The restaurant is an unassigned research note, not a scheduled meal. Confirm the current branch and hours directly.</p><div class="analysis-sources"><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=73814" target="_blank" rel="noopener noreferrer">VisitKorea restaurant profile ↗</a><a href="https://guide.michelin.com/us/en/busan-region/busan_1025838/restaurant/haeundae-rib-barbecue-restaurant" target="_blank" rel="noopener noreferrer">MICHELIN Guide ↗</a></div></article>
+      <article class="analysis-card"><span class="analysis-index">06 · DATE-SPECIFIC SHOW</span><h2>Drone show schedule depends on season and weather</h2><p>The official Busan City 2026 listing gives Saturday showtimes that differ between March–September and October–February; cancellation is possible for weather or technical reasons. The trip year remains unresolved, so this schedule is not generalized to another year.</p><div class="analysis-sources"><a href="https://www.busan.go.kr/eng/bsevents/1713160" target="_blank" rel="noopener noreferrer">2026 M Drone Light Show · Busan City ↗</a></div></article>
+      <article class="analysis-card"><span class="analysis-index">07 · PACE &amp; ROUTE</span><h2>Exact travel times are intentionally not estimated</h2><p>Hotel-to-stop times and fares depend on the exact date, station entrance/exit, and route. Day 16 has KTX and AREX references but no confirmed train booking or exact Seoul Station–Hongik University journey. Day 11 spans several Busan districts; confirm live routing before fixing meal times.</p><div class="analysis-sources"><a href="https://www.korail.com/global/eng/main" target="_blank" rel="noopener noreferrer">KORAIL official booking ↗</a><a href="https://www.airportrailroad.com/main" target="_blank" rel="noopener noreferrer">AREX official route search ↗</a><a href="https://www2.humetro.busan.kr/homepage/cyberstation/mapeng.do" target="_blank" rel="noopener noreferrer">Busan Metro Cyber Station ↗</a></div></article>
+      <article class="analysis-card"><span class="analysis-index">08 · DATA LIMITATION</span><h2>Source links are evidence, not blanket approval</h2><p>A source may verify an address or general access while leaving a specific price, opening date, route duration, booking, or itinerary placement unconfirmed. The flagged list records these distinctions; use it before treating a row as ready to travel.</p><a href="flagged-for-review.html">Open the full review list →</a></article>
     </section>
-    
-  <section class="section-card">
-    <div class="section-header">
-      <h2>Pacing &amp; Logistics Analysis Across Days 1–9</h2>
-      <p class="section-sub">Key structural findings from auditing the draft itinerary</p>
-    </div>
-    <div class="cards-grid">
-      <div class="info-card">
-        <h3>1. Calendar Year = 2026 (9/9 Weekday Match)</h3>
-        <p>Every single weekday/date pair in the draft (Sun Nov 1 through Mon Nov 9) aligns exclusively with <strong>2026</strong>. Day 2's <code>Nov 2,2006</code> is a 1-digit typo (Nov 2, 2006 was a Thursday).</p>
-      </div>
-      <div class="info-card">
-        <h3>2. Severe Front-Loading vs Empty Weekend</h3>
-        <p><strong>Day 2 (14 entries)</strong> and <strong>Day 4 (16 entries)</strong> pack 58% of the entire trip into two days while <strong>Day 7 (Itaewon)</strong> and <strong>Day 8 (Sunday)</strong> have zero scheduled venues. Moving Itaewon BBQ + Mangwon Market + surplus cafes to Days 7–8 makes every day relaxed.</p>
-      </div>
-      <div class="info-card">
-        <h3>3. Green Line 2 Advantage</h3>
-        <p>Stanford Hotel Myeongdong sits 2 minutes from <strong>Euljiro 1(il)-ga (<code>202</code>)</strong>, putting Gwangjang (<code>204</code>), DDP (<code>205</code>), Seongsu (<code>211</code>), and COEX (<code>219</code>) on the exact same subway line with zero transfers.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-card">
-    <div class="section-header">
-      <h2>Confirmed Official Cost Floor (Strictly Non-Inferred KRW Figures)</h2>
-      <p class="section-sub">Only officially published fixed fares/admissions are summed; variable or unconfirmed prices remain blank</p>
-    </div>
-    <div class="table-wrap">
-      <table class="data-table" id="cost-floor-table">
-        <thead>
-          <tr>
-            <th>Expense Item</th>
-            <th>Confirmed Per Adult</th>
-            <th>Confirmed for 2 Adults</th>
-            <th>Status</th>
-            <th>Official Source</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td data-label="Expense Item"><strong>ICN -&gt; Myeongdong Airport Limousine Bus 6015 (Recommended Arrival)</strong></td>
-            <td data-label="Per Adult">17,000 KRW / adult</td>
-            <td data-label="2 Adults">34,000 KRW</td>
-            <td data-label="Status"><span class="badge badge-verified">Verified</span></td>
-            <td data-label="Official Source"><a class="source-btn" href="https://airportlimousine.co.kr/en/sub/sub01.php?cat_no=47" target="_blank" rel="noopener noreferrer">Airport Limousine 6015</a></td>
-          </tr>
-<tr>
-            <td data-label="Expense Item"><strong>7-Day Seoul Climate Card Pass (Unlimited Seoul Subways + Buses Days 2–8)</strong></td>
-            <td data-label="Per Adult">23,000 KRW / adult (3,000 card + 20,000 load)</td>
-            <td data-label="2 Adults">46,000 KRW</td>
-            <td data-label="Status"><span class="badge badge-verified">Verified</span></td>
-            <td data-label="Official Source"><a class="source-btn" href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140663" target="_blank" rel="noopener noreferrer">VisitKorea — Climate Card</a></td>
-          </tr>
-<tr>
-            <td data-label="Expense Item"><strong>N Seoul Tower Observatory Ticket (Ages 13+)</strong></td>
-            <td data-label="Per Adult">29,000 KRW / adult</td>
-            <td data-label="2 Adults">58,000 KRW</td>
-            <td data-label="Status"><span class="badge badge-verified">Verified</span></td>
-            <td data-label="Official Source"><a class="source-btn" href="https://www.nseoultower.co.kr/eng/visit/use.asp" target="_blank" rel="noopener noreferrer">N Seoul Tower Official</a></td>
-          </tr>
-<tr>
-            <td data-label="Expense Item"><strong>Optional Namsan Cable Car Round-Trip (Skip if riding Bus 01A/01B on Climate Card)</strong></td>
-            <td data-label="Per Adult">15,000 KRW / adult</td>
-            <td data-label="2 Adults">30,000 KRW</td>
-            <td data-label="Status"><span class="badge badge-verified">Verified</span></td>
-            <td data-label="Official Source"><a class="source-btn" href="http://www.cablecar.co.kr/eng/guide/fare.html" target="_blank" rel="noopener noreferrer">Namsan Cable Car Official</a></td>
-          </tr>
-<tr>
-            <td data-label="Expense Item"><strong>Gyeongbokgung Palace Admission (Ages 19–64; move visit to Wednesday!)</strong></td>
-            <td data-label="Per Adult">3,000 KRW / adult</td>
-            <td data-label="2 Adults">6,000 KRW</td>
-            <td data-label="Status"><span class="badge badge-verified">Verified</span></td>
-            <td data-label="Official Source"><a class="source-btn" href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=87740" target="_blank" rel="noopener noreferrer">VisitKorea — Gyeongbokgung</a></td>
-          </tr>
-<tr>
-            <td data-label="Expense Item"><strong>Flights (SFO&lt;-&gt;ICN), Hotel Room Rates, KTX Nov 9 Fare &amp; Restaurant Menu Totals</strong></td>
-            <td data-label="Per Adult" class="empty-cell"></td>
-            <td data-label="2 Adults" class="empty-cell"></td>
-            <td data-label="Status"><span class="badge badge-unverified">Unverified</span></td>
-            <td data-label="Official Source"><a class="source-btn" href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140656" target="_blank" rel="noopener noreferrer">KORAIL Official Booking</a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
+    <footer class="page-footer"><p>Analysis reflects the saved itinerary data and official pages checked as of 26 Oct 2026. Recheck volatile details close to travel.</p><span>No itinerary values inferred</span></footer>
   </main>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div>
-        <strong>Verification Standard:</strong> Every table row links directly to an official government, transit, or primary brand source. Unconfirmed fields remain blank and flagged <a href="flagged-for-review.html">Flagged for Review</a>.
-      </div>
-      <div><a href="./index.html">Root Dashboard</a> · <a href="./portal/index.html">Full Portal (/portal/)</a> · <a href="./docs/index.html">Data Tables (/docs/)</a> · <a href="./docs/trip-guide/index.html">Day-Swap Guide (/docs/trip-guide/)</a> · <a href="./trip/index.html">Day-by-Day Site (/trip/)</a></div>
-    </div>
-  </footer>
-  <script src="./assets/portal-2a9f9e6e.js" defer></script>
 </body>
 </html>
