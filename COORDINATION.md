@@ -257,3 +257,23 @@ Every table row links directly to an official government, transit, or primary br
 - **Correction:** flag counts are 1 critical · **20 warnings · 9 info** (30 total).
 - Flagged irregularities and unverified items are published on `/verified/flagged.html` with
   source links and do not block anything, per protocol. Task board for this session: all done.
+
+---
+
+# Session `arena/49c638ef-koreatrip3` (`session-49c638ef`) — Full 16-Day (Week 1 Seoul + Week 2 Busan → Seoul Hongdae) Audit, Public-Transit Matrix & Integration
+
+**Session branch:** `arena/49c638ef-koreatrip3` (bound by Arena session environment; all tasks below are executed on this branch with non-overlapping primary scope in `data/session-49c638ef/`, `scripts/build-session-49c638ef.mjs`, and `full-itinerary/`, plus final integration into shared root outputs once tasks complete).
+
+| Task ID | Task Description | Status | Owner Session | File Scope |
+|---|---|---|---|---|
+| `W2-1` | Repo audit (review existing Days 1–9 datasets & 7 portals; identify missing Week 2 Days 9–16 entries & irregularities) | `in progress` | `arena/49c638ef-koreatrip3` | `COORDINATION.md` |
+| `W2-2` | Line-by-line official-source verification of full 16-day itinerary (Week 1 Myeongdong Days 1–9 + Week 2 Busan & Seoul Hongdae Days 9–16; zero inference, blank for unconfirmed values) | `in progress` | `arena/49c638ef-koreatrip3` | `data/session-49c638ef/verified-items.json`, `data/session-49c638ef/sources.json` |
+| `W2-3` | Public-transit verification & door-to-door hotel route matrix across all 3 hotels (Stanford Hotel Myeongdong, L7 Haeundae by LOTTE, Mercure Ambassador Seoul Hongdae) | `in progress` | `arena/49c638ef-koreatrip3` | `data/session-49c638ef/transit-matrix.json`, `data/session-49c638ef/hotels.json` |
+| `W2-4` | Schedule conflict, duplicate Day 9, blank days (Days 7, 8, 12 dinner, 13, 14 daytime, 15), hours/fare discrepancy & unverified item audit | `in progress` | `arena/49c638ef-koreatrip3` | `data/session-49c638ef/flagged-irregularities.json` |
+| `W2-5` | Build clean mobile-friendly 16-day dashboard & category subpages (`/full-itinerary/` + generator & verifier scripts) | `in progress` | `arena/49c638ef-koreatrip3` | `full-itinerary/**`, `scripts/build-session-49c638ef.mjs`, `scripts/verify-session-49c638ef.mjs` |
+| `W2-6` | Final integration: merge/preserve any concurrent session work on `main`, update root dashboard & datasets (`data/itinerary.json`, root HTML tables, `portal/`) to cover all 16 days (Weeks 1 & 2), run all validators & link checks, deploy to GitHub Pages, open & merge PR | `unclaimed` (reserved for final integration step) | `arena/49c638ef-koreatrip3` | `COORDINATION.md`, `README.md`, `index.html`, `data/itinerary.json`, `itinerary.html`, `transit.html`, `stays.html`, `food-shopping.html`, `attractions.html`, `dining.html`, `shopping.html`, `analysis.html`, `flagged-for-review.html`, `flagged.html`, `portal/**`, `.github/workflows/pages.yml` |
+
+## Log (`arena/49c638ef-koreatrip3`)
+
+- **2026-10-26 (Claim):** Read `COORDINATION.md` and inspected repository state on `main` (`a7591af`). Prior sessions (`e8bcfa8a`, `14a4cdd9`, `ae3cc5b4`, `54fb68ab`, `2a9f9e6e`, `b1177e35`, `641974df`) completed on 2026-10-21 and covered only Week 1 (Days 1–9). None of the Week 2 Busan / return-to-Seoul-Hongdae items (Days 9–16: Haeundae Amso Galbi, Dongbaekseom Island, Nurimaru APEC House, Haeundae Blueline Park Sky Capsule Mipo–Cheongsapo, Cheongsapo Daritdol Observatory, Busan X the SKY, Gamcheon Culture Village, Coffee It House, BIFF Square, Jagalchi Market, Songdo Beach, Songdo Cloud Trails, Songdo Marine Cable Car, Gukje Market, Nampo-dong, SEA LIFE Busan Aquarium, Gwangalli Beach, Gwangalli M Drone Light Show, Mercure Ambassador Seoul Hongdae) were present in the repo. Claimed tasks `W2-1` through `W2-5` in non-overlapping scope (`data/session-49c638ef/`, `full-itinerary/`, `scripts/*-session-49c638ef.mjs`) and reserved `W2-6` for final integration.
+
