@@ -171,6 +171,15 @@
     "limitation": "Station connectivity only. Door-to-door duration, fare, hotel walking leg and date-specific service not confirmed."
   },
   {
+    "id": "busan-bims",
+    "label": "Busan Metropolitan City · Bus Information Management System (BIMS)",
+    "url": "https://bus.busan.go.kr/busanBIMS/mobile/EN/webApp/page/main/main.asp",
+    "checked": "2026-10-26",
+    "method": "Official English bus-information portal opened",
+    "evidence": "English bus-information lookup interface for Busan routes and stops.",
+    "limitation": "Dynamic tool: no trip-specific route, stop, live arrival, fare or travel time was checked; consult it for the travel date."
+  },
+  {
     "id": "l7",
     "label": "LOTTE HOTELS · L7 HAEUNDAE",
     "url": "https://www.lottehotel.com/haeundae-l7/en",
