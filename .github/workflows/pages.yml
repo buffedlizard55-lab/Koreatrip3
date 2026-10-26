@@ -57,6 +57,7 @@ jobs:
           cp -r data _site/data
           cp -r docs _site/docs
           cp -r trip _site/trip
+          cp -r guide _site/guide
           if [ -d pages ]; then cp -r pages _site/pages; fi
           if [ -d verified ]; then cp -r verified _site/verified; fi
       - name: Upload site artifact
