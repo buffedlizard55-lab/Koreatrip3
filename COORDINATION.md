@@ -3,9 +3,11 @@
 | Task | Status | Owner session | File scope |
 |---|---|---|---|
 | Final integration: source-audited Korea itinerary, dashboard site, GitHub Pages workflow, build/link checks | done | `arena/e8bcfa8a-koreatrip3` (current Arena session; no session ID was supplied) | `COORDINATION.md`, `index.html`, `styles.css`, `app.js`, `data/itinerary.json`, `flagged-for-review.html`, `.github/workflows/pages.yml`, `README.md` |
+| Complete the omitted supplied Days 10–16 and integrate the full itinerary into the root dashboard/category pages; audit official links and publish review flags | in progress | `arena/b7a7c67a` (assigned branch `arena/b7a7c67a-koreatrip3`) | `COORDINATION.md`, `README.md`, `index.html`, `app.js`, `styles.css`, `data/itinerary.json`, `transit.html`, `food-shopping.html`, `stays.html`, `flagged-for-review.html`, `.github/workflows/pages.yml` |
 
 ## Log
 
+- 2026-10-26 — Session `arena/b7a7c67a` read this coordination board before work and claimed the in-progress task above on the Arena-assigned branch `arena/b7a7c67a-koreatrip3`. Initial scoped work: preserve all existing sites, add the missing supplied Days 10–16 to the root itinerary, ensure each new row has an official source link and unconfirmed values remain blank, and validate the consolidated Pages output. No other active scoped task was recorded at claim time.
 - 2026-10-21 — Read repository state before work. No prior coordination file or concurrent task claims were present; repository was otherwise empty except for `README.md`. Claimed the integrated deliverable scope above. Work stays on the Arena-assigned branch `arena/e8bcfa8a-koreatrip3`.
 
 ## Verification and sources
