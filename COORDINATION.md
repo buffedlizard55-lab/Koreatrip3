@@ -257,3 +257,15 @@ Every table row links directly to an official government, transit, or primary br
 - **Correction:** flag counts are 1 critical · **20 warnings · 9 info** (30 total).
 - Flagged irregularities and unverified items are published on `/verified/flagged.html` with
   source links and do not block anything, per protocol. Task board for this session: all done.
+
+---
+
+# Session arena/1745f6a4-koreatrip3 — Complete 16-day tap-a-day guide
+
+| # | Task | Status | Owner | Files / scope |
+|---|------|--------|-------|---------------|
+| G1 | Extend coverage to all 16 days (prior root site stopped at Day 9), mobile tap-a-day UI | in progress | arena/1745f6a4 | `guide/**`, one link in `index.html`, `.github/workflows/pages.yml` (add `guide` copy), `COORDINATION.md`, `README.md` |
+| G2 | Line-by-line verification vs official sources; unverified left blank/flagged | in progress | arena/1745f6a4 | `guide/data.json` |
+| G3 | Build/link check, PR, merge, Pages deploy confirmation | unclaimed | arena/1745f6a4 | — |
+
+Log: 2026-10-26 — Claimed G1–G3. Dates: every weekday in the brief matches Nov 2026 (Nov 1 2026 = Sunday … Nov 16 = Monday); "Nov 2, 2006" in the brief is flagged as a typo, year shown as 2026 with that flag visible. Critical conflict retained: Day 3 (Tue Nov 3) Gyeongbokgung is closed Tuesdays.
