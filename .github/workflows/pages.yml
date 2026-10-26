@@ -29,6 +29,8 @@ jobs:
           node-version: '22'
       - name: Validate itinerary datasets & cross-site links across all sessions
         run: |
+          python3 scripts/test-full-trip.py
+          node --check app.js
           python3 -m json.tool data/itinerary.json >/dev/null
           python3 scripts/verify-week2.py
           python3 - <<'PY'
@@ -50,13 +52,14 @@ jobs:
           node scripts/verify-session-2a9f9e6e.mjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Assemble static site (all 7 integrated itinerary sites)
+      - name: Assemble static site (all integrated itinerary sites)
         run: |
           mkdir -p _site
           cp *.html styles.css app.js .nojekyll _site/
           cp -r assets _site/assets
           cp -r portal _site/portal
           cp -r source-audit _site/source-audit
+          cp -r previous-dashboard _site/previous-dashboard
           cp -r complete _site/complete
           cp -r data _site/data
           cp -r docs _site/docs
