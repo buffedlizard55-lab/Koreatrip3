@@ -52,7 +52,7 @@ jobs:
           node scripts/verify-session-2a9f9e6e.mjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Assemble static site (all 7 integrated itinerary sites)
+      - name: Assemble static site (all integrated itinerary sites)
         run: |
           mkdir -p _site
           cp *.html styles.css app.js .nojekyll _site/
