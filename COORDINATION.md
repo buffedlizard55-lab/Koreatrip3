@@ -270,3 +270,15 @@ Every table row links directly to an official government, transit, or primary br
 
 Log: 2026-10-26 — Claimed G1–G3. Dates: every weekday in the brief matches Nov 2026 (Nov 1 2026 = Sunday … Nov 16 = Monday); "Nov 2, 2006" in the brief is flagged as a typo, year shown as 2026 with that flag visible. Critical conflict retained: Day 3 (Tue Nov 3) Gyeongbokgung is closed Tuesdays.
 - 2026-10-26 — G1/G2 done: `guide/` 16 days, 51 items (11 verified, rest Needs check/Conflict with blank verified fields), 3 hotels, Flags F1–F10, every item has an official-source link. Fresh checks: Gyeongbokgung official hours/closure, N Seoul Tower (VisitKorea + operator cable car), Blueline Park official hours + Tue-07:00/4-week booking, BUSAN X the SKY & SEA LIFE (KTO/operator), Gwangalli drone show (Busan City: Sat, Oct–Feb 19:00 & 21:00). Validators: check_links (66 pages OK), build_site --check OK, source-audit validate OK, session-2a9f9e6e verify OK. G3 in progress.
+
+---
+
+# Session `arena/b000dfde-koreatrip3` — complete 16-day itinerary
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Complete the missing Days 10–16 with source-linked, mobile-friendly 16-day guide and review page | in progress | `arena/b000dfde-koreatrip3` | `complete/**`, `scripts/build_complete.py` |
+| Integrate guide into Pages and check links/deployment | in progress | `arena/b000dfde-koreatrip3` | `index.html` (one link), `.github/workflows/pages.yml` (validation + copy), `COORDINATION.md` |
+
+2026-10-26: Claimed only the new `complete/` scope and minimal integration links. Existing sites and data are owned by prior sessions and remain unchanged. Arena binds this session to `arena/b000dfde-koreatrip3`, so no alternate session branch will be created. Official verification will be recorded below; unconfirmed claims will be flagged, not invented.
+
