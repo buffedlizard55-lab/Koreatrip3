@@ -30,6 +30,7 @@ jobs:
       - name: Validate itinerary datasets & cross-site links across all sessions
         run: |
           python3 -m json.tool data/itinerary.json >/dev/null
+          python3 scripts/verify-week2.py
           python3 - <<'PY'
           import json
           rows = json.load(open('data/itinerary.json', encoding='utf-8'))

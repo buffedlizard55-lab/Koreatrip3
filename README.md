@@ -95,3 +95,21 @@ npm run check   # build portal + verify internal links across all 6 sites
 A sixth, independently maintained companion dashboard with a day-by-day itinerary, category pages, hotel-based public-transit guidance, an official source register, and a clearly labeled **Flagged for Review** page. Its separate dataset retains 40 itinerary rows, 11 transit routes, 57 official source links, and 30 review notes across nine day cards. It is published at <https://buffedlizard55-lab.github.io/Koreatrip3/source-audit/> and linked from the root landing page. Existing root, `/docs/`, `/docs/trip-guide/`, `/trip/`, and `/portal/` sites and their datasets remain intact.
 
 Run its offline structural check with `python3 source-audit/scripts/validate_site.py`; the combined Pages workflow also validates its data and packages the directory.
+
+## Full 16-day dashboard update — 26 October 2026
+
+The root dashboard now covers the entire newly supplied trip: Days 1–16, 109 rows,
+including 41 Week 2 rows, the Busan–Seoul return, and Mercure Hongdae. Use the day
+buttons or share `index.html#day-16` to select a day. Print uses the current filter.
+The same dataset drives Transit, Stays, Food & Shopping, and Flagged for Review.
+
+- New input preservation: [`data/week2-input.md`](data/week2-input.md).
+- Official source register and rejected URLs: [`data/week2-audit.json`](data/week2-audit.json).
+- Week 2 invariants: `python3 scripts/verify-week2.py`.
+- Historical Days 1–9 retain the previous 21 October audit date. This update does
+  **not** certify all older facts or contradictory assumptions in companion sites.
+- Blank days stay unassigned. No year, extra calendar dates, USD conversion,
+  restaurant branch, transit duration, or booking is invented.
+- Official recurring hours are not date-specific opening guarantees. Source links
+  marked context do not verify a venue. External checks are documented per source;
+  internal-link tests do not validate external pages.
