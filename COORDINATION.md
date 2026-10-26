@@ -290,3 +290,8 @@ Log: 2026-10-26 — Claimed G1–G3. Dates: every weekday in the brief matches N
 - Local validation: reproducible `python3 scripts/build_complete.py` with no generated diff; `scripts/build_site.py --check`, `source-audit/scripts/validate_site.py`, `scripts/check_links.py` (86 pages; all internal links resolve), `node scripts/verify-session-2a9f9e6e.mjs` (1,507 internal links/anchors), JSON parse, JS syntax, and `git diff --check` passed. Workflow now builds/checks/copies `/complete/` in the GitHub Pages artifact. No existing research data was edited.
 
 - Integration conflict: `origin/main` advanced with PR #15 (`guide/`) while this session was working in separately scoped `/complete/`. Rebased onto the new main, retained both session sections in COORDINATION.md and both dashboard/workflow additions; no `/guide/` files edited.
+
+## Publication result — arena/b000dfde (2026-10-26)
+
+- PR #16: https://github.com/buffedlizard55-lab/Koreatrip3/pull/16 — merged into `main` at 05:51:23 UTC, merge commit `4888b36c52238300ca65797a80c64fd515261c83`. This session's `/complete/` and concurrently merged `/guide/` both remain published; no other site's data was replaced.
+- Pages Actions run https://github.com/buffedlizard55-lab/Koreatrip3/actions/runs/40276500028 completed successfully (validation, assembly, upload, deploy). Live guide opened at https://buffedlizard55-lab.github.io/Koreatrip3/complete/ and displayed all 16 day links. Flagged review remains at `/complete/flagged.html`. Deployment success does not resolve the travel-date and booking flags described above.
